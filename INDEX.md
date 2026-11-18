@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Spotting deceptive job ads before recruitment turns into trafficking: a transparent risk ranking for human reviewers](cases/2026-11-18-ranking-deceptive-job-ads/README.md)
 - [2026-11-18 — Open infrastructure for people at risk: secure, maintainable systems for anti-trafficking and human-rights groups](cases/2026-11-18-secure-infrastructure-for-anti-trafficking-groups/README.md)
 - [2026-11-18 — One world: pathways to cooperation between Iran, Russia, China, Saudi Arabia and every other nation](cases/2026-11-18-global-cooperation-iran-russia-china-saudi-arabia/README.md)
 - [2026-11-18 — Working together and turning swords into tools: global cooperation and refocusing defence industry on human needs](cases/2026-11-18-cooperation-and-defence-conversion/README.md)
