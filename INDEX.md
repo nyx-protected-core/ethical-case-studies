@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — State influence operations and the pro-Palestinian movement: what Iran, Russia and China did, and what the record shows](cases/2026-11-18-state-influence-ops-palestine-discourse/README.md)
 - [2026-11-18 — Academic senates for Ontario's public colleges](cases/2026-11-18-ontario-college-academic-senates/README.md)
 - [2026-11-18 — Full-time faculty in Ontario's public colleges](cases/2026-11-18-ontario-college-full-time-faculty/README.md)
 - [2026-11-18 — Is Texidium "a fraud"? Mandatory digital textbook fees in Ontario colleges](cases/2026-11-18-texidium-and-college-textbook-access/README.md)
