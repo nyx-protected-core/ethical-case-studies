@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — How a trafficked worker's testimony is weighed](cases/2026-11-18-testimony-weighing/README.md)
 - [2026-11-18 — A tamper-evident wage and hours logbook for workers at risk of forced labour: encrypted, signed records an NGO can trust](cases/2026-11-18-worker-wage-logbook/README.md)
 - [2026-11-18 — Recruitment fees and debt bondage: the Employer Pays Principle, fee bans along migration corridors and fee repayment](cases/2026-11-18-recruitment-fees-debt-bondage/README.md)
 - [2026-11-18 — Where the next dollar works against hunger: comparing financing routes for food insecurity (companion to the financing food security case)](cases/2026-11-18-food-financing-routes-cost-effectiveness/README.md)
