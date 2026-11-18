@@ -2,6 +2,8 @@
 
 *Every DOI below was checked in Crossref and every link was opened on 18 November 2026. Figures come from the documents cited. Where sources measure different things (years, country groups, transfer sizes), the text says so. Advocacy and industry sources are labelled. "[PR]" marks peer-reviewed journal articles.*
 
+*Revisions (18 November 2026).* Revised after an independent review. The changes correct facts, fill gaps and tighten wording. The review is not named here.
+
 ---
 
 ## Summary
@@ -43,7 +45,7 @@ The latest World Bank *Remittance Prices Worldwide* (RPW) report I could open an
 | Sub-Saharan Africa (costliest region) | 8.46% |
 | Middle East, North Africa, Afghanistan & Pakistan (cheapest region) | 5.11% |
 | South Asia / Latin America & Caribbean | 5.30% / 5.64% |
-| Share of corridors at or below 5% | 83% (17% in Q1 2009) |
+| Share of corridors below 5% | 83% (17% in Q1 2009) |
 
 Source: [1]. MTO = money transfer operator.
 
@@ -271,12 +273,14 @@ Somalia shows how this plays out where no alternative exists. A joint briefing b
 
 These are advocacy claims. The flow and share estimates come from the coalition and the MTOs, not from an independent statistical agency.
 
-### 5.3 What the FATF found by 2021
+### 5.3 What the FATF found by 2021, and the 2025 update
 
 The FATF's 2021 stocktake of unintended consequences [26] concluded that "profitability concerns are the primary driver" of de-risking, "directly impacted, in some situations, by high compliance costs". AML/CFT rules "are not the main cause of de risking, but can be a related factor."
 
 - **Who is hit hardest.** "Smaller and more financially isolated economies, emerging market economies, as well as conflict zones, tend to be impacted more significantly." Somalia fits all three.
 - **Higher costs.** De-risking "can result in increased costs of payments and concentration for correspondent banking and remittance services - although the data are unclear on the extent and impact".
+
+In February 2025 the FATF revised Recommendation 1 [30]. It replaced the word "commensurate" with "proportionate" (a measure that "appropriately corresponds to the level of identified risk and effectively mitigates the risks"), required countries to "allow and encourage" simplified measures in lower-risk cases, and asked supervisors to take risk-mitigation measures into account so as to avoid over-compliance. The effect of this change on de-risking has not yet been evaluated.
 
 ---
 
@@ -394,6 +398,7 @@ DOIs were checked in Crossref; links were opened on 18 November 2026. **[PR]** =
 24. World Bank (2015). *Withdrawal from Correspondent Banking: Where, Why, and What to Do About It*, Summary Findings from the de-risking surveys (November 2015). https://documents1.worldbank.org/curated/en/534371468197058296/pdf/101097-WP-Box393255B-PUBLIC-Fact-Finding-Summary-from-De-Risking-Surveys-November-2015.pdf
 25. FATF (2014). "FATF clarifies risk-based approach: case-by-case, not wholesale de-risking" (23 October 2014). https://www.fatf-gafi.org/en/publications/Fatfgeneral/Rba-and-de-risking.html
 26. FATF (2021). *High-Level Synopsis of the Stocktake of the Unintended Consequences of the FATF Standards* (27 October 2021). https://www.fatf-gafi.org/content/dam/fatf-gafi/reports/Unintended-Consequences.pdf
+30. FATF (25 February 2025). "FATF updates Standards and consults on guidance to better promote financial inclusion." https://www.fatf-gafi.org/en/publications/Fatfrecommendations/update-standards-promote-financial-conclusion-feb-2025.html
 
 ### Counterarguments: enforcement, consumer protection, tax
 

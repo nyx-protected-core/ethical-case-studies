@@ -2,6 +2,8 @@
 
 *Ethics case study. Research and writing only. Every figure is tagged to a numbered source in SOURCES.md, written as [S#]. Status claims are dated "as of 18 November 2026". Figures are quoted as each source gives them. Where I compare two figures myself, the text says "own arithmetic". Comparisons across different years, currencies or definitions are flagged.*
 
+*Revisions (18 November 2026).* Revised after an independent review. The changes correct facts, fill gaps and tighten wording. The review is not named here.
+
 ---
 
 ## 1. The question
@@ -29,7 +31,7 @@ The GLWC defines a living wage as remuneration for a standard work week "suffici
 | Family and earners | Total cost for a typical family, divided by the typical number of full-time-equivalent earners |
 | Checking pay | Overtime and non-guaranteed bonuses excluded; taxes considered; in-kind benefits counted only at a "fair and reasonable" value |
 
-The benchmark also changes over time. For Dhaka the GLWC gross living wage was BDT 16,460 a month in March 2016, BDT 25,497 in 2023 [S8], and BDT 30,459 (about US$248) in its 2025 estimate, for a family of four with 1.58 workers [S9].
+The benchmark also changes over time. For Dhaka the GLWC gross living wage was BDT 16,460 a month in March 2016, BDT 25,497 in 2023 [S8], and BDT 30,459 (about US$248) in its 2025 estimate, for a family of four with 1.58 workers [S9]. The 2023 and later values are inflation updates of the 2016 Anker study, not new field estimates of needs [S8][S9]. USD values in those updates are indicative only, because exchange rates are volatile [S8].
 
 ### 2.2 WageIndicator
 
@@ -54,7 +56,7 @@ The WageIndicator Foundation has run a living-wage methodology since 2013 and sa
 
 | Country | Legal minimum (entry level) | Living-wage estimate | Note |
 | --- | --- | --- | --- |
-| Bangladesh | Tk 12,500 a month, up from Tk 8,000, set by the wage board in November 2023 (news report of the gazette) [S11]; a Ministry of Labour gazette on monthly minimum wage rates is listed for 20 December 2023 [S12] | BDT 25,497 gross (2023) [S8]; BDT 30,459 (2025 estimate) [S9] | GLWC said in November 2023 that its 2023 benchmark was "double the current proposal" [S10]. Later annual increments are not verified here |
+| Bangladesh | Tk 12,500 a month, up from Tk 8,000, set by the wage board in November 2023 (news report of the gazette) [S11]; a Ministry of Labour gazette on monthly minimum wage rates is listed for 20 December 2023 [S12] | BDT 25,497 gross (2023) [S8]; BDT 30,459 (about US$248, 2025 estimate) [S9]. Both later figures are inflation updates of the 2016 study; USD values are indicative only [S8][S9] | GLWC said in November 2023 that its 2023 benchmark was "double the current proposal" [S10]. Later annual increments are not verified here |
 | Cambodia | US$210 a month for 2026 (US$208 during probation) [S13] | Urban national reference value, gross KHR 947,792, about US$230 (2023) [S14] | Different years: a 2023 estimate against a 2026 minimum |
 
 Own arithmetic: the 2025 Dhaka living-wage estimate is about 2.4 times the Tk 12,500 entry-level minimum. The minimum may since have risen through increments not checked here.

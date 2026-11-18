@@ -2,6 +2,8 @@
 
 *A case study prepared on 18 November 2026. Every figure comes from the sources listed at the end, checked in November 2026 against Crossref, doi.org, or the publisher's or government's own page. Figures from different reports use different years and methods, so they should not be added together. Calculations marked "(this study's own calculation)" are simple arithmetic on cited figures. Proposals marked "(this study's own proposal)" are this study's suggestions, not positions of any cited author, government or institution. Anything that could not be confirmed is marked "unverified" or left out.*
 
+*Revisions (18 November 2026).* Revised after an independent review. The changes correct facts, fill gaps and tighten wording. The review is not named here.
+
 *Overlap with other cases in this collection.* The case on financing food security covers the wider menu of money channels, including school-meal debt swaps and the School Meals Coalition's headline numbers. The case on famine prevention covers early warning, anticipatory cash and reserves. This case looks only at one channel in depth: public school-meal budgets that buy food from local smallholders, and how that money is raised, governed and handed from aid agencies to national governments.
 
 ## The ethical question
@@ -20,7 +22,7 @@ Three narrower questions follow:
 
 **Children reached.** WFP's *State of School Feeding Worldwide 2024* estimates that about **466 million** children in pre-primary, primary and secondary school received school meals, up from 418 million in the 2022 edition and 388 million in the 2020 edition (WFP, 2024a).
 
-**Money.** Estimated global spending rose from **US$48 billion in 2022 to US$84 billion in 2024**. About **99 percent** of it comes from national budgets (WFP, 2024a). International support was **US$445 million** in 2024, up from US$364 million in 2022 (WFP, 2024a). That is about half of one percent of the global total (this study's own calculation).
+**Money.** Estimated global spending in the 2024 edition ranged from **US$65.6 billion to US$84 billion**. US$65.6 billion is reported expenditure from 116 countries; US$84 billion adds estimates for other countries with programmes but no reported budgets (WFP, 2024a). The 2022 edition's global baseline was US$48 billion, but WFP warns that the 2024 scenarios "cannot be directly compared to those in the previous edition as they are based on different samples of countries" (WFP, 2024a). About **99 percent** of the 2024 total comes from national budgets (WFP, 2024a). International support was **US$445 million** in 2024, up from US$364 million in 2022 (WFP, 2024a). That is less than 1 percent of even the lower US$65.6 billion figure (this study's own calculation).
 
 **Where the gap is.** About half of primary-school children worldwide get a school meal. Coverage is **27 percent in low-income countries**, 42 percent in lower-middle-income, 58 percent in upper-middle-income and 79 percent in high-income countries (WFP, 2024a). In low-income countries, international donors are still the main funders. Across the same sample of low-income countries, the domestic share stayed at about **34 percent** between 2022 and 2024 (WFP, 2024a). In 2020, WFP's own strategy put external funding at about 83 percent of programme costs in low-income countries (WFP, 2020).
 
@@ -31,8 +33,8 @@ Three narrower questions follow:
 - **India (PM-POSHAN, formerly the Mid-Day Meal Scheme):** one hot cooked meal for about **118 million children (11.80 crore) in 1.12 million schools (11.20 lakh)**. The five-year budget for 2021-22 to 2025-26 was ₹1,30,794.90 crore, including about ₹45,000 crore of central foodgrain costs. The approval also encouraged farmer producer organisations, women's self-help groups and locally grown traditional foods (Government of India, 2021).
 - **Brazil (PNAE):** a law from 2009 (Law 11.947) required that at least 30 percent of federal school-food transfers be spent buying directly from family farmers. Law 15.226 of 30 September 2025 raised this floor to **45 percent from 1 January 2026**. It gives priority to land-reform settlements, Indigenous and quilombola communities, and formal and informal women's groups (Brazil, 2025; Câmara dos Deputados, 2025).
 - **Kenya:** WFP and the education ministry ran school meals jointly from the 1980s. In 2009 the government launched a Home Grown School Meals Programme that sends cash from the treasury to schools to buy from local smallholders and suppliers. The handover from WFP was completed in 2018, covering **1.6 million children**. The 2024/25 allocation was **3 billion** shillings against an estimated requirement of **14 billion** (Kamau et al., 2024; WFP, 2018).
-- **Rwanda:** coverage grew from **874,244 learners in 2021 to more than 4.5 million**, which is universal coverage of public pre-primary, primary and secondary schools. Government funding grew from **RWF 8 billion in 2021 to RWF 142 billion in 2026**, with a dedicated budget line and a school-feeding financing strategy (School Meals Coalition, n.d.-b).
-- **Ghana:** the Ghana School Feeding Programme began in 2005 with about 1,900 pupils and now reaches more than four million. It is designed as a home-grown model, with about 80 percent of the budget meant for food from local sources. The feeding grant is GH¢2.00 per pupil per day, paid to caterers in arrears (Addo et al., 2025).
+- **Rwanda:** coverage grew from **874,244 learners in 2021 to more than 4.5 million**, which is universal coverage of public pre-primary, primary and secondary schools. Government funding grew from **RWF 8 billion in 2021 to RWF 142 billion in 2026**, with a dedicated budget line and a school-feeding financing strategy (School Meals Coalition, n.d.-b). That 2026 budget is about RWF 31,500 per learner per year (this study's own calculation).
+- **Ghana:** the Ghana School Feeding Programme began in 2005 with about 1,900 pupils and now reaches more than four million. It is designed as a home-grown model, with about 80 percent of the budget meant for food from local sources. The feeding grant is reported as GH¢2.00 per pupil per day, paid to caterers in arrears (Addo et al., 2025; **unverified** here, because that case study was not opened for this revision).
 
 ## Root causes: why the money does not reach the children and farmers who need it most
 
@@ -46,13 +48,13 @@ Three narrower questions follow:
 
 **Benefits to children.** These are the best-evidenced part.
 
-- A meta-analysis of 57 studies in low- and middle-income countries found small but significant gains over 12 months: **0.32 cm in height, 0.58 kg in weight, and 2.6 percentage points more school days attended** (Wang et al., 2021). The earlier Cochrane review also found small average benefits (Kristjansson et al., 2007).
-- In Ghana's national programme, a cluster-randomised trial found moderate gains in maths and literacy after two years, with larger gains for girls and disadvantaged children (Aurino et al., 2023). It also found height-for-age gains in girls and in children from poor households (Gelli et al., 2019).
+- A systematic review of 57 studies, with a meta-analysis of 19, in low- and middle-income countries found small but significant gains over 12 months: **0.32 cm in height, 0.58 kg in weight, and 2.6 percentage points more school days attended** (Wang et al., 2021). The earlier Cochrane review also found small average benefits (Kristjansson et al., 2007).
+- In Ghana's national programme, a cluster-randomised trial found moderate gains in maths and literacy after two years, with larger gains for girls and disadvantaged children (Aurino et al., 2023). The same programme's nutrition trial found **no effect on height-for-age or BMI-for-age across all children aged 5–15** (intention-to-treat). Per-protocol subgroup analysis found height-for-age gains of 0.12–0.22 SD for children aged 5–8, for girls, and for 5–8-year-olds below the poverty line (Gelli et al., 2019).
 - India's programme has some of the largest-scale evidence:
-  - Daily protein deficiency among participants fell by 100 percent, calorie deficiency by almost 30 percent and iron deficiency by nearly 10 percent, at about 3 US cents per child per school day (Afridi, 2010).
+  - Daily protein deficiency among participants fell by 100 percent, calorie deficiency by almost 30 percent and iron deficiency by nearly 10 percent, at about 3 US cents per child per school day (nominal, early 2000s Indian prices) (Afridi, 2010).
   - The meals protected children's growth during drought in Andhra Pradesh (Singh, Park & Dercon, 2014).
-  - Exposure to the meals raised learning scores. The working-paper version reports gains of about 10–20 percent for children with up to five years of exposure (Chakraborty & Jayaraman, 2019).
-  - The children of mothers who had full exposure as schoolgirls were taller (+0.40 SD height-for-age), with stronger effects in poorer groups (Chakrabarti et al., 2021).
+  - The published article finds that prolonged exposure to the meals had a robust positive effect on learning. The working-paper version reports gains of about 10–20 percent for children with up to five years of exposure (Chakraborty & Jayaraman, 2019).
+  - Mothers' full exposure as schoolgirls was associated with taller children (+0.40 SD height-for-age), with stronger associations in poorer groups (Chakrabarti et al., 2021).
 - The standard reading of all this is that school meals are best seen as a **transfer and safety net** that also supports learning, rather than mainly a nutrition intervention (Alderman & Bundy, 2012).
 
 **Benefits to farmers.** These are plausible but weakly proven.
@@ -111,11 +113,11 @@ All proposals in this section are **this study's own proposals**. They are not p
 - **Budget cuts in hard years.** Kenya's allocation fell from about 5.2 billion to 3 billion shillings in one year (Kamau et al., 2024). Rising food prices and droughts raise costs just as revenue falls.
 - **Diet quality.** The nutrition goals of school meals now include healthy diets and lower risk of non-communicable diseases (Alderman et al., 2024). Cheap, filling but low-diversity menus, or processed foods, could undercut them.
 - **Elite capture and corruption.** Caterer selection in Ghana has sometimes changed with local leadership (Addo et al., 2025). India made social audits of its programme mandatory in every district (Government of India, 2021). Such audits matter wherever large public contracts go to local suppliers.
-- **Evidence limits.** Most child-benefit effects are modest on average and concentrated among the poorest (Kristjansson et al., 2007; Wang et al., 2021). The high benefit–cost ratios are modelled (Verguet et al., 2020).
+- **Evidence limits.** Most child-benefit effects are modest on average and concentrated among the poorest (Kristjansson et al., 2007; Wang et al., 2021). Ghana's large randomised nutrition trial found no effect on height-for-age or BMI-for-age in the full 5–15 age group; the reported gains were in per-protocol subgroups (Gelli et al., 2019). The high benefit–cost ratios are modelled (Verguet et al., 2020).
 
 ## Recommendation
 
-School meals are one of the few food-security channels where the money already exists at scale, about US$84 billion a year and almost all of it domestic (WFP, 2024a). The ethical priority is not to invent new money first. It is to **make the money already flowing do more, and reach the low-income countries where coverage is only 27 percent.**
+School meals are one of the few food-security channels where the money already exists at scale, about US$65.6–84 billion a year in the 2024 estimate and almost all of it domestic (WFP, 2024a). The ethical priority is not to invent new money first. It is to **make the money already flowing do more, and reach the low-income countries where coverage is only 27 percent.**
 
 On the evidence reviewed:
 
@@ -174,8 +176,9 @@ Cooperation should rest where the momentum already is. That means a coalition wh
   - Kenya and Ghana: the Research Consortium case studies;
   - Rwanda: the School Meals Coalition member page.
 - The Kenya case study gives the 2022/23–2024/25 allocations without a currency label. They are read as Kenyan shillings from context, since the same paper gives the 2023/24 budget as about US$35 million, which is roughly consistent with the 5.2 billion figure in shillings at the stated exchange rate. This reading is the study's own.
-- The Ghana case study gives both a GH¢2.00 per-pupil grant and a higher average meal cost. Only the grant is used here.
-- The Chakraborty & Jayaraman "10–20 percent" figure comes from the working-paper abstract. The published journal abstract could not be retrieved, so the published estimate may differ slightly.
+- The Ghana case study gives both a GH¢2.00 per-pupil grant and a higher average meal cost. Only the grant is used here, and the grant figure itself is **unverified** in this revision (the case study was not opened).
+- The Chakraborty & Jayaraman published abstract reports a "robust positive effect" of prolonged exposure and does not repeat the "10–20 percent" figure, which is retained only as a working-paper result.
+- Cost-per-child figures in this case are not on a common price basis. Afridi's 3 US cents is nominal and dates from the early-2000s Indian rollout. The Ghana grant is a 2025 secondary report and unverified here. No current WFP per-child cost range from the 2024 edition is used, because those averages could not be confirmed live for this revision. These figures should not be compared with one another.
 - The following are **unverified** and are not relied on:
   - any evaluation of levies earmarked for school meals;
   - Brazil's annual PNAE budget figure, which was found only in a secondary network release;
