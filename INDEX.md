@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Open, repairable, low-cost solar charge controller and the ethics of pay-as-you-go lockout](cases/2026-11-18-repairable-solar-charge-controller/README.md)
 - [2026-11-18 — Gender quotas versus merit-based selection: what the evidence shows](cases/2026-11-18-gender-quotas-vs-merit/README.md)
 - [2026-11-18 — Following the money fairly: financial data, trafficking detection and the ethics of watching payments](cases/2026-11-18-financial-data-trafficking-detection/README.md)
 - [2026-11-18 — Who gets the fish? Overfishing, illegal fishing, harmful subsidies and forced labour at sea as a global justice problem](cases/2026-11-18-ocean-fisheries-governance/README.md)
