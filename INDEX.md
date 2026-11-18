@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Forced labour in global supply chains: import bans, due diligence laws and what they do for workers](cases/2026-11-18-supply-chain-forced-labour-laws/README.md)
 - [2026-11-18 — Legal models for commercial sex and their relationship to human trafficking](cases/2026-11-18-commercial-sex-legal-models-trafficking/README.md)
 - [2026-11-18 — Cold Box Watch: a cheap offline temperature logger for the last mile of the vaccine cold chain](cases/2026-11-18-cold-chain-temperature-logger/README.md)
 - [2026-11-18 — How a trafficked worker's testimony is weighed](cases/2026-11-18-testimony-weighing/README.md)
