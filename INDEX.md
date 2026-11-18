@@ -2,6 +2,8 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Highly neglected world problems, and a deep look at childhood lead poisoning](cases/2026-11-18-neglected-problems-childhood-lead-poisoning/README.md)
+- [2026-11-18 — Offline rights player: a cheap, untrackable audio device carrying workers' rights and hotline information](cases/2026-11-18-offline-rights-player/README.md)
 - [2026-11-18 — Check before you go: an offline, private web tool against deceptive recruitment](cases/2026-11-18-check-before-you-go-recruiter-checks/README.md)
 - [2026-11-18 — Repair, e-waste and hidden labour: repair first, trace, formalise](cases/2026-11-18-repair-e-waste-and-hidden-labour/README.md)
 - [2026-11-18 — Teaching reasoned debate: education that beats insult-driven and outrage-driven argument](cases/2026-11-18-teaching-logical-debate/README.md)
