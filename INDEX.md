@@ -2,6 +2,8 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — What a more cooperative world without war could look like](cases/2026-11-18-cooperative-world-without-war/README.md)
+- [2026-11-18 — Why social audits miss forced labour, and worker-driven monitoring as the fix](cases/2026-11-18-why-social-audits-fail/README.md)
 - [2026-11-18 — Cooperative trade deals: when trade builds peace and cuts poverty, and a compact to get there](cases/2026-11-18-cooperative-trade-deals/README.md)
 - [2026-11-18 — Highly neglected world problems, and a deep look at childhood lead poisoning](cases/2026-11-18-neglected-problems-childhood-lead-poisoning/README.md)
 - [2026-11-18 — Offline rights player: a cheap, untrackable audio device carrying workers' rights and hotline information](cases/2026-11-18-offline-rights-player/README.md)
