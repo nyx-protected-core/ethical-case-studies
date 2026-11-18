@@ -2,6 +2,8 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Israel and its neighbours: the case for cooperation, and the role of proxy warfare](cases/2026-11-18-israel-neighbours-cooperation-proxy-warfare/README.md)
+- [2026-11-18 — Pause, check, share: slowing misinformation without silencing the speaker](cases/2026-11-18-pause-check-share-misinformation/README.md)
 - [2026-11-18 — Where monopolies do the most harm, and the remedies that work](cases/2026-11-18-harmful-monopolies/README.md)
 - [2026-11-18 — What a more cooperative world without war could look like](cases/2026-11-18-cooperative-world-without-war/README.md)
 - [2026-11-18 — Why social audits miss forced labour, and worker-driven monitoring as the fix](cases/2026-11-18-why-social-audits-fail/README.md)
