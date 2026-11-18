@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Is populism eroding Western democracy? What the evidence supports and what works](cases/2026-11-18-populism-and-western-democracy/README.md)
 - [2026-11-18 — Making evaluation track merit: blind auditions, anonymised CVs, structured interviews and performance reviews](cases/2026-11-18-fair-evaluation-bias/README.md)
 - [2026-11-18 — Open, repairable, low-cost solar charge controller and the ethics of pay-as-you-go lockout](cases/2026-11-18-repairable-solar-charge-controller/README.md)
 - [2026-11-18 — Gender quotas versus merit-based selection: what the evidence shows](cases/2026-11-18-gender-quotas-vs-merit/README.md)
