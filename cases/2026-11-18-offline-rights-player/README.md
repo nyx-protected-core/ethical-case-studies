@@ -1,7 +1,7 @@
 # Offline Rights Player: design study for a cheap audio device carrying workers' rights and hotline information (Thai, Burmese, Khmer, Lao)
 
 Ethical case study (anti-trafficking). Research and design writing only: no firmware, no builds.
-Author role: assembly / firmware engineer. All prices, stock figures and lifecycle flags were read from LCSC on 2026-11-18 (UTC+7) and will change.
+Author role: assembly / firmware engineer. All prices, stock figures and lifecycle flags were read from LCSC on 2026-11-18 and will change.
 
 ---
 
@@ -229,11 +229,33 @@ The Amplio Talking Book records user feedback and collects usage data so program
 - Audio cannot replace a person. The device only works if the numbers lead to real, safe help.
 - Unofficial "verification" by the device's maker could create false trust. The device must name the organisation behind the content, not the hardware team.
 
+### 6.7 False reassurance: when the device gives a wrong or stale answer
+
+The most serious harm is a confident message that no longer leads to help.
+- **A dead or changed number.** Hotline numbers change and directories disagree (section 7). A worker who calls a dead line at a dangerous moment may conclude that no help exists. *Rules:* only numbers verified with the organisation itself; a spoken "checked in [month year]" line; a content expiry date after which the content owner recalls or re-flashes units; the national number 1300 first, because it is the most stable.
+- **A rights statement that is wrong for the listener.** Rights differ by sector (for example fishing versus agriculture), visa route and nationality. A general statement can tell a worker they are protected when their sector is excluded. *Rules:* legal review per language (section 6.4); say plainly which workers each statement covers; point to a person for anything specific.
+- **A number that answers but is not safe.** A line may share information with employers or partners (see the ethics note on Issara in section 7). *Rule:* the content owner tells callers, in plain words, what each service does with what they say.
+- **Silence read as safety.** A flat battery or broken speaker gives no message at all. *Rule:* the spoken number is short and repeated so it can be memorised, and printed in tactile form on the case.
+
+### 6.8 Licence and content-rights check
+
+No code, schematics or recordings from other projects are reused in this study. Before any are, each one's licence must be read and recorded here.
+
+| Item | Licence or permission (as read) | Consequence for this design |
+|---|---|---|
+| This hardware design (schematic, PCB, enclosure drawings) | Recommend **CERN-OHL-S v2** (https://ohwr.org/cern_ohl_s_v2.txt) | Anyone may build and repair it, but must share changes |
+| Firmware written for this design | Recommend **Apache-2.0** (https://www.apache.org/licenses/LICENSE-2.0) | Permissive, with an explicit patent grant |
+| Vendor code for the MCU or voice IC (Puya, WCH, WTN6040 tools), if used | **Not checked (UNVERIFIED)** | Do not copy until the licence is read; the voice IC's programming tool and file format may be proprietary |
+| Scripts and translations written by the content owner | Recommend **CC BY 4.0** (https://creativecommons.org/licenses/by/4.0/) or another licence the content owner chooses | Partner groups can reuse and re-record them in other languages |
+| Voice recordings | Written release from each speaker, covering distribution on the device, with the speaker free to stay unnamed | Without a release, the content owner may not be allowed to distribute the audio |
+| Hotline names, numbers and logos | Written permission from each organisation to be named, and to have its logo or name used, before production | Protects callers from unendorsed or outdated listings, and the organisations from misattribution |
+| "Everyday" content (songs, health tips) | Only material the content owner holds rights to, or that is under a licence allowing redistribution (UNVERIFIED until chosen) | Commercial music without a licence would expose the distributor to takedown and seizure |
+
 ---
 
 ## 7. Hotlines: verification status
 
-**These numbers must be re-verified by the named content owner directly with each organisation immediately before any real deployment.** Numbers change, and directories disagree. Status below is as read on 2026-11-18 (UTC+7).
+**These numbers must be re-verified by the named content owner directly with each organisation immediately before any real deployment.** Numbers change, and directories disagree. Status below is as read on 2026-11-18.
 
 | Organisation / line | Number(s) | Languages (as stated) | Source read | Status |
 |---|---|---|---|---|
@@ -269,7 +291,7 @@ The Amplio Talking Book records user feedback and collects usage data so program
 
 ---
 
-## Parts table (verified on LCSC, 2026-11-18 UTC+7)
+## Parts table (verified on LCSC, 2026-11-18)
 
 | Part | LCSC code | LCSC lifecycle flag | Stock | Price (smallest ladder) | ~100-qty price | Role |
 |---|---|---|---|---|---|---|
@@ -294,7 +316,7 @@ Lifecycle and stock came from LCSC's product-detail data endpoint `https://wmsc.
 
 ---
 
-## Sources (pages actually fetched on 2026-11-18 UTC+7 unless marked)
+## Sources (pages actually fetched on 2026-11-18 unless marked)
 
 - [S1] US Department of State, *2025 Trafficking in Persons Report: Thailand*. https://www.state.gov/reports/2025-trafficking-in-persons-report/thailand
 - [S2] Technology Exchange Lab, *Amplio Talking Book* (features, usage-data collection, dimensions, price "contact supplier"). https://techxlab.org/solutions/amplio-talking-book/ ; Amplio homepage: https://www.amplio.org/

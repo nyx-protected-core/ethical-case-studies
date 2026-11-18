@@ -1,14 +1,16 @@
 # Design study: an offline, tamper-evident wage and hours logbook owned by the worker
 
-Case study. Revision 2, 18 November 2026 (ICT, UTC+7); revision 1 was issued earlier the same day. Research and
+Case study. Revision 2, 18 November 2026; revision 1 was issued earlier the same day. Research and
 design only: nothing has been built or tested. Sources are numbered [S#] and listed in SOURCES.md.
 **UNVERIFIED** marks a claim or figure I could not confirm from a primary or official source. "LCSC
 lifecycle" means the label on LCSC's product page (`normal`, `stop_product`, `sold_out`). That is the
 distributor's label, not a manufacturer lifecycle notice.
 
-> **What changed in this revision.** Two reviews changed the Tier B handheld: a parts, firmware and licences
-> peer review [S63], and a security review [S64]. Twelve must-fixes are adopted, five security and seven
-> hardware. Section 8 has the details.
+> **What changed in this revision.** Two unpublished reviews (one of parts, firmware and licences; one of
+> security) changed the Tier B handheld. Twelve must-fixes are adopted, five security and seven hardware.
+> Section 8 has the details. Those reviews are not public, so they are not cited as sources. Claims that
+> rested on them are tagged **[not publicly sourced]**: read them as this study's own reasoning, not checked
+> against public evidence, and treat them as unverified until a public source or a measurement supports them.
 >
 > - **The device now protects the worker from the device.**
 >   - Every record is encrypted in flash by default.
@@ -39,7 +41,7 @@ distributor's label, not a manufacturer lifecycle notice.
 - **Who it is for.** Migrant fishers and farm workers in Thailand, mostly from Myanmar, Cambodia and Laos.
   Wage theft and debt bondage are common and well documented [S1][S3][S4][S5]:
   - 87% of 1,087 fishers surveyed were in debt for document "fees" and advances [S1];
-  - 20% of migrant fishers were in forced labour [S3];
+  - in the ILO regional survey across several Asian origin and destination countries, including Thailand, 20% of migrant fishers were in forced labour (not a Thailand-only estimate) [S3];
   - 58.7% of migrant farm workers working full time were paid below the provincial minimum wage [S4][S5].
 - **The gap is evidence the worker controls.** In fishing, employers often hold the workers' bank books and ATM
   cards. They transfer the contract wage, which creates a paper trail for inspections, then withdraw it and pay
@@ -55,7 +57,7 @@ distributor's label, not a manufacturer lifecycle notice.
 - **Cost.**
   - Verified LCSC core parts for Tier B cost USD **4.41 at qty 100 and 3.80 at 1000** without the display.
   - The display, from an authorised distributor, adds about USD **12.39 / 7.97 / 7.74** at qty 1 / 100 / 500.
-    DigiKey showed **31,403** in stock on 18 November 2026 (UTC+7); that stock figure is confirmed. One
+    DigiKey showed **31,403** in stock on 18 November 2026; that stock figure is confirmed. One
     aggregator listed the same part as "Obsolete", so manufacturer lifecycle is still noted in the parts table.
   - A whole unit is roughly **USD 40–62 / 22–30 / 17–22** at 1 / 100 / 1000, using unverified estimates for
     PCB, assembly and enclosure (section 2.7).
@@ -85,7 +87,7 @@ distributor's label, not a manufacturer lifecycle notice.
 | Fishers not paid monthly by bank transfer as Thai law requires | 99.4% | [S1] |
 | Fishers not in control of their own bank books and ATM cards | 98.3% | [S1] |
 | Fishers whose documents are held by the captain or owner | 83.6% | [S1] |
-| Migrant fishers in forced labour, Thailand (ILO regional survey, 2026) | 20% (15% across fishing and seafood processing) | [S3] |
+| Migrant fishers in forced labour, several Asian countries including Thailand (ILO regional survey, 2026; not a Thailand-only rate) | 20% of fishers; 13% across fishing and seafood processing (0.4% of processing workers) | [S3] |
 | Migrant farm workers working full time but paid below the provincial minimum wage (sugarcane, rubber, oil palm, maize; survey of 528 workers) | 58.7%; women 65.7%; Tak province 95.4% | [S4][S5] |
 | Migration costs for Cambodian, Lao and Myanmar workers going to Thailand | about 2 months of Thai earnings; recruitment fees about 80% of total costs | [S6] |
 | Thailand labour migration profile: borrowing to migrate, Myanmar workers in debt | 70% borrowed; 34% of Myanmar workers in debt, average about USD 800 | [S8] |
@@ -256,7 +258,7 @@ there, even though it is cheaper than the handheld.
     state [S68]. This budget uses 0.68 µA. The annual total barely changes.
   - LCSC: `normal`, 31 in stock, which is enough for a 20–30-unit pilot [S27].
   - Why not the STM32L011F4P6 (16 KB flash, 2 KB SRAM [S26])? Once an IR bootloader and update path are
-    included, the peer review estimates about 11–20 KB of code, leaving no room for a fallback image [S63].
+    included, the peer review estimates about 11–20 KB of code, leaving no room for a fallback image [not publicly sourced].
     And 2 KB of RAM equals one full 128×128 1-bit frame, so the screen would have to be drawn line by line.
   - On the L031 the firmware still draws line by line, because the panel accepts per-line writes. That keeps
     RAM free for the encryption buffers.
@@ -270,7 +272,7 @@ there, even though it is cheaper than the handheld.
   - Its pads are much harder to clip than SOIC-8 legs. Its I²C traces run on an inner layer or under the chip,
     with no test points.
   - **What it does and does not protect.** It stops the key being *read*, not being *used*. Anyone who drives
-    its two I²C wires gets valid signatures on any digest [S63][S64]. That is the "signing oracle" problem;
+    its two I²C wires gets valid signatures on any digest [not publicly sourced]. That is the "signing oracle" problem;
     sections 3 and 7 explain the protocol fixes.
   - **Lab attacks exist** (section 7.1). Laser fault injection has read secret data slots out of the
     ATECC508A, the ATECC608A and the ATECC608B [S65][S66].
@@ -294,16 +296,16 @@ there, even though it is cheaper than the handheld.
     and glows at night [S32].
   - **Drive.** The memory LCD needs an EXTCOMIN signal of 54–65 Hz [S31]. It holds its image at 12 µW typical
     and 50 µW maximum. The MCU's low-power timer can produce 64 Hz from the 32.768 kHz crystal in Stop mode
-    (32,768 ÷ 512) without waking the CPU [S63]. Whether that timer's output reaches a free pin on the 20-pin
+    (32,768 ÷ 512) without waking the CPU [not publicly sourced]. Whether that timer's output reaches a free pin on the 20-pin
     part is **UNVERIFIED**.
 
 - **Clock.** The MCU's RTC with the Epson ±20 ppm crystal [S28]. The RTC has digital calibration, so the
-  offset measured at each NGO visit can be trimmed in as well as logged [S63]. The 20-pin part has no VBAT pin
+  offset measured at each NGO visit can be trimmed in as well as logged [not publicly sourced]. The 20-pin part has no VBAT pin
   (**UNVERIFIED** against the pin table), so a battery swap loses the clock. Swaps happen only at NGO visits,
   and the clock is anchored immediately after.
 
 - **Flash.** W25Q16JVSSIQ: 2.7–3.6 V, power-down 1 µA typical, page program 20–25 mA [S30]. Maximum page
-  program time is 3 ms per the peer review [S63]. It is power-gated in sleep. When the gate is off, its SPI
+  program time is 3 ms per the peer review [not publicly sourced]. It is power-gated in sleep. When the gate is off, its SPI
   pins are set to analogue or low, so the chip is not back-powered through its protection diodes.
 
 - **IR export hardware (peer-review must-fix 6).**
@@ -319,10 +321,10 @@ there, even though it is cheaper than the handheld.
 ### 2.3 Single parts table (revision 2)
 
 Prices are unit prices in USD at qty 1 (or the smallest tier, shown in brackets) / 100 / 1000. LCSC rows were
-re-read from each product page on 18 Nov 2026 (ICT). "Verified" = Y means the page was fetched and matched the
+re-read from each product page on 18 Nov 2026. "Verified" = Y means the page was fetched and matched the
 part, brand, ladder, stock and LCSC lifecycle label. "Buyable today" means in stock at the named source on that
 date. **LCSC `normal` is the distributor's label, not a manufacturer lifecycle notice.** Manufacturer or DigiKey
-status was read on 18 November 2026 (UTC+7). Lifecycle is stated as confirmed only where that manufacturer or
+status was read on 18 November 2026. Lifecycle is stated as confirmed only where that manufacturer or
 DigiKey status was read. All other rows are marked **verify lifecycle with manufacturer**.
 
 | # | Part | Function | Source # | Qty/unit | USD @1 / @100 / @1000 | Stock (18 Nov) | LCSC label | Manufacturer / DigiKey status (18 Nov 2026) | Buyable today | Verified |
@@ -358,9 +360,9 @@ DigiKey status was read. All other rows are marked **verify lifecycle with manuf
 
 Notes:
 - **Qty-1 column.** It mixes in minimum-order tiers (5 crystals, 5 flash chips, 20 buttons, 10 of each IR
-  part, 5 MOSFETs), so a one-off build pays for those minimums [S63].
+  part, 5 MOSFETs), so a one-off build pays for those minimums [not publicly sourced].
 - **Manufacturer lifecycle.** Confirmed from the manufacturer or from a DigiKey "Part Status Active" field on
-  18 November 2026 (UTC+7): STM32L031F6P6 (ST, Active, 10-year longevity from 2026-01-01), ATECC608B-MAHDA-S
+  18 November 2026: STM32L031F6P6 (ST, Active, 10-year longevity from 2026-01-01), ATECC608B-MAHDA-S
   (DigiKey Active), TPS7A0230PDBVR (TI ACTIVE), PT17-21B/L41/TR8 (DigiKey Active), and LS013B7DH03 (DigiKey
   Active; one aggregator listed it as "Obsolete"). All other named parts, including the STM32L053C8T6 and
   alternates A1–A8, are marked **verify lifecycle with manufacturer**. An LCSC `normal` label is not treated
@@ -392,13 +394,13 @@ as "worker empowerment" when they are really employer records.
 **The revision 1 mistake.** The idle state was described as "a plain clock face", but the budget switched the
 LCD off in sleep. A memory LCD that is switched off shows nothing. Keeping the clock face up means the panel
 draws its hold power, 12 µW typical and 50 µW maximum, at all times. It also needs the 54–65 Hz EXTCOMIN
-signal [S31][S63].
+signal [S31][not publicly sourced].
 
 Budget at 3.0 V. Typical figures are from datasheets; the margins are mine.
 
 | State | Contributors | Current |
 |---|---|---|
-| Sleep, clock face shown (default) | MCU Stop + RTC + 8 KB RAM: 0.68 µA on ST's product page [S68] (0.6 µA in the LCSC-linked datasheet [S45]); LCD hold: 12–50 µW, about 4–17 µA [S31]; secure element sleep: 0.03–0.15 µA [S29]; LDO quiescent current about 25 nA [S36]; low-power timer producing EXTCOMIN, plus one wake a minute to redraw the minutes (**UNVERIFIED**, assumed under 1 µA) | **about 5–18 µA** [S63] |
+| Sleep, clock face shown (default) | MCU Stop + RTC + 8 KB RAM: 0.68 µA on ST's product page [S68] (0.6 µA in the LCSC-linked datasheet [S45]); LCD hold: 12–50 µW, about 4–17 µA [S31]; secure element sleep: 0.03–0.15 µA [S29]; LDO quiescent current about 25 nA [S36]; low-power timer producing EXTCOMIN, plus one wake a minute to redraw the minutes (**UNVERIFIED**, assumed under 1 µA) | **about 5–18 µA** [not publicly sourced] |
 | Sleep, blank screen (coin-cell variant) | As above, with the LCD power-gated | about 0.7–2 µA |
 | Active UI, per entry (~20 s) | MCU plus LCD updates, about 1 mA (**UNVERIFIED**) | ~20 mA·s |
 | Encrypt, sign and write one record | AES and ECDSA in the secure element: 3 mA max at clock divider 0xD [S29]; command times are in the NDA datasheet (**UNVERIFIED**, about 0.2–0.5 s assumed); flash program 20–25 mA for ≤3 ms | ~1–2 mA·s |
@@ -433,7 +435,7 @@ Budget at 3.0 V. Typical figures are from datasheets; the margins are mine.
 - Late-life pulse sag from the coin cell still needs:
   - the secure element at clock divider 0xD;
   - a brown-out threshold above 2.7 V (which of the selectable levels is **UNVERIFIED**);
-  - a rule that no record is committed below a measured threshold [S63].
+  - a rule that no record is committed below a measured threshold [not publicly sourced].
 
 ### 2.6 Waterproofing and field use
 
@@ -459,7 +461,7 @@ Budget at 3.0 V. Typical figures are from datasheets; the margins are mine.
 | 100 | 4.41 | 7.97 | ~10–17 | **~22–30 USD** |
 | 1000 | 3.80 | 7.74 (500+ tier) | ~6–10, plus tooling | **~17–22 USD** |
 
-- **Increase over revision 1.** The new MCU and secure element add about USD 1.0–1.4 [S63]. Most of the rest
+- **Increase over revision 1.** The new MCU and secure element add about USD 1.0–1.4 [not publicly sourced]. Most of the rest
   comes from buying the display at distributor prices.
 - **Custom segment glass (D2)** could bring the display cost down at volume, but needs the larger MCU and
   tooling (**UNVERIFIED** cost).
@@ -476,7 +478,7 @@ Budget at 3.0 V. Typical figures are from datasheets; the margins are mine.
      fixed with a CORRECTION record that points back to the original, and the original stays.
    - A torn write is detected at boot, and a RECOVERY record is appended.
    - **Limit.** Append-only is a firmware promise, not a physical one. Anyone with a clip can erase the flash
-     chip [S64]. Erasure is made *evident* by mechanisms 4 and 5; it cannot be prevented.
+     chip [not publicly sourced]. Erasure is made *evident* by mechanisms 4 and 5; it cannot be prevented.
 2. **Encryption of every record by default (security must-fix 1; peer-review must-fix 1).** The record body
    (type, times, amounts, codes, flags) is encrypted before it reaches the flash. A flash clip shows only
    ciphertext and padding. The keys live in the secure element (section 5.3).
@@ -489,10 +491,10 @@ Budget at 3.0 V. Typical figures are from datasheets; the margins are mine.
      with a clip could:
      1. erase the recent tail;
      2. drive the chip directly;
-     3. sign a new, back-dated tail of "shift 8 h, paid in full" records that chains perfectly [S64].
+     3. sign a new, back-dated tail of "shift 8 h, paid in full" records that chains perfectly [not publicly sourced].
    - **Fix A, the counter.** Every record carries the value of the secure element's monotonic counter, which
      can only go up. If the chip binds that value into the signature itself, a rewritten tail must show a jump
-     in counter values, because the old values are used up [S64]. A counter value that the MCU merely copies
+     in counter values, because the old values are used up [not publicly sourced]. A counter value that the MCU merely copies
      into the digest is *not* enough, because the attacker chooses the digest.
      - Whether the ATECC608B can bind its counter into an external-message signature in one step is in the NDA
        datasheet (**UNVERIFIED**).
@@ -504,7 +506,7 @@ Budget at 3.0 V. Typical figures are from datasheets; the margins are mine.
      4. The old key is destroyed.
 
      After that, nobody, even with full control of the chip, can re-sign anything from an earlier epoch
-     [S60][S61][S64].
+     [S60][S61][not publicly sourced].
    - **Optional strengthening.** Rotate the key daily, so a rewrite is limited to today. This costs one
      key-slot write a day. Slot write endurance and field-overwrite behaviour are **UNVERIFIED** (NDA). Left to
      the security follow-up.
@@ -521,11 +523,11 @@ Budget at 3.0 V. Typical figures are from datasheets; the margins are mine.
 6. **Entry time vs event time.** Each record still carries both, so a batch of late entries shows as late.
 7. **Never derive secrets from chip identifiers.** No key, seed, password or pseudonym comes from the STM32
    unique ID or the ATECC608B serial number. All randomness comes from the secure element's RNG, because the
-   MCU has no hardware RNG (absence inferred from its feature list [S64], **UNVERIFIED**).
+   MCU has no hardware RNG (absence inferred from its feature list [not publicly sourced], **UNVERIFIED**).
 8. **Enrolment at the NGO, in front of the worker.**
    - Keys are generated on the device, then the chip's configuration is locked.
    - The public key goes into an NGO register, so a look-alike device swapped in by an employer is caught at the
-     next visit [S64].
+     next visit [not publicly sourced].
    - The exact slot settings are in the NDA datasheet (**UNVERIFIED**).
 
 ### 3.2 Countersignatures
@@ -533,29 +535,29 @@ Budget at 3.0 V. Typical figures are from datasheets; the margins are mine.
 | Type | How | Value | Risk |
 |---|---|---|---|
 | NGO visit (required) | Mutually authenticated reader (section 4.4) reads the head *before* writing anything. The NGO signs and stores its receipt, writes an ANCHOR record, sets the clock, and runs the key hand-over | Bounds back-dating and truncation; corrects the clock; survives loss of the device | NGO key custody; NGO-held receipts are personal data (section 4.6) |
-| Co-worker witness | A second device signs a **commitment**: a hash of the other device's head and a random value, not the other device's key or identity | Corroboration that does not expose the crew if one device is captured [S64] | Reveals that both carry devices |
+| Co-worker witness | A second device signs a **commitment**: a hash of the other device's head and a random value, not the other device's key or identity | Corroboration that does not expose the crew if one device is captured [not publicly sourced] | Reveals that both carry devices |
 | Employer acknowledgement | Not offered | — | Shows the device to the adversary |
-| Public commitment (should-fix) | The NGO publishes a periodic hash over all its visit receipts, with no personal data | Shows a court that the NGO did not invent anchors later [S64] | Usefulness in a Thai forum **UNVERIFIED** |
+| Public commitment (should-fix) | The NGO publishes a periodic hash over all its visit receipts, with no personal data | Shows a court that the NGO did not invent anchors later [not publicly sourced] | Usefulness in a Thai forum **UNVERIFIED** |
 
 ### 3.3 Trusted time without a network
 
 - **Drift.** About ±52 s per 30 days at 25 °C from the crystal [S28]. The RTC's digital calibration absorbs the
-  static offset at each visit [S63]. Temperature and ageing drift are **UNVERIFIED**.
+  static offset at each visit [not publicly sourced]. Temperature and ageing drift are **UNVERIFIED**.
 - **Who sets the clock.**
-  - Only a verified NGO ANCHOR can set it. The firmware refuses any other IR time-set [S63].
+  - Only a verified NGO ANCHOR can set it. The firmware refuses any other IR time-set [not publicly sourced].
   - The worker cannot set it.
   - Every calibration change is logged.
 - **Clock loss.** A pulled battery stops the RTC and logs CLOCK_FAULT. Times until the next visit are marked
-  unanchored, and repeated faults lower their value [S64].
+  unanchored, and repeated faults lower their value [not publicly sourced].
 - **Case opening (should-fix).** Wire one of the MCU's RTC tamper inputs to a switch inside the case, so that
-  "case opened" becomes a signed, timestamped record. A clip-on attack would then leave a mark [S64]. Whether a
+  "case opened" becomes a signed, timestamped record. A clip-on attack would then leave a mark [not publicly sourced]. Whether a
   tamper pin is free on this package is **UNVERIFIED**.
 - **What times mean.** Between two anchors, times are the device's claim, bracketed by two NGO times. They are
   strong if the case was never opened and there were no clock faults; weak otherwise. The verifier says which.
 
 ### 3.4 What tamper evidence can and cannot prove
 
-**A verifier can conclude, if the checks pass** [S64]:
+**A verifier can conclude, if the checks pass** [not publicly sourced]:
 - the records came from a device whose key is in the NGO register;
 - no record before the NGO's last *held* receipt was changed, removed or reordered;
 - each record existed no later than the next NGO visit;
@@ -573,7 +575,7 @@ Budget at 3.0 V. Typical figures are from datasheets; the margins are mine.
 overboard. The design makes that *evident*, not impossible:
 - the NGO's receipts prove a log existed up to the last visit;
 - the counter and the key chain show records were later removed;
-- the worker's report that the device was taken goes into the NGO's case notes [S64].
+- the worker's report that the device was taken goes into the NGO's case notes [not publicly sourced].
 
 ### 3.5 Checks the verifier runs at each visit
 
@@ -586,7 +588,7 @@ overboard. The design makes that *evident*, not impossible:
 4. A short or empty log on a device whose counter is high reports: "the log was erased." The counter survives a
    flash wipe, because it lives in the secure element.
 5. Corrections are listed beside their originals with entry times, so a cluster of corrections on one day
-   stands out [S64].
+   stands out [not publicly sourced].
 
 Each case is reported in plain words, because the removal itself is evidence about who held the device.
 
@@ -604,7 +606,7 @@ Each case is reported in plain words, because the removal itself is evidence abo
   - When idle it looks like a plain clock. Identical clocks should be handed out widely, many of them never
     enrolled.
   - A locked, enrolled device must look and behave exactly like an unenrolled one. That is the most important
-    safety measure: a clock that half the crew carries is not evidence of anything [S64].
+    safety measure: a clock that half the crew carries is not evidence of anything [not publicly sourced].
   - Revision 2 removes the one deceptive feature, the decoy view (4.3).
 - **Minimal content.**
   - No names, employer names or vessel names on the device.
@@ -619,15 +621,15 @@ Each case is reported in plain words, because the removal itself is evidence abo
 | Clips onto the flash chip | Ciphertext and padding | Little, unless a lab extracts the key (7.1) |
 | Clips onto the secure element and signs | Can't decrypt past days (5.3); can't re-sign earlier epochs; a rewritten tail shows at the next visit (3.5) | Today's epoch can be faked until the next rotation |
 | Builds his own IR reader | Nothing: the device exports only to authenticated NGO readers, encrypted to the NGO's key (4.4) | A stolen NGO reader key, until it is revoked |
-| Brute-forces the button pattern | Lockout counted in a secure-element monotonic counter, so pulling the battery does not reset it [S64]; and still only today's view | A coercer simply asks the worker |
+| Brute-forces the button pattern | Lockout counted in a secure-element monotonic counter, so pulling the battery does not reset it [not publicly sourced]; and still only today's view | A coercer simply asks the worker |
 | Forces false "paid in full" entries | Signed records in his favour | Can't be detected cryptographically; integrity is not truth (3.4) |
 | Erases, smashes or discards the device | Evidence since the last visit is lost | NGO receipts show it existed and was removed (3.5) |
 | Swaps in a look-alike | Caught at the next visit by the NGO key register | — |
-| Forces the worker to the NGO and demands an export | NGO practice: see the worker alone first; refuse exports with the employer present [S64] | People, not technology |
+| Forces the worker to the NGO and demands an export | NGO practice: see the worker alone first; refuse exports with the employer present [not publicly sourced] | People, not technology |
 
 ### 4.3 Duress options: decoy removed, honest minimal view instead (security must-fix 2)
 
-**The decoy view is removed from the pilot.** The security review explains why decoys fail here [S64]:
+**The decoy view is removed from the pilot.** The security review explains why decoys fail here [not publicly sourced]:
 - **The coercer is persistent.** A captain is not a one-off checkpoint. With duress codes, a persistent coercer
   simply demands the second code and compares [S56].
 - **The firmware will be public.** So he knows a decoy exists.
@@ -646,7 +648,7 @@ Each case is reported in plain words, because the removal itself is evidence abo
 - Under a forced unlock the worker can say, truthfully: "it doesn't show old entries; only the office can read
   it."
 - **The trade-off.** The worker can no longer check their own history in the field and depends more on the NGO
-  [S64]. That trade-off is put to workers in co-design. One option is a printed summary given to the worker at
+  [not publicly sourced]. That trade-off is put to workers in co-design. One option is a printed summary given to the worker at
   each NGO visit.
 
 | Option | Pilot status | Note |
@@ -654,14 +656,14 @@ Each case is reported in plain words, because the removal itself is evidence abo
 | Quick-hide to the clock face (any long press; auto-lock after 20 s) | On | Protects against a glance only |
 | Honest minimal view | On (default) | Replaces REVIEW |
 | Decoy view | **Removed** | Kept only as a later co-design question, if workers still want it after hearing the analysis |
-| Covert duress marker | Not in pilot | A different button confirms an entry and sets a hidden "under pressure" flag inside the encrypted record. Screen, timing and size must be identical [S56][S64]. Co-design first; usability under stress is **UNVERIFIED** |
+| Covert duress marker | Not in pilot | A different button confirms an entry and sets a hidden "under pressure" flag inside the encrypted record. Screen, timing and size must be identical [S56][not publicly sourced]. Co-design first; usability under stress is **UNVERIFIED** |
 | Wipe | Off by default | Section 4.3.1 |
 
 #### 4.3.1 Wipe
 
 - **The employer can force the worker to run it** and so destroy their own evidence. That is the strongest
-  reason it stays off [S64].
-- **"No trace" is not achievable.** An empty device that was used yesterday is noticed [S59][S64].
+  reason it stays off [not publicly sourced].
+- **"No trace" is not achievable.** An empty device that was used yesterday is noticed [S59][not publicly sourced].
 - **If workers still want a wipe after co-design:**
   - it must return the device to the exact state of a never-enrolled clock;
   - NGO receipts must already hold history up to the last visit;
@@ -679,13 +681,13 @@ challenge. Revision 2 requires the following.
 1. **Reader authentication.**
    - At enrolment, the device stores one or more NGO root public keys in the secure element.
    - A reader must present a reader key certified by an NGO root, and sign the device's fresh random challenge.
-     The device checks it with the chip's Verify command [S29][S64].
+     The device checks it with the chip's Verify command [S29][not publicly sourced].
    - Reader keys are kept per field team, revocable at the next visit, and never on a phone that leaves the
      office.
 2. **A fresh challenge per export.**
    - The device makes its own nonce with the secure element's RNG, and the reader adds its challenge.
    - Both go into the signed EXPORT record, and the verifier rejects any export without a challenge it issued.
-   - This defeats replay [S64].
+   - This defeats replay [not publicly sourced].
 3. **Encrypted export.**
    - The export is encrypted to the NGO's public key, using ECDH with an ephemeral key and AES-GCM, in the shape
      of HPKE [S62]. The secure element has ECDH and AES/GCM support [S29].
@@ -696,9 +698,9 @@ challenge. Revision 2 requires the following.
      message.
    - Without reader authentication it does nothing.
 5. **Default scope is only since the last NGO stamp.** At 9,600 baud a full 2 MB log would take about 36
-   minutes [S63]. A full export is a rare, separately confirmed option.
+   minutes [not publicly sourced]. A full export is a rare, separately confirmed option.
 6. **What an export reveals, and its protection.** An export reveals every visit date, every witness, and the
-   worker's sensitive entries [S64]. It is therefore encrypted, and witnesses are stored as commitments.
+   worker's sensitive entries [not publicly sourced]. It is therefore encrypted, and witnesses are stored as commitments.
 7. **NGO practice (should-fix).** See the worker alone before any export, refuse any export with an employer
    present, and record a receipt (3.1 item 5). Authentication and encryption do not stop an employer dragging
    the worker to a real NGO.
@@ -766,7 +768,7 @@ challenge. Revision 2 requires the following.
 ```
 
 - **Boot: find the log end by binary search.** The log fills strictly in order, so a binary search for the
-  first erased slot finds the head in about 14 reads, instead of scanning 2 MB [S63]. A coarse checkpoint in
+  first erased slot finds the head in about 14 reads, instead of scanning 2 MB [not publicly sourced]. A coarse checkpoint in
   the MCU's EEPROM is a cross-check, and any disagreement is logged.
 - **Commit is atomic.** Write into the next erased slot, read back, then accept. Nothing is committed below a
   measured battery threshold (2.5).
@@ -780,7 +782,7 @@ challenge. Revision 2 requires the following.
 | 2 | 2 | day index since enrolment | yes |
 | 4 | 4 | secure-element counter value | yes |
 | 8 | 56 | AES-GCM ciphertext (40 B) + tag (16 B). Plaintext: type, flags (real or padding, training, correction-of), sequence, entry time, event time, value 1, value 2, icon code, days since anchor, battery code, random fill | **no** |
-| 64 | 64 | ECDSA P-256 signature (raw r‖s, not DER [S63]) over SHA-256("WLOG2" ‖ bytes 0–63 ‖ SHA-256 of previous record), with the counter bound as in 3.1 item 4 | yes |
+| 64 | 64 | ECDSA P-256 signature (raw r‖s, not DER [not publicly sourced]) over SHA-256("WLOG2" ‖ bytes 0–63 ‖ SHA-256 of previous record), with the counter bound as in 3.1 item 4 | yes |
 
 - **Types.** As in revision 1: SHIFT_START, SHIFT_END, REST, WORK_DAY, PIECES, PAY_CASH, PAY_BANK_SEEN,
   DEDUCTION, ADVANCE, DEBT_CLAIMED, DOC_TAKEN, DOC_RETURNED, CONTRACT_SEEN, SICK_DAY (optional), CORRECTION,
@@ -790,18 +792,18 @@ challenge. Revision 2 requires the following.
 
   The type is inside the ciphertext, so padding and real records look the same.
 - **Padding.** Each day uses one 8-slot block (1 KB). At DAY_ROLL, unused slots are filled with encrypted
-  PADDING records. So flash use reveals days elapsed, not entries made [S64]. A day with more than 8 entries
+  PADDING records. So flash use reveals days elapsed, not entries made [not publicly sourced]. A day with more than 8 entries
   opens a second block, which leaks "busy day" coarsely. Block size is a co-design and testing question.
 - **Capacity.** About 1.6 MB of the 2 MB flash is for the log; the rest is fonts and icons plus update staging
   (sizes **UNVERIFIED**). That holds about 1,600 days, roughly 4.4 years.
 - **Counter budget.** The ATECC608B has two monotonic counters [S29]. Counter 1 is records, including padding,
   at 8 or more a day. Counter 2 counts failed unlocks.
-  - The counters' ceiling (about 2 million) comes from library documentation, per the peer review [S63]
+  - The counters' ceiling (about 2 million) comes from library documentation, per the peer review [not publicly sourced]
     (**UNVERIFIED** against the NDA datasheet). At about 3,000 a year it is not a limit.
   - **Open question carried from the security review:** if the counter can be read without authorisation, it
     reveals roughly how much the device has been used. Padding limits this to days elapsed plus busy days.
     Random increments would blur it further. Workers must be told that a determined employer can learn the
-    device has been used [S64].
+    device has been used [not publicly sourced].
 
 ### 5.3 Encryption keys (security must-fix 1)
 
@@ -826,19 +828,19 @@ challenge. Revision 2 requires the following.
 ### 5.4 Authorisation, lockout and debug
 
 - **Worker-derived authorisation (should-fix).** Require a value derived from the unlock pattern, never stored,
-  for signing (and for decryption in the fallback) [S63][S64].
+  for signing (and for decryption in the fallback) [not publicly sourced].
   - It protects a device taken *without* the worker, not one taken *with* the worker.
   - The pattern's length, and so its entropy, is still unspecified. The security review's estimate assumes 6
     presses on 4 buttons (4,096 patterns) (**UNVERIFIED**).
-- **Lockout.** Failed attempts are counted in counter 2, so pulling the battery does not reset them [S64].
+- **Lockout.** Failed attempts are counted in counter 2, so pulling the battery does not reset them [not publicly sourced].
   Whether a pulled cell could still reset a firmware lockout timer depends on firmware not yet written
   (**UNVERIFIED**).
 - **No hidden paths (adopted).** Production firmware has no factory, test or debug menu, no service button
   combination, and no IR command that skips consent. No secret sits in MCU flash that alone unlocks signing or
-  decryption [S64].
+  decryption [not publicly sourced].
 - **Readout protection.**
   - Pilot units run RDP Level 1, with SWD pads under the battery, and go only to volunteers who know they are
-    test devices. They are never used as evidence in a real case [S63][S64]. RDP Level 1 has been bypassed by
+    test devices. They are never used as evidence in a real case [not publicly sourced]. RDP Level 1 has been bypassed by
     voltage glitching on the related STM32L051 [S55]. Whether the L031 behaves the same is **UNVERIFIED**.
   - Production units use RDP Level 2.
 
@@ -882,12 +884,12 @@ challenge. Revision 2 requires the following.
     vendor holds it.
   - Images are verified with the secure element's Verify command, or with micro-ecc (BSD-2-Clause [S41]).
 - **Staging.** Images are staged in an external-flash region away from the log, so an update never touches log
-  sectors [S63].
+  sectors [not publicly sourced].
 - **Anti-rollback.** Both monotonic counters are allocated (5.2). So anti-rollback uses a version floor taken
   from the last signed FW_UPDATE record in the log (design idea, **UNVERIFIED**).
 - An update can never read out or rewrite the log, and it appends FW_UPDATE with the image hash.
 
-### 5.8 Licences of candidate stacks (re-checked 18 Nov 2026 ICT)
+### 5.8 Licences of candidate stacks (re-checked 18 Nov 2026)
 
 | Stack | Licence | Status | Use |
 |---|---|---|---|
@@ -911,7 +913,7 @@ Recommendation: everything except the CryptoAuthLib-derived layer is released un
 1. **Evidential weight is untested** for this kind of device in Thai forums (**UNVERIFIED**). The
    inspectorate route [S2] is likelier to help than court.
 2. **Worker safety.** No technical design protects a worker who is under the physical control of someone
-   willing to hurt them [S64]. Co-design, a paper tier for those who opt out, wide distribution of identical
+   willing to hurt them [not publicly sourced]. Co-design, a paper tier for those who opt out, wide distribution of identical
    unenrolled clocks, and NGO practice are the real protections.
 3. **Coerced entries need no tools.** The device signs whatever is entered. Integrity is not truth (3.4).
 4. **Laboratory extraction.** A well-funded lab could extract the encryption key and anything derived from a
@@ -936,7 +938,7 @@ Recommendation: everything except the CryptoAuthLib-derived layer is released un
   - overwrite a P-256 slot at each visit;
   - require authorisation to read its counters.
 
-  All of this is under NDA. Is the newer ATECC608C, which the lab's slides say had not been studied [S64],
+  All of this is under NDA. Is the newer ATECC608C, which the lab's slides say had not been studied [not publicly sourced],
   worth evaluating?
 - Will workers accept losing the field history view? Is a printed summary at each visit enough?
 - Will NGOs commit to visits often enough that confiscation costs weeks, not months?
@@ -968,7 +970,7 @@ These are candidates. None has been contacted, and their interest is **UNVERIFIE
 
 ### 7.1 Security review
 
-A separate security review of Tier B covered crypto and coercion [S64]. This revision fills the subsection that
+A separate security review of Tier B covered crypto and coercion [not publicly sourced]. This revision fills the subsection that
 was to have been left pending, and adopts its findings. Its framing: the cryptography is sound as far as it
 goes. The danger is that the adversary holds the worker, the device and unlimited time. He is also persistent,
 mostly uses the device's own screens after forcing an unlock, and knows how the open-source device works.
@@ -978,12 +980,12 @@ mostly uses the device's own screens after forcing an unlock, and knows how the 
   - the ATECC508A, with a single fault;
   - the ATECC608A, with a double fault [S66];
   - the ATECC608B, with a three-step chain through its EEPROM masking keys and the CheckMac and GenDig
-    commands [S65], later reproduced on a low-cost bench [S64].
+    commands [S65], later reproduced on a low-cost bench [not publicly sourced].
 - So **a well-funded laboratory could extract the encryption key and anything derived from a PIN or unlock
   pattern.** That covers the AES key, any pairing secret and any authorisation value. Encryption at rest
   protects against a clip, not against a laboratory.
 - **No extraction of the P-256 signing key has been published.** The lab reported P-256 key storage as not
-  vulnerable to its attack, while not excluding later work [S64]. Whether the 608B chain reaches a private-key
+  vulnerable to its attack, while not excluding later work [not publicly sourced]. Whether the 608B chain reaches a private-key
   slot is **UNVERIFIED**.
 - **Timing.** Timing leaks during ECDSA have extracted keys from certified chips [S67]. That has not been shown
   for this chip, but it is a reason not to let an attacker request unlimited timed signatures.
@@ -1030,17 +1032,17 @@ must-fixes.
 
 ### 7.2 Peer review (parts, firmware and licences)
 
-The peer review [S63] confirmed revision 1's LCSC data and cost arithmetic and raised seven must-fixes. Section
+The peer review [not publicly sourced] confirmed revision 1's LCSC data and cost arithmetic and raised seven must-fixes. Section
 8 has the one-line resolutions.
 
 ---
 
 ## 8. Revision history and review response
 
-**Revision 2, 18 November 2026 (ICT).** Responds to the peer review [S63] and the security review [S64]. Five
+**Revision 2, 18 November 2026.** Responds to the peer review [not publicly sourced] and the security review [not publicly sourced]. Five
 security must-fixes and seven hardware must-fixes are adopted at equal rank.
 
-**Security review (security review [S64]):**
+**Security review (security review [not publicly sourced]):**
 
 | # | Item | Resolution |
 |---|---|---|
@@ -1051,7 +1053,7 @@ security must-fixes and seven hardware must-fixes are adopted at equal rank.
 | Sec-5 | Coercible export | Export only to authenticated NGO readers; fresh challenge per export; export encrypted to the NGO's key; the physical press is kept but not relied on (4.4) |
 | Sec-corr | Key-extraction claim | Corrected: a well-funded lab could extract the encryption key and any PIN- or pattern-derived secret. No published extraction of the P-256 signing key (7.1) |
 
-**Peer review (peer review [S63]):**
+**Peer review (peer review [not publicly sourced]):**
 
 | # | Item | Resolution |
 |---|---|---|
@@ -1117,7 +1119,7 @@ security must-fixes and seven hardware must-fixes are adopted at equal rank.
 34. Sizes of the font and update-staging regions in flash.
 35. Code size and speed of HPKE-style export encryption on the MCU and secure element.
 
-**C. Carried in full from the security review's section 11 [S64]:**
+**C. Carried in full from the security review's section 11 [not publicly sourced]:**
 36. The ATECC608B full datasheet is under NDA. Exact slot-configuration rules (private, non-readable,
     non-writable, authorised-host-only) were not read.
 37. Whether the ATECC608B can bind a monotonic counter value into an ECDSA signature over an external message.

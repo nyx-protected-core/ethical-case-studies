@@ -1,6 +1,6 @@
 # Sources for DESIGN-STUDY.md
 
-All accessed 18 November 2026 (ICT). "Read" means the page or PDF text was opened. "Summary only" means the claim came from a search-result summary and the primary text was not read; those claims are marked UNVERIFIED in the study.
+All accessed 18 November 2026. "Read" means the page or PDF text was opened. "Summary only" means the claim came from a search-result summary and the primary text was not read; those claims are marked UNVERIFIED in the study.
 
 | Tag | Source | URL | How used |
 |---|---|---|---|
@@ -59,11 +59,11 @@ All accessed 18 November 2026 (ICT). "Read" means the page or PDF text was opene
 | S53 | TI, TPS7A02 datasheet (25 nA Iq even in dropout; 1.5–6.0 V in; VIN abs max 6.5 V; dropout max 270 mV at 3.3 V output, −40…85 °C) | https://www.ti.com/lit/ds/symlink/tps7a02.pdf | Read |
 | S54 | Quectel BC660K-GL specification V1.8 (lists NBTC Thailand certification and DFOTA); DigiKey BC660KGLAA-I03-SNASA status | https://www.quectel.com/content/uploads/2024/03/Quectel_BC660K-GL_NB-IoT_Specification_V1.8-1.pdf?wpId=114221 ; https://www.digikey.co.uk/en/products/detail/quectel/BC660KGLAA-I03-SNASA/15622685 | Quectel spec read; DigiKey "Active" per peer review, not re-read: UNVERIFIED |
 | S55 | JLCPCB part pages: C5126639 = BC660K-GL; C411293 = E22-900M22S; EasyEDA component | https://jlcpcb.com/partdetail/C5126639 ; https://jlcpcb.com/partdetail/Chengdu_Ebyte_ElecTech-E22900M22S/C411293 ; https://easyeda.com/component/b94f340c216641b79823b9ae256921d7 | Page titles read (stock values per peer review) |
-| S56 | Ground Control, Iridium IMT (9704) devices | https://www.groundcontrol.com/products/iridium/iridium-messaging-transport-imt-devices/ | Per peer review, not re-read: UNVERIFIED |
+| S56 | Ground Control, Iridium IMT (9704) devices | https://www.groundcontrol.com/products/iridium/iridium-messaging-transport-imt-devices/ | Not re-read: UNVERIFIED |
 | S57 | LoRa Alliance, LoRaWAN L2 specification (clear-text MHDR/DevAddr/FCtrl/FCnt/FPort; Join-Request fields JoinEUI/DevEUI/DevNonce) | https://resources.lora-alliance.org/technical-specifications | Frame layout from the spec structure; not re-read in full today |
 | S58 | LoRa Alliance RP002-1.0.5 Regional Parameters, AS923 maximum payload table (DwellTime=1: DR0/1 N/A, DR2 M=19/N=11, DR3 M=61/N=53) | https://resources.lora-alliance.org/technical-specifications/rp002-1-0-5-lorawan-regional-parameters ; excerpt https://read.uberflip.com/i/1540208-rp002-1-0-5-lorawan-regional-parameters/78 | Read (excerpt) |
-| S59 | Iridium SBD Service Developers Guide (MO Location Information IE, CEP) | http://docs.mbari.org/internal/projects/CPF/COTS%20Equipment/Iridium/IRDM_IridiumSBDService_V3_DEVGUIDE_9Mar2012.pdf | Fetch returned an empty document; per peer review: UNVERIFIED |
+| S59 | Iridium SBD Service Developers Guide (MO Location Information IE, CEP) | http://docs.mbari.org/internal/projects/CPF/COTS%20Equipment/Iridium/IRDM_IridiumSBDService_V3_DEVGUIDE_9Mar2012.pdf | Fetch returned an empty document: UNVERIFIED |
 | S60 | RAKwireless RAK-STM32-RUI licence (clause 4: only with a RAKwireless product) | https://raw.githubusercontent.com/RAKWireless/RAK-STM32-RUI/main/LICENSE.txt | Read |
 | S61 | STMicroelectronics STM32CubeWL licence table (LoRaWAN/SubGHz_Phy BSD-3-Clause; Secure Engine, KMS, Projects SLA0044) | https://raw.githubusercontent.com/STMicroelectronics/STM32CubeWL/main/LICENSE.md | Read |
 | S62 | Semtech LoRaMac-node licence (Revised BSD) | https://raw.githubusercontent.com/Lora-net/LoRaMac-node/master/LICENSE | Read |
-| S63 | Peer review of revision 1 (parts, privacy, firmware, licences), 18 Nov 2026 (unpublished internal review) | n/a | Read; claims adopted only where re-verified or marked UNVERIFIED |
+| S63 | Withdrawn: an unpublished review is not a public source. Claims from it were adopted only where re-verified against the public sources above, or are marked UNVERIFIED in the study | n/a | — |

@@ -1,7 +1,7 @@
 # Low-cost position tracker for small Thai fishing vessels: a design study
 
 Status: research and design only. Nothing here has been built, flashed or tested.
-Date of research: 18 November 2026 (ICT, UTC+7). Prices were read on that date. **Revision 2** (same day) responds to a peer review; see section 7.
+Date of research: 18 November 2026. Prices were read on that date. **Revision 2** (same day) responds to a peer review; see section 7.
 Source tags like [S12] point to entries in `SOURCES.md`. **UNVERIFIED** marks anything I could not confirm from a primary page.
 
 > **What changed in this revision**
@@ -190,7 +190,7 @@ Verified = Y means that on 18 Nov 2026 I read the LCSC product page for that num
 
 **About the disputed C-numbers (rows 11 and 12).**
 - **C411293 = E22-900M22S and C5126639 = BC660K-GL** on JLCPCB and EasyEDA [S55], so the numbers are valid.
-- They have no live LCSC product today. When I opened `lcsc.com/product-detail/C411293.html` and `…/C5126639.html` (twice, at 17:45 and about 18:10 ICT), the pages returned unrelated parts with no lifecycle field (a KOTL crystal and a TI SN74LVC8T245PWR). A peer reviewer using LCSC's data endpoint got "no product".
+- They have no live LCSC product today. When I opened `lcsc.com/product-detail/C411293.html` and `…/C5126639.html` (twice), the pages returned unrelated parts with no lifecycle field (a KOTL crystal and a TI SN74LVC8T245PWR). A peer reviewer using LCSC's data endpoint got "no product".
 - Either way, neither part can be bought from LCSC now.
 
 **Rough per-unit cost (USD)**
@@ -458,7 +458,7 @@ Vessel identity is resolved only on the steward's server.
 - **How it is reported:** a flag bit in the next *normal* report (same shaping as SOS). The full log is read at port.
 - **Who sees it:** tamper events go to the **steward**, not straight to owners. The response protocol assumes tampering may come from anyone, on board or off.
 
-### 4.7 Firmware licences (checked 18 Nov 2026)
+### 4.7 Firmware and hardware licences (checked 18 Nov 2026)
 | Component | Licence | Decision |
 |---|---|---|
 | RAK RUI3 (RAK-STM32-RUI) | BSD-3-style **plus clause 4: "must only be used with a RAKwireless product"** [S60] | **Not used.** It would break the SX1262 second-source plan. |
@@ -467,6 +467,8 @@ Vessel identity is resolved only on the steward's server.
 | STM32CubeWL Secure Engine, KMS and "Projects" (including the secure-boot examples) | **ST SLA0044**: restricted to ST devices; BSD-3-Clause only for basic examples [S61] | Read the terms before reusing any secure-boot example. A bootloader written from scratch on BSD code is the safer route for open publication. |
 | NB-IoT modem AT firmware (BC660K-GL, SIM7022) | Proprietary, closed (terms **UNVERIFIED**) | Can't be audited; treated as a black box (section 4.4). |
 | Iridium/RockBLOCK libraries; ECDSA library choice; Meshtastic (cited only) | **UNVERIFIED** | Record each licence before implementation. Do not copy GPL code into BSD firmware. |
+| This hardware design (schematic, PCB, enclosure drawings) | Recommend **CERN-OHL-S v2** (https://ohwr.org/cern_ohl_s_v2.txt) | Anyone may build, repair and modify it but must share changes, so a vendor cannot close the design. RAK and modem module layouts stay the vendors'; only the carrier board is covered. |
+| Module footprints and reference layouts (RAK3172, modem vendors), if copied | **UNVERIFIED** | Read each vendor's design-file terms before copying a reference layout; drawing footprints from datasheet dimensions avoids the question. |
 
 ---
 
@@ -511,9 +513,9 @@ Vessel identity is resolved only on the steward's server.
 
 ## 7. Revision history and review response
 
-**Revision 1** (18 Nov 2026, about 17:50 ICT): first desk study.
+**Revision 1** (18 Nov 2026): first desk study.
 
-**Revision 2** (18 Nov 2026, about 18:30 ICT): responds to a written peer review of the parts list and firmware plan. Each item is listed with how it was resolved.
+**Revision 2** (18 Nov 2026): responds to a written peer review of the parts list and firmware plan. Each item is listed with how it was resolved.
 
 | # | Review item | Resolution |
 |---|---|---|

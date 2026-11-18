@@ -2,7 +2,7 @@
 
 Ethical case study (essential-medicines access). Research and design writing only: no firmware, no builds.
 Author role: assembly / firmware engineer. I would write the firmware in C and assembly later; this document contains **no code**.
-All LCSC prices, stock and lifecycle labels were read from LCSC's product-detail data on **2026-11-18, about 18:36–18:45 (UTC+7)** and will change.
+All LCSC prices, stock and lifecycle labels were read from LCSC's product-detail data on **2026-11-18** and will change.
 
 > **This is not a WHO PQS-prequalified device, and it must never be used instead of one.** It is a teaching and auxiliary design. A district or clinic that has PQS electronic freeze indicators, 30-day temperature recorders (30 DTRs) and vaccine vial monitors (VVMs) must keep using them and follow their SOPs. Section 7b explains why this matters.
 
@@ -93,7 +93,7 @@ The decision line sits at **−0.5 °C**, and the device has to tell −0.4 °C 
 
 ## 4. Parts: cheapest active LCSC parts, and where LCSC has no healthy source
 
-**How I checked.** For each part I read LCSC's own product-detail data (`wmsc.lcsc.com/ftps/wm/product/detail?productCode=C…`) on **2026-11-18, about 18:36–18:45 (UTC+7)**, and recorded the `productCycle` field, price breaks and stock. `normal` is LCSC's label for a part in normal supply. It is the **distributor's** label, not the manufacturer's lifecycle statement, and it is not the same as "In Production" wording on a listing page. A `null` result means the product page does not exist on lcsc.com today. To find candidate C-codes I used JLCPCB's public parts search [S31], then confirmed every code on LCSC itself. None of the parts below showed an obsolete, EOL or NRND label on LCSC. I did **not** check each manufacturer's own lifecycle page, so manufacturer lifecycle status is **unverified**.
+**How I checked.** For each part I read LCSC's own product-detail data (`wmsc.lcsc.com/ftps/wm/product/detail?productCode=C…`) on **2026-11-18**, and recorded the `productCycle` field, price breaks and stock. `normal` is LCSC's label for a part in normal supply. It is the **distributor's** label, not the manufacturer's lifecycle statement, and it is not the same as "In Production" wording on a listing page. A `null` result means the product page does not exist on lcsc.com today. To find candidate C-codes I used JLCPCB's public parts search [S31], then confirmed every code on LCSC itself. None of the parts below showed an obsolete, EOL or NRND label on LCSC. I did **not** check each manufacturer's own lifecycle page, so manufacturer lifecycle status is **unverified**.
 
 ### 4.1 MCU candidates
 
@@ -146,7 +146,7 @@ The firmware needs I²C (sensor, EEPROM, RTC in build B), about 3 GPIOs for the 
 
 ### 4.6 Consolidated parts table (build A unless marked)
 
-"LCSC label" here means LCSC `productCycle = normal` on 2026-11-18. That is the **distributor's** label, not a manufacturer lifecycle notice. Manufacturer or DigiKey status was read on 18 November 2026 (UTC+7). Lifecycle is stated as confirmed only where that status was read. All other rows are marked **verify lifecycle with manufacturer**.
+"LCSC label" here means LCSC `productCycle = normal` on 2026-11-18. That is the **distributor's** label, not a manufacturer lifecycle notice. Manufacturer or DigiKey status was read on 18 November 2026. Lifecycle is stated as confirmed only where that status was read. All other rows are marked **verify lifecycle with manufacturer**.
 
 | Part | LCSC code | LCSC label | Manufacturer / DigiKey status (18 Nov 2026) | Price (small qty) | Stock | Role |
 |---|---|---|---|---|---|---|
@@ -319,7 +319,7 @@ Remove the STM32L011 (−0.8151), TPS7A02 (−0.6098) and 22 pF pair (−0.0180)
 
 ## Sources
 
-All accessed 2026-11-18 (UTC+7). PDFs were fetched and read as text. [S7] and [S8] were read as PubMed abstracts through NCBI E-utilities.
+All accessed 2026-11-18. PDFs were fetched and read as text. [S7] and [S8] were read as PubMed abstracts through NCBI E-utilities.
 
 - [S1] WHO PQS E006/TR06.4, *30-day electronic refrigerator temperature logger* (rev. Jan 2022). https://extranet.who.int/prequal/sites/default/files/document_files/PQS_E006_TR06.4.pdf
 - [S2] WHO PQS E006/TR07.3, *Electronic shipping indicators* (16 Oct 2014). https://extranet.who.int/prequal/sites/default/files/document_files/WHO-PQS-E006-TR07%203-final_0.pdf
@@ -352,7 +352,7 @@ All accessed 2026-11-18 (UTC+7). PDFs were fetched and read as text. [S7] and [S
 - [S29] STMicroelectronics `stm32l0xx-hal-driver` LICENSE.md (BSD-3-Clause). https://github.com/STMicroelectronics/stm32l0xx-hal-driver/blob/master/LICENSE.md
 - [S30] STMicroelectronics `cmsis-device-l0` LICENSE.md (Apache-2.0). https://github.com/STMicroelectronics/cmsis-device-l0
 - [S31] JLCPCB public parts search (`selectSmtComponentList`), used to find candidate C-codes and the STS40/STS30 listings.
-- LCSC product-detail data for every `C…` code quoted in section 4 (`wmsc.lcsc.com/ftps/wm/product/detail?productCode=…`), read 2026-11-18, about 18:36–18:45 (UTC+7). Lifecycle labels are the distributor's.
+- LCSC product-detail data for every `C…` code quoted in section 4 (`wmsc.lcsc.com/ftps/wm/product/detail?productCode=…`), read 2026-11-18. Lifecycle labels are the distributor's.
 
 ## Revisions (18 November 2026, round 7/8 audit)
 

@@ -2,7 +2,7 @@
 
 Ethics case study: research and design only. Nothing here has been built, simulated on hardware, bought or tested. Every number marked UNVERIFIED in the text appears in the numbered list in section 10. Sources are cited as [S#] and listed in SOURCES.md.
 
-Date of research: 18 November 2026. Live LCSC data checked 18 November 2026, 19:01 (UTC+7).
+Date of research: 18 November 2026. Live LCSC data checked 18 November 2026.
 
 ---
 
@@ -263,7 +263,7 @@ What the table says, in plain terms:
 
 The gate drivers (IR2184S quiescent 1.0 mA typ each [S27]) are unpowered at night through Q9. Most of the night drain is the comparators. Keeping them powered whenever the load is on is a deliberate safety choice.
 
-### 4.4 Bill of materials and cost (live LCSC data, 18 November 2026, 19:01 UTC+7)
+### 4.4 Bill of materials and cost (live LCSC data, 18 November 2026)
 
 **How the BOM was checked.** Each line was read from the LCSC product-detail data behind the live product page: model, maker, package, stock, LCSC's lifecycle field ("productCycle") and the price ladder [S35]. Part numbers were first found through the JLCPCB/LCSC parts search [S47].
 

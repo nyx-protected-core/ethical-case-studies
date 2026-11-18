@@ -1,6 +1,6 @@
 # A handpump-failure sensor that texts the maintainer: a low-cost, repairable design study
 
-Research and design only. Nothing here was built, flashed, measured or bought. Every number is either cited as [S#] (see SOURCES.md), shown with its arithmetic, or marked UNVERIFIED and listed in section 10. Parts data were read from live LCSC product pages on 18 November 2026 at 19:22 (UTC+7) [S28].
+Research and design only. Nothing here was built, flashed, measured or bought. Every number is either cited as [S#] (see SOURCES.md), shown with its arithmetic, or marked UNVERIFIED and listed in section 10. Parts data were read from live LCSC product pages on 18 November 2026 [S28].
 
 This is part of an ethics case-study series whose anchor value is ending human trafficking. Water is part of that story. When the village pump breaks, someone, usually a woman or a girl, walks further for water, more often and at riskier hours. A household with no water close by is also easier to push into debt and distress migration. A pump that stays working is a small, real protection.
 
@@ -247,7 +247,7 @@ In GSM mode the modem draws up to 2 A for 577 µs in each 4.6 ms frame [S19]. At
 
 ### 4.10 Bill of materials and cost
 
-Read from LCSC on 18 November 2026 at 19:22 (UTC+7) [S28]. All lines are listed by LCSC as "normal" lifecycle (active). A distributor label is not a manufacturer lifecycle statement: confirm each part as Active (not NRND, EOL or obsolete) on the manufacturer's own product page before ordering. Per-board cost respects LCSC minimum-buy quantities and price breaks, so the qty-1 column includes buying full minimum lots.
+Read from LCSC on 18 November 2026 [S28]. All lines are listed by LCSC as "normal" lifecycle (active). A distributor label is not a manufacturer lifecycle statement: confirm each part as Active (not NRND, EOL or obsolete) on the manufacturer's own product page before ordering. Per-board cost respects LCSC minimum-buy quantities and price breaks, so the qty-1 column includes buying full minimum lots.
 
 | Ref | Function | LCSC | MPN | Maker | Qty | LCSC stock | Lifecycle | Min buy | $/board @1 | @100 | @1000 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -346,6 +346,14 @@ How this can go wrong, and the design rules against each failure:
 - **Open data, the right slice.** WPdx accepts provider data under CC BY 4.0 and requires the provider to hold the rights [S14]. The committee's consent is therefore what allows publication.
   - The study recommends publishing only **functionality status and dates**, which is what registries need, and not stroke time series.
 - **The committee gets the same data as everyone else**, in the same SMS, on its own phone. That symmetry is the practical form of ownership.
+
+### 5.5 False reassurance: when "OK" is wrong
+
+A daily "OK" can be trusted more than it deserves.
+- **The pump works but the water is unsafe.** The sensor counts strokes; it says nothing about contamination, a cracked apron, or a rising nitrate or arsenic level. *Rule:* "OK" means "the handle is being used normally", and the SMS and training say so. Water-quality testing stays on its own schedule.
+- **Strokes without water.** A worn cylinder seal can let people pump for longer to get less water before the pattern is clear enough for SIGNATURE-CHANGE (section 4.1). *Rule:* the caretaker's weekly check continues (section 5.1).
+- **A dead or out-of-coverage box looks like a quiet pump.** If no SMS arrives, the maintainer cannot tell a broken pump from a broken sensor or a network gap. *Rule:* a missing daily SMS is itself an alert to the committee, never a sign that all is well.
+- **Alerts that nobody answers.** If alerts go unanswered, the committee may stop reporting by voice because "the box will tell them". *Rule:* the named responder and response-time commitment in section 5.1 are a condition of installation.
 
 ## 6. Licence check
 

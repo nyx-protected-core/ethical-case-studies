@@ -1,6 +1,6 @@
 # Sources for "Open, repairable, low-cost solar charge controller"
 
-All sources were accessed on 18 November 2026 (UTC+7). "Read" means I opened the document or page and read the parts cited. "Abstract only", "summary only" and "search excerpt" mark the limits. Paywalled standards were **not** read in full. Numbers match the [S#] citations in DESIGN-STUDY.md.
+All sources were accessed on 18 November 2026. "Read" means I opened the document or page and read the parts cited. "Abstract only", "summary only" and "search excerpt" mark the limits. Paywalled standards were **not** read in full. Numbers match the [S#] citations in DESIGN-STUDY.md.
 
 ## Energy access and health
 
@@ -66,7 +66,7 @@ All sources were accessed on 18 November 2026 (UTC+7). "Read" means I opened the
 
 ## Parts data
 
-- **[S35]** LCSC product-detail data for each C-number listed in the BOM (section 4.4) and in the text, read on 18 November 2026 at 19:01 (UTC+7). I read the JSON data that serves the public product page (`https://wmsc.lcsc.com/ftps/wm/product/detail?productCode=C…`). The human-readable page for each part is `https://www.lcsc.com/product-detail/C<number>.html`. Fields used: model, brand, package, stock, "productCycle" (lifecycle as LCSC lists it), minimum buy, price ladder, and parametric values (for example inductor Isat and DCR, capacitor ripple current, TVS ratings).
+- **[S35]** LCSC product-detail data for each C-number listed in the BOM (section 4.4) and in the text, read on 18 November 2026. I read the JSON data that serves the public product page (`https://wmsc.lcsc.com/ftps/wm/product/detail?productCode=C…`). The human-readable page for each part is `https://www.lcsc.com/product-detail/C<number>.html`. Fields used: model, brand, package, stock, "productCycle" (lifecycle as LCSC lists it), minimum buy, price ladder, and parametric values (for example inductor Isat and DCR, capacitor ripple current, TVS ratings).
 - **[S47]** JLCPCB parts search, used only to find candidate C-numbers. Not used as the source for stock, price or lifecycle, which come from [S35].
 
 ## Reference designs and licences (read in the actual licence file)

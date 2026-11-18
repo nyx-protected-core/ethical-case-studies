@@ -1,6 +1,6 @@
 # Sources
 
-Numbered sources for the design study in README.md, cited inline as [S#]. All links are public. Live pages and PDFs were read on 18 November 2026 between 19:00 and 19:40 (UTC+7) unless a note says otherwise. Author names are left out on purpose; titles, venues and DOIs identify each work.
+Numbered sources for the design study in README.md, cited inline as [S#]. All links are public. Live pages and PDFs were read on 18 November 2026 unless a note says otherwise. Author names are left out on purpose; titles, venues and DOIs identify each work.
 
 ## Handpump functionality, repair times and existing sensor projects
 
@@ -43,7 +43,7 @@ Numbered sources for the design study in README.md, cited inline as [S#]. All li
 - **[S25]** KNSCHA KNE2 470 µF/6.3 V specification (KNE2470UF6.3V149EC0008), via the LCSC link for C2943987. Used: ESR 16 mΩ at 100 kHz; ripple 3.3 A; leakage limit I ≤ 0.2CV or 500 µA (592 µA listed for this part); 2000 h at 105 °C.
 - **[S26]** Pulse W3907B0100 "LTE 698–3600 MHz FPC Antenna" datasheet, via the LCSC link for C6750605. Used: band coverage; average total efficiency 55% / 49% at 698–960 MHz (two test conditions).
 - **[S27]** Energizer E95 (D, LR20) product datasheet. https://data.energizer.com/pdfs/E95_Max_NA.pdf. Used: nominal IR 150–300 mΩ fresh; operating temperature −18 °C to 55 °C; shelf life 10 years at 21 °C; capacity chart (axis to 24,000 mAh) whose exact values could not be read from the text.
-- **[S28]** LCSC product-detail data for every C-number in the BOM and text, read on 18 November 2026 at 19:22 (UTC+7) from the JSON that serves the public product pages (human-readable form: `https://www.lcsc.com/product-detail/C<number>.html`). Fields used: model, maker, package, stock, lifecycle ("productCycle"), minimum buy, price ladder, and parameters (for example inductor Isat and the LDO's IQ). Part searches used the public JLCPCB parts-search API.
+- **[S28]** LCSC product-detail data for every C-number in the BOM and text, read on 18 November 2026 from the JSON that serves the public product pages (human-readable form: `https://www.lcsc.com/product-detail/C<number>.html`). Fields used: model, maker, package, stock, lifecycle ("productCycle"), minimum buy, price ladder, and parameters (for example inductor Isat and the LDO's IQ). Part searches used the public JLCPCB parts-search API.
 
 ## Licences
 

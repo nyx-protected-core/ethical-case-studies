@@ -1,7 +1,7 @@
 # Village Water Check: design study for a cheap, offline water-quality tester (turbidity + lead/arsenic test-strip reader)
 
 Case study for the ethics track (global problems: unsafe drinking water in villages). Research and design writing only: no firmware, no builds.
-Author role: assembly / firmware engineer. All LCSC prices, stock figures and lifecycle labels were read from LCSC's public product-data endpoint on 2026-11-18, about 17:55 (UTC+7). They will change.
+Author role: assembly / firmware engineer. All LCSC prices, stock figures and lifecycle labels were read from LCSC's public product-data endpoint on 2026-11-18. They will change.
 
 ---
 
@@ -374,7 +374,7 @@ A cheap tester that lights green on contaminated water is worse than no tester, 
 
 ---
 
-## Parts table (verified on LCSC, 2026-11-18 about 17:55 UTC+7)
+## Parts table (verified on LCSC, 2026-11-18)
 
 "Active?" means LCSC's `productCycle` label read "normal" (LCSC's active/in-production label; distributor data, not a manufacturer notice).
 
@@ -414,7 +414,7 @@ A cheap tester that lights green on contaminated water is worse than no tester, 
 
 ---
 
-## Sources (pages actually fetched on 2026-11-18 UTC+7 unless marked)
+## Sources (pages actually fetched on 2026-11-18 unless marked)
 
 - [S1] WHO, *Arsenic* fact sheet (key facts; 140 million in ≥70 countries; 94–220 million modelled; countries; no reliable global burden estimate; safe-water provision as key action). https://www.who.int/news-room/fact-sheets/detail/arsenic
 - [S2] WHO, *Water quality and health: Review of turbidity* (WHO/FWC/WSH/17.01, 2017). PDF https://iris.who.int/bitstream/handle/10665/254631/WHO-FWC-WSH-17.01-eng.pdf. **Not opened** (server timed out or blocked; archive copies failed). Figures (<1 NTU ideal for disinfection, <5 NTU small supplies) are from a search-result summary only: **unverified**. Landing page fetched: https://wsportal.org/resource/water-quality-and-health-review-of-turbidity/

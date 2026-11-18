@@ -1,6 +1,6 @@
 # Sources: Affordable Access to Essential Medicines
 
-*All checks made 18 November 2026 (Asia/Bangkok, UTC+7).*
+*All checks made 18 November 2026.*
 
 *Revisions (18 November 2026).* Revised after an independent review. The changes correct facts, fill gaps and tighten wording. The review is not named here.
 

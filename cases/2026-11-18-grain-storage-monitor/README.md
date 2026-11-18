@@ -2,7 +2,7 @@
 
 Ethical case study (food insecurity, post-harvest loss). Research and design writing only: no firmware, no builds.
 Author role: assembly / firmware engineer. I would write the firmware in C and assembly later; this document contains **no code**.
-All LCSC prices, stock and lifecycle labels were read from LCSC's product-detail data on **2026-11-18, about 18:05–18:15 (UTC+7)** and will change.
+All LCSC prices, stock and lifecycle labels were read from LCSC's product-detail data on **2026-11-18** and will change.
 
 *Revisions (18 November 2026).* Revised after an independent review. The changes correct facts, fill gaps and tighten wording. The review is not named here.
 
@@ -123,7 +123,7 @@ Aosong also lists an **AHT20-F** filter-membrane variant, which could reduce dus
 ## 3. Cheapest active parts on LCSC, and firmware outline
 
 **Lifecycle method (same rule as the soil-moisture study).**
-- **How I checked:** for each part I read LCSC's own product-detail data (`wmsc.lcsc.com/ftps/wm/product/detail?productCode=C…`) and recorded the `productCycle` field, price breaks and stock on **2026-11-18 (UTC+7)**. `normal` is LCSC's label for a part in normal supply. It is the **distributor's supply label, not a manufacturer lifecycle status**, and it does not demonstrate "Active".
+- **How I checked:** for each part I read LCSC's own product-detail data (`wmsc.lcsc.com/ftps/wm/product/detail?productCode=C…`) and recorded the `productCycle` field, price breaks and stock on **2026-11-18**. `normal` is LCSC's label for a part in normal supply. It is the **distributor's supply label, not a manufacturer lifecycle status**, and it does not demonstrate "Active".
 - **What "Active" requires:** a manufacturer's or a mainstream distributor's lifecycle field, for example DigiKey or Mouser "Active", or a current manufacturer catalogue entry with no discontinued or NRND marking. Where that could not be verified, the line is marked **lifecycle not confirmed**.
 - **Search route:** LCSC's own search returned "Access Denied" to me, so I found candidate part codes with JLCPCB's public parts search [S25] and then verified each code on LCSC.
 - **Sensirion parts:** none are listed on lcsc.com today (section 2.3).
@@ -409,7 +409,7 @@ Same as Build A, minus the CR2032 holder, plus the lines below. The SCD41's own 
 
 ## Sources
 
-All were read on 2026-11-18 (UTC+7), except where a later opening in this revision is noted. Distributor pages carry live data that will change.
+All were read on 2026-11-18, except where a later opening in this revision is noted. Distributor pages carry live data that will change.
 
 - [S1] APHLIS, Kenya maize post-harvest loss estimates, 2022.
 - [S2] World Bank / FAO / Natural Resources Institute, *Missing Food: The Case of Postharvest Grain Losses in Sub-Saharan Africa*, April 2011, Report No. 60371-AFR. Eastern and Southern Africa losses valued at US$1.6 billion a year; extrapolating similar rates, SSA losses "could potentially reach nearly US$4 billion a year." https://openknowledge.fao.org/server/api/core/bitstreams/82f7149a-8ced-462e-b5e4-5b3385f8c19c/content ; UN News summary (31 May 2011): https://news.un.org/en/story/2011/05/376752

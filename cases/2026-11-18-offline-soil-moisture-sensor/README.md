@@ -2,7 +2,7 @@
 
 Ethical case study (food insecurity). Research and design writing only: no firmware, no builds.
 Author role: assembly / firmware engineer. I would write the firmware in C and assembly later; this document contains **no code**.
-All prices, stock figures and lifecycle flags were read from LCSC on 2026-11-18 (UTC+7) and will change.
+All prices, stock figures and lifecycle flags were read from LCSC on 2026-11-18 and will change.
 
 ---
 
@@ -12,7 +12,7 @@ All prices, stock figures and lifecycle flags were read from LCSC on 2026-11-18 
 - **Sensing:** a capacitive probe made from the PCB's own copper, sealed under solder mask and epoxy. No bare metal touches the soil, so it does not corrode the way cheap two-prong resistive probes do [S1][S2]. A smaller capacitive pad on the top face senses rain the same way.
 - **Recommended MCU:** Puya PY32F002BL15S7TU (LCSC C49424671), lifecycle flag `normal`, 3,135 in stock, US$0.1573 at qty 5 and $0.124 at qty 50. Its datasheet gives a typical 1.70 µA in Stop mode with the low-power timer running [S10], which is what makes a coin cell last for years.
 - **Power:** one CR2032 coin cell (235 mAh typical [S12]). Estimated average draw is about 3.5 µA with 10 button presses a day. That gives a paper estimate of 7 years, but heat, cell ageing and leakage make **2–5 years** the honest planning figure (section 4). Two AA cells or solar plus supercapacitor are covered as alternatives.
-- **Cost:** about **US$0.42** in LCSC-verified electronics at qty 50, about **$0.92** with the PCB/probe (PCB estimated), and roughly **US$1.70–3.20 per unit** with cell, enclosure and sealing before assembly labour. The non-LCSC lines are estimates, marked unverified.
+- **Cost:** about **US$0.42** in LCSC-verified electronics at qty 50, about **$0.92** with the PCB/probe (PCB estimated; the replacement green LED is also an estimate, see section 3), and roughly **US$1.70–3.20 per unit** with cell, enclosure and sealing before assembly labour. The non-LCSC lines are estimates, marked unverified.
 - **Evidence is encouraging but uneven.** The rigorous meta-analyses of digital farm advice find small average gains: about +4% yield [S15], or +6% yield and +6% income [S16]. Sensor-specific studies report large gains (Malawi: yield up more than 80%, gross margins more than tripled [S17]), but those come from case studies and demonstrations, not randomised trials. For rice, mild alternate wetting and drying saves about 23% of water with no significant yield loss in most cases. Severe drying cuts yield by 22.6% [S19]. The device has to steer farmers away from the severe case.
 - **The honest limit:** this tool only helps farmers who can choose when to irrigate. Many of the most food-insecure smallholders are rainfed. For them the useful question is narrower, such as "is there enough moisture to sow?" Field work must confirm that need first (section 8).
 - **Ethics:** a standalone offline device means the farmer owns the reading. The risks arrive later, if a vendor adds connectivity, accounts or proprietary calibration. I set out design rules to keep it farmer-controlled (section 7).
@@ -38,7 +38,7 @@ All prices, stock figures and lifecycle flags were read from LCSC on 2026-11-18 
 | Keep watching after the colour | Yellow double-blink = rain detected on the pad in the last ~24 h | The MCU has checked the rain pad every few minutes in the background and keeps a single "rain seen" flag in RAM. It holds no history and no timestamps. |
 | Walk past without pressing (optional mode) | A slow red blink every ~10 s means "dry: water me" | A brief, low-current LED pulse. It costs about 6 µA on average (section 4), so it is a configuration choice, not the default. |
 | Visually impaired user (optional part) | 1, 2 or 3 beeps | A passive magnetic buzzer (MLT-8530) driven by a timer PWM output. It adds about $0.15. |
-| Low battery | All three LEDs flash together on a button press | The MCU measures its own supply against an internal reference channel [S9]. Below about 2.6 V it warns the farmer before the green LED fades out (see LED note in section 3). |
+| Low battery | Red and yellow flash together on a button press | The MCU measures its own supply against an internal reference channel [S9]. The warning threshold must be set **above** the supply voltage at which the dimmest LED stops being clearly visible, measured on the bench with the chosen parts. It is not a fixed 2.6 V. With the green LED in the first parts list, that point can be above a fresh cell's voltage, so that part has been withdrawn (see LED note in section 3). The warning uses red and yellow because they keep working longest. |
 
 The label is pictograms (dry cracked soil / damp / water drop / rain cloud) in the local language, so it does not depend on literacy. **Colour-blind users:** red and green are hard to tell apart for many people. The position of each LED (left, middle, right, like a traffic light) and the blink count carry the same meaning as the colour.
 
@@ -106,7 +106,7 @@ Two cross-checks showed why this matters:
 |---|---|---|---|---|
 | NATIONSTAR NCD0805R1 red LED, Vf 1.6–2.6 V | C84256 | normal / 1,946,850 | $0.0136 @50 | "Dry" light |
 | Hubei KENTO KT-0805Y yellow LED, Vf 1.8–2.4 V | C2296 | normal / 242,800 | $0.0125 @50 | "Getting dry" + rain blink |
-| Hubei KENTO KT-0805G green LED, Vf 2.6–3.1 V | C2297 | normal / 2,206,300 | $0.0166 @50 | "Enough water" |
+| ~~Hubei KENTO KT-0805G green LED, Vf 2.6–3.1 V~~ | C2297 | normal / 2,206,300 | $0.0166 @50 | **Withdrawn for the coin-cell build:** its maximum Vf (3.1 V) is above a fresh CR2032 (about 3.0 V). Replace with a low-Vf part (see LED note). Acceptable only in the 2×AA variant with a boost or charge-pump drive. |
 | (cheaper red alt.) KT-0603R, Vf 2.4 V | C2286 | normal / 6,093,500 | $0.0077 @100 | Optional cost-down |
 | XKB TS-1187A-B-A-B tactile switch, 5.1 mm SMD | C318884 | normal / 471,800 | $0.0216 @20, $0.017 @200 | Press-to-read button. Must sit under a sealed flexible membrane (section 5). |
 | Huaneng MLT-8530 passive magnetic buzzer, 2.5–4.5 V, 2.7 kHz | C94599 | normal / 108,145 | $0.1987 @5, $0.1548 @50 | **Optional**, for visually impaired users. Drive current not checked: **unverified**. |
@@ -118,7 +118,7 @@ Two cross-checks showed why this matters:
 | YAGEO 0603 100 nF X7R | C14663 | normal / 999,700 | $0.0056 @100 | Decoupling (×2) |
 | MYOUNG BH-AA-B6AA034 2×AA holder | C51883822 | normal / **49** | $1.0521 @1 | Only for the AA variant. Expensive, and stock is thin. |
 
-**LED electronics note (coin cell):** a CR2032 starts near 3.0 V and is specified to 2.0 V [S12]. The green LED needs up to 3.1 V forward voltage, so it will dim and then fail as the cell ages. Red (1.6–2.6 V) and yellow (1.8–2.4 V) keep working much longer. That is why the **"needs water" signals are red and yellow**, the ones that survive longest. The low-battery warning (section 1) fires before green fails. A coin cell also has high internal resistance, so a big LED current pulse makes the voltage sag. At about 3 mA the 0805 LEDs are visible in shade. Visibility in **direct tropical sun is unverified**, and a small hood or recessed window may be needed.
+**LED electronics note (coin cell), corrected:** a CR2032 starts near 3.0 V and is specified to 2.0 V [S12]. The green LED in the first parts list (KT-0805G) has a forward voltage of 2.6–3.1 V. A worst-case part can therefore be dark, or nearly so, **from a fresh cell**, well above any 2.6 V warning. An earlier version of this study said the low-battery warning fires before green fails; with that part that was not true. The farmer would then see neither "enough water" nor a battery warning, which is exactly the silent failure this design must avoid. The fixes, in order of preference: (1) replace green with a low-Vf yellow-green (AlGaInP, about 570 nm) LED whose **maximum** Vf at the drive current is no more than about 2.4 V, confirmed on the manufacturer's datasheet and lifecycle page; position on the label (left, middle, right) already separates it from yellow; (2) in the 2×AA variant, or if a true green is required, drive it from a GPIO charge pump or small boost stage, at the cost of parts and current; (3) whichever part is used, set the low-battery threshold from a bench measurement of where the dimmest LED stops being clearly visible, with margin, and make every button press produce **some** visible light (a battery pattern if no colour can be shown). Red (1.6–2.6 V) and yellow (1.8–2.4 V) keep working much longer. That is why the **"needs water" signals and the battery warning use red and yellow**, the ones that survive longest. The worst-case behaviour of the replacement part is **unverified** until a prototype is measured. A coin cell also has high internal resistance, so a big LED current pulse makes the voltage sag. At about 3 mA the 0805 LEDs are visible in shade. Visibility in **direct tropical sun is unverified**, and a small hood or recessed window may be needed.
 
 ---
 
@@ -168,7 +168,7 @@ Daily charge at 3.5 µA ≈ 0.30 coulomb. A 1 F supercap discharged from 3.3 V t
 | MCU PY32F002BL15S7TU | LCSC C49424671 | 1 | $0.124 | $0.124 | LCSC data |
 | LED red NCD0805R1 | LCSC C84256 | 1 | $0.0136 | $0.0136 | LCSC data |
 | LED yellow KT-0805Y | LCSC C2296 | 1 | $0.0125 | $0.0125 | LCSC data |
-| LED green KT-0805G | LCSC C2297 | 1 | $0.0166 | $0.0166 | LCSC data |
+| LED, low-Vf yellow-green replacement (part to be chosen; see LED note) | to be selected | 1 | ~$0.02 | ~$0.02 | **estimate**, unverified |
 | Tactile switch TS-1187A | LCSC C318884 | 1 | $0.0216 (@20) | $0.0216 | LCSC data |
 | CR2032 holder BS-01-A4CJ004 | LCSC C964743 | 1 | $0.212 | $0.212 | LCSC data |
 | Resistors 1 MΩ ×2, 330 Ω ×3, 10 kΩ ×1 | LCSC C22935 / C23138 / C25804 | 6 | @100 ladder | $0.0107 | LCSC data |
@@ -237,13 +237,35 @@ The FTC, with the Minnesota and Illinois attorneys general, sued Deere in Januar
 - **Standard parts:** a CR2032 or AA cells sold in village shops, through-hole holder, no proprietary connectors or programming locks beyond readout protection. The firmware image is published so any repairer can re-flash a genuine build.
 - **Second sources** for every active part (PY32F002A, CH32V003; two cell holders).
 
-### 7.5 Who profits, and who is left out
+### 7.5 Licence check
+
+No code, schematics or PCB files from other projects are reused in this study. Before any are, each one's licence file must be read and recorded here.
+
+| Item | Licence (as read) | Consequence for this design |
+|---|---|---|
+| This hardware design (schematic, PCB, probe geometry, enclosure drawings) | Recommend **CERN-OHL-S v2** (https://ohwr.org/cern_ohl_s_v2.txt) | Anyone may build, repair and modify it, but must share changes, so a vendor cannot take the design closed |
+| Firmware written for this design | Recommend **Apache-2.0** (https://www.apache.org/licenses/LICENSE-2.0) | Permissive, with an explicit patent grant; local firms can reuse it |
+| Puya PY32 vendor HAL or examples, if used | **Not checked (UNVERIFIED)** | Do not copy vendor code until its licence is read. Register-level code written from the datasheet avoids the question |
+| WCH CH32V003 vendor examples (second-source MCU), if used | **Not checked (UNVERIFIED)** | Treat as all rights reserved until a licence is confirmed |
+| ch32v003fun open toolkit (CH32V003 alternative), if used | **MIT** (licence file read on 18 November 2026, https://github.com/cnlohr/ch32v003fun) | Compatible; keep the copyright and licence notice |
+| Pictogram label artwork | Must be drawn for this project or taken from a source whose licence allows commercial reuse and changes (UNVERIFIED until chosen) | Local printers must be free to reprint and translate the label |
+
+### 7.6 False reassurance: when a wrong light does harm
+
+The worst failure is not a dead device but a confident wrong answer.
+- **"Enough water" when the root zone is dry.** Causes: probe not pushed to root depth, a poor calibration press, drift in a new soil, a crack opening beside the probe, or salinity. Harm: a farmer skips irrigation during a dry spell. *Rules:* teach that the light speaks for one spot, not the field; re-check calibration each season; publish the known failure soils [S3][S7][S8].
+- **"Water now" when the soil is wet.** Harm: wasted water and pumping cost, and in rice a needless reflood. *Rule:* the rice default respects the mild-AWD limit [S19].
+- **No light at all.** Harm: a farmer reads silence as "fine". *Rule:* every press gives a visible response, including a battery pattern (section 3 LED note).
+- **Rain flag errors.** Dew and splash can set it [section 8, item 7]. *Rule:* the rain flag is a hint, never a reason to skip a check.
+- **Over-trust after a good season.** A sensor can replace the finger test and local knowledge rather than support them. *Rule:* training presents the light as a second opinion, and the device makes no yield claims (rule 5 below).
+
+### 7.7 Who profits, and who is left out
 
 - **Benefits go to farmers who control water timing.** Rainfed households, often the most food-insecure, gain little from an irrigation cue. Without care, distribution could favour already better-off irrigators. Programmes should target groups deliberately and test the "moisture to sow" use for rainfed farmers.
 - **Rebound risk.** Water saved per hectare can be used to irrigate more land, so total extraction from a shared aquifer may not fall. That is a general concern I have **not** sourced here (**unverified**). It needs local water-governance input where groundwater is shared.
 - **Gender and access.** Who in the household receives the device and training affects who benefits. Programmes should record and design for this. This is a design suggestion, not a sourced finding.
 
-### 7.6 Design rules (non-negotiable for this case study)
+### 7.8 Design rules (non-negotiable for this case study)
 
 1. No radio, no GPS, no history log, no unique ID read, no account, no app, in any version distributed to farmers under this design.
 2. Thresholds are set by the farmer or their group, and the method is published.
@@ -267,6 +289,8 @@ The FTC, with the Minnesota and Illinois attorneys general, sued Deere in Januar
 10. **Supply:** the through-hole CR2032 holder has only 330 in stock and the 2×AA holder 49. Qualify second sources. Confirm with each manufacturer that no EOL/NRND notice exists, since LCSC's "normal" flag is necessary but not sufficient.
 11. **Conflict of interest:** confirm the developer affiliation of authors in the Malawi study [S17].
 12. **Evaluation design:** pilot with a comparison group (ideally randomised by farmer group), measuring water, labour, yield and income, before any scale-up.
+13. **Green LED replacement:** choose a low-Vf yellow-green part, confirm it is active on the manufacturer's page, and measure on a bench the supply voltage at which each LED stops being clearly visible in shade and sun. Set the low-battery threshold above the highest of these.
+14. **Licences:** read and record the licence of any vendor HAL, example code or artwork before reuse (section 7.5).
 
 ---
 
@@ -280,7 +304,7 @@ The FTC, with the Minnesota and Illinois attorneys general, sued Deere in Januar
 | PY32F002AF15P6TU | C5292059 | normal | $0.215 @5 / $0.1675 @50 | 47,640 | MCU, more pins |
 | NCD0805R1 (red LED) | C84256 | normal | $0.0136 @50 | 1,946,850 | Dry indicator |
 | KT-0805Y (yellow LED) | C2296 | normal | $0.0125 @50 | 242,800 | Getting dry / rain blink |
-| KT-0805G (green LED) | C2297 | normal | $0.0166 @50 | 2,206,300 | Enough water |
+| KT-0805G (green LED) | C2297 | normal | $0.0166 @50 | 2,206,300 | **Withdrawn** for coin-cell build (Vf up to 3.1 V); replacement to be selected |
 | KT-0603R (red LED) | C2286 | normal | $0.0077 @100 | 6,093,500 | Cost-down alt. |
 | TS-1187A-B-A-B | C318884 | normal | $0.0216 @20 | 471,800 | Button |
 | MLT-8530 | C94599 | normal | $0.1987 @5 / $0.1548 @50 | 108,145 | Optional buzzer |

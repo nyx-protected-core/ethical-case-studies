@@ -1,6 +1,6 @@
 # Sources: worker-owned wage and hours logbook design study (revision 2)
 
-Accessed 18 November 2026 (ICT, UTC+7) unless noted. "Read" means fetched and read this round; "search
+Accessed 18 November 2026 unless noted. "Read" means fetched and read this round; "search
 summary" means the claim rests on a search-result summary of the page, not a full read. LCSC rows were checked
 by fetching `https://www.lcsc.com/product-detail/<C-number>.html` and reading the model, brand, LCSC lifecycle
 label, stock and price ladder on the page. LCSC's lifecycle label is the distributor's, not the manufacturer's.
@@ -13,8 +13,10 @@ label, stock and price ladder on the page. LCSC's lifecycle label is the distrib
   in Fishery Work*, April 2024. Read: inspector findings, bank-transfer-then-withdraw practice, workers' pay
   records, 15% interest. https://hrdfoundation.org/wp-content/uploads/2024/05/2-Fact-Sheet-en.pdf
 - **S3** ILO, *Towards fair seas: Recruitment and working conditions for migrant workers in the fishing and
-  seafood processing sectors in South-East Asia* (2026), and news release of 24 Feb 2026. Search summary plus
-  earlier reading: 20% of migrant fishers in Thailand in forced labour; 15% across both sectors.
+  seafood processing sectors in South-East Asia* (2026), and news release of 24 Feb 2026. News release opened
+  and read on 18 November 2026: 20% of migrant fishers, 13% across both sectors, and 0.4% of processing
+  workers in the regional study (several Asian countries including Thailand, not a Thailand-only rate).
+  https://www.ilo.org/resource/news/survey-highlights-challenging-conditions-faced-migrant-workers-asia%E2%80%99s ;
   https://www.ilo.org/publications/towards-fair-seas-recruitment-and-working-conditions-migrant-workers ;
   https://www.ilo.org/sites/default/files/2026-03/Towards%20fair%20sea%20-%20online%20version%20-%20edited%205Mar26.pdf
 - **S4** ILO news, "Labour Act exclusion leads to low pay and challenging conditions for migrant workers in
@@ -126,12 +128,12 @@ label, stock and price ladder on the page. LCSC's lifecycle label is the distrib
 
 ## Software licences (read from repositories)
 - **S40** Monocypher, `LICENCE.md`: dual 2-clause BSD or CC0; files in `tests/externals/` are public domain.
-  Latest release 4.0.3, published 15 Jun 2026 21:23 UTC (16 Jun 04:23 ICT).
+  Latest release 4.0.3, published 15 Jun 2026 (UTC).
   https://github.com/LoupVaillant/Monocypher/blob/master/LICENCE.md
 - **S41** micro-ecc, `LICENSE.txt`: 2-clause BSD; GitHub reports BSD-2-Clause; not archived.
   https://github.com/kmackay/micro-ecc
-- **S42** TinyCrypt (Intel), `LICENSE`: BSD-style 3-clause; repository archived, last push 5 Mar 2024 15:37
-  UTC (22:37 ICT). https://github.com/intel/tinycrypt . Dropped in revision 2 (see S50).
+- **S42** TinyCrypt (Intel), `LICENSE`: BSD-style 3-clause; repository archived, last push 5 Mar 2024
+  (UTC). https://github.com/intel/tinycrypt . Dropped in revision 2 (see S50).
 - **S43** Microchip CryptoAuthLib, `license.txt`: use "exclusively with Microchip products"; redistribution
   must include the terms. https://github.com/MicrochipTech/cryptoauthlib
 
@@ -194,10 +196,10 @@ label, stock and price ladder on the page. LCSC's lifecycle label is the distrib
 
   https://www.schneier.com/academic/archives/1999/05/secure_audit_logs_to.html
 - **S62** RFC 9180, *Hybrid Public Key Encryption*, 2022. Via the security review. https://www.rfc-editor.org/rfc/rfc9180
-- **S63** Peer review of revision 1: parts, firmware and licences, 18 November 2026. Unpublished internal
-  review (read in full).
-- **S64** Security review of Tier B of revision 1, 18 November 2026. Unpublished internal review (read in
-  full). Its section 11 unverified items are carried in full into the study's list.
+- **S63, S64** Withdrawn. These were two unpublished reviews (parts, firmware and licences; security), not
+  public sources. Claims that rested on them are tagged [not publicly sourced] in the study and are this
+  study's own reasoning, not checked against public evidence. Entries above marked "via the security review"
+  are public papers that the unpublished review pointed to; each is cited by its own public link.
 - **S65** Hériveaux, *Triple Exploit Chain with Laser Fault Injection on a Secure Element* (ATECC608B), FDTC 2022.
   Abstract and slides read via search: EEPROM masking keys recovered; CheckMac and GenDig hijacked; a secret
   data slot read. https://doi.org/10.1109/fdtc57191.2022.00011 ;
@@ -214,7 +216,7 @@ label, stock and price ladder on the page. LCSC's lifecycle label is the distrib
 - **S69** DigiKey, ATECC608B-MAHDA-S. Part Status Active. https://www.digikey.com/en/products/result?keywords=ATECC608B-MAHDA-S
 - **S70** Texas Instruments, TPS7A02 product page. Status ACTIVE. https://www.ti.com/product/TPS7A02
 - **S71** DigiKey, PT17-21B/L41/TR8. Part Status Active.
-- **S72** DigiKey, LS013B7DH03 (425-2903-ND). Part Status Active; 31,403 in stock on 18 November 2026 (UTC+7). Unit prices 12.39 / 7.97 at 100 / 7.74 at 500 match row 10a.
+- **S72** DigiKey, LS013B7DH03 (425-2903-ND). Part Status Active; 31,403 in stock on 18 November 2026. Unit prices 12.39 / 7.97 at 100 / 7.74 at 500 match row 10a.
 
 ## Revisions (18 November 2026, round 7/8 audit)
 
