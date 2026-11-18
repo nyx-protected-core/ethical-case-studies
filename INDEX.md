@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Corruption and accountability worldwide: who pays, what the numbers really say, and what has worked](cases/2026-11-18-corruption-and-accountability/README.md)
 - [2026-11-18 — A structured debate record: two-party politics, populism and equal participation](cases/2026-11-18-structured-debate-record/README.md)
 - [2026-11-18 — In school but not learning: out-of-school children, learning poverty and what actually moves both](cases/2026-11-18-education-access-learning-poverty/README.md)
 - [2026-11-18 — A handpump-failure sensor that texts the maintainer: a low-cost, repairable design study](cases/2026-11-18-handpump-failure-sensor/README.md)
