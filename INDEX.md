@@ -2,6 +2,10 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Academic senates for Ontario's public colleges](cases/2026-11-18-ontario-college-academic-senates/README.md)
+- [2026-11-18 — Full-time faculty in Ontario's public colleges](cases/2026-11-18-ontario-college-full-time-faculty/README.md)
+- [2026-11-18 — Is Texidium "a fraud"? Mandatory digital textbook fees in Ontario colleges](cases/2026-11-18-texidium-and-college-textbook-access/README.md)
+- [2026-11-18 — Statelessness and legal identity: millions with no nationality, and how countries are ending it](cases/2026-11-18-statelessness-and-legal-identity/README.md)
 - [2026-11-18 — Climate justice and loss and damage: who pays when the harm has already happened?](cases/2026-11-18-climate-justice-loss-and-damage/README.md)
 - [2026-11-18 — Digital surveillance and privacy: spyware, AI monitoring, shutdowns and a rights floor for every country](cases/2026-11-18-digital-surveillance-and-privacy/README.md)
 - [2026-11-18 — Corruption and accountability worldwide: who pays, what the numbers really say, and what has worked](cases/2026-11-18-corruption-and-accountability/README.md)
