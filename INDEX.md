@@ -2,6 +2,8 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Men and boys as partners: ending violence against women and building workplace equality](cases/2026-11-18-men-as-partners-violence-prevention/README.md)
+- [2026-11-18 — Opening fields both ways: equal participation through merit, not head-counting](cases/2026-11-18-gender-gaps-both-directions/README.md)
 - [2026-11-18 — Is populism eroding Western democracy? What the evidence supports and what works](cases/2026-11-18-populism-and-western-democracy/README.md)
 - [2026-11-18 — Making evaluation track merit: blind auditions, anonymised CVs, structured interviews and performance reviews](cases/2026-11-18-fair-evaluation-bias/README.md)
 - [2026-11-18 — Open, repairable, low-cost solar charge controller and the ethics of pay-as-you-go lockout](cases/2026-11-18-repairable-solar-charge-controller/README.md)
