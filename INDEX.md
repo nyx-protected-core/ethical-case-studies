@@ -2,6 +2,8 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Protecting children online: policy, prevention and platform design against online child sexual exploitation](cases/2026-11-18-child-online-protection/README.md)
+- [2026-11-18 — Climate-driven displacement: scale, legal gaps, planned relocation, loss and damage, and trafficking risk](cases/2026-11-18-climate-displacement/README.md)
 - [2026-11-18 — Food-system resilience and famine prevention: early warning, anticipatory cash, reserves and export bans](cases/2026-11-18-famine-prevention-food-system-resilience/README.md)
 - [2026-11-18 — A low-cost position and SOS tracker for small Thai fishing vessels, designed so an SOS can't be spotted on air](cases/2026-11-18-thai-fishing-boat-tracker/README.md)
 - [2026-11-18 — Forced labour in Southeast Asia's online-scam compounds: Myanmar, Cambodia, Laos and the Philippines](cases/2026-11-18-scam-compound-forced-labour/README.md)
