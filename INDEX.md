@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Cooperative trade deals: when trade builds peace and cuts poverty, and a compact to get there](cases/2026-11-18-cooperative-trade-deals/README.md)
 - [2026-11-18 — Highly neglected world problems, and a deep look at childhood lead poisoning](cases/2026-11-18-neglected-problems-childhood-lead-poisoning/README.md)
 - [2026-11-18 — Offline rights player: a cheap, untrackable audio device carrying workers' rights and hotline information](cases/2026-11-18-offline-rights-player/README.md)
 - [2026-11-18 — Check before you go: an offline, private web tool against deceptive recruitment](cases/2026-11-18-check-before-you-go-recruiter-checks/README.md)
