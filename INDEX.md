@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Kafala and sponsorship reform in the Gulf](cases/2026-11-18-kafala-sponsorship-reform/README.md)
 - [2026-11-18 — Safe drinking water and sanitation for everyone](cases/2026-11-18-water-and-sanitation/README.md)
 - [2026-11-18 — Forced labour in global supply chains: import bans, due diligence laws and what they do for workers](cases/2026-11-18-supply-chain-forced-labour-laws/README.md)
 - [2026-11-18 — Legal models for commercial sex and their relationship to human trafficking](cases/2026-11-18-commercial-sex-legal-models-trafficking/README.md)
