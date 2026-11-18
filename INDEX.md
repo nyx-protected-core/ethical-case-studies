@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Refugees' right to work: host labour markets, exploitation risk and what the evidence shows](cases/2026-11-18-refugee-right-to-work/README.md)
 - [2026-11-18 — Digital public infrastructure for social protection: reach, exclusion and a privacy-first design](cases/2026-11-18-dpi-social-protection/README.md)
 - [2026-11-18 — The gender pay gap from the systems side: pay transparency, pay-setting design and auditing pay algorithms](cases/2026-11-18-gender-pay-gap-systems/README.md)
 - [2026-11-18 — Global tax cooperation and illicit financial flows, including trafficking money](cases/2026-11-18-tax-cooperation-illicit-flows/README.md)
