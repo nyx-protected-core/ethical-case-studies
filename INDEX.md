@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Algorithmic hiring and worker surveillance: bias audits, algorithmic management of gig work and the Platform Work Directive](cases/2026-11-18-algorithmic-hiring-worker-surveillance/README.md)
 - [2026-11-18 — A sealed, no-radio grain-storage monitor for hermetic bags: humidity warnings without opening the bag](cases/2026-11-18-grain-storage-monitor/README.md)
 - [2026-11-18 — Debt relief and sovereign debt restructuring: when debt service crowds out food, health and schools](cases/2026-11-18-debt-relief/README.md)
 - [2026-11-18 — Protecting children online: policy, prevention and platform design against online child sexual exploitation](cases/2026-11-18-child-online-protection/README.md)
