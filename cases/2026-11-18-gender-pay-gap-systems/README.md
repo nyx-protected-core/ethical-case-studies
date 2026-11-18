@@ -15,7 +15,7 @@ The gender pay gap is the difference between what men and women earn on average.
 3. how negotiation, bonus and performance-rating systems create or remove gaps;
 4. how to audit pay-setting rules, job-evaluation schemes and pay algorithms for bias.
 
-This is only part of the picture. The case does not claim that these factors explain the whole gap, and it reports unadjusted and adjusted figures the way each source states them.
+This is only part of the picture. The case does not claim that these factors explain the whole gap, and it reports unadjusted and adjusted figures the way each source states them. This case examines pay-setting systems, incentive structures and pay transparency only.
 
 ### 1.1 How the gap is measured
 
@@ -35,9 +35,9 @@ Most disagreements about "the" pay gap come from comparing different measures.
 | EU private and public sector, 2024 | Every country with data except Slovenia had a larger gap in the private sector. Eurostat suggests this may be because public pay usually follows open wage grids. | Eurostat [1] |
 | UK, full-time employees (median hourly pay excluding overtime), April 2026 | **6.8%**, down from 7.2% in 2025. It was 9.4% a decade earlier. Figures are provisional. | ONS [3] |
 | UK, all employees, April 2026 | **12.3%** (13.0% in 2025). Part-time employees: -2.1%. | ONS [3] |
-| OECD, median full-time earnings, 2024 | About **10%**. The OECD average fell by about 9 points between 1995 and 2024. | OECD [4] |
+| OECD, median full-time earnings, 2024 | About **10%**. The OECD average has declined by about 9 percentage points since the 1990s. | OECD [4] |
 
-Two points stand out. First, in the EU decomposition most of the gap is *not* explained by measured characteristics. Eurostat itself says the unexplained figure is best read as a "residual gap", not a measure of discrimination [2]. Second, the ONS warns that its figure "is not … of the difference in pay between men and women for doing the same job" [3]. Population statistics like these cannot tell you whether a given employer pays fairly. That question needs within-firm data and an audit (Section 5).
+The official EU unadjusted figure of 11.1% is for 2024, from Eurostat Statistics Explained [1]. The unadjusted 12.2% and adjusted 10.3% figures are from the 2022 Structure of Earnings Survey and should not be subtracted from the 2024 official figure [2]. Two points stand out. First, in the 2022 EU decomposition most of the gap is *not* explained by measured characteristics. Eurostat itself says the unexplained figure is best read as a "residual gap", not a measure of discrimination [2]. Second, the ONS warns that its figure "is not … of the difference in pay between men and women for doing the same job" [3]. Population statistics like these cannot tell you whether a given employer pays fairly. That question needs within-firm data and an audit (Section 5).
 
 ---
 
@@ -116,7 +116,7 @@ The best studies use natural experiments: size thresholds, staggered rollouts or
 
 1. **Transparency works mainly by changing how employers bargain, not by giving women more bargaining power.** The Danish and UK reporting laws narrowed gaps mostly by slowing men's pay [8][9]. Cullen and Pakzad-Hurson give the reason: once pay is visible, a high offer to one worker invites others to renegotiate, so employers hold all wages down [11]. Cullen's review describes the same trade-off. "Horizontal" transparency among coworkers narrows gaps but can lower average pay and lead to harmful comparisons. Transparency *across firms*, such as posted pay ranges, tends to help workers by sharpening competition between employers [16]. Since 2000, 71% of OECD countries have adopted some form of pay transparency [16].
 2. **A narrower gap is not the same as better pay for women.** If a gap closes only because men's pay stops growing, women are not worse off, but they are not better off either. Policy goals should say whether the aim is a smaller gap, higher pay for women, or both.
-3. **Design matters.** Public disclosure plus scrutiny (UK) worked better than internal reports alone (Austria) [9][12]. The OECD's review reaches a similar conclusion: reporting narrows gaps "where well-designed and implemented", with simple compliance, third-party involvement and public access as common features of success [4].
+3. **Design matters.** Public disclosure plus scrutiny (UK) worked better than internal reports alone (Austria) [9][12]. The OECD's review reaches a similar conclusion: reporting narrows gaps "where design and implementation are done effectively", with simple compliance, third-party involvement and public access as common features of success [4].
 4. **Process certification is promising but not yet proven.** Iceland's standard improved how pay is set, but the first evaluation could not separate its effect from the national trend. Researchers also worry that it "lends legitimacy" to differences rooted in occupational segregation [15]. A qualitative study notes that job evaluation has long been criticised for reproducing gender inequality and that work done mostly by women is still undervalued under the standard [17].
 
 ---
@@ -146,7 +146,7 @@ The Directive now bans pay-history questions across the EU (Art. 5(2)) [5]. For 
 - **Performance-reward bias.** In personnel data from a large service organisation, women and minorities received smaller salary increases than white men with *the same* performance scores, even with job, work unit and supervisor held constant [26]. Merit systems "with limited transparency and accountability can actually increase ascriptive bias."
 - **The paradox of meritocracy.** In three experiments with 445 people with management experience, managers gave larger bonuses to men than to equally performing women *when the organisation was described as meritocratic* [27].
 - **Job evaluation and performance-related pay can make gaps look gender-neutral.** Research on these systems finds that the pay they produce reflects gendered cultural views of which jobs are worth more, while the system itself lends the result an air of neutrality [28].
-- **Structured or discretionary pay.** Eurostat's finding that public-sector gaps are smaller where open wage grids are used [1] fits the micro evidence. Rules that are written down, visible and applied the same way to everyone leave less room for bias than discretionary decisions. The cost, as the US academic data show, is a weaker link between pay and individually measured performance [14].
+- **Structured or discretionary pay.** Eurostat's 2024 finding that public-sector gaps are smaller where open wage grids are used [1] fits the micro evidence. Rules that are written down, visible and applied the same way to everyone leave less room for bias than discretionary decisions. The cost, as the US academic data show, is a weaker link between pay and individually measured performance [14].
 
 ### 4.4 Design principles that follow
 
@@ -203,7 +203,7 @@ Each one can be audited the same way: what goes in, what rule applies, what come
 - the part *explained* by different average characteristics;
 - the part *unexplained* by different returns to the same characteristics.
 
-Eurostat applies this method to EU data [2]. Inside a firm, the unexplained part is the first thing to investigate. It is not proof of discrimination, and the explained part is not proof that pay is fair.
+Eurostat applies this method to the 2022 Structure of Earnings Survey data [2]. Inside a firm, the unexplained part is the first thing to investigate. It is not proof of discrimination, and the explained part is not proof that pay is fair.
 
 **Step 6: Rule-by-rule disparate-impact tests.** Test each pay-setting rule on its own:
 - *Bands:* are women more often placed low in their band at entry?
@@ -347,14 +347,14 @@ Transparency between coworkers can narrow gaps by holding down everyone's pay, e
 - Collecting data on grounds other than sex is not required by the Directive [5]. Intersectional analysis may be useful, but it needs a legal basis and strong privacy protection.
 
 ### 6.7 What this case leaves out
-These pay-system levers can narrow the part of the gap that comes from how employers set and review pay. They do not address every cause, so even a well-audited firm can show a raw gap, as population figures show [1][2][3].
+These pay-system levers can narrow the part of the gap that comes from how employers set and review pay. They do not address every cause, so even a well-audited firm can show a raw gap, as population figures show [1][2][3]. This case examines pay-setting systems, incentive structures and pay transparency only.
 
 ---
 
 ## 7. Recommendations, ranked by strength of evidence
 
 1. **Public, mandatory reporting with scrutiny (strong evidence of a modest effect).** Public reporting narrowed gaps in the UK and Denmark [8][9]. Internal-only reporting without enforcement did not work in Austria [12]. Make reports public, simple and verified, and where possible compute them from administrative data, as the OECD recommends [4].
-2. **Pay ranges in job ads and bans on pay-history questions (good quasi-experimental evidence).** These raised women's pay rather than holding men's down [23][24][25], and they are now law across the EU [5]. Tell candidates explicitly that pay is negotiable [18].
+2. **Bans on pay-history questions (good quasi-experimental evidence) and pay ranges in job ads (limited evidence so far).** Salary-history bans have quasi-experimental evidence of raising women's pay rather than holding men's down [23][24][25], and the ban is now law across the EU [5]. For pay ranges in job advertisements, the OECD's 2026 review finds that evidence on efficacy remains limited and that further evaluation is needed to determine what works [4]. Tell candidates explicitly that pay is negotiable [18].
 3. **Neutral anchors in pay-setting tools (strong evidence from one setting).** Defaults based on market data removed the ask gap completely on one platform [21]. Any offer system can copy this design.
 4. **Rule-based conversion of ratings into pay, with audits (good observational and experimental evidence).** Performance-reward bias and the paradox of meritocracy show that discretion and a culture that calls itself meritocratic do not ensure fairness [26][27]. Turn ratings into pay with written formulas, record reasons for discretion, and test outcomes for people with equal ratings.
 5. **Gender-neutral job evaluation that is itself audited (accepted practice; evidence on effect still emerging).** Follow the ILO process [29]. Review factor weights for undervalued work, as the Directive requires [5]. Do not treat a certificate as proof of fairness [15][17][28].
