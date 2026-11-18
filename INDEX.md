@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Affordable access to essential medicines: TRIPS flexibilities, compulsory licences, the Patent Pool, local manufacturing and the Pandemic Agreement](cases/2026-11-18-essential-medicines-access/README.md)
 - [2026-11-18 — Child and forced marriage: scale, what works, law, economic shocks and links to trafficking](cases/2026-11-18-child-and-forced-marriage/README.md)
 - [2026-11-18 — Algorithmic hiring and worker surveillance: bias audits, algorithmic management of gig work and the Platform Work Directive](cases/2026-11-18-algorithmic-hiring-worker-surveillance/README.md)
 - [2026-11-18 — A sealed, no-radio grain-storage monitor for hermetic bags: humidity warnings without opening the bag](cases/2026-11-18-grain-storage-monitor/README.md)
