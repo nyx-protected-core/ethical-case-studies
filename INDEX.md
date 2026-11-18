@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Recruitment fees and debt bondage: the Employer Pays Principle, fee bans along migration corridors and fee repayment](cases/2026-11-18-recruitment-fees-debt-bondage/README.md)
 - [2026-11-18 — Where the next dollar works against hunger: comparing financing routes for food insecurity (companion to the financing food security case)](cases/2026-11-18-food-financing-routes-cost-effectiveness/README.md)
 - [2026-11-18 — Living wages in global supply chains: benchmarks, purchasing practices and binding approaches that worked](cases/2026-11-18-living-wages-supply-chains/README.md)
 - [2026-11-18 — Remittances and migrant financial inclusion: transfer costs, corridors, mobile money, recruitment debt and de-risking](cases/2026-11-18-remittances-migrant-financial-inclusion/README.md)
