@@ -6,6 +6,8 @@ Status date: 18 Nov 2026. Every figure below carries a source tag `[S#]` that po
 
 Water and sanitation are a textbook case of a basic need that is cheap to meet at the margin for the well-off and expensive for the poor. Piped networks are natural monopolies, the poorest households are usually the last to be connected, and the costs of failure (diarrhoeal disease, time spent fetching water, unsafe sanitation, chronic arsenic exposure) fall hardest on people with the least political voice. The ethical questions are therefore distributive (who pays and who gets the subsidy), institutional (who runs the service, public or private, and how they are held to account) and evidential (which interventions actually work, and what do we do when a well-designed trial finds no effect).
 
+This study covers SDG targets 6.1 (drinking water) and 6.2 (sanitation and hygiene). It also touches source protection, which sits next to target 6.6 (water-related ecosystems). It does not assess wastewater treatment and water quality (6.3), water-use efficiency and scarcity (6.4), integrated water resources management (6.5), international cooperation (6.a), or, except in recommendation 9, the participation of local communities in water and sanitation management (6.b) [S59]. Target 6.b bears directly on the accountability argument in this study: services fail when communities cannot see, question or help decide how water points and utilities are run.
+
 ## 2. Where the world stands: the JMP 2025 update
 
 The latest household report of the WHO/UNICEF Joint Monitoring Programme (JMP), *Progress on household drinking water, sanitation and hygiene 2000-2024: special focus on inequalities*, was published in August 2025 [S1][S2]. As of 18 Nov 2026 the JMP report page still lists it as the current household report; the site also shows 2026 updates for schools and health care facilities, which are outside this case study [S3].
@@ -289,7 +291,7 @@ In 1997 Jakarta's water utility, PAM Jaya, signed 25-year concessions with two p
 6. **Go beyond household-level packages for health.** Aim for community-wide sanitation coverage and safely managed water on premises [S21].
 7. **Protect the water source.** Include groundwater monitoring, arsenic and fluoride testing, and climate-risk assessment in every new scheme [S47][S48][S50][S51].
 8. **Open the data.** Publish water-point functionality data in the WPDx standard so citizens, researchers and governments can see which points work [S57][S58].
-9. **Make the right enforceable.** Use the 2010 rights resolutions to set minimum service and affordability standards and grievance routes. Jakarta shows courts can be a venue, but outcomes are uncertain [S31][S33][S39].
+9. **Make the right enforceable, and give communities a part in it.** Use the 2010 rights resolutions to set minimum service and affordability standards and grievance routes. Jakarta shows courts can be a venue, but outcomes are uncertain [S31][S33][S39]. SDG target 6.b asks governments to support and strengthen the participation of local communities in improving water and sanitation management [S59]. That is part of the same accountability duty: publish who is served, who is not, and how a complaint is heard, and give users a formal role in those decisions.
 
 ## 12. Limits of this case study
 
@@ -297,3 +299,10 @@ In 1997 Jakarta's water utility, PAM Jaya, signed 25-year concessions with two p
 - PPWSA and P1MC evidence is largely descriptive, not causal.
 - Status claims (JMP report currency, Jakarta post-concession arrangements, JJM figures) are dated 18 Nov 2026 or to the date of the source, and may have changed.
 - Not checked: the West Zone re-tendering in Manila and later contract revisions; independent JJM functionality data; the remunicipalisation count's primary source.
+- SDG targets 6.3 to 6.a are out of scope, except for the brief mention of source protection. Target 6.b is taken up only in recommendation 9.
+
+## Revisions (18 November 2026, round 7/8 audit)
+
+- Stated the study's scope in SDG 6 terms: it covers targets 6.1 and 6.2, touches 6.6, and does not assess 6.3, 6.4, 6.5 or 6.a.
+- Linked target 6.b, participation of local communities, to recommendation 9 on enforceability and accountability.
+

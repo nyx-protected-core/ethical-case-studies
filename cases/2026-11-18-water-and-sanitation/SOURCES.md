@@ -6,7 +6,7 @@ Status date: 18 Nov 2026.
 
 - **DOIs:** each DOI was resolved through doi.org (HTTP 302 redirect confirmed). Its title, authors, venue and year were then checked against Crossref metadata. Abstracts were read from Crossref, OpenAlex, Semantic Scholar or Europe PMC, and every figure taken from an abstract was checked against that text.
 - **Web pages and PDFs:** each was fetched directly (curl, or a web-fetch service where the site blocked curl), and the cited figures were found in the fetched text.
-- **Labels in CASE-STUDY.md:**
+- **Labels in README.md:**
   - **(unverified)**: claims we could not confirm.
   - **(attributed)**: figures a verified source reports from a study we did not open.
   - **(our arithmetic)**: our own calculations.
@@ -14,8 +14,8 @@ Status date: 18 Nov 2026.
 
 ## Counts
 
-- Cited sources: 58.
-  - Verified: 58. For DOIs, doi.org and Crossref both checked and the content read; for links, fetched and the figures found.
+- Cited sources: 59.
+  - Verified: 59. For DOIs, doi.org and Crossref both checked and the content read; for links, fetched and the figures found.
   - Partly verified: 0.
   - Unverified: 0.
 - Claims in the text explicitly labelled unverified: 3:
@@ -90,6 +90,8 @@ Status date: 18 Nov 2026.
 | S57 | Water Point Data Exchange (WPDx), home page | NGO platform | https://www.waterpointdata.org/ | Purpose; data standard; Global Water Challenge | Fetched (web-fetch) |
 | S58 | WPDx data portal | NGO data platform | https://data.waterpointdata.org/ | Open access to the full dataset | Fetched |
 
+- **S59** United Nations, Sustainable Development Goal 6, official targets and indicators. Target 6.3 (water quality and wastewater), 6.4 (water-use efficiency and scarcity), 6.5 (integrated water resources management), 6.6 (water-related ecosystems), 6.a (international cooperation) and 6.b ("Support and strengthen the participation of local communities in improving water and sanitation management"). https://sdgs.un.org/goals/goal6 (page opened 18 November 2026).
+
 ## Checked but not cited
 
 | Source | Identifier | Reason not cited |
@@ -103,3 +105,9 @@ Status date: 18 Nov 2026.
 | FundiFix model paper (Loughborough repository) | https://dspace.lboro.ac.uk/2134/31331 | HTTP 403; S27–S29 cover the evidence |
 | UN Mandate Registry entry for A/HRC/RES/15/9 | https://mandates.un.org/mandate/A/HRC/RES/15/9 | Fetched; the resolution itself (S33) is cited |
 | British Geological Survey NORA record for the 2001 arsenic report | http://nora.nerc.ac.uk/11986 | HTTP 500; its exposure estimate (35 million above 50 µg/L) is therefore not used |
+
+## Revisions (18 November 2026, round 7/8 audit)
+
+- Corrected the method section so that labels refer to README.md, not CASE-STUDY.md.
+- Added S59, the official SDG 6 target list, including target 6.b.
+

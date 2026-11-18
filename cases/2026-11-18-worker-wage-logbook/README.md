@@ -54,20 +54,24 @@ distributor's label, not a manufacturer lifecycle notice.
   - **Rejected: a passive NFC card written by an employer-side reader** (section 2.4).
 - **Cost.**
   - Verified LCSC core parts for Tier B cost USD **4.41 at qty 100 and 3.80 at 1000** without the display.
-  - The display, from an authorised distributor, adds about USD **12.39 / 7.97 / 7.74** at qty 1 / 100 / 500
-    (stock **UNVERIFIED**).
+  - The display, from an authorised distributor, adds about USD **12.39 / 7.97 / 7.74** at qty 1 / 100 / 500.
+    DigiKey showed **31,403** in stock on 18 November 2026 (UTC+7); that stock figure is confirmed. One
+    aggregator listed the same part as "Obsolete", so manufacturer lifecycle is still noted in the parts table.
   - A whole unit is roughly **USD 40–62 / 22–30 / 17–22** at 1 / 100 / 1000, using unverified estimates for
     PCB, assembly and enclosure (section 2.7).
 - **Honest limits.**
-  - **What a log can prove.** A self-kept log is admissible in Thailand but not self-proving. Its weight depends
-    on how it was generated, stored and kept intact, and how its originator is identified [S15]. Tamper evidence
-    shows records were not changed after entry; it cannot show they are true. A captain who holds the worker
-    can force entries, an unlock or an erase (section 7). The design aims to reveal little when forced, to
-    survive the device's loss, and never to deceive the employer.
+  - **What a log can prove.** A self-kept electronic log (Tier B) may not be refused as evidence solely because
+    it is electronic. ET Act section 11 covers data messages; its weight depends on how the record was generated,
+    stored and kept intact, and how its originator is identified [S15]. Tamper evidence shows records were not
+    changed after entry; it cannot show they are true. The admissibility and weight of a *paper* log (Tier A)
+    under Labour Court procedure is for the legal-aid lawyers to confirm (**UNVERIFIED**). A captain who holds
+    the worker can force entries, an unlock or an erase (section 7). The design aims to reveal little when
+    forced, to survive the device's loss, and never to deceive the employer.
   - **What a lab can do.** A well-funded laboratory could extract the encryption key, and anything derived from
     a PIN or pattern.
 - **Go/no-go.** No hardware until worker groups, legal-aid lawyers and an inspectorate contact confirm need,
-  safety and evidential weight (sections 1.5 and 6).
+  safety and evidential weight (sections 1.5 and 6). The paper-logbook pilot has a further go/no-go: co-design
+  must first decide whether a book that can be discovered by the employer is acceptably safe (section 2.1).
 
 ---
 
@@ -142,8 +146,10 @@ Qualitative evidence:
   Thai law.
 
 **Honest assessment.**
-- A worker's self-recorded log is admissible and can be persuasive, especially with inspectors when the
-  employer's records are absent or plainly fictitious [S2][S15].
+- A worker's self-recorded *electronic* log is admissible under ET Act section 11 and can be persuasive,
+  especially with inspectors when the employer's records are absent or plainly fictitious [S2][S15]. The
+  admissibility and weight of a paper log under Labour Court procedure is **UNVERIFIED** and should be
+  confirmed by legal-aid lawyers before the Tier A pilot relies on it as evidence.
 - On its own it does not prove the truth of what is written.
 - What adds credibility, in rough order of value:
   1. Entries made at the time, with a visible gap between the entry time and the event time.
@@ -209,6 +215,24 @@ where partners confirm phones fail.
   - It can be confiscated or destroyed.
   - It is conspicuous, and it needs some literacy for numbers.
 
+**Threat analysis for the paper book (Tier A).** Section 4.2 analyses threats to the handheld. The paper
+book is the recommended first pilot, and it has a different residual risk. It records deductions, debts and
+confiscated documents in plain view. A captain who finds it learns that the worker is building a record of
+underpayment, and an NGO stamp or logo shows who is helping. The case's own principle is that a device
+handed out by labour advocates could mark its holder as a complainant; the same is true of a stamped book.
+
+| Threat | What the employer learns | Residual harm | Mitigation to test in co-design |
+|---|---|---|---|
+| Discovers or confiscates the book | That the worker is keeping a record; the pattern of hours, cash, deductions and debts | Retaliation, dismissal, violence, or destruction of the only copy | Neutral cover that does not name labour rights or an NGO; a small format that can be kept with other personal papers; a carbon copy left ashore with a person the worker chooses |
+| Forces the worker to read or hand over the book | The wording of complaints, the size of debts, and which documents were taken | The employer can prepare a false counter-record or punish named grievances | Icon and number columns rather than narrative words; codes for deduction types instead of phrases such as "document fee" or "debt"; no worker or employer names in the book (the serial number is the identifier) |
+| Reads the NGO stamp, signature or logo | Which organisation is helping the worker | The stamp identifies a helper and can be used to intimidate the worker or the NGO | A date-and-initials mark without an organisational name or logo, if co-design and the lawyers agree it still anchors the page; otherwise accept that a visible stamp is a reason not to run the pilot on that site |
+| Finds or demands the carbon copy | A second readable record of the same complaints | Loss of the ashore backup | Keep the copy off the workplace, with a trusted person, not in a shared locker or bag |
+| NGO photographs of the pages are later seized, leaked or demanded | A durable copy of the same sensitive record, held by the NGO | The photographs can outlive the book and may be requested by an employer, a court, or a hostile official | Written retention rules: store photographs encrypted, limit who can open them, set a deletion date, and obtain case-specific consent before any further use; do not keep them on personal phones |
+
+These mitigations reduce exposure; they cannot remove it. Whether a paper book should be piloted at all
+is a **go/no-go question for co-design** with worker groups and legal-aid lawyers, on a site-by-site basis.
+If they judge that discovery is too likely or too dangerous in that workplace, Tier A should not proceed
+there, even though it is cheaper than the handheld.
 
 ### 2.2 Option (b): offline handheld with a signed, encrypted, hash-chained log (Tier B)
 
@@ -227,8 +251,9 @@ where partners confirm phones fail.
   - **Power gates:** two AO3401A P-MOSFETs, one for the flash and one for the IR receiver.
 
 - **MCU: STM32L031F6P6 (peer-review must-fix 4).**
-  - Datasheet: 32 KB flash, 8 KB SRAM, 1 KB EEPROM; 0.6 µA in Stop mode with RTC and full 8 KB RAM retention;
-    TSSOP-20 [S45].
+  - Datasheet: 32 KB flash, 8 KB SRAM, 1 KB EEPROM; TSSOP-20. The LCSC-linked datasheet gives 0.6 µA in
+    Stop mode with RTC and full 8 KB RAM retention [S45]. ST's product page gives **0.68 µA** for that
+    state [S68]. This budget uses 0.68 µA. The annual total barely changes.
   - LCSC: `normal`, 31 in stock, which is enough for a 20–30-unit pilot [S27].
   - Why not the STM32L011F4P6 (16 KB flash, 2 KB SRAM [S26])? Once an IR bootloader and update path are
     included, the peer review estimates about 11–20 KB of code, leaving no room for a fallback image [S63].
@@ -295,33 +320,35 @@ where partners confirm phones fail.
 
 Prices are unit prices in USD at qty 1 (or the smallest tier, shown in brackets) / 100 / 1000. LCSC rows were
 re-read from each product page on 18 Nov 2026 (ICT). "Verified" = Y means the page was fetched and matched the
-part, brand, ladder, stock and lifecycle label. "Buyable today" means in stock at the named source on that
-date.
+part, brand, ladder, stock and LCSC lifecycle label. "Buyable today" means in stock at the named source on that
+date. **LCSC `normal` is the distributor's label, not a manufacturer lifecycle notice.** Manufacturer or DigiKey
+status was read on 18 November 2026 (UTC+7). Lifecycle is stated as confirmed only where that manufacturer or
+DigiKey status was read. All other rows are marked **verify lifecycle with manufacturer**.
 
-| # | Part | Function | Source # | Qty/unit | USD @1 / @100 / @1000 | Stock (18 Nov) | LCSC lifecycle | Buyable today | Verified |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | ST STM32L031F6P6 (TSSOP-20) | MCU: RTC, UI, log control, IR | LCSC C115208 | 1 | 2.3407 / 1.5676 / 1.4355 | 31 | normal | Y (pilot qty only) | Y |
-| 2 | Epson Q13FC13500004 32.768 kHz ±20 ppm | RTC crystal | LCSC C32346 | 1 | 0.1539 (5) / 0.1177 / 0.0843 | 236,000 | normal | Y | Y |
-| 3 | Microchip ATECC608B-MAHDA-S (UDFN-8 2×3) | Secure element: keys, ECDSA, ECDH, AES, RNG, counters | LCSC C1518773 | 1 | 1.7324 / 1.1242 / 1.0122 | 187 | normal | Y | Y |
-| 4 | Winbond W25Q16JVSSIQ 16 Mbit | Encrypted log storage | LCSC C131025 | 1 | 1.2114 (5) / 1.0660 / 0.8280 | 235 | normal | Y | Y |
-| 5 | XKB TS-1187A-B-A-B | Tactile button | LCSC C318884 | 4 | 0.0216 (20) / 0.0216 / 0.0149 | 471,700 | normal | Y | Y |
-| 6 | TI TPS7A0230PDBVR 3.0 V | LDO for 3×AAA | LCSC C3747031 | 1 | 0.3219 / 0.2245 / 0.2097 | 27,040 | normal | Y | Y |
-| 7 | Everlight IR17-21C/TR8 940 nm | IR export transmitter | LCSC C131250 | 1 | 0.0591 (10) / 0.0463 / 0.0351 | 26,380 | normal | Y | Y |
-| 8 | Everlight PT17-21B/L41/TR8 (black lens) | IR export receiver | LCSC C146237 | 1 | 0.0608 (10) / 0.0481 / 0.0370 | 280 | normal | Y | Y |
-| 9 | AOS AO3401A | Power gates for flash and IR receiver | LCSC C15127 | 2 | 0.0821 (5) / 0.0647 / 0.0483 | 891,435 | normal | Y | Y |
-| — | **Verified LCSC core, rows 1–9, without display** | | | | **6.13 / 4.41 / 3.80** | | | | Y |
-| 10a | Sharp LS013B7DH03 1.28" memory LCD | Display, option D1 | DigiKey 425-2903-ND | 1 | 12.39 / 7.97 / 7.74 (500+) | 31,403 at DigiKey; LCSC C17302968: 0 | LCSC: normal; DigiKey: "Active"; one aggregator: "Obsolete" | **UNVERIFIED** | Page read (DigiKey); LCSC Y |
-| — | **Core with display D1** | | | | **18.52 / 12.38 / 11.54** | | | | Partly |
-| 10b | Custom segment LCD glass with STM32L053C8T6 (LCSC C458472) | Display, option D2 | — | 1 | MCU 6.4980 / 4.5589; glass **UNVERIFIED** | MCU: 96 | normal | MCU only | MCU Y; glass N |
-| A1 | ST STM32L011F4P6 | Revision 1 MCU, now a later shrink option | LCSC C87903 | (1) | 1.5454 / 0.9112 / 0.8047 | 2,494 | normal | Y | Y |
-| A2 | Microchip ATECC608B-SSHDA-B (SOIC-8) | Revision 1 secure element, replaced (easy to clip) | LCSC C5444784 | (1) | 1.1150 / 0.7113 / 0.6369 | 109 | normal | Y | Y |
-| A3 | Everlight PT17-21C/L41/TR8 (clear lens) | Revision 1 IR receiver, replaced (sees daylight) | LCSC C100090 | (1) | 0.0608 (10) / 0.0490 / 0.0388 | 28,320 | normal | Y | Y |
-| A4 | TE BAT-HLD-001 CR2032 holder | Coin-cell variant only | LCSC C7501066 | (1) | 0.9722 / 0.6134 / 0.5324 | 1,283 | normal | Y | Y |
-| A5 | STM32L051K8T6 (64 KB, LQFP-32) | Larger MCU if needed | LCSC C915970 | (1) | 3.7578 / 2.5795 (250) / 2.3632 | 348 | normal | Y | Y |
-| A6 | Macronix MX25R1635FM1IL0 (1.65–3.6 V) | Wide-voltage flash, only if the display changes | LCSC C2802815 | (1) | 1.0687 / 1.0406 / — | 8 | normal | Low | Y |
-| A7 | HS HS91L02W2C01 0.91" OLED | Rejected display | LCSC C5248081 | (1) | 2.3668 / 1.5790 / 1.4617 | 2,358 | normal | Y | Y |
-| A8 | RV-3028-C7; BM8563ESA; STM32U031F8P6; GD25Q16CSIG | Alternatives from revision 1, not needed | C3019759; C269877; C22808553; C79074 | — | see revision 1 values [S37][S27][S30] | 0; 51,806; 0; 0 | normal | mixed | Y |
-| N1 | NXP NTAG 424 DNA (C1136942) and NTAG216 (C1574631) | Option (c), rejected | LCSC | — | 0.3141 / 0.1844 / 0.1592; 0.5248 / 0.5248 / 0.1935 | 0; 0 | normal | N | Y |
+| # | Part | Function | Source # | Qty/unit | USD @1 / @100 / @1000 | Stock (18 Nov) | LCSC label | Manufacturer / DigiKey status (18 Nov 2026) | Buyable today | Verified |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | ST STM32L031F6P6 (TSSOP-20) | MCU: RTC, UI, log control, IR | LCSC C115208 | 1 | 2.3407 / 1.5676 / 1.4355 | 31 | normal | **Active** on the ST product page; 10-year longevity commitment from 2026-01-01 [S68] | Y (pilot qty only) | Y |
+| 2 | Epson Q13FC13500004 32.768 kHz ±20 ppm | RTC crystal | LCSC C32346 | 1 | 0.1539 (5) / 0.1177 / 0.0843 | 236,000 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| 3 | Microchip ATECC608B-MAHDA-S (UDFN-8 2×3) | Secure element: keys, ECDSA, ECDH, AES, RNG, counters | LCSC C1518773 | 1 | 1.7324 / 1.1242 / 1.0122 | 187 | normal | DigiKey **Part Status Active** [S69] | Y | Y |
+| 4 | Winbond W25Q16JVSSIQ 16 Mbit | Encrypted log storage | LCSC C131025 | 1 | 1.2114 (5) / 1.0660 / 0.8280 | 235 | normal | Listed on DigiKey; no status shown. **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| 5 | XKB TS-1187A-B-A-B | Tactile button | LCSC C318884 | 4 | 0.0216 (20) / 0.0216 / 0.0149 | 471,700 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| 6 | TI TPS7A0230PDBVR 3.0 V | LDO for 3×AAA | LCSC C3747031 | 1 | 0.3219 / 0.2245 / 0.2097 | 27,040 | normal | **ACTIVE** on the TI product page [S70] | Y | Y |
+| 7 | Everlight IR17-21C/TR8 940 nm | IR export transmitter | LCSC C131250 | 1 | 0.0591 (10) / 0.0463 / 0.0351 | 26,380 | normal | Listed on DigiKey; no status shown. **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| 8 | Everlight PT17-21B/L41/TR8 (black lens) | IR export receiver | LCSC C146237 | 1 | 0.0608 (10) / 0.0481 / 0.0370 | 280 | normal | DigiKey **Part Status Active** [S71] | Y | Y |
+| 9 | AOS AO3401A | Power gates for flash and IR receiver | LCSC C15127 | 2 | 0.0821 (5) / 0.0647 / 0.0483 | 891,435 | normal | Listed on DigiKey; no status shown. **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| — | **Verified LCSC core, rows 1–9, without display** | | | | **6.13 / 4.41 / 3.80** | | | | | Y |
+| 10a | Sharp LS013B7DH03 1.28" memory LCD | Display, option D1 | DigiKey 425-2903-ND | 1 | 12.39 / 7.97 / 7.74 (500+) | 31,403 at DigiKey (confirmed); LCSC C17302968: 0 | LCSC: normal | DigiKey **Part Status Active**; one aggregator listed the part as "Obsolete" [S72] | Y at DigiKey | Page read (DigiKey); LCSC Y |
+| — | **Core with display D1** | | | | **18.52 / 12.38 / 11.54** | | | | | Partly |
+| 10b | Custom segment LCD glass with STM32L053C8T6 (LCSC C458472) | Display, option D2 | — | 1 | MCU 6.4980 / 4.5589; glass **UNVERIFIED** | MCU: 96 | normal | MCU and glass: **verify lifecycle with manufacturer** (**UNVERIFIED**) | MCU only | MCU Y; glass N |
+| A1 | ST STM32L011F4P6 | Revision 1 MCU, now a later shrink option | LCSC C87903 | (1) | 1.5454 / 0.9112 / 0.8047 | 2,494 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| A2 | Microchip ATECC608B-SSHDA-B (SOIC-8) | Revision 1 secure element, replaced (easy to clip) | LCSC C5444784 | (1) | 1.1150 / 0.7113 / 0.6369 | 109 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| A3 | Everlight PT17-21C/L41/TR8 (clear lens) | Revision 1 IR receiver, replaced (sees daylight) | LCSC C100090 | (1) | 0.0608 (10) / 0.0490 / 0.0388 | 28,320 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| A4 | TE BAT-HLD-001 CR2032 holder | Coin-cell variant only | LCSC C7501066 | (1) | 0.9722 / 0.6134 / 0.5324 | 1,283 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| A5 | STM32L051K8T6 (64 KB, LQFP-32) | Larger MCU if needed | LCSC C915970 | (1) | 3.7578 / 2.5795 (250) / 2.3632 | 348 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| A6 | Macronix MX25R1635FM1IL0 (1.65–3.6 V) | Wide-voltage flash, only if the display changes | LCSC C2802815 | (1) | 1.0687 / 1.0406 / — | 8 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Low | Y |
+| A7 | HS HS91L02W2C01 0.91" OLED | Rejected display | LCSC C5248081 | (1) | 2.3668 / 1.5790 / 1.4617 | 2,358 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | Y | Y |
+| A8 | RV-3028-C7; BM8563ESA; STM32U031F8P6; GD25Q16CSIG | Alternatives from revision 1, not needed | C3019759; C269877; C22808553; C79074 | — | see revision 1 values [S37][S27][S30] | 0; 51,806; 0; 0 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | mixed | Y |
+| N1 | NXP NTAG 424 DNA (C1136942) and NTAG216 (C1574631) | Option (c), rejected | LCSC | — | 0.3141 / 0.1844 / 0.1592; 0.5248 / 0.5248 / 0.1935 | 0; 0 | normal | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | N | Y |
 | X1 | 3×AAA holder contacts or a moulded battery bay | Power | — | 1 | ~0.3–1 | — | — | — | N (**UNVERIFIED**) |
 | X2 | Passives, including a reservoir capacitor | — | — | ~15 | ~0.10–0.30 total | — | — | — | N (**UNVERIFIED**) |
 | X3 | 2-layer PCB and assembly (4-layer if I²C traces go on an inner layer) | — | — | 1 | ~15–30 / ~3–6 / ~1.5–3 | — | — | — | N (**UNVERIFIED estimate**) |
@@ -332,10 +359,12 @@ date.
 Notes:
 - **Qty-1 column.** It mixes in minimum-order tiers (5 crystals, 5 flash chips, 20 buttons, 10 of each IR
   part, 5 MOSFETs), so a one-off build pays for those minimums [S63].
-- **Manufacturer lifecycle.**
-  - ST lists the STM32L011F4P6 as Active, with a 10-year longevity commitment, per the peer review [S63]. I did
-    not re-read ST's page.
-  - Lifecycle status for the other parts is **UNVERIFIED**.
+- **Manufacturer lifecycle.** Confirmed from the manufacturer or from a DigiKey "Part Status Active" field on
+  18 November 2026 (UTC+7): STM32L031F6P6 (ST, Active, 10-year longevity from 2026-01-01), ATECC608B-MAHDA-S
+  (DigiKey Active), TPS7A0230PDBVR (TI ACTIVE), PT17-21B/L41/TR8 (DigiKey Active), and LS013B7DH03 (DigiKey
+  Active; one aggregator listed it as "Obsolete"). All other named parts, including the STM32L053C8T6 and
+  alternates A1–A8, are marked **verify lifecycle with manufacturer**. An LCSC `normal` label is not treated
+  as manufacturer confirmation.
 - **Discarded C-numbers.** Revision 1 noted two C-numbers that now open unrelated parts (C91756 and C70377).
   They are not used.
 
@@ -369,7 +398,7 @@ Budget at 3.0 V. Typical figures are from datasheets; the margins are mine.
 
 | State | Contributors | Current |
 |---|---|---|
-| Sleep, clock face shown (default) | MCU Stop + RTC + 8 KB RAM: 0.6 µA [S45]; LCD hold: 12–50 µW, about 4–17 µA [S31]; secure element sleep: 0.03–0.15 µA [S29]; LDO quiescent current about 25 nA [S36]; low-power timer producing EXTCOMIN, plus one wake a minute to redraw the minutes (**UNVERIFIED**, assumed under 1 µA) | **about 5–18 µA** [S63] |
+| Sleep, clock face shown (default) | MCU Stop + RTC + 8 KB RAM: 0.68 µA on ST's product page [S68] (0.6 µA in the LCSC-linked datasheet [S45]); LCD hold: 12–50 µW, about 4–17 µA [S31]; secure element sleep: 0.03–0.15 µA [S29]; LDO quiescent current about 25 nA [S36]; low-power timer producing EXTCOMIN, plus one wake a minute to redraw the minutes (**UNVERIFIED**, assumed under 1 µA) | **about 5–18 µA** [S63] |
 | Sleep, blank screen (coin-cell variant) | As above, with the LCD power-gated | about 0.7–2 µA |
 | Active UI, per entry (~20 s) | MCU plus LCD updates, about 1 mA (**UNVERIFIED**) | ~20 mA·s |
 | Encrypt, sign and write one record | AES and ECDSA in the secure element: 3 mA max at clock divider 0xD [S29]; command times are in the NDA datasheet (**UNVERIFIED**, about 0.2–0.5 s assumed); flash program 20–25 mA for ≤3 ms | ~1–2 mA·s |
@@ -1121,6 +1150,15 @@ security must-fixes and seven hardware must-fixes are adopted at equal rank.
 54. Whether Thai labour inspectors or courts give weight to signed device logs, and whether a self-wipe could
     be treated as destroying evidence.
 55. The likely hardware-attack capacity of employers in this sector (a threat-level judgement). Also, two
-    sources were read only in part: the flash-erase-suppression journal paper (blocked by a bot wall; known
+    sources were read only in part: the flash-erase-suppression journal paper (blocked by an access wall; known
     only through the advisory that cites it) and the "Shaping the Glitch" paper (read in a search excerpt of
     its PDF).
+
+## Revisions (18 November 2026, round 7/8 audit)
+
+- Stated part lifecycle as confirmed only where a manufacturer page or a DigiKey "Part Status Active" field was read: STM32L031F6P6, ATECC608B-MAHDA-S, TPS7A0230PDBVR, PT17-21B/L41/TR8 and LS013B7DH03. All other named parts are marked "verify lifecycle with manufacturer". An LCSC `normal` label is no longer treated as manufacturer confirmation.
+- Added a threat analysis for the paper logbook (Tier A), covering discovery, forced reading, retaliation, the NGO stamp as an identifier, and photographs held by the NGO, with mitigations and a site-by-site go/no-go for co-design.
+- Clarified that ET Act section 11 covers the Tier B electronic record, and that the admissibility of a paper log under Labour Court procedure is unverified.
+- Used ST's published 0.68 µA Stop-mode figure in the power budget (the annual total is unchanged at about 5–18 µA).
+- Recorded the confirmed DigiKey stock of 31,403 for the display, and replaced two dead NXP datasheet links in the sources list with current product-page URLs.
+

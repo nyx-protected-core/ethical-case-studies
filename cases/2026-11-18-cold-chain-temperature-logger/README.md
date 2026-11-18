@@ -14,9 +14,9 @@ All LCSC prices, stock and lifecycle labels were read from LCSC's product-detail
 - **How it answers without a smartphone:** a green LED with a tick and a red LED with a cross, in different positions so colour-blind users can read them, plus a buzzer pattern. A small segment LCD shows the tick or cross, the minimum and maximum temperatures, cumulative minutes outside +2 to +8 °C, the elapsed trip time and a per-day history. The thresholds copy the WHO PQS factory alarms: **freeze at ≤ −0.5 °C for 60 minutes** and **heat at ≥ +8 °C for 10 hours** (30 DTR) [S1][S3], plus the shipping-indicator transport alarms of **≥ +30 °C cumulative for 10 hours** and **≥ +45 °C for 1 hour** [S2].
 - **Recommended build (A):** ST **STM32L011F4P6TR** MCU with its own RTC on a 32.768 kHz crystal, a TI **TMP117** sensor (**±0.1 °C max from −20 to +50 °C** [S13]), a 32 KB I²C EEPROM log, a Holtek **HT1621B** segment-LCD driver, a 25 nA LDO, and **2× AA lithium-iron-disulfide cells** that are rated to −40 °C [S26]. **About US$4.39 in LCSC-verified electronics** at roughly 30–50 units. My rough per-unit total with LCD glass, PCB, enclosure and cells is **US$9–16**, but the non-LCSC lines are estimates and are marked unverified.
 - **Cheapest build (B):** a Puya **PY32F002B** MCU plus a **BM8563** external RTC. It has no LDO because every part tolerates the raw cell voltage. **About US$3.27 in LCSC electronics**, but it has a tight 12-pin I/O budget and about 3× the sleep current.
-- **Sensor finding:** the accurate sensor turns out to be cheap. The TMP117 costs **$1.17 @30** on LCSC (`normal`, 2,280 in stock) and beats the PQS ±0.5 °C requirement by 5×. The cheaper TI parts **fail at exactly the point that matters most, the freeze threshold**. TMP112A is ±0.5 °C only from 0 to +65 °C and ±1.0 °C below that [S15]. TMP1075 is ±1 °C max [S16]. TMP102 is ±2 °C max [S17]. The MCP9808 meets ±0.5 °C max but needs at least 2.7 V [S14], which a cold cell can drop below. The Sensirion STS40 and STS30 product pages **return null on lcsc.com today**, although JLCPCB lists them [S31].
+- **Sensor finding:** the accurate sensor turns out to be cheap. The TMP117 costs **$1.17 @30** on LCSC (`normal`, 2,280 in stock) and, at the sensor die, before enclosure and placement error, beats the PQS ±0.5 °C requirement by 5×. The cheaper TI parts **fail at exactly the point that matters most, the freeze threshold**. TMP112A is ±0.5 °C only from 0 to +65 °C and ±1.0 °C below that [S15]. TMP1075 is ±1 °C max [S16]. TMP102 is ±2 °C max [S17]. The MCP9808 meets ±0.5 °C max but needs at least 2.7 V [S14], which a cold cell can drop below. The Sensirion STS40 and STS30 product pages **return null on lcsc.com today**, although JLCPCB lists them [S31].
 - **Display finding:** no healthy, low-power LCSC display fits. The only 0.91" OLED on LCSC (HS91L02W2C01) needs **3.5–4.2 V and 23 mA** for its internal DC/DC [S22]. The low-power answer, a segment LCD like those on certified 30 DTRs, needs **custom or semi-custom glass that LCSC does not sell**. The driver chip (HT1621B) is on LCSC. The glass is **unverified** and has to come from an LCD glass maker.
-- **Power:** the typical average is about **1.2 µA** (my arithmetic in section 5), or about **0.9 mAh per 30 days**. Energy is not the constraint; **cold is**. Coin cells keep their energy in the cold but struggle to deliver pulse current, and a brown-out reset during an alarm would be the worst possible failure. So the design uses AA lithium cells, and any loss of power forces a **NOT OK** state.
+- **Power:** the typical average is about **1.3 µA** (my arithmetic in section 5, using ST's 0.67 µA Stop-mode figure), or about **0.95 mAh per 30 days**. Energy is not the constraint; **cold is**. Coin cells keep their energy in the cold but struggle to deliver pulse current, and a brown-out reset during an alarm would be the worst possible failure. So the design uses AA lithium cells, and any loss of power forces a **NOT OK** state.
 - **Evidence:** a UNICEF-authored review found exposure below the recommended range during **33% (wealthier) / 37.1% (lower-income)** of storage evaluations and in shipments in **38% / 19.3%** of studies [S7]. An earlier PATH review found **14–35%** of refrigerators or shipments exposed vaccine to freezing, and **75–100%** of shipments when the whole chain was followed [S8]. WHO says VVMs **do not record freezing** [S5] and that without a monitoring device "it is impossible to detect freeze damage" in transport [S5].
 - **Ethics core:** the main risk is **false reassurance**, an OK on a load that froze. The design treats every uncertain state (sensor fault, power loss, clock loss, log error, low battery) as **NOT OK**, never as OK. The data belongs to the clinic, stays on the device and leaves only by cable when the clinic chooses.
 
@@ -101,7 +101,7 @@ The firmware needs I²C (sensor, EEPROM, RTC in build B), about 3 GPIOs for the 
 
 | MCU | LCSC | Lifecycle (LCSC) | Price | Stock | Why / why not |
 |---|---|---|---|---|---|
-| **ST STM32L011F4P6TR** (Cortex-M0+, TSSOP-20) | **C503083** | `normal` | **$0.8151 @30** | 19,970 | **Chosen for build A.** 16 KB flash, 2 KB RAM, 512 B data EEPROM, built-in **RTC with 32 kHz crystal oscillator and calibration**. **0.54 µA in Stop + RTC + 2 KB RAM retention**. Supply 1.65–3.6 V, −40 to +125 °C [S18]. The RTC removes a separate clock chip and gives watch-crystal accuracy. |
+| **ST STM32L011F4P6TR** (Cortex-M0+, TSSOP-20) | **C503083** | `normal` | **$0.8151 @30** | 19,970 | **Chosen for build A.** 16 KB flash, 2 KB RAM, 512 B data EEPROM, built-in **RTC with 32 kHz crystal oscillator and calibration**. **0.54 µA in Stop + RTC + 2 KB RAM retention** in the datasheet used for the first budget [S18]. ST's product page gives **0.67 µA** for Stop mode + RTC + 2 KB RAM retention. This revision uses 0.67 µA in the power budget. Supply 1.65–3.6 V, −40 to +125 °C [S18]. The RTC removes a separate clock chip and gives watch-crystal accuracy. |
 | ST STM32L011F4P6 (tube packing) | C87903 | `normal` | $1.1325 @30 | 2,494 | Same die, dearer packing. Use C503083. |
 | **Puya PY32F002BD15S6TU** (Cortex-M0+, SOP-14) | **C7469097** | `normal` | **$0.1344 @50** | 1,750 | **Build B (cheapest).** 24 KB flash, 1.7–5.5 V, −40 to +85 °C, 12 I/O (LCSC parameters). Stop current **1.70 µA** with LPTIM on its internal 32 kHz RC, a figure carried from our grain study [S28] and not re-fetched this turn. **No crystal RTC**, so it needs the BM8563 below. The 12 I/O are fully used, which leaves no spare pins (section 4.6). |
 | ST STM32L031F6P7 (TSSOP-20) | C1337403 | `normal` | $1.5156 @30 | 1,576 | Larger-flash sibling for a richer UI. Its flash/RAM size and Stop+RTC current were **not fetched this turn (unverified)**. |
@@ -146,34 +146,34 @@ The firmware needs I²C (sensor, EEPROM, RTC in build B), about 3 GPIOs for the 
 
 ### 4.6 Consolidated parts table (build A unless marked)
 
-"Active?" here means LCSC `productCycle = normal` on 2026-11-18 (the distributor's label).
+"LCSC label" here means LCSC `productCycle = normal` on 2026-11-18. That is the **distributor's** label, not a manufacturer lifecycle notice. Manufacturer or DigiKey status was read on 18 November 2026 (UTC+7). Lifecycle is stated as confirmed only where that status was read. All other rows are marked **verify lifecycle with manufacturer**.
 
-| Part | LCSC code | Active? | Price (small qty) | Stock | Role |
-|---|---|---|---|---|---|
-| STM32L011F4P6TR | C503083 | yes (`normal`) | $0.8151 @30 | 19,970 | MCU + RTC (A) |
-| PY32F002BD15S6TU | C7469097 | yes | $0.1344 @50 | 1,750 | MCU (B) |
-| BM8563ESA | C269877 | yes | $0.1848 @30 | 51,806 | RTC (B) |
-| TMP117AIDRVR | C699536 | yes | $1.1717 @30 | 2,280 | Temperature sensor |
-| AT24C256C-SSHL-T | C6482 | yes | $0.248 @30 | 67,079 | 30-day log |
-| HT1621B | C7873 | yes | $0.3635 @30 | 78,789 | LCD driver |
-| FC-135 32.768 kHz | C32346 | yes | $0.1177 @50 | 235,995 | RTC crystal (A) |
-| 22 pF 0603 ×2 | C1653 | yes | $0.009 @50 each | 963,350 | Crystal load (A) |
-| TPS7A0233DBVR | C5142805 | yes | $0.6098 @30 | 7,494 | 3.3 V LDO (A) |
-| LEDs R/Y/G | C84256 / C2296 / C2297 | yes | $0.0427 set @50 | ≥ 242,800 | OK / ? / ALARM |
-| MLT-8530 | C94599 | yes | $0.1548 @50 | 108,145 | Buzzer |
-| AO3400A | C20917 | yes | $0.0627 @50 | 580,515 | Buzzer driver |
-| TS-1187A | C318884 | yes | $0.0216 @20 | 471,700 | Button |
-| BH-AA-A1AJ020 ×2 | C5290181 | yes | $0.3318 @30 each | 2,732 | Cell holders |
-| Passives (see 4.5) | C23138, C23162, C25804, C14663, C15850 | yes | ≈ $0.0999 total | large | Support |
-| *Rejected / not on LCSC* | | | | | |
-| MCP9808T-E/MS | C129490 | yes | $1.7177 @30 | 481 | Sensor alternative (rejected) |
-| TMP112AIDRLR | C28927 | yes | $0.4084 @30 | 4,851 | Rejected (±1 °C below 0 °C) |
-| TMP1075DGKR | C2864807 | yes | $0.281 @30 | 21,443 | Rejected (±1 °C) |
-| TMP102AIDRLR | C99269 | yes | $0.4481 @30 | 34,056 | Rejected (±2 °C) |
-| STS40-AD1B-R3 / STS30-DIS-2.5KS | C3663715 / C129802 | **not on lcsc.com (null)** | JLCPCB only | JLCPCB 10,299 / 1,141 | Not used; authorised-distributor route |
-| HS91L02W2C01 OLED | C5248081 | yes | $1.7606 @30 | 2,358 | Bench only (3.5–4.2 V, 23 mA) |
-| Segment LCD glass | — | **no LCSC source** | unverified | — | Must come from an LCD glass maker |
-| AA Li-FeS2 cells | — | not LCSC | unverified | — | Power |
+| Part | LCSC code | LCSC label | Manufacturer / DigiKey status (18 Nov 2026) | Price (small qty) | Stock | Role |
+|---|---|---|---|---|---|---|
+| STM32L011F4P6TR | C503083 | `normal` | **Active** on the ST product page; 10-year longevity from 2026-01-01 [S18] | $0.8151 @30 | 19,970 | MCU + RTC (A) |
+| PY32F002BD15S6TU | C7469097 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $0.1344 @50 | 1,750 | MCU (B) |
+| BM8563ESA | C269877 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $0.1848 @30 | 51,806 | RTC (B) |
+| TMP117AIDRVR | C699536 | `normal` | **ACTIVE** on the TI product page [S13] | $1.1717 @30 | 2,280 | Temperature sensor |
+| AT24C256C-SSHL-T | C6482 | `normal` | DigiKey **Part Status Active** [S20] | $0.248 @30 | 67,079 | 30-day log |
+| HT1621B | C7873 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $0.3635 @30 | 78,789 | LCD driver |
+| FC-135 32.768 kHz | C32346 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**; not found on DigiKey under the searched number) | $0.1177 @50 | 235,995 | RTC crystal (A) |
+| 22 pF 0603 ×2 | C1653 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $0.009 @50 each | 963,350 | Crystal load (A) |
+| TPS7A0233DBVR | C5142805 | `normal` | **ACTIVE** on the TI TPS7A02 product page [S23] | $0.6098 @30 | 7,494 | 3.3 V LDO (A) |
+| LEDs R/Y/G | C84256 / C2296 / C2297 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $0.0427 set @50 | ≥ 242,800 | OK / ? / ALARM |
+| MLT-8530 | C94599 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $0.1548 @50 | 108,145 | Buzzer |
+| AO3400A | C20917 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $0.0627 @50 | 580,515 | Buzzer driver |
+| TS-1187A | C318884 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $0.0216 @20 | 471,700 | Button |
+| BH-AA-A1AJ020 ×2 | C5290181 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $0.3318 @30 each | 2,732 | Cell holders |
+| Passives (see 4.5) | C23138, C23162, C25804, C14663, C15850 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | ≈ $0.0999 total | large | Support |
+| *Rejected / not on LCSC* | | | | | | |
+| MCP9808T-E/MS | C129490 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $1.7177 @30 | 481 | Sensor alternative (rejected) |
+| TMP112AIDRLR | C28927 | `normal` | **ACTIVE** on the TI product page [S15] | $0.4084 @30 | 4,851 | Rejected (±1 °C below 0 °C) |
+| TMP1075DGKR | C2864807 | `normal` | **ACTIVE** on the TI product page [S16] | $0.281 @30 | 21,443 | Rejected (±1 °C) |
+| TMP102AIDRLR | C99269 | `normal` | **ACTIVE** on the TI product page [S17] | $0.4481 @30 | 34,056 | Rejected (±2 °C) |
+| STS40-AD1B-R3 / STS30-DIS-2.5KS | C3663715 / C129802 | **not on lcsc.com (null)** | Not used; **verify lifecycle with manufacturer** if ever sourced | JLCPCB only | JLCPCB 10,299 / 1,141 | Not used; authorised-distributor route |
+| HS91L02W2C01 OLED | C5248081 | `normal` | **Verify lifecycle with manufacturer** (**UNVERIFIED**) | $1.7606 @30 | 2,358 | Bench only (3.5–4.2 V, 23 mA) |
+| Segment LCD glass | — | **no LCSC source** | Not applicable | unverified | — | Must come from an LCD glass maker |
+| AA Li-FeS2 cells | — | not LCSC | Not applicable | unverified | — | Power |
 
 ### 4.7 Firmware outline (prose only, no code)
 
@@ -185,7 +185,7 @@ The firmware needs I²C (sensor, EEPROM, RTC in build B), about 3 GPIOs for the 
 6. **Status update.** After each sample, recompute the overall state as ALARM (any latched alarm), "?" (any fault latch, with no alarm), or OK. Do not light anything automatically except a rare (every 30 s) 5 ms red blink while in ALARM, so a passer-by can see it without pressing. A shipping-indicator design would avoid this flashing for photocopy reasons [S2], so I treat it as an open question (section 8).
 7. **Button press.** Debounce. Power the HT1621B and show the state icon, current temperature, min/max, minutes out of range and elapsed time. Light the matching LED for 2 s and sound the matching buzzer pattern. Further presses step through the daily min/max history, as in the TR06 history mode [S1]. Apply a **pause period** so the warm hand and air of a reading do not count as an excursion, as TR06 requires [S1]. Pause only the alarm counters, never the logging or the clock, and cap the pause at a few minutes. After 15 s, power down the LCD driver.
 8. **Offline readout (optional).** A UART on test pads streams the log as plain text (CSV-like) to a cheap USB-serial adapter on a computer the clinic or district controls. The port is **read-only**: it has no command that erases or edits records.
-9. **Deep sleep.** Re-arm the RTC alarm, gate all peripherals off, and enter Stop mode (0.54 µA with RTC on the STM32L011 [S18]). The independent watchdog runs on the internal low-speed oscillator, so a firmware hang becomes a logged reset ("?") rather than a silent stall.
+9. **Deep sleep.** Re-arm the RTC alarm, gate all peripherals off, and enter Stop mode (0.67 µA with RTC on the STM32L011, from ST's product page [S18]). The independent watchdog runs on the internal low-speed oscillator, so a firmware hang becomes a logged reset ("?") rather than a silent stall.
 
 **Build B differences:** the BM8563's interrupt output wakes the PY32 instead of an internal RTC. With 12 I/O there are just enough pins: I²C ×2, RTC interrupt, HT1621 CS/WR/DATA ×3, LEDs ×3, buzzer, button, peripheral power. That leaves **no spare pin** for the UART readout unless I²C or the SWD debug pins are shared. **Unverified** until a pin map is drawn.
 
@@ -197,16 +197,16 @@ The firmware needs I²C (sensor, EEPROM, RTC in build B), about 3 GPIOs for the 
 
 | Item | Basis | Average current |
 |---|---|---|
-| MCU Stop + RTC + RAM retention | 0.54 µA [S18] | 0.54 µA |
+| MCU Stop + RTC + RAM retention | 0.67 µA on ST's product page for Stop + RTC + 2 KB RAM retention [S18] (0.54 µA was used in the first datasheet budget) | 0.67 µA |
 | TMP117 shutdown | 0.15 µA typ (0.5 µA max) [S13] | 0.15 µA |
 | LDO quiescent | 25 nA typ [S23] | 0.03 µA |
 | EEPROM, HT1621B | power-gated from GPIO | ≈ 0 |
 | Independent watchdog + its oscillator | **unverified**, not read from the datasheet | (not included) |
 | Sample every 5 min | TMP117 124 ms × 135 µA ≈ 16.7 µC [S13]; EEPROM write ≤ 5 ms × ≤ 3 mA ≈ 15 µC [S20]; MCU awake ≈ 150 ms at an **assumed** 0.3 mA ≈ 45 µC (**unverified** estimate). Total ≈ 77 µC per 300 s | ≈ 0.26 µA |
 | Display reads | **assumed** 10 presses/day × 15 s × HT1621B 150 µA (RC oscillator, typ [S21]) ≈ 22.5 mC/day | ≈ 0.26 µA |
-| **Total (typical)** | | **≈ 1.2 µA** |
+| **Total (typical)** | | **≈ 1.3 µA** |
 
-- **30 days** at 1.2 µA × 720 h ≈ **0.9 mAh**. Even at a pessimistic 5× (max datasheet currents, more presses, a long ALARM-blink period) that is about **4.5 mAh per 30 days**. The ALARM blink every 30 s at an assumed 2 mA × 5 ms adds about 0.33 µA (my arithmetic).
+- **30 days** at 1.3 µA × 720 h ≈ **0.95 mAh**. Even at a pessimistic 5× (max datasheet currents, more presses, a long ALARM-blink period) that is about **4.7 mAh per 30 days**. The change from the earlier 1.2 µA / 0.9 mAh figures is the ST Stop-mode current, and it is not material to the cell choice. The ALARM blink every 30 s at an assumed 2 mA × 5 ms adds about 0.33 µA (my arithmetic).
 - **Build B** sleep is about 1.70 µA (PY32 Stop [S28]) + 0.5 µA (BM8563 typ [S19]) + 0.15 µA ≈ **2.4 µA**, so about **3× build A**. That is still only about 1.9 mAh per 30 days.
 - **Conclusion:** energy is not the constraint. Any common primary cell holds 50–1,000× a 30-day budget. The real constraints are **cold, pulse current and voltage window**.
 
@@ -217,6 +217,16 @@ The firmware needs I²C (sensor, EEPROM, RTC in build B), about 3 GPIOs for the 
 - **2× AA alkaline. Not recommended.** The Energizer lithium manual says LiFeS2 "operates at temperatures where alkaline batteries do not run at all" [S26]. Alkaline also leaks over long storage. That leak risk is general knowledge, **unverified** from my sources.
 - **Rechargeable (Li-ion, NiMH). Not recommended.** It adds a charger and charging infrastructure, and its self-discharge and charging limits near 0 °C were **unverified** this turn. A logger that is flat when the cold box leaves the store is worse than no logger, because people may assume it is working.
 - **PQS tension.** PQS asks for non-replaceable batteries [S1][S2]. Replaceable AA cells make the device cheaper to keep in service and easier to repair locally. The price is that battery removal becomes a reset path, which section 4.7 step 5 turns into a visible "?" state instead of a silent one.
+
+
+**Safety and regulatory points (several **UNVERIFIED** until sourced).** The battery discussion above covers cold performance and leakage. It does not yet settle the following, which should be checked before any field trial:
+
+- Equipment that contains lithium cells is subject to transport rules. Units shipped to districts would need UN 38.3 test summaries for the cells, and would have to travel under the applicable air- and road-transport conditions (**UNVERIFIED** as to the exact packing instruction and whether a sealed logger is treated as equipment containing cells or as loose cells).
+- Lithium and alkaline cells, and old and new cells, must not be mixed in the same device.
+- End-of-life lithium cells have to be disposed of safely. Many districts have no battery recycling route (**UNVERIFIED** as to local practice). A programme would need a take-back path, not only a "do not bin" label.
+- The logger rides among vials. Cleaning and disinfection agents, and how often the case can be wiped, have not been specified (**UNVERIFIED**).
+- Whether a supplementary, non-PQS device used with vaccines falls under any national medical-device or health-programme rules is **UNVERIFIED** and should be asked of the national EPI programme before a trial (see also open question 9).
+
 
 ---
 
@@ -279,7 +289,7 @@ Remove the STM32L011 (−0.8151), TPS7A02 (−0.6098) and 22 pF pair (−0.0180)
 
 ## 7b. Ethics
 
-- **False reassurance is the main harm.** A wrong "OK" on a frozen load means children get a vaccine that may not protect them, and nobody knows. A wrong "ALARM" wastes good vaccine and teaches staff to ignore the device. Both matter, but the first is worse and invisible. The design leans against false OK in four ways: a sensor with 5× margin over PQS accuracy (section 3); freeze counting that is never paused by a start delay (4.7 step 2); every fault, reset, battery swap or unknown state latched as "?", never OK (4.7 step 5); and alarms that cannot be cleared by the user, as PQS requires [S3]. It still uses **the same thresholds as the certified devices**, so its ALARM means the same thing the SOP already describes. A home-made, stricter threshold would make the two devices disagree on the same load and confuse the person deciding.
+- **False reassurance is the main harm.** A wrong "OK" on a frozen load means children get a vaccine that may not protect them, and nobody knows. A wrong "ALARM" wastes good vaccine and teaches staff to ignore the device. Both matter, but the first is worse and invisible. The design leans against false OK in four ways: a sensor with 5× margin over PQS accuracy at the sensor die, before enclosure and placement error (section 3); freeze counting that is never paused by a start delay (4.7 step 2); every fault, reset, battery swap or unknown state latched as "?", never OK (4.7 step 5); and alarms that cannot be cleared by the user, as PQS requires [S3]. It still uses **the same thresholds as the certified devices**, so its ALARM means the same thing the SOP already describes. A home-made, stricter threshold would make the two devices disagree on the same load and confuse the person deciding.
 - **Placement can still fool it.** A perfect sensor placed in the warm lid reports OK while vials against an unconditioned ice-pack freeze. Training on placement is part of the device.
 - **The danger of a cheap logger being trusted over certified equipment.** A cheap device with a friendly display can become *the* monitor because it is the one people understand, while the PQS freeze indicator in the same box is ignored. WHO already warns that 30 DTRs and freeze indicators "should NEVER be used to replace" a proper monitoring system in larger stores [S5]. The same humility applies here, one level down. This device must **never overrule** a triggered certified freeze indicator, a VVM past its discard point, or a shake-test result. When it disagrees with them, the conservative reading wins. Its printed label says so.
 - **What it does NOT replace.** It is **not a PQS-prequalified monitor** and has no traceable calibration certificate. It **does not replace** the VVM on each vial, certified electronic freeze indicators, 30 DTRs, PQS cold boxes and vaccine carriers, correct ice-pack conditioning, the shake test, or national SOPs and supervision [S5][S6]. It does not make vaccines safe. It only records whether they may not be.
@@ -300,7 +310,7 @@ Remove the STM32L011 (−0.8151), TPS7A02 (−0.6098) and 22 pF pair (−0.0180)
 4. **Pause period length** (TR06 requires one [S1]). Too long hides a real excursion; too short counts the reader's hand. This needs testing.
 5. **CR2032 at 0 °C and below.** The cold internal resistance and capacity were unverified because the Energizer datasheet has no cold data [S25]. This matters if anyone wants a coin-cell variant.
 6. **Build B pin map and crystal** (7–9 pF part on LCSC) are unverified.
-7. **Manufacturer lifecycle status.** Only LCSC's `normal` label was checked. TI, ST, Microchip, Holtek, Puya and Epson lifecycle pages were not checked.
+7. **Manufacturer lifecycle status.** Confirmed Active or ACTIVE on the manufacturer page or DigiKey for STM32L011F4P6TR, TMP117, TPS7A02, AT24C256C-SSHL-T, and the rejected TMP112, TMP1075 and TMP102. All other named parts remain marked **verify lifecycle with manufacturer**.
 8. **Health-worker testing.** Do users read tick / ? / cross correctly, including colour-blind users and people with low literacy? Does "?" get treated as an alarm in practice, or ignored?
 9. **Programme fit.** Would a national EPI programme accept a non-PQS supplementary device at all, or would its presence complicate audits? This needs to be asked, not assumed.
 10. **Cold-chain share of wastage.** I found no verified global figure separating closed-vial (cold-chain) wastage from total wastage.
@@ -343,3 +353,12 @@ All accessed 2026-11-18 (UTC+7). PDFs were fetched and read as text. [S7] and [S
 - [S30] STMicroelectronics `cmsis-device-l0` LICENSE.md (Apache-2.0). https://github.com/STMicroelectronics/cmsis-device-l0
 - [S31] JLCPCB public parts search (`selectSmtComponentList`), used to find candidate C-codes and the STS40/STS30 listings.
 - LCSC product-detail data for every `C…` code quoted in section 4 (`wmsc.lcsc.com/ftps/wm/product/detail?productCode=…`), read 2026-11-18, about 18:36–18:45 (UTC+7). Lifecycle labels are the distributor's.
+
+## Revisions (18 November 2026, round 7/8 audit)
+
+- Renamed the consolidated "Active?" column to "LCSC label" and added a manufacturer or DigiKey status column. Lifecycle is stated as confirmed only for STM32L011F4P6TR, TMP117, TPS7A02, AT24C256C-SSHL-T, TMP112, TMP1075 and TMP102. All other named parts are marked "verify lifecycle with manufacturer".
+- Added a safety and regulatory paragraph on lithium-cell transport, mixing of cells, end-of-life disposal, cleaning among vials, and whether a supplementary device falls under medical-device or health-programme rules, all marked unverified until sourced.
+- Qualified the "5× better than PQS" wording so that it applies at the sensor die, before enclosure and placement error.
+- Updated the Stop-mode current from 0.54 µA to ST's published 0.67 µA for Stop + RTC + 2 KB RAM retention. The typical average is now about 1.3 µA, or about 0.95 mAh per 30 days.
+- The Summary already listed all three heat alarms (the 30 DTR +8 °C / 10 hour alarm and the TR07 +30 °C and +45 °C transport alarms), so that item needed no change.
+

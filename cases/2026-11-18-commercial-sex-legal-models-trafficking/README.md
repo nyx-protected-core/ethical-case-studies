@@ -60,6 +60,8 @@
   - recommends states "discourage the demand that fosters exploitation of prostitution and leads to human trafficking", citing the obligation in Article 9(5) of the Palermo Protocol.
   - The recommendation does not name a legal model in the passages reviewed. Reading it as an endorsement of the Nordic model is an interpretation, not its text.
 - **Coalition positions [12] [NGO]:** a 2015 open letter coordinated by the Coalition Against Trafficking in Women (CATW) agrees that people who sell sex "must not be criminalized in any jurisdiction". It argues that full decriminalisation "in effect legalizes pimping, brothel owning and sex buying" and that Germany's regulated market "triggered an increase in sex trafficking".
+- **SPACE International [27] [NGO, survivor-led]** is a group of people who describe themselves as sex-trade survivors. In a 2015 public statement it writes: "We support and endorse the Swedish Model, which decriminalises only the exploited person in a prostitution exchange." It distinguishes that from "the complete and total decriminalisation of all parties in the sex trade, including those who exploit for sexual gain (punters/johns) and those who exploit for financial gain (pimps/traffickers)" [27]. This is a lived-experience advocacy position, not an evaluation of trafficking volumes.
+- **The European Parliament [28] [GOV, non-binding].** On 14 September 2023 the Parliament adopted a non-binding resolution on the regulation of prostitution in the EU (P9_TA(2023)0328, report A9-0240/2023). Contemporary reporting, including an official Parliament press release and a roll-call compilation, gives the vote as **234 in favour, 175 against and 122 abstentions**. The official adopted text and the official roll-call were live-blocked (HTTP 403) when re-checked on 18 November 2026, so the vote figures and the exact operative wording are **UNVERIFIED** against the official record. Secondary accounts describe the text as calling for measures that reduce demand and for those who sell sex not to be criminalised, and some describe it as supporting punishment or criminalisation of purchase. The narrow and divided vote is itself evidence that the question is not settled in European institutions.
 
 **Strongest critique.**
 - **Evaluation design.**
@@ -85,6 +87,8 @@
   - Of sex workers able to comment, the majority felt they were "now more likely to report incidents of violence to the Police".
 - A peer-reviewed reflection by a lead researcher in the review process concludes that the research "has shown that decriminalization has been successful in making the industry safer" [10] [PR; author was involved in the evaluation research].
 - **Amnesty International (2016) [11] [NGO policy]** calls for "the decriminalization of all aspects of adult consensual sex work". It pairs this with criminal law against "forced labour, human trafficking, abuse and violence", arguing that criminalisation means crimes against sex workers "often go unreported, under-investigated and/or unpunished".
+- **WHO (2022) [25] [INT, public-health guideline]** is the main intergovernmental public-health position. The *Consolidated guidelines on HIV, viral hepatitis and STI prevention, diagnosis, treatment and care for key populations* treat removal of punitive laws as an enabling intervention. The accompanying sex-worker policy brief, presenting those guidelines, calls for "decriminalizing sex work (namely, removing all offences that criminalize sex workers, clients and third parties)" [25]. The limit of this source is important: it is framed around HIV, viral hepatitis and STI outcomes and does not assess effects on trafficking.
+- **The Global Network of Sex Work Projects (NSWP) [26] [NGO, sex-worker-led]** states, in its own policy brief: "The global sex workers' rights movement calls for the full decriminalisation of adult sex work, including the decriminalisation of third parties." It argues that continuing to criminalise third parties "has a direct and harmful impact on sex workers themselves" [26]. This is an advocacy position, not a trafficking-volume study.
 - The systematic review reports that "evidence from decriminalised settings suggests that sex workers in these settings have greater negotiating power with clients and better access to justice" [14] [PR]. The Lancet model gives the largest HIV benefit to decriminalisation [15] [PR, modelled].
 
 **Strongest critique.**
@@ -109,7 +113,7 @@
 **Strongest critique.**
 - **Cho, Dreher and Neumayer (2013) [1] [PR]:**
   - across up to 150 countries, "the scale effect dominates the substitution effect. On average, countries where prostitution is legal experience larger reported human trafficking inflows."
-  - Case studies: Germany's ILO-estimated trafficking-victim stock (2004) was about 62 times Sweden's, and Denmark's more than four times Sweden's [1].
+  - Case studies: Germany's ILO-estimated trafficking-victim stock (2004) was about 32,800, "about 62 times more than in Sweden", and Denmark's more than four times Sweden's [1]. The same paper also states that "the share of trafficked individuals among all prostitutes appears to be quite similar in both countries". The Germany–Sweden difference is therefore driven by market size, not by a measured difference in the share of trafficked people among those selling sex [1].
   - Jakobsson and Kotsadam reach the same ordering [2] [PR].
 - **The German evaluation [22]** also found:
   - registration takes up only part of the population, because of fear of disclosure and data-security concerns;
@@ -147,7 +151,7 @@
 ## POINTS OF GENUINE CONSENSUS vs GENUINE DISPUTE
 
 **Broad consensus across opposing sources:**
-- People who sell sex should not be criminalised [11][12][13][14].
+- People who sell sex should not be criminalised [11][12][13][14][25][26][27][28].
 - Criminalising and repressively policing sellers is associated with more violence, worse health and less reporting [14][15][16].
 - Coercion and trafficking require dedicated criminal law and victim protection that does not depend on cooperating with prosecution [11][13].
 - Trafficking data are poor [1][4][20][23][24].
@@ -186,14 +190,27 @@ All DOIs were checked on 18 November 2026 (doi.org returned 302). URLs returned 
 22. Kriminologisches Forschungsinstitut Niedersachsen (KFN). *Zentrale Ergebnisse der Evaluation des Prostituiertenschutzgesetzes (ProstSchG)*, management summary, June 2025. https://kfn.de/wp-content/uploads/2025/06/20250623_Managementsummary_Evaluation_ProstSchG.pdf (curl returned 200 as an HTML page; text read via WebFetch). Ministry publication page: https://www.bmbfsfj.bund.de/bmbfsfj/service/publikationen/evaluation-des-gesetzes-zur-regulierung-des-prostitutionsgewerbes-sowie-zum-schutz-von-in-der-prostitution-taetigen-personen-prostituiertenschutzgesetz-prostschg--266228. **[GOV]** Federally commissioned evaluation.
 23. Daalder AL. *Prostitution in the Netherlands since the lifting of the brothel ban.* WODC (Research and Documentation Centre, Ministry of Justice), Onderzoek en beleid 249a, 2007. https://repository.wodc.nl/handle/20.500.12832/1196. **[GOV]**
 24. United Nations Office on Drugs and Crime. *Trafficking in Persons: Global Patterns.* April 2006. https://www.unodc.org/pdf/traffickinginpersons_report_2006-04.pdf. **[INT]** Source of the reporting index used in [1] and [2]; contains its own caution against treating it as victim counts.
+25. World Health Organization. *Consolidated guidelines on HIV, viral hepatitis and STI prevention, diagnosis, treatment and care for key populations.* 2022. Official publication page: https://www.who.int/publications/i/item/9789240052390 (HTTP 200). IRIS record: https://iris.who.int/handle/10665/357567. The quotation on decriminalising sex work, "namely, removing all offences that criminalize sex workers, clients and third parties", is taken from the accompanying sex-worker policy brief, *Recommended package of interventions for HIV, viral hepatitis and STI prevention, diagnosis, treatment and care for sex workers*, which presents those guidelines: https://iris.who.int/server/api/core/bitstreams/30358b1b-8312-4106-803c-0683971204b9/content (PDF opened and the passage found). **[INT]** Public-health guideline; framed around HIV, viral hepatitis and STI outcomes, not trafficking effects.
+26. Global Network of Sex Work Projects. *The Decriminalisation of Third Parties.* Policy brief, 2016. https://www.nswp.org/sites/nswp.org/files/Policy%20Brief%20The%20Decriminalisation%20of%20Third%20Parties,%20NSWP%20-%202016.pdf (PDF opened and the passage found). **[NGO, sex-worker-led]**
+27. SPACE International (Survivors of Prostitution-Abuse Calling for Enlightenment). "Statement Opposing Amnesty International's resolution to decriminalise Pimps and Johns", 26 February 2015. https://www.spaceintl.org/news/statement-opposing-amnesty-internationals-resolution-to-decriminalise-pimps-and-johns (page opened and the passage found). **[NGO, survivor-led]**
+28. European Parliament. Resolution of 14 September 2023 on the regulation of prostitution in the EU: its cross-border implications and impact on gender equality and women's rights (2022/2139(INI)), P9_TA(2023)0328, report A9-0240/2023. Official text: https://www.europarl.europa.eu/doceo/document/TA-9-2023-0328_EN.html (HTTP 403 when re-checked 18 November 2026). Minutes of that sitting: https://www.europarl.europa.eu/doceo/document/PV-9-2023-09-14_EN.html. **[GOV]** Vote figures and operative wording **UNVERIFIED** against the official record.
 
 ### UNVERIFIED and live-blocked items
 
 - **UNVERIFIED:** the exact wording of Weitzer's critique of [1] and [2] in [3b] (paywalled). This brief relies only on its abstract and its reference list.
 - **UNVERIFIED:** that CEDAW GR 38 endorses any particular legal model. It calls for discouraging demand, and no model endorsement was found in the passages read.
-- **Live-blocked (403 or bot challenge):**
+- **Live-blocked (403 or an access challenge):**
   - the Norwegian evaluation PDFs [8] (English-summary text read via a search index);
   - the government.se SOU summary page [6] (a full English-summary copy was read instead);
   - the gov.ie press release [20] (read via WebFetch; the review PDF copy was read directly);
   - the KFN summary [22] (served as HTML to curl; read via WebFetch).
+- **UNVERIFIED:** the exact vote figures and operative wording of the European Parliament resolution of 14 September 2023 [28]. The official adopted text and roll-call returned 403; the figures and a summary of the content come from an official press release and secondary reporting.
 - **Not included:** the European Parliament's 2014 resolution supporting the purchase-ban model (its page returned 403), and US federal policy documents. Their positions are therefore not characterised here.
+
+## Revisions (18 November 2026, round 7/8 audit)
+
+- Added the WHO 2022 key-populations guidelines, quoted from the accompanying official policy brief, as a public-health position on decriminalising sex work, with the limit that the guidelines are framed around HIV and STI outcomes and do not assess trafficking effects.
+- Added the European Parliament resolution of 14 September 2023, including the reported 234–175–122 vote, and marked the vote figures and the exact operative wording as unverified against the official record, which was live-blocked.
+- Quoted a sex-worker-led organisation (the Global Network of Sex Work Projects) and a survivor-led organisation (SPACE International) from their own public statements, with the same evidence labels used elsewhere.
+- Added Cho, Dreher and Neumayer's statement that the share of trafficked people among those selling sex appeared quite similar in Germany and Sweden, so the "62 times" comparison is driven by market size.
+

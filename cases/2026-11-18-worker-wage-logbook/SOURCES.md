@@ -113,10 +113,13 @@ label, stock and price ladder on the page. LCSC's lifecycle label is the distrib
   https://www.lcsc.com/product-detail/C3019759.html ;
   https://www.microcrystal.com/en/products/real-time-clock-rtc-modules/rv-3028-c7 ;
   https://www.lcsc.com/product-detail/C269877.html ; https://www.lcsc.com/product-detail/C7440.html
-- **S38** NFC: NXP NT4H2421G0DUF/02V (NTAG 424 DNA) C1136942; NT2H1611G0DUDZ (NTAG216) C1574631; NXP
-  datasheets (not read in full). https://www.lcsc.com/product-detail/C1136942.html ;
-  https://www.lcsc.com/product-detail/C1574631.html ; https://www.nxp.com/docs/en/data-sheet/NT4H2421Gx.pdf ;
-  https://www.nxp.com/docs/en/data-sheet/NTAG213_215_216.pdf
+- **S38** NFC: NXP NT4H2421G0DUF/02V (NTAG 424 DNA) C1136942; NT2H1611G0DUDZ (NTAG216) C1574631.
+  LCSC pages and current NXP product pages (the previous datasheet URLs NT4H2421Gx.pdf and
+  NTAG213_215_216.pdf now return 404): https://www.lcsc.com/product-detail/C1136942.html ;
+  https://www.lcsc.com/product-detail/C1574631.html ;
+  https://www.nxp.com/products/NTAG424DNA ;
+  https://www.nxp.com/products/NTAG213_215_216
+  (product pages returned 403 to automated access when re-checked on 18 November 2026).
 - **S39** Energizer CR2032 datasheet (235 mAh typical, 15 kΩ load to 2.0 V). Search summary.
   https://energizer.com/wp-content/uploads/2025/01/cr2032.pdf
 - **S44** IEC 60529 (IP code). Not read; cited for the term only.
@@ -204,3 +207,16 @@ label, stock and price ladder on the page. LCSC's lifecycle label is the distrib
   https://www.sstic.org/media/SSTIC2021/SSTIC-actes/defeating_a_secure_element_with_multiple_laser_fau/SSTIC2021-Article-defeating_a_secure_element_with_multiple_laser_fault_injections-heriveaux.pdf
 - **S67** Moghimi et al., *TPM-FAIL: TPM meets Timing and Lattice Attacks*, USENIX Security 2020. Via the
   security review. https://www.usenix.org/conference/usenixsecurity20/presentation/moghimi-tpm
+
+## Added in the 18 November 2026, round 7/8 audit revision
+
+- **S68** ST, STM32L031F6 product page. Read as Active, in volume production, with a 10-year longevity commitment from 2026-01-01. The page gives 0.68 µA for Stop mode with RTC and RAM retention. https://www.st.com/en/microcontrollers-microprocessors/stm32l031f6.html
+- **S69** DigiKey, ATECC608B-MAHDA-S. Part Status Active. https://www.digikey.com/en/products/result?keywords=ATECC608B-MAHDA-S
+- **S70** Texas Instruments, TPS7A02 product page. Status ACTIVE. https://www.ti.com/product/TPS7A02
+- **S71** DigiKey, PT17-21B/L41/TR8. Part Status Active.
+- **S72** DigiKey, LS013B7DH03 (425-2903-ND). Part Status Active; 31,403 in stock on 18 November 2026 (UTC+7). Unit prices 12.39 / 7.97 at 100 / 7.74 at 500 match row 10a.
+
+## Revisions (18 November 2026, round 7/8 audit)
+
+- Replaced two NXP datasheet URLs that now return 404 with the current NXP product-page links.
+- Added manufacturer and DigiKey lifecycle sources S68–S72 for the parts whose status was confirmed.
