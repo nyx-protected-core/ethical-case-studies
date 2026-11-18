@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — A handpump-failure sensor that texts the maintainer: a low-cost, repairable design study](cases/2026-11-18-handpump-failure-sensor/README.md)
 - [2026-11-18 — Low-cost well and handpump upgrades for fresh water access in sub-Saharan Africa](cases/2026-11-18-low-cost-well-upgrades/README.md)
 - [2026-11-18 — Two big parties, one narrow debate: party structure, polarisation and reasoning in Canada and the United States](cases/2026-11-18-two-party-structure-and-reasoning/README.md)
 - [2026-11-18 — Men and boys as partners: ending violence against women and building workplace equality](cases/2026-11-18-men-as-partners-violence-prevention/README.md)
