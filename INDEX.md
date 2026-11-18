@@ -2,6 +2,11 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Check before you go: an offline, private web tool against deceptive recruitment](cases/2026-11-18-check-before-you-go-recruiter-checks/README.md)
+- [2026-11-18 — Repair, e-waste and hidden labour: repair first, trace, formalise](cases/2026-11-18-repair-e-waste-and-hidden-labour/README.md)
+- [2026-11-18 — Teaching reasoned debate: education that beats insult-driven and outrage-driven argument](cases/2026-11-18-teaching-logical-debate/README.md)
+- [2026-11-18 — Universal nuclear disarmament: why every country's programme should be dismantled, and how](cases/2026-11-18-universal-nuclear-disarmament/README.md)
+- [2026-11-18 — Moving money to where hunger is: social and financial mechanisms that widen worldwide participation in ending food insecurity](cases/2026-11-18-financing-food-security/README.md)
 - [2026-11-18 — Spotting deceptive job ads before recruitment turns into trafficking: a transparent risk ranking for human reviewers](cases/2026-11-18-ranking-deceptive-job-ads/README.md)
 - [2026-11-18 — Open infrastructure for people at risk: secure, maintainable systems for anti-trafficking and human-rights groups](cases/2026-11-18-secure-infrastructure-for-anti-trafficking-groups/README.md)
 - [2026-11-18 — One world: pathways to cooperation between Iran, Russia, China, Saudi Arabia and every other nation](cases/2026-11-18-global-cooperation-iran-russia-china-saudi-arabia/README.md)

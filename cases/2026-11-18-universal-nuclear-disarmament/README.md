@@ -1,0 +1,218 @@
+# Universal nuclear disarmament: why every country's programme should be dismantled, and how
+
+*A case study prepared on 18 November 2026. Figures come from the sources listed at the end and were checked in November 2026. Warhead numbers are expert estimates from public information, not official counts. Climate-impact figures are model results and are disputed, as explained below. Proposals marked "(this study's own proposal)" are this study's own suggestions, not positions of any cited author or institution. This study covers policy, history and ethics only. It contains no technical detail about weapons.*
+
+## The ethical question
+
+Nine states hold roughly 12,000 nuclear warheads. Every one of those states says its weapons exist to prevent war. Yet a single use could kill millions of people in minutes, and a large exchange could damage the climate and food supply of countries that had no part in the quarrel.
+
+The ethical question is: **is it right for any government to keep the ability to kill millions of civilians, and to put the whole world's food supply at risk, so that it can deter its enemies? If it is not, what do the nuclear-armed states, their allies and everyone else owe each other on the way to dismantling every programme, everywhere?**
+
+Three narrower questions follow:
+
+1. Crises are run by human beings who feel anger, fear, pride and humiliation, and they increasingly play out on fast social media. How much should the danger of emotion-driven escalation weigh against the claimed stability of deterrence?
+2. Is it fair for five states to be allowed nuclear weapons under the Non-Proliferation Treaty while everyone else gives them up, when those five promised in the same treaty to negotiate disarmament?
+3. Smaller states that gave up nuclear weapons, or never built them, have sometimes been invaded. How can disarmament be made safe for them, not only for the great powers?
+
+A note on framing. One reason often given for urgency is that a younger, supposedly more "emotional" generation will make nuclear war more likely. **The evidence does not support singling out a generation**, and this study does not rely on that claim. The research section on root causes explains what the evidence does show: emotion shapes the decisions of leaders of every age, and some measures of political hostility have risen across whole populations, not just among the young.
+
+## Scale of the problem
+
+**The arsenals.** The Stockholm International Peace Research Institute (SIPRI) estimates that in January 2026 the nine nuclear-armed states (the United States, Russia, the United Kingdom, France, China, India, Pakistan, North Korea and Israel) held about **12,187 nuclear warheads**. About **9,745** were in military stockpiles for potential use, roughly 130 more than a year earlier. About **4,012** were deployed on missiles and aircraft, and **between 2,100 and 2,200** were kept on high operational alert on ballistic missiles, almost all of them Russian or American (SIPRI, 2026a; SIPRI, 2026b).
+
+| State | Total inventory, Jan 2026 | Military stockpile | Deployed |
+| --- | --- | --- | --- |
+| Russia | 5,420 | 4,400 | 1,796 |
+| United States | 5,042 | 3,700 | 1,770 |
+| China | 620 | 620 | 34 |
+| France | 370 | 290 | 280 |
+| United Kingdom | 225 | 225 | 120 |
+| India | 190 | 190 | 12 |
+| Pakistan | 170 | 170 | – |
+| Israel | 90 | 90 | – |
+| North Korea | 60 | 60 | – |
+| **Total** | **12,187** | **9,745** | **4,012** |
+
+*Source: SIPRI Yearbook 2026, chapter 8, table 8A.1. All figures are approximate.*
+
+SIPRI notes that the global total is falling only because Russia and the United States are dismantling retired warheads. The pace of dismantlement is slowing, and SIPRI expects it may soon be outpaced by new warheads entering stockpiles (SIPRI, 2026a). For comparison, the advocacy group Global Zero puts the world total at about 70,300 weapons in 1986 (Global Zero, n.d.). The large cuts since then show that reductions are possible; the recent turn shows they are not automatic.
+
+**The legal guard-rails are weakening.** New START, the last treaty limiting US and Russian strategic forces, expired on 5 February 2026. The UN Secretary-General warned that for the first time in more than half a century there are no binding limits on the two largest arsenals, and that its data exchanges, notifications and on-site inspections had helped prevent miscalculation (UN News, 2026a). In May 2026 the 11th Review Conference of the Non-Proliferation Treaty ended without a consensus outcome, the third consecutive failure. The UN disarmament chief told nuclear-weapon states that "it is simply wrong for them to assume that non-proliferation obligations will be upheld without their own commitment to, and implementation of, disarmament obligations" (UN News, 2026b). In January 2026 the *Bulletin of the Atomic Scientists* set its Doomsday Clock at 85 seconds to midnight, the closest it has ever been (Bulletin of the Atomic Scientists, 2026). The clock is an expert judgement, not a measurement, but it reflects a broad sense of alarm.
+
+**Near misses.** A Chatham House study of declassified records, testimony and interviews found a series of cases since 1962 in which nuclear weapons were nearly used through miscalculation or error. Its central finding is that the probability of inadvertent use "is not zero and is higher than had been widely considered", and that because the consequences are so severe, the risk is high (Lewis et al., 2014). Four of its cases show how human judgement, often under pressure and against protocol, prevented disaster:
+
+- **Cuba, 27 October 1962.** US forces dropped practice depth charges to force Soviet submarines to surface. The submarine commanders had not been told what these signals meant. On submarine B-59, cut off from Moscow and believing war might have started, the captain wanted to use a nuclear torpedo. Launch required the agreement of three senior officers, and the second captain, Vasili Arkhipov, persuaded him to wait (Lewis et al., 2014).
+- **Serpukhov-15, 25–26 September 1983.** The Soviet early-warning system reported five US missiles launched. The duty officer, Lieutenant Colonel Stanislav Petrov, judged it a false alarm, partly because a real first strike would have involved far more missiles, and reported it as such rather than passing it up the chain as an attack. Soviet leaders would have had only an eight-to-ten-minute window to decide on retaliation (Lewis et al., 2014).
+- **Able Archer-83, 7–11 November 1983.** A NATO command exercise that rehearsed nuclear release procedures came at a time when Soviet intelligence was actively looking for signs of a surprise attack. Several features of the exercise matched items on that watch list. Historians still disagree about how close this came, but the episode shows how fear and expectation can turn an exercise into apparent evidence of attack (Lewis et al., 2014).
+- **Norway, 25 January 1995.** Scientists launched a research rocket from northern Norway to study the aurora. Norway had notified Russia weeks earlier, but the message apparently did not reach radar operators. The rocket looked on radar like a submarine-launched missile. President Yeltsin was handed a nuclear briefcase and conferred for several minutes with the chief of the General Staff, who held a second briefcase, until it was clear the rocket would land far from Russia (Lewis et al., 2014).
+
+Benoît Pelopidas argues that the habit of explaining such cases as proof that crises can be managed hides the role of luck, and that overconfidence in controllability is itself a source of danger (Pelopidas, 2017).
+
+**Consequences beyond the battlefield.** Climate modelling suggests the smoke from burning cities could cool the planet and cut food production worldwide:
+
+- In 1983 Richard Turco, Owen Brian Toon and colleagues first described "nuclear winter", global cooling from smoke and dust after many nuclear explosions (Turco et al., 1983).
+- In 2007 Alan Robock and colleagues re-examined the idea with a modern climate model. They found that a war producing 150 million tonnes (Tg) of smoke would still produce a nuclear winter, that 50 Tg would also have catastrophic global effects, and that the effects would last longer than earlier models had suggested (Robock et al., 2007).
+- A 2019 study modelled a war between India and Pakistan in which the two used 250 weapons on cities. It estimated 50 to 125 million direct deaths, 16 to 36 Tg of smoke, a 20 to 35 percent fall in sunlight reaching the surface, global cooling of 2 to 5 °C, and recovery taking more than ten years (Toon et al., 2019).
+- In 2022, Lili Xia, Alan Robock and colleagues combined climate, crop and fishery models. They found that any injection of more than 5 Tg of smoke would cause mass food shortages in almost all countries, and that livestock and fisheries could not make up for lost crops. They estimated that **more than 2 billion people could die from a war between India and Pakistan, and more than 5 billion from a war between the United States and Russia**, mostly from famine far from the targets (Xia et al., 2022).
+
+These results are disputed. A team at Los Alamos National Laboratory modelled the firestorms in detail for a smaller India–Pakistan scenario and found that most of the smoke stayed below the altitude where it would persist. Their simulations produced much smaller global cooling, limited mostly to the first five years, and no nuclear winter (Reisner et al., 2018). The honest summary is that the size of the climate effect is uncertain, but serious peer-reviewed work finds that it could be very large, and that the people most exposed would be in countries that never took part in the war.
+
+## Root causes
+
+### Deterrence relies on human beings staying calm under extreme stress
+
+Deterrence assumes leaders weigh costs and benefits even in the middle of a crisis. Decades of research on decision-making in international politics suggest this assumption is fragile.
+
+- **Misperception.** Robert Jervis showed that leaders routinely misread the intentions of others, see their own actions as defensive and their opponents' as hostile, and fit new information into what they already believe. These patterns can drive spirals of mutual fear (Jervis, 2017 [1976]). Graham Allison's study of the Cuban missile crisis showed that government decisions also come out of organisational routines and bureaucratic bargaining, not only from one rational calculation at the top (Allison, 1969).
+- **Emotion is part of reasoning, not separate from it.** Rose McDermott drew on neuroscience to argue that emotion has decisive effects on political decisions, and that rational choice itself depends on emotional processing (McDermott, 2004). Jonathan Mercer argues that beliefs central to deterrence, such as whether an opponent's threat is credible or whether another state can be trusted, are "emotional beliefs" (Mercer, 2010). He also argues that psychology explains rational behaviour as well as errors, so the choice is not between rational and emotional leaders, but about which emotions shape which judgements (Mercer, 2005).
+- **Honour, standing and humiliation.** Richard Ned Lebow coded the motives behind 94 wars involving great or rising powers since 1648. He found security to be the main motive in only 19 of them and material interest in 8, while the pursuit of standing (status and honour) was a primary or secondary motive in 62, and revenge in another 11 (Lebow, 2010; Lebow's own summary in Rorotoko, 2010). His broader theory treats the desire for esteem as a basic driver of state behaviour (Lebow, 2008). If wars are often fought over standing and revenge, then insults and public humiliation in a crisis are not side issues. They go to the heart of why states fight.
+- **Anger as state policy.** Todd Hall shows how states sometimes make deliberate, public displays of anger after a perceived violation, using the 1995–96 Taiwan Strait crisis as a case. Such displays threaten rapid escalation if there are further provocations, can be calmed by conciliatory gestures, and can also change the emotions of the people who perform them (Hall, 2011).
+- **Built-in hawkish bias.** Daniel Kahneman and Jonathan Renshon argue that well-documented cognitive biases, such as excessive optimism, the illusion of control and the tendency to see an opponent's behaviour as proof of hostility, all push decision-makers towards more aggressive choices than the evidence justifies (Kahneman & Renshon, 2007).
+
+### Speed and social media
+
+Crises now unfold in public and in real time. Constance Duncombe argues that Twitter can both represent and provoke emotions, and that these emotional dynamics can play an important part in escalating or calming conflicts between states (Duncombe, 2019). An edited volume from the Hoover Institution examines how social media, automated accounts, disinformation and information overload can erode careful deliberation and raise the risk of miscalculation between nuclear-armed states (Trinkunas et al., 2020). Research on social media more generally finds that messages using moral and emotional language spread further. In one study of more than half a million messages, each additional moral-emotional word increased sharing by about 20 percent (Brady et al., 2017). The incentives of the platforms therefore tend to reward exactly the kind of public anger that Hall describes in crisis diplomacy.
+
+Human decision windows are short. The Chatham House cases include early-warning decisions measured in minutes (Lewis et al., 2014), and SIPRI estimates that more than 2,000 warheads remain on high alert (SIPRI, 2026a). When fast media meet fast weapons, there is little time for emotions to cool.
+
+### What the evidence says about generations and emotion
+
+The idea that a new generation is unusually emotional, and that this makes nuclear war more likely, is common. The evidence for it is weak:
+
+- A meta-analysis of generational differences in work attitudes found that differences between generations were small to moderate, often close to zero, and probably reflected other factors such as age and career stage rather than generation as such (Costanza et al., 2012).
+- A review of the field argues that most popular claims about generational differences are myths, partly because age, period and cohort effects are very hard to separate (Rudolph et al., 2021).
+- A 2020 report of the US National Academies of Sciences, Engineering, and Medicine concluded that generational categories are not meaningful distinctions for managing a workforce (National Academies, 2020).
+
+What the evidence does show is a rise in **affective polarisation**, meaning dislike and distrust of the other political side, in some countries. In the United States, people increasingly see members of the other party as hypocritical, selfish and closed-minded (Iyengar et al., 2019). A study of twelve rich democracies found the largest increase over four decades in the United States, smaller increases in five countries, and decreases in six (Boxell et al., 2024). This is a change across whole societies, not one generation.
+
+Experiments on public attitudes to nuclear use point the same way. In a scenario modelled on a hypothetical US war with Iran, a majority of Americans were willing to support nuclear use that would kill millions of foreign civilians if it was presented as saving US troops. Republican identification, **older age**, and support for the death penalty were linked to more support for nuclear use, and women were no less willing than men (Sagan & Valentino, 2017). An earlier experiment found the public's aversion to nuclear use was weak and mostly based on whether the weapons seemed militarily useful (Press et al., 2013). The danger, in short, is not a "feeling generation". It is that human beings of every age respond to fear, anger and group identity, and that nuclear weapons put the fate of the world in the hands of a few such human beings at their worst moments.
+
+### The incentives of possession
+
+Scott Sagan describes three reasons states build nuclear weapons: security against a threat, the interests of domestic groups such as weapons laboratories and the military, and the prestige or identity that the weapons are thought to bring (Sagan, 1996). The second and third reasons are why programmes can outlast the threats that started them. They also tie back to Lebow's finding about standing.
+
+## What has worked
+
+**States have given up nuclear weapons before.**
+
+- **South Africa** built a small arsenal in secret, dismantled it, and joined the Non-Proliferation Treaty in July 1991. In March 1993 its president announced the former programme. The International Atomic Energy Agency (IAEA) sent inspectors, added weapons experts to the team, examined records and inventories, and concluded that it had found no indication that the programme had not been completely terminated and dismantled (von Baeckmann et al., 1995). Peter Liberman attributes the decision mainly to an improved security environment, including the end of the Cold War and the withdrawal of Cuban forces from Angola, together with a government that had become more sensitive to the diplomatic and economic costs of the programme as political reform began (Liberman, 2001).
+- **Ukraine, Belarus and Kazakhstan** inherited Soviet weapons in 1991. Ukraine alone held an estimated 1,900 strategic warheads. Under the Lisbon Protocol (1992), a 1994 trilateral statement with the United States and Russia, and the Budapest Memorandum on Security Assurances of 5 December 1994, Ukraine joined the Non-Proliferation Treaty and returned its last warhead to Russia on 1 June 1996. Parallel memorandums were signed for Belarus and Kazakhstan (Arms Control Association, 2022). In 1994 about 600 kg of weapons-grade uranium was removed from a plant in Kazakhstan to the United States under Project Sapphire (Nuclear Threat Initiative, n.d.).
+- **Brazil and Argentina**, once rivals with nuclear ambitions, created a joint agency in 1991 to verify each other's nuclear materials, which still operates (ABACC, n.d.).
+
+**Treaties have cut arsenals and built norms.** The Non-Proliferation Treaty has 191 states parties, more than any other arms-control treaty (UNODA, n.d.). Under its Article VI, each party "undertakes to pursue negotiations in good faith on effective measures relating to cessation of the nuclear arms race at an early date and to nuclear disarmament, and on a treaty on general and complete disarmament under strict and effective international control" (UNODA, n.d.). In 1996 the International Court of Justice unanimously found that there is an obligation "to pursue in good faith and bring to a conclusion negotiations leading to nuclear disarmament in all its aspects under strict and effective international control" (United Nations, 1996).
+
+The **Treaty on the Prohibition of Nuclear Weapons (TPNW)** was adopted in 2017 and entered into force on 22 January 2021. As of November 2026 it has 75 states parties and 96 signatories (United Nations Treaty Collection, 2026). No nuclear-armed state has joined. Its supporters see it as building a norm that treats nuclear weapons like chemical and biological weapons; its critics say it divides the disarmament community without changing the arsenals.
+
+**Verified dismantlement is technically possible.** The International Partnership for Nuclear Disarmament Verification (IPNDV), which brings together more than 25 countries with and without nuclear weapons, concluded in 2017 that "potentially applicable technologies, information barriers, and inspection procedures provide a path forward that should make possible multilaterally monitored nuclear warhead dismantlement while successfully managing safety, security, non-proliferation, and classification concerns" (IPNDV, 2017). Its third phase, reported in December 2025, studied verification of reductions from 500 warheads to zero, and stressed the need to look at a state's whole weapons system, including where warheads or materials could be hidden or diverted (IPNDV, 2025).
+
+**There are road maps.** Global Zero proposes a phased, verified plan in which Russia and the United States first cut to 1,100 warheads each, then Russia, the United States and China to 300 each, followed by a binding accord among all nine nuclear-armed states to dismantle all warheads by 2045 (Global Zero, n.d.). George Perkovich and James Acton's study for the International Institute for Strategic Studies examines the political and technical conditions abolition would require, including verification, enforcement and managing the risk of breakout (Perkovich & Acton, 2008).
+
+## Ethical tensions
+
+**Deterrence versus the risk it carries.** The strongest case for keeping nuclear weapons comes from Kenneth Waltz. He argued that nuclear weapons make war between their owners so costly that it becomes very unlikely, and that "more may be better" because the gradual spread of nuclear weapons could make war less likely (Waltz, 1981; Waltz, 1990). On this view, nuclear weapons explain why there has been no war between great powers since 1945. Scott Sagan replied that real militaries are organisations with rigid routines, narrow interests and a record of accidents, and that these features make deterrence failures, accidents and unauthorised use likely as weapons spread (Sagan, 1994). John Mueller argued from another direction that nuclear weapons were not essential to the post-war peace at all, because the memory of the Second World War and conventional deterrence were enough (Mueller, 1988). The near misses described above show that "it has not happened yet" is not proof that deterrence is safe; Pelopidas calls this overconfidence a danger in its own right (Pelopidas, 2017).
+
+**Holding civilians hostage.** Deterrence works by threatening to kill very large numbers of people who have no say in their government's decisions. Experiments suggest that public restraint against this is weaker than often assumed (Press et al., 2013; Sagan & Valentino, 2017). Climate research suggests the victims would include billions of people in neutral countries (Xia et al., 2022). It is hard to justify a security policy whose failure would fall mostly on people who never agreed to it.
+
+**Fairness between states.** The Non-Proliferation Treaty divides the world into five recognised nuclear-weapon states and everyone else, on the understanding that the five will negotiate disarmament. Non-nuclear states increasingly argue this bargain is not being kept. The UN's disarmament chief made the same point in May 2026 (UN News, 2026b).
+
+**The security of smaller states.** Ukraine is the hardest case. In 1993 John Mearsheimer argued that Ukraine should keep a nuclear deterrent against Russia, while Steven Miller argued that doing so would be dangerous, costly and isolating (Mearsheimer, 1993; Miller, 1993). After Ukraine gave up its weapons, Russia annexed Crimea in 2014 and launched a full-scale invasion in 2022, despite the assurances of the Budapest Memorandum (Arms Control Association, 2022). Many people now draw the lesson that only nuclear weapons guarantee survival. An honest case for universal disarmament has to accept that this lesson is powerful, and has to offer smaller states something better than paper assurances.
+
+**Verification and breakout.** Nuclear knowledge cannot be erased. Even at zero, a state could cheat or rebuild. Verification research suggests that confirming reductions to zero is a serious but solvable challenge (IPNDV, 2025), and Perkovich and Acton argue that a disarmed world would need agreed responses to breakout, so that any cheater would face united opposition (Perkovich & Acton, 2008).
+
+**Emotion is not only a danger.** Fear of nuclear war has also motivated restraint, and empathy for victims drove the humanitarian movement behind the TPNW. The aim is not to remove emotion from security policy, which the research above suggests is impossible (McDermott, 2004; Mercer, 2010), but to stop the world's survival depending on a few people controlling their anger or panic in minutes.
+
+## Original proposals
+
+1. **A step-by-step path that never asks anyone to jump to zero (this study's own proposal).** Build on existing road maps (Global Zero, n.d.; Perkovich & Acton, 2008), with each step unlocked only when verification of the previous one is confirmed:
+   - *Step 1, now:* Russia and the United States publicly commit to stay within the former New START limits and resume data exchanges, while negotiating a successor treaty. All nine states take warheads off high alert.
+   - *Step 2:* All nine states publish declared warhead totals and join a standing verification body that builds on IPNDV methods.
+   - *Step 3:* Deep cuts to a few hundred warheads each for the largest arsenals, and caps or freezes for the others.
+   - *Step 4:* A universal, verified dismantlement treaty, open to both NPT and TPNW members, with an agreed response to breakout.
+2. **No decision by one person in minutes (this study's own proposal).** Every nuclear-armed state adopts a rule that no nuclear use can be ordered by a single leader. A use decision would require several independent officials, and early-warning alarms could not trigger launch within minutes. This draws on the Chatham House recommendation to buy time for decisions and widen the circle of decision-makers (Lewis et al., 2014), and on the B-59 case, where a three-person rule helped prevent use.
+3. **A crisis protocol for emotion and social media (this study's own proposal).** During any crisis between nuclear-armed states:
+   - leaders agree in advance to a short pause before making public statements about nuclear use;
+   - governments use authenticated, private hotlines for threats and clarifications, rather than public posts; and
+   - crisis teams include a trained "cool head" whose job is to name emotional dynamics such as humiliation, anger and fear of looking weak, drawing on the research on emotion and status (Hall, 2011; Lebow, 2010; Kahneman & Renshon, 2007).
+4. **A global near-miss registry (this study's own proposal).** Modelled on no-blame incident reporting in aviation, nuclear-armed states would report false alarms, lost communications and exercise misunderstandings to a confidential international body. It would publish anonymised lessons. Chatham House found that many near misses came to light only decades later (Lewis et al., 2014).
+5. **Security guarantees that do not depend on nuclear weapons (this study's own proposal).** Smaller states that renounce nuclear weapons receive legally binding guarantees backed by regional and UN mechanisms, plus pre-agreed sanctions and support if a guarantor violates them. This responds directly to the Ukraine lesson and to the weakness of the 1994 assurances (Arms Control Association, 2022). Regional verification models such as the Brazil–Argentina agency show neighbours can build confidence directly (ABACC, n.d.).
+6. **A disarmament dividend for food security (this study's own proposal).** A share of savings from each reduction step would go into a fund for climate-resilient agriculture and emergency food reserves. The world's food supply is exactly what nuclear war would threaten (Xia et al., 2022), so this links disarmament to the security of the people most exposed.
+7. **Emotion-aware training for crisis decision-makers (this study's own proposal).** Senior officials and military officers with nuclear responsibilities receive training in recognising and managing emotion under pressure, including humiliation and anger, using research on emotion regulation. The companion case study on teaching reasoned debate sets out the evidence on emotion regulation.
+
+## Risks
+
+- **A dangerous transition.** Unequal cuts could make some states feel exposed. Waltz's argument implies that removing nuclear weapons could make large conventional wars more likely (Waltz, 1990). Each step should be checked against conventional military balances.
+- **Cheating and breakout.** A state could hide warheads or materials. Verification can raise the risk of detection but cannot eliminate it (IPNDV, 2025). Agreed responses to breakout are essential.
+- **False reassurance.** Paper guarantees to smaller states can fail, as Ukraine's experience shows (Arms Control Association, 2022). Guarantees need real enforcement.
+- **Splitting the disarmament camp.** If TPNW supporters and nuclear-armed states talk past each other, both treaties may weaken. The path should include both.
+- **Misusing the generational argument.** Blaming young people for emotional politics is not supported by evidence (Costanza et al., 2012; National Academies, 2020) and could alienate the generation whose support disarmament needs.
+- **Disputed science.** If advocates overstate the climate evidence, they invite backlash. Both the high-impact findings (Xia et al., 2022; Toon et al., 2019) and the lower-impact findings (Reisner et al., 2018) should be presented.
+
+## Recommendation
+
+Every country's nuclear weapons programme should be dismantled under strict, verified international control, through a step-by-step path in which no state is asked to disarm ahead of verification or without real security guarantees.
+
+The argument does not rest on any generation being more emotional than another. It rests on four findings that hold for leaders of every age: crises are shaped by fear, anger, pride and humiliation (Jervis, 2017; Lebow, 2010; Hall, 2011); fast media and short warning times leave little room for those emotions to cool (Duncombe, 2019; Lewis et al., 2014); the record of near misses suggests luck has played a large part (Lewis et al., 2014; Pelopidas, 2017); and the consequences of failure could reach billions of people who never had a say (Xia et al., 2022).
+
+The most urgent first steps are to restore limits and inspections between Russia and the United States, take weapons off high alert, end decisions by one person in minutes, and adopt crisis rules that keep threats off public social media. Those steps make the world safer even before any warhead is dismantled, and they build the trust that dismantlement will need.
+
+## Scholarly sources
+
+1. ABACC — Brazilian-Argentine Agency for Accounting and Control of Nuclear Materials. (n.d.). *About ABACC.* https://www.abacc.org.br/en
+2. Allison, G. T. (1969). Conceptual models and the Cuban missile crisis. *American Political Science Review*, 63(3), 689–718. https://doi.org/10.2307/1954423
+3. Arms Control Association. (2022). *Ukraine, nuclear weapons, and security assurances at a glance* (last reviewed March 2022). https://www.armscontrol.org/factsheets/ukraine-nuclear-weapons-and-security-assurances-glance
+4. Boxell, L., Gentzkow, M., & Shapiro, J. M. (2024). Cross-country trends in affective polarization. *Review of Economics and Statistics*, 106(2), 557–565. https://doi.org/10.1162/rest_a_01160
+5. Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J. (2017). Emotion shapes the diffusion of moralized content in social networks. *Proceedings of the National Academy of Sciences*, 114(28), 7313–7318. https://doi.org/10.1073/pnas.1618923114
+6. Bulletin of the Atomic Scientists. (2026). *2026 Doomsday Clock statement.* https://thebulletin.org/doomsday-clock/2026-statement/
+7. Costanza, D. P., Badger, J. M., Fraser, R. L., Severt, J. B., & Gade, P. A. (2012). Generational differences in work-related attitudes: A meta-analysis. *Journal of Business and Psychology*, 27(4), 375–394. https://doi.org/10.1007/s10869-012-9259-4
+8. Duncombe, C. (2019). The politics of Twitter: Emotions and the power of social media. *International Political Sociology*, 13(4), 409–429. https://doi.org/10.1093/ips/olz013
+9. Global Zero. (n.d.). *The Global Zero action plan.* https://globalzero.org/reaching-zero/index.html
+10. Hall, T. H. (2011). We will not swallow this bitter fruit: Theorizing a diplomacy of anger. *Security Studies*, 20(4), 521–555. https://doi.org/10.1080/09636412.2011.625771
+11. IPNDV — International Partnership for Nuclear Disarmament Verification. (2017). *Phase I summary report: Creating the verification building blocks for future nuclear disarmament.* https://www.ipndv.org/reports-analysis/phase-1-summary/
+12. IPNDV. (2025). *Phase III summary report: Addressing complexities and building confidence* (December 2025). https://www.ipndv.org/wp-content/uploads/2026/01/IPNDV-Phase-III-Summary-Report_r3.pdf
+13. Iyengar, S., Lelkes, Y., Levendusky, M., Malhotra, N., & Westwood, S. J. (2019). The origins and consequences of affective polarization in the United States. *Annual Review of Political Science*, 22, 129–146. https://doi.org/10.1146/annurev-polisci-051117-073034
+14. Jervis, R. (2017). *Perception and misperception in international politics* (new ed.; first published 1976). Princeton University Press. https://doi.org/10.2307/j.ctvc77bx3
+15. Kahneman, D., & Renshon, J. (2007). Why hawks win. *Foreign Policy*, 158, 34–38. https://foreignpolicy.com/2009/10/13/why-hawks-win/
+16. Lebow, R. N. (2008). *A cultural theory of international relations.* Cambridge University Press. https://doi.org/10.1017/CBO9780511575174
+17. Lebow, R. N. (2010). *Why nations fight: Past and future motives for war.* Cambridge University Press. https://doi.org/10.1017/CBO9780511761485
+18. Lewis, P., Williams, H., Pelopidas, B., & Aghlani, S. (2014). *Too close for comfort: Cases of near nuclear use and options for policy.* Chatham House. https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy
+19. Liberman, P. (2001). The rise and fall of the South African bomb. *International Security*, 26(2), 45–86. https://doi.org/10.1162/016228801753191132
+20. McDermott, R. (2004). The feeling of rationality: The meaning of neuroscientific advances for political science. *Perspectives on Politics*, 2(4), 691–706. https://doi.org/10.1017/S1537592704040459
+21. Mearsheimer, J. J. (1993). The case for a Ukrainian nuclear deterrent. *Foreign Affairs*, 72(3), 50–66. https://doi.org/10.2307/20045622
+22. Mercer, J. (2005). Rationality and psychology in international politics. *International Organization*, 59(1), 77–106. https://doi.org/10.1017/S0020818305050058
+23. Mercer, J. (2010). Emotional beliefs. *International Organization*, 64(1), 1–31. https://doi.org/10.1017/S0020818309990221
+24. Miller, S. E. (1993). The case against a Ukrainian nuclear deterrent. *Foreign Affairs*, 72(3), 67–80. https://doi.org/10.2307/20045623
+25. Mueller, J. (1988). The essential irrelevance of nuclear weapons: Stability in the postwar world. *International Security*, 13(2), 55–79. https://doi.org/10.2307/2538971
+26. National Academies of Sciences, Engineering, and Medicine. (2020). *Are generational categories meaningful distinctions for workforce management?* National Academies Press. https://doi.org/10.17226/25796
+27. Nuclear Threat Initiative. (n.d.). *Ulba Metallurgical Plant* (facilities collection; Project Sapphire). https://www.nti.org/education-center/facilities/ulba-metallurgical-plant/
+28. Pelopidas, B. (2017). The unbearable lightness of luck: Three sources of overconfidence in the manageability of nuclear crises. *European Journal of International Security*, 2(2), 240–262. https://doi.org/10.1017/eis.2017.6
+29. Perkovich, G., & Acton, J. M. (2008). *Abolishing nuclear weapons* (Adelphi Paper 396). International Institute for Strategic Studies / Carnegie Endowment for International Peace. https://carnegieendowment.org/research/2008/09/abolishing-nuclear-weapons
+30. Press, D. G., Sagan, S. D., & Valentino, B. A. (2013). Atomic aversion: Experimental evidence on taboos, traditions, and the non-use of nuclear weapons. *American Political Science Review*, 107(1), 188–206. https://doi.org/10.1017/S0003055412000597
+31. Reisner, J., D'Angelo, G., Koo, E., Even, W., Hecht, M., Hunke, E., et al. (2018). Climate impact of a regional nuclear weapons exchange: An improved assessment based on detailed source calculations. *Journal of Geophysical Research: Atmospheres*, 123(5), 2752–2772. https://doi.org/10.1002/2017JD027331
+32. Robock, A., Oman, L., & Stenchikov, G. L. (2007). Nuclear winter revisited with a modern climate model and current nuclear arsenals: Still catastrophic consequences. *Journal of Geophysical Research: Atmospheres*, 112(D13). https://doi.org/10.1029/2006JD008235
+33. Rorotoko. (2010). *Richard Ned Lebow on Why Nations Fight* (author interview). https://www.rorotoko.com/micro-interviews/20100407-lebow-richard-on-forbidden-fruit-counterfactuals-intl-relations-1-1
+34. Rudolph, C. W., Rauvola, R. S., Costanza, D. P., & Zacher, H. (2021). Generations and generational differences: Debunking myths in organizational science and practice and paving new paths forward. *Journal of Business and Psychology*, 36(6), 945–967. https://doi.org/10.1007/s10869-020-09715-2
+35. Sagan, S. D. (1994). The perils of proliferation: Organization theory, deterrence theory, and the spread of nuclear weapons. *International Security*, 18(4), 66–107. https://doi.org/10.2307/2539178
+36. Sagan, S. D. (1996). Why do states build nuclear weapons? Three models in search of a bomb. *International Security*, 21(3), 54–86. https://doi.org/10.2307/2539273
+37. Sagan, S. D., & Valentino, B. A. (2017). Revisiting Hiroshima in Iran: What Americans really think about using nuclear weapons and killing noncombatants. *International Security*, 42(1), 41–79. https://doi.org/10.1162/ISEC_a_00284
+38. SIPRI — Stockholm International Peace Research Institute. (2026a). *SIPRI Yearbook 2026*, chapter 8: World nuclear forces. https://www.sipri.org/yearbook/2026/08
+39. SIPRI. (2026b). *Increasing focus on nuclear weapons amid heightened escalation risks — new SIPRI Yearbook out now* (press release). https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now
+40. Toon, O. B., Bardeen, C. G., Robock, A., Xia, L., Kristensen, H., McKinzie, M., et al. (2019). Rapidly expanding nuclear arsenals in Pakistan and India portend regional and global catastrophe. *Science Advances*, 5(10), eaay5478. https://doi.org/10.1126/sciadv.aay5478
+41. Trinkunas, H. A., Lin, H. S., & Loehrke, B. (Eds.). (2020). *Three tweets to midnight: Effects of the global information ecosystem on the risk of nuclear conflict.* Hoover Institution Press. https://www.hoover.org/research/three-tweets-midnight
+42. Turco, R. P., Toon, O. B., Ackerman, T. P., Pollack, J. B., & Sagan, C. (1983). Nuclear winter: Global consequences of multiple nuclear explosions. *Science*, 222(4630), 1283–1292. https://doi.org/10.1126/science.222.4630.1283
+43. UN News. (2026a, 4 February). *UN chief warns of 'grave moment' as final US-Russia nuclear arms treaty expires.* https://news.un.org/en/story/2026/02/1166892
+44. UN News. (2026b, 23 May). *Review of landmark nuclear treaty breaks up without consensus, raising arms race fears.* https://news.un.org/en/story/2026/05/1167580
+45. United Nations. (1996, 8 July). *International Court of Justice issues advisory opinion on legality of threat or use of nuclear weapons* (press release ICJ/546). https://press.un.org/en/1996/19960708.icj546.html
+46. United Nations Treaty Collection. (2026). *Treaty on the Prohibition of Nuclear Weapons: Status.* https://treaties.un.org/Pages/ViewDetails.aspx?chapter=26&clang=_en&mtdsg_no=XXVI-9&src=TREATY
+47. UNODA — United Nations Office for Disarmament Affairs. (n.d.). *Treaty on the Non-Proliferation of Nuclear Weapons (NPT).* https://disarmament.unoda.org/en/our-work/weapons-mass-destruction/nuclear-weapons/treaty-non-proliferation-nuclear-weapons
+48. von Baeckmann, A., Dillon, G., & Perricos, D. (1995). Nuclear verification in South Africa. *IAEA Bulletin*, 37(1), 42ff. https://www.iaea.org/sites/default/files/publications/magazines/bulletin/bull37-1/37105394248.pdf
+49. Waltz, K. N. (1981). *The spread of nuclear weapons: More may be better* (Adelphi Paper 171). International Institute for Strategic Studies. https://doi.org/10.1080/05679328108457394
+50. Waltz, K. N. (1990). Nuclear myths and political realities. *American Political Science Review*, 84(3), 730–745. https://doi.org/10.2307/1962764
+51. Xia, L., Robock, A., Scherrer, K., Harrison, C. S., Bodirsky, B. L., Weindl, I., et al. (2022). Global food insecurity and famine from reduced crop, marine fishery and livestock production due to climate disruption from nuclear war soot injection. *Nature Food*, 3(8), 586–596. https://doi.org/10.1038/s43016-022-00573-0
+
+### Notes on verification
+
+- Every DOI above was resolved through doi.org and its title, authors and year checked against publisher metadata in November 2026. Every web link was opened in November 2026.
+- Metadata services list only first pages for some older articles (Mearsheimer, 1993; Miller, 1993; Sagan, 1994; the IAEA Bulletin article). End pages for these follow the journals' usual citations and were not separately checked.
+- The number of TPNW parties (75) and signatories (96) was read from the UN Treaty Collection in November 2026 and may change.
+- The Lebow figures (19, 8, 62 and 11 of 94 wars) were checked against the author's own published summary of the book's dataset, not the full dataset.
+- **Unverified and therefore not used:** precise figures for current US–Russian voluntary adherence to former New START limits after February 2026 (reported statements differ), and any claim that a specific generation is more emotional than others.
