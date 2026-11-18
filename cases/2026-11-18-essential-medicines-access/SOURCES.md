@@ -2,12 +2,14 @@
 
 *All checks made 18 November 2026 (Asia/Bangkok, UTC+7).*
 
+*Revisions (18 November 2026).* Revised after an independent review. The changes correct facts, fill gaps and tighten wording. The review is not named here.
+
 ## Method
 
 - **DOIs:** each was resolved through doi.org (HTTP 302 redirect to the publisher) and its metadata (authors, title, venue, volume, pages) matched against the Crossref API. Findings were taken only from abstracts read through OpenAlex or Europe PMC, or from open full text where noted.
 - **Web pages and PDFs:** each URL was fetched and the cited passage found in the fetched text. Where an automated fetch was blocked, the page was read through a second fetch method.
 - **Dropped or marked:** anything that could not be confirmed this way is either left out of the case study or marked unverified there, and listed in the last table below.
-- **Counts:** 46 sources cited; 45 fully verified; 1 partly verified (S16, a repository manuscript of a journal article without a DOI). One claim in the case study (uptake of the MC12 decision) is marked unverified and has no source.
+- **Counts:** 47 sources cited; 46 fully verified; 1 partly verified (S16, a repository manuscript of a journal article without a DOI). One claim in the case study (uptake of the MC12 decision) is marked unverified and has no source.
 
 ## Cited sources
 
@@ -18,7 +20,7 @@
 | S3 | Cameron A, Ewen M, Ross-Degnan D, Ball D, Laing R. Medicine prices, availability, and affordability in 36 developing and middle-income countries: a secondary analysis. Lancet. 2009;373(9659):240-249 | Journal article | doi:10.1016/S0140-6736(08)61762-6 | Availability, price ratios, mark-ups | doi.org 302, Crossref OK, abstract read |
 | S4 | WHO, Global monitoring report on financial protection / UHC 2025 (team page; report featured 5 December 2025) | WHO web page | https://www.who.int/teams/health-financing-and-economics/global-monitoring-report/2025 | 2.1 billion in financial hardship (2022); 4.6 billion lacking coverage (2023) | Fetched, text found |
 | S5 | WHO and World Bank, Tracking universal health coverage: 2025 global monitoring report, technical briefing slides | WHO PDF | https://cdn.who.int/media/docs/default-source/gho-documents/technical-briefing-2025-uhc-global-monitoring-report-presentation.pdf?sfvrsn=b17f8ff6_1 | 26% / 2.1 billion; 1.6 billion impoverishing; 450 million large OOP; revised 40% discretionary-budget indicator | Fetched, text found |
-| S6 | WTO, Declaration on the TRIPS Agreement and Public Health (Doha, 14 November 2001), WT/MIN(01)/DEC/2 | WTO web page | https://www.wto.org/english/thewto_e/minist_e/min01_e/mindecl_trips_e.htm | Quotes on interpretation and compulsory licences; LDC transition to 2016 | Fetched, quotes found |
+| S6 | WTO, Declaration on the TRIPS Agreement and Public Health (Doha, 14 November 2001), WT/MIN(01)/DEC/2 | WTO web page | https://www.wto.org/english/thewto_e/minist_e/min01_e/mindecl_trips_e.htm | Quotes on interpretation and compulsory licences; original LDC transition to 2016 (later extension: S47) | Fetched, quotes found |
 | S7 | WTO news, "WTO IP rules amended to ease poor countries' access to affordable medicines", 2017 | WTO news page | https://www.wto.org/english/news_e/news17_e/trip_23jan17_e.htm | Two-thirds acceptance; first amendment of WTO accords since 1995 | Fetched, text found |
 | S8 | WTO, "TRIPS and public health: pharmaceutical patents" (topic page) | WTO web page | https://www.wto.org/english/tratop_e/trips_e/pharmpatent_e.htm | Article 31bis in force 2017; interim waiver; MC12 decision scope; no consensus on extension | Fetched, text found |
 | S9 | WTO news, "TRIPS Council finalizes preparations for MC13", 13 February 2024 | WTO news page | https://www.wto.org/english/news_e/news24_e/trip_13feb24_e.htm | "Consensus could not be reached on the extension" | Fetched, quote found |
@@ -41,7 +43,7 @@
 | S26 | CMS, Frequently Asked Questions about Medicare Insulin Cost-Sharing Changes in the Prescription Drug Law (updated July 2023) | US government PDF | https://www.cms.gov/files/document/frequently-asked-questions-about-medicare-insulin-cost-sharing-changes-prescription-drug-law-july.pdf | $35 monthly cost-sharing cap under the prescription drug law | Fetched, text found |
 | S27 | Vokinger KN, Hwang TJ, Grischott T, et al. Prices and clinical benefit of cancer drugs in the USA and Europe: a cost-benefit analysis. Lancet Oncology. 2020;21(5):664-670 | Journal article | doi:10.1016/S1470-2045(20)30139-X | 65 drugs; median 2.31x (IQR 1.79-3.17); no cost-benefit link for solid tumours | doi.org 302, Crossref OK, abstract read |
 | S28 | WHO news, "WHO updates list of essential medicines to include key cancer, diabetes treatments", 5 September 2025 | WHO news page | https://www.who.int/news/item/05-09-2025-who-updates-list-of-essential-medicines-to-include-key-cancer--diabetes-treatments | 4-6 month survival criterion; pembrolizumab; GLP-1s; 523 and 374 medicines | Fetched, text found |
-| S29 | Africa CDC, "A breakthrough for the African vaccine manufacturing" | Africa CDC news page | https://africacdc.org/news-item/a-breakthrough-for-the-african-vaccine-manufacturing/ | 60% by 2040; AVMA up to US$1bn | Fetched, text found |
+| S29 | Africa CDC, "A breakthrough for the African vaccine manufacturing" (8 December 2023) | Africa CDC news page | https://africacdc.org/news-item/a-breakthrough-for-the-african-vaccine-manufacturing/ | Over 60% by 2040; interim goals of 10% by 2025 and 30% by 2030; AVMA up to US$1bn | Fetched, text found |
 | S30 | African Medicines Agency, "About: Overview" | AMA web page | https://au-ama.africa/about-overview/ | Operational October 2025, Kigali | Fetched, text found |
 | S31 | African Medicines Agency, "AMA Welcomes Adoption of Medical Products Regulatory Strategy by African Health Ministers", 26 August 2026 | AMA news page | https://au-ama.africa/news_events/african-medicines-agency-welcomes-adoption-of-medical-products-regulatory-strategy-by-african-health-ministers/ | Regulatory strategy adopted; AMA harmonisation role | Fetched, text found |
 | S32 | WHO, "mRNA Technology Transfer (mRNA TT) Programme" | WHO web page | https://www.who.int/initiatives/mrna-technology-transfer-%28mrna-tt%29-programme | Hub members; 15 partners as of 1 May 2025; first transfer September 2024 | Fetched, text found |
@@ -58,7 +60,8 @@
 | S43 | DNDi, "Treatments delivered" | NGO web page | https://dndi.org/research-development/treatments-delivered/ | 17 treatments for six diseases since 2003; goal of 25 by 2028 | Fetched, text found |
 | S44 | WHO, "MI4A: Market Information for Access to Vaccines" | WHO web page | https://www.who.int/teams/immunization-vaccines-and-biologicals/vaccine-access/mi4a | Contents of the vaccine purchase database | Fetched, text found |
 | S45 | WHO, "2026 MI4A Public Vaccine Purchase Dataset", 14 September 2026 | WHO publication page | https://www.who.int/publications/m/item/2026-mi4a-public-vaccine-purchase-dataset | 182 countries; 2005-2025; anonymised country names | Fetched, text found |
-| S46 | MSF Access (formerly Access Campaign), home page | NGO web page | https://msfaccess.org/ | Name; 3 November 2026 statement at WHO Fair Pricing Forum | Fetched 18 Nov 2026, text found |
+| S46 | MSF Access, "MSF Statement at the Open Plenary of the WHO Fair Pricing Forum 2026" (3 November 2026) | NGO statement page | https://msfaccess.org/msf-statement-open-plenary-who-fair-pricing-forum-2026 | Call for legal and policy action on prices, transparency of costs and net prices, and binding access conditions on public and philanthropic funding | Fetched, text found |
+| S47 | WTO TRIPS Council, Extension of the transition period under Article 66.1 of the TRIPS Agreement for least-developed country members for certain obligations with respect to pharmaceutical products, decision of 6 November 2015 (IP/C/73); WTO news item of the same date | WTO decision and news page | Decision: https://docs.wto.org/dol2fe/Pages/SS/directdoc.aspx?Open=True&filename=q%3A%2FIP%2FC%2F73.pdf ; news: https://www.wto.org/english/news_e/news15_e/trip_06nov15_e.htm | LDC pharmaceutical patent and test-data transition extended until 1 January 2033, or until a member ceases to be an LDC, whichever is earlier | Decision text and news item read; quotes and date matched |
 
 ## Checked but not cited, or dropped
 
@@ -73,5 +76,5 @@
 | WTO MC14 intellectual property briefing note | https://www.wto.org/english/thewto_e/minist_e/mc14_e/briefing_notes_e/intellectualproperty_e.htm | Not fetched this time; not needed |
 | Nexavar Controller order, 9 March 2012 (law-firm copy) | gnaipr.com copy | Not an official host; S16 used instead; appeal history left out |
 | News report of a 2026 GMP certification for the Cape Town mRNA hub | (news site) | No official confirmation found; claim left out |
-| Africa CDC interim vaccine targets for 2025 and 2030 | (search snippet only) | Not found on a fetched page; left out |
+| Africa CDC interim vaccine targets for 2025 and 2030 | https://africacdc.org/news-item/a-breakthrough-for-the-african-vaccine-manufacturing/ | Now cited from S29, which states the 10% (2025) and 30% (2030) interim goals |
 | Nunn A et al. 2007 on Brazil's antiretroviral costs; CEPI funding for BioNTech Kigali; DNDi 2025 annual report | (not checked) | Not checked; not cited |

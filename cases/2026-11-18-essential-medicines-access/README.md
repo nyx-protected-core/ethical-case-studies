@@ -2,6 +2,8 @@
 
 *Ethics case study. Research and writing only. Every number is tagged to a numbered source in SOURCES.md, written as [S#]. Status claims are dated "as of 18 November 2026". Figures are quoted as the source gives them and are not recalculated.*
 
+*Revisions (18 November 2026).* Revised after an independent review. The changes correct facts, fill gaps and tighten wording. The review is not named here.
+
 ---
 
 ## 1. Why this case matters
@@ -35,7 +37,7 @@ The WHO/HAI survey evidence [S3] shows that patents are only part of the story. 
 
 ### 3.1 The legal framework
 
-- **Doha Declaration (November 2001).** WTO ministers agreed that the TRIPS Agreement "can and should be interpreted and implemented in a manner supportive of WTO members' right to protect public health and, in particular, to promote access to medicines for all" [S6]. It confirmed that "each member has the right to grant compulsory licences and the freedom to determine the grounds upon which such licences are granted", and gave least-developed countries a transition period for pharmaceutical patents (then until 1 January 2016) [S6].
+- **Doha Declaration (November 2001).** WTO ministers agreed that the TRIPS Agreement "can and should be interpreted and implemented in a manner supportive of WTO members' right to protect public health and, in particular, to promote access to medicines for all" [S6]. It confirmed that "each member has the right to grant compulsory licences and the freedom to determine the grounds upon which such licences are granted", and gave least-developed countries a transition period for pharmaceutical patents (then until 1 January 2016) [S6]. The WTO TRIPS Council later extended that period until 1 January 2033, or until a country ceases to be a least-developed country, whichever is earlier (decision of 6 November 2015, IP/C/73) [S47].
 - **Article 31bis.** The "paragraph 6 system" lets a country produce generics under a compulsory licence *for export* to countries that cannot manufacture them. It was agreed as an amendment in 2005 and entered into force in 2017, when two-thirds of members had accepted it, the first amendment of any WTO agreement since 1995 [S7], [S8]. The WTO's TRIPS database cites the text "as amended on 23 January 2017" [S10]. Members that have not yet accepted the amendment remain covered by an interim waiver [S8].
 
 ### 3.2 Thailand, 2006 to 2008
@@ -109,7 +111,7 @@ These are list-price cuts in one high-income market. They say little about price
 ### 5.2 Cancer medicines
 
 - **Price and value.** A study of 65 cancer drugs found US monthly treatment costs were a median 2.31 times (IQR 1.79 to 3.17) those in four European countries. For solid tumours it found no significant link between cost and clinical benefit, except in France on one benefit scale [S27].
-- **WHO Model List, September 2025.** WHO's Expert Committee lists only cancer medicines "proven to prolong life by at least 4-6 months" [S28]. In 2025 it added pembrolizumab as first-line monotherapy for metastatic cervical, colorectal and non-small cell lung cancer, with atezolizumab and cemiplimab as therapeutic alternatives for the lung indication [S28]. It also added GLP-1 receptor agonists (semaglutide, dulaglutide, liraglutide) and tirzepatide for some adults with type 2 diabetes [S28]. The lists now hold 523 medicines for adults and 374 for children [S28].
+- **The 24th WHO Model List (2025).** WHO's Expert Committee lists only cancer medicines "proven to prolong life by at least 4-6 months" [S28]. In 2025 it added pembrolizumab as first-line monotherapy for metastatic cervical, colorectal and non-small cell lung cancer, with atezolizumab and cemiplimab as therapeutic alternatives for the lung indication [S28]. It also added GLP-1 receptor agonists (semaglutide, dulaglutide, liraglutide) and tirzepatide for some adults with type 2 diabetes [S28]. The lists now hold 523 medicines for adults and 374 for children [S28].
 
 Listing creates a moral expectation of affordability but does not change prices by itself. Adding high-priced immunotherapies is a signal to buyers and suppliers, not a guarantee of access.
 
@@ -117,7 +119,7 @@ Listing creates a moral expectation of affordability but does not change prices 
 
 | Initiative | Status | Source |
 | --- | --- | --- |
-| African Union target | Produce 60% of the vaccines the continent needs by 2040 | [S29] |
+| African Union target | Produce over 60% of the vaccines the continent needs by 2040, with interim goals of 10% by 2025 and 30% by 2030 | [S29] |
 | African Vaccine Manufacturing Accelerator (AVMA) | Gavi financing mechanism making up to US$1 billion available for African vaccine manufacturing, described by Africa CDC as accelerating the 60% goal | [S29] |
 | African Medicines Agency (AMA) | Became operational in October 2025, when its inaugural Director General took office at its Kigali headquarters | [S30] |
 | AMA regulatory role | On 26 August 2026 AMA welcomed African health ministers' adoption of a medical-products regulatory strategy giving it a central harmonisation role | [S31] |
@@ -126,7 +128,7 @@ Listing creates a moral expectation of affordability but does not change prices 
 | BioNTech Kigali | Site inaugurated 18 December 2023; plan was to complete buildings and train staff in 2024 and begin test production for process validation in 2025 | [S34] |
 | BioNTech Kigali, current | BioNTech's sites page says it "is currently building BioNTainer-based manufacturing facilities in Kigali" | [S35] |
 
-**What is not verified.** I found no official source confirming that the Kigali facility has started commercial supply, or whether the 2025 validation milestone was met. A news report of a GMP certification for the Cape Town hub in 2026 was not confirmed from an official source and is left out. Interim African targets for 2025 and 2030 were not confirmed on a page I could open and are also left out.
+**What is not verified.** I found no official source confirming that the Kigali facility has started commercial supply, or whether the 2025 validation milestone was met. A news report of a GMP certification for the Cape Town hub in 2026 was not confirmed from an official source and is left out. The 10% (2025) and 30% (2030) interim goals are Africa CDC's published targets [S29]; whether the 2025 goal was met is not confirmed here.
 
 ## 7. The WHO Pandemic Agreement and the PABS annex
 
@@ -173,7 +175,7 @@ A fair reading: small-market licences for public-sector use show no measurable i
 
 Price secrecy weakens buyers. Two public resources show what transparency can look like:
 - **WHO MI4A (Market Information for Access to Vaccines).** Its vaccine purchase database holds prices, volumes, manufacturers, procurement routes and contract details [S44]. The 2026 dataset, released 14 September 2026, covers purchases from 2005 to 2025 reported by 182 countries [S45]. Country names are anonymised for confidentiality [S45]. This is a compromise between transparency and the confidential-pricing concerns in section 8.2.
-- **MSF Access** (formerly the Access Campaign) publishes price and policy analysis. On 3 November 2026, at the WHO Fair Pricing Forum, MSF called for stronger government action on prices, transparency and binding access conditions [S46].
+- **MSF Access** (formerly the Access Campaign) publishes price and policy analysis. In its 3 November 2026 statement at the open plenary of the WHO Fair Pricing Forum, MSF called on governments to use legal and policy measures to secure fair prices, to improve transparency of costs and net prices, and to attach binding access conditions to public and philanthropic research funding [S46].
 
 **Design notes for builders** (proposals, not claims about existing tools):
 - publish open, machine-readable price data with clear units, dates, currency and source;
@@ -210,7 +212,7 @@ Price secrecy weakens buyers. Two public resources show what transparency can lo
 
 ## 12. Limits of this study
 
-- The WTO's primary documents on the MC12 decision (its text and annual reviews) could not be opened; claims about its duration come from a peer-reviewed secondary source [S11], and its uptake is marked unverified.
+- The WTO's primary documents on the MC12 decision (its text and annual reviews) could not be opened; claims about its duration come from a peer-reviewed secondary source [S11], and its uptake is marked unverified. The least-developed countries' pharmaceutical transition, extended to 1 January 2033, was read from the WTO's 6 November 2015 news item and from the TRIPS Council decision IP/C/73 [S47].
 - MPP impact figures are self-reported and modelled [S18], [S19]; the peer-reviewed savings estimate has MPP-affiliated authors [S20].
 - The Nexavar terms come from a law-journal manuscript, not the official order [S16].
 - No primary price-trend data for insulin outside the US were verified.

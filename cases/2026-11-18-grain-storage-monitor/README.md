@@ -4,17 +4,19 @@ Ethical case study (food insecurity, post-harvest loss). Research and design wri
 Author role: assembly / firmware engineer. I would write the firmware in C and assembly later; this document contains **no code**.
 All LCSC prices, stock and lifecycle labels were read from LCSC's product-detail data on **2026-11-18, about 18:05–18:15 (UTC+7)** and will change.
 
+*Revisions (18 November 2026).* Revised after an independent review. The changes correct facts, fill gaps and tighten wording. The review is not named here.
+
 ---
 
 ## Summary
 
-- **What it is:** a small sealed capsule that a farmer places on top of the grain, inside the inner liner of a triple-layer hermetic bag (for example a PICS bag) or near the top of a small silo, before tying the bag. It wakes every hour or so, measures, and then sleeps. It answers one question: *is this grain staying dry and sealed, or is something going wrong?* **Red** means inspect now (dry, sell or use the grain). **Yellow** means watch: it is getting wetter, or the device is still settling. **Green** means dry enough now. A buzzer gives the same answer by sound. No radio, no app, no account, and nothing leaves the device.
+- **What it is:** a small sealed capsule that a farmer places on top of the grain, inside the inner liner of a triple-layer hermetic bag (for example a PICS bag), before tying the bag. The intended use is **sealed household hermetic bags**. Use in a small silo or any place where grain-dust clouds can form was not assessed (section 5.5). It wakes every hour or so, measures, and then sleeps. It answers one question: *is this grain staying dry and sealed, or is something going wrong?* **Red** means inspect now (dry, sell or use the grain). **Yellow** means watch: it is getting wetter, or the device is still settling. **Green** means dry enough now. A buzzer gives the same answer by sound. No radio, no app, no account, and nothing leaves the device.
 - **The bag is never opened to read it.** You press the button through the plastic film, and the lights and buzzer answer through the liners. Every hole or re-opening weakens the hermetic seal [S13][S12], so the design never needs a cable through the bag. *Whether the LEDs are visible through two "thick and fairly opaque" liners [S12] is unverified* (section 5), which is why the buzzer is a primary channel, not an extra.
 - **Two builds:**
   - **Build A, T/RH only (recommended for households):** Puya PY32F002BD15S6TU MCU plus an Aosong AHT20 sensor on a CR2032 coin cell. **About US$1.37 in LCSC-verified electronics** at about 50 units, and roughly **US$2.70–5.30 per unit** with PCB, capsule, vent membrane and cell (the non-LCSC lines are estimates, marked unverified).
   - **Build B, T/RH + CO₂ (cooperatives, warehouses, research):** adds a Sensirion SCD41 photoacoustic NDIR sensor on 3×AA cells. **About US$19.39 in electronics** (the SCD41 alone is about $17), roughly **US$22–26 per unit**. A thermal-conductivity STCC4 variant is about $11 in electronics but has open questions.
 - **The CO₂ cost tension is real, and so is a deeper problem.** No battery-friendly CO₂ sensor I found is sold on LCSC's international site today. The SCD41, SCD40, STCC4 and SHTC3 all return "Page Not Found" on lcsc.com, although JLCPCB (LCSC's sister assembly service) stocks them. The CO₂ parts LCSC does list are a 5 V, 40 mA module and a $23 Infineon module with 5 units in stock. More importantly, a sealed hermetic bag *normally* holds **10–16% CO₂**: 12.6–14.0% one day after closing and 14.1–16.6% after seven months in a Benin trial [S7]. Affordable sensors top out at about 4% (SCD4x output range 0–40,000 ppm [S21]). So high CO₂ in a hermetic bag means the bag is doing its job, not that the grain is spoiling. CO₂ is therefore most useful as a **seal-integrity signal** (it rose, then fell back toward air, so the bag is leaking). I explain this in section 2.3.
-- **Evidence for the problem:** APHLIS estimates Kenya lost 16.7% of its 2022 maize after harvest, but only about 2.5% of that loss was in household storage [S1]. FAO/World Bank put sub-Saharan grain losses at about US$4 billion a year, with 10–20% physical losses before processing [S2]. FAO estimates about 14% of the world's food is lost between harvest and retail [S3]. India's 2022 national study found much lower cereal losses: paddy 4.16% on farm plus 0.61% at market [S4]. IRRI cites 15–20% post-harvest loss for rice [S5]. **Estimates disagree widely**, and storage is only one slice.
+- **Evidence for the problem:** APHLIS estimates Kenya lost 16.7% of its 2022 maize after harvest, but only about 2.5% of that loss was in household storage [S1]. The FAO/World Bank/NRI report *Missing Food* values grain losses in Eastern and Southern Africa at about US$1.6 billion a year. Extrapolating similar rates to the rest of sub-Saharan Africa, it says the figure "could potentially reach nearly US$4 billion a year". Physical grain losses before processing are put at 10–20% [S2]. FAO estimates about 14% of the world's food is lost by value, post-harvest up to but excluding retail [S3]. India's 2022 national study found much lower cereal losses: paddy 4.16% on farm plus 0.61% at market [S4]. IRRI cites 15–20% post-harvest loss for rice [S5]. **Estimates disagree widely**, and storage is only one slice.
 - **Evidence for hermetic bags is strong:** a 2024 meta-analysis found grain in conventional bags had 42× more insects, 11× more damage and 23× more weight loss than grain in hermetic bags [S6]. Field results are good but not perfect: under 10% loss even after rodents holed one bag [S10], and a beetle species survived in some hermetic containers [S9]. A monitor can **support** this proven practice. It cannot replace drying grain before storage.
 - **Ethics, in one line:** the device must fail toward red, never toward green. The reading belongs to the farmer, and the monitor must not cost more than the problem it catches. For a household, Build A costs more than the bag itself (a 100 kg PICS bag was US$1.64 in Malawi in 2018 [S18]). Simpler tools exist: a US$4 hygrometer method [S16] and the cobalt-chloride DryCard [S17]. The monitor earns its place only by watching the bag **continuously, without opening it**.
 
@@ -71,7 +73,7 @@ Three facts that matter for the electronics:
 3. **Equilibrium takes time.** In a small sealed bag, hygrometers settled in about 30–45 minutes [S16]. The DryCard team notes that freshly dried grain reads falsely dry until moisture inside the kernels equilibrates, about 4 hours for rice after a heated dryer [S17]. In a 50–100 kg bag with the sensor in the top layer, settling will take longer (**unverified**). The firmware therefore shows "settling" (yellow) for the first 24 hours and never green during that time.
 
 **Chosen sensor: Aosong AHT20 (LCSC C2757850).** From its datasheet [S19]:
-- ±2% RH typical accuracy, ±0.3 °C, drift under 1% RH a year.
+- ±2% RH typical accuracy and ±0.3 °C typical, at 25 °C and 3.3 V. The datasheet says this typical figure excludes hysteresis (±1% RH) and non-linearity, and applies only to non-condensing conditions. The maximum RH error is shown in Figure 2 of the datasheet, not as a single number [S19]. Drift under 1% RH a year.
 - Sleep current at most 0.2 µA, 570 µA while measuring, 80 ms per measurement.
 - Supply 2.2–5.5 V, so it runs straight from a coin cell.
 - Two datasheet warnings shape the design:
@@ -79,7 +81,9 @@ Three facts that matter for the electronics:
   - Volatile solvents, tapes, adhesives and packaging materials can shift readings. The recommended neighbouring materials are metal, PTFE, PE, PP, POM and similar. This drives the enclosure choice (PP/PE capsule, PTFE membrane) in section 5.
 - The datasheet also advises powering the sensor through a controllable supply with an RC filter, and keeping copper and heat sources away from it (a 1.5 mm slot in the PCB). The MCU pin power-gating in section 3 follows that advice.
 
-A cheaper alternative is the **AHT30 (C45354925)**: $0.4448 @100 vs AHT20 $0.5357 @100, but ±3% RH typical [S20]. Near the 65% decision line, ±3% means a bag at 62% could read 65%. I chose the AHT20 because a 1% RH difference in accuracy is worth $0.09 when the cost of a wrong answer is a bag of grain.
+A cheaper alternative is the **AHT30 (C45354925)**: $0.4448 @100 vs AHT20 $0.5357 @100, but ±3% RH typical [S20]. Near the 65% decision line, even the AHT20's typical ±2% is not the right figure to use for a threshold: it excludes hysteresis and non-linearity, so a bag near 62–65% could be misclassified by more than the typical error. Thresholds should be set from the datasheet's maximum-error curve (Figure 2), with a safety margin [S19]. I still chose the AHT20 over the AHT30 because the tighter typical specification is worth the extra $0.09 when the cost of a wrong answer is a bag of grain. If Build B's SCD41 built-in humidity sensor were used instead, its RH accuracy is much worse: ±6% RH (15–35 °C, 20–65% RH) and ±9% RH over the full range [S21]. That is a further reason to keep the AHT20 in both builds.
+
+Aosong also lists an **AHT20-F** filter-membrane variant, which could reduce dust exposure behind the ePTFE vent. Its lifecycle status and price were **not verified** in this revision, so it is not in the BOM.
 
 **Temperature as a spoilage signal is weak in small bags.** In PICS bags, grain temperature "correlated closely" with ambient temperature over eight months [S11]. In 60 m silo-bags, grain temperature also follows ambient air because the surface-to-volume ratio is high. That hides the heat of biological activity, and Bartosik et al. turned to CO₂ for exactly this reason [S13]. In a 100 kg bag, a mouldy hot spot away from the sensor will probably not show as a temperature rise at the sensor (**unverified**, but consistent with [S11][S13]). Build A therefore uses temperature mainly to pick the right ERH threshold, and only secondarily as a "too hot" warning.
 
@@ -112,14 +116,15 @@ A cheaper alternative is the **AHT30 (C45354925)**: $0.4448 @100 vs AHT20 $0.535
 | Saiya SY-CO2-28BMI (NDIR module, UART) | **LCSC C22466760, `normal`** | $12.7909 @50 | **32** | Runs on 5 V only (4.5–5.5 V), **40 mA average, 125 mA peak**, needs a supply able to source 150 mA, T90 under 120 s, 400–10,000 ppm range, 0–95% RH non-condensing, recalibration advised every 6 months, and its auto-baseline is "not suitable" for greenhouses or cold stores [S26]. Each reading costs roughly 40 mA × 120 s ≈ 4.8 C (my arithmetic), about 100× an SCD41 shot. **Rejected for battery use.** |
 | Infineon XENSIV PAS CO2 5V (PASCO2V15AUMA1) | **LCSC C26655608, `normal`** | $23.2182 @30 | **5** | Needs a 5 V emitter rail plus 3.3 V logic [S27]. Too expensive, too little stock. **Rejected.** |
 
-**Bottom line on CO₂:** the cheapest workable CO₂ sensor costs **about 6–12× the entire Build A electronics**, and none passes the design's "verified Active on LCSC" sourcing rule today. JLCPCB and DigiKey listings are not LCSC, and I mark them as such. So Build B is a design option I **cannot fully clear under the LCSC rule this turn**. If it goes ahead, either LCSC re-lists Sensirion parts, or the designer accepts a second distributor for that one line.
+**Bottom line on CO₂:** the cheapest workable CO₂ sensor costs **about 6–12× the entire Build A electronics**, and none of the battery-friendly CO₂ parts is sold on LCSC today. LCSC's `normal` label is a supply label, not a manufacturer or distributor "Active" lifecycle status (section 3). JLCPCB and DigiKey listings are not LCSC, and I mark them as such. So Build B is a design option I **cannot fully clear under an LCSC-only sourcing rule this turn**. If it goes ahead, either LCSC re-lists Sensirion parts, or the designer accepts a second distributor for that one line.
 
 ---
 
 ## 3. Cheapest active parts on LCSC, and firmware outline
 
 **Lifecycle method (same rule as the soil-moisture study).**
-- **How I checked:** for each part I read LCSC's own product-detail data (`wmsc.lcsc.com/ftps/wm/product/detail?productCode=C…`) and recorded the `productCycle` field, price breaks and stock on **2026-11-18 (UTC+7)**. `normal` is LCSC's label for a part in normal supply. It is the **distributor's** label, not the manufacturer's lifecycle statement.
+- **How I checked:** for each part I read LCSC's own product-detail data (`wmsc.lcsc.com/ftps/wm/product/detail?productCode=C…`) and recorded the `productCycle` field, price breaks and stock on **2026-11-18 (UTC+7)**. `normal` is LCSC's label for a part in normal supply. It is the **distributor's supply label, not a manufacturer lifecycle status**, and it does not demonstrate "Active".
+- **What "Active" requires:** a manufacturer's or a mainstream distributor's lifecycle field, for example DigiKey or Mouser "Active", or a current manufacturer catalogue entry with no discontinued or NRND marking. Where that could not be verified, the line is marked **lifecycle not confirmed**.
 - **Search route:** LCSC's own search returned "Access Denied" to me, so I found candidate part codes with JLCPCB's public parts search [S25] and then verified each code on LCSC.
 - **Sensirion parts:** none are listed on lcsc.com today (section 2.3).
 
@@ -127,40 +132,42 @@ A cheaper alternative is the **AHT30 (C45354925)**: $0.4448 @100 vs AHT20 $0.535
 
 | Part | LCSC code | Lifecycle (LCSC) | Price | Stock | Notes |
 |---|---|---|---|---|---|
-| **Puya PY32F002BD15S6TU** (Cortex-M0+, SOP-8 class) | **C7469097** | `normal` | **$0.1344 @50** | 1,750 | **Chosen.** Stop mode with the LPTIM running from the internal 32 kHz LSI: **1.70 µA** typical [S28]. Enough pins for I²C, 3 LEDs, buzzer, button and sensor power. |
-| Alternative MCU 1 | C49424671 | not re-stated (**unverified**) | see note | see note | Recorded as a fallback during the search; I did not keep its sleep-current figure, so it is **unverified** for this design. |
-| Alternative MCU 2 | C5292060 | not re-stated (**unverified**) | see note | see note | As above (**unverified** sleep current). |
-| Alternative MCU 3 | C5346354 | not re-stated (**unverified**) | see note | see note | As above. PY32F002A-class Stop current and WCH CH32V003 standby current were **not re-fetched** this turn, so they stay **unverified**. |
+| **Puya PY32F002BD15S6TU** (Cortex-M0+, SOP-8 class) | **C7469097** | LCSC `normal` only; manufacturer "Active" **not confirmed** | **$0.1344 @50** | 1,750 | **Chosen.** Stop mode with the LPTIM running from the internal 32 kHz LSI: **1.70 µA** typical [S28]. Enough pins for I²C, 3 LEDs, buzzer, button and sensor power. |
+| Alternative MCU 1 (PY32F002BL15S7TU) | C49424671 | LCSC `normal`, read 18 Nov 2026; manufacturer "Active" **not confirmed** | see note | see note | Recorded as a fallback during the search; I did not keep its sleep-current figure, so the electrical fit is **unverified** for this design. |
+| Alternative MCU 2 (PY32F002AL15S6TU) | C5292060 | LCSC `normal`, read 18 Nov 2026; manufacturer "Active" **not confirmed** | see note | see note | As above (**unverified** sleep current). |
+| Alternative MCU 3 (CH32V003J4M6) | C5346354 | LCSC `normal`, read 18 Nov 2026; manufacturer "Active" **not confirmed** | see note | see note | As above. PY32F002A-class Stop current and WCH CH32V003 standby current were **not re-fetched** this turn, so they stay **unverified**. |
 
 ### 3.2 Sensors and indicators (Build A)
 
 | Function | Part | LCSC code | Lifecycle | Price | Stock |
 |---|---|---|---|---|---|
-| T/RH sensor | **Aosong AHT20** | **C2757850** | `normal` | **$0.6051 @30** ($0.5357 @100) | 28,096 |
-| T/RH alternative | Aosong AHT30 (±3% RH) | C45354925 | `normal` | $0.4448 @100 | in stock |
-| T/RH alternative | GXHT30C (SHT30-class clone) | C2913569 | listed | not used | specs **unverified** |
-| T/RH rejected | CHT8305C | C5121990 | listed | n/a | **0 stock** |
-| T/RH rejected | TI HDC1080 | C82227 | listed | $1.37 | 88 |
-| Red / yellow / green LEDs | 0603 LEDs | C84256 / C2296 / C2297 | `normal` | **$0.0427 combined** | in stock |
-| Buzzer | MLT-8530 magnetic transducer | C94599 | `normal` | $0.1548 | in stock |
-| Buzzer / LED driver | AO3400A N-MOSFET | C20917 | `normal` | $0.0627 | in stock |
-| Button | TS-1187A tact switch | C318884 | `normal` | $0.0216 @20 | in stock |
-| Battery holder | CR2032 holder | C964777 | `normal` | $0.2852 | in stock |
-| Passives | 330 Ω ×3 (C23138), 4.7 kΩ ×2 (C23162), 10 kΩ (C25804), 100 nF ×3 (C14663) | — | `normal` | $0.0295 combined | in stock |
-| Bulk capacitor | 10 µF 0805 | C15850 | `normal` | $0.0314 @20 | in stock |
+| T/RH sensor | **Aosong AHT20** | **C2757850** | LCSC `normal`; listed on Aosong's product page, no discontinued or NRND marking found [S40] | **$0.6051 @30** ($0.5357 @100) | 28,096 |
+| T/RH alternative | Aosong AHT30 (±3% RH) | C45354925 | LCSC `normal` only; manufacturer "Active" **not confirmed** | $0.4448 @100 | in stock |
+| T/RH alternative | GXHT30C (SHT30-class clone) | C2913569 | LCSC `normal` only; manufacturer "Active" **not confirmed** | not used | specs **unverified** |
+| T/RH rejected | CHT8305C | C5121990 | LCSC `normal` only; manufacturer "Active" **not confirmed** | n/a | **0 stock** |
+| T/RH rejected | TI HDC1080 | C82227 | LCSC `normal` only; manufacturer "Active" **not confirmed** | $1.37 | 88 |
+| Red / yellow / green LEDs | **0805** LEDs (NCD0805R1, KT-0805Y, KT-0805G) | C84256 / C2296 / C2297 | LCSC `normal` only; manufacturer "Active" **not confirmed** | **$0.0427 combined** | in stock |
+| Buzzer | MLT-8530 magnetic transducer | C94599 | LCSC `normal` only; manufacturer "Active" **not confirmed** | $0.1548 | in stock |
+| Buzzer / LED driver | AO3400A N-MOSFET | C20917 | LCSC `normal` only; manufacturer "Active" **not confirmed** | $0.0627 | in stock |
+| Button | TS-1187A tact switch | C318884 | LCSC `normal` only; manufacturer "Active" **not confirmed** | $0.0216 @20 | in stock |
+| Battery holder | CR2032 holder | C964777 | LCSC `normal` only; manufacturer "Active" **not confirmed** | $0.2852 | in stock |
+| Passives | 330 Ω ×3 (C23138), 4.7 kΩ ×2 (C23162), 10 kΩ (C25804), 100 nF ×3 (C14663) | — | LCSC `normal` only; manufacturer "Active" **not confirmed** | $0.0295 combined | in stock |
+| Bulk capacitor | 10 µF 0805 | C15850 | LCSC `normal` only; manufacturer "Active" **not confirmed** | $0.0314 @20 | in stock |
 
 ### 3.3 Additional parts (Build B)
 
 | Function | Part | Code / source | Lifecycle | Price | Stock |
 |---|---|---|---|---|---|
 | CO₂ (+T/RH) | Sensirion SCD41-D-R2 | C3659294 on **JLCPCB, not LCSC** | DigiKey: Active | $16.9758 @30 (JLCPCB) | 1,173 (JLCPCB) |
-| 3.3 V regulator | Holtek HT7333-A LDO | C21583 | `normal` | $0.2015 | in stock |
-| Regulator alternative | Torex XC6206 3.3 V | C5446 | `normal` | not used | in stock |
-| Sensor power switch | AO3401A P-MOSFET | C15127 | `normal` | $0.0647 | in stock |
-| Battery holder | BH-AA-A1AJ020 (1×AA) ×3 | C5290181 | `normal` | $0.3318 @30 each | in stock |
-| Extra decoupling | 10 µF ×2 (C15850), 100 nF ×1 (C14663) | LCSC | `normal` | about $0.068 | in stock |
+| 3.3 V regulator | Holtek HT7333-A LDO | C21583 | LCSC `normal` only; manufacturer "Active" **not confirmed** | $0.2015 | in stock |
+| Regulator alternative | Torex XC6206 3.3 V | C5446 | LCSC `normal` only; manufacturer "Active" **not confirmed** | not used | in stock |
+| Sensor power switch | AO3401A P-MOSFET | C15127 | LCSC `normal` only; manufacturer "Active" **not confirmed** | $0.0647 | in stock |
+| Battery holder | BH-AA-A1AJ020 (1×AA) ×3 | C5290181 | LCSC `normal` only; manufacturer "Active" **not confirmed** | $0.3318 @30 each | in stock |
+| Extra decoupling | 10 µF ×2 (C15850), 100 nF ×1 (C14663) | LCSC | LCSC `normal` only; manufacturer "Active" **not confirmed** | about $0.068 | in stock |
 
 The HT7333's quiescent current and dropout were not re-read from its datasheet this turn: **unverified**. The LDO keeps the SCD41's supply constant, as its datasheet requires [S21].
+
+**Lifecycle summary.** A manufacturer or mainstream-distributor "Active" status was verified only for the Sensirion CO₂ sensors: DigiKey listed the SCD41-D-R2 and the STCC4-D-R3 as Active, as recorded in this case on 18 November 2026 [S24][S23] (those DigiKey pages were not re-opened in this revision). The AHT20 is still listed on Aosong's own product page, with no discontinued or NRND marking found when that page was opened for this revision [S40]. Every other chosen or alternative line has only LCSC's `normal` supply label, which is **not** a lifecycle status; manufacturer or distributor "Active" status for those lines is **not confirmed**.
 
 ### 3.4 Firmware outline (prose only, no code)
 
@@ -185,7 +192,7 @@ The HT7333's quiescent current and dropout were not re-read from its datasheet t
    Any single failure gives yellow or red. Any doubt gives yellow, never green.
 5. **Build B CO₂ handling:**
    - Automatic self-calibration (ASC) **off**. ASC assumes the sensor regularly sees fresh air, which is never true inside a sealed bag [S21].
-   - Power the SCD41 on, **discard the first single-shot reading** after power-up [S21], then take the reading.
+   - Power the SCD41 on and take one single-shot reading. Sensirion's SCD4x datasheet **version 1.7 (April 2025)** removed the earlier recommendation to discard the first single-shot measurement after a power cycle (revision history, referring to Section 3.11) [S21]. This outline therefore does not discard a warm-up shot unless bench testing later shows that it is still needed. ASC remains off; the same datasheet notes that ASC is not available in power-cycled single-shot operation, which matches that choice [S21].
    - Treat a value at the range ceiling as "hermetic atmosphere present", not as a concentration.
    - Flag a leak when CO₂ falls from saturated to near air levels over several readings.
 6. **Button press:** show the stored classification for about 5 seconds on one LED, with the matching beep pattern. Debounce, and limit how often it can repeat so a stuck button cannot drain the cell.
@@ -208,8 +215,8 @@ My arithmetic, using datasheet figures:
 
 ### 4.2 Build B (3×AA + LDO)
 
-- **SCD41 single-shot:** 0.45 mA average at one shot every 5 minutes [S21], i.e. about 135 mC per shot. Hourly, with one discarded warm-up shot, that is about 270 mC an hour, or **about 75 µA average** (my arithmetic). Over an 8-month season (about 5,840 h) that is **about 440 mAh**.
-- **Supply:** AA alkaline capacity [S30] (the exact Energizer E91 figure is **unverified**) gives several seasons on paper.
+- **SCD41 single-shot:** 0.45 mA average at one shot every 5 minutes, at 3.3 V, from datasheet v1.7 [S21], i.e. about 135 mC per shot. Hourly, with **one** shot and no discarded warm-up reading, that is about 135 mC an hour, or **about 38 µA average** (my arithmetic). Over an 8-month season (about 5,840 h) that is **about 220 mAh**. If a designer later keeps a discarded first reading as a bench-validated choice, the SCD41 energy use would roughly double, back to about 75 µA average and about 440 mAh a season, which was the previous estimate.
+- **Supply:** AA alkaline capacity [S30] (the exact Energizer E91 figure is **unverified**) still gives several seasons on paper at either figure.
 - **Peak current:** 175 mA typical, 205 mA maximum [S21]. AA cells handle this; a coin cell cannot.
 - **Power gating:** the SCD41 is gated off with the AO3401A between readings.
 
@@ -227,7 +234,10 @@ Daily temperature swings can condense moisture at the top of a bag. Liquid water
 
 ### 5.1 Food-safe enclosure
 
-- **Capsule:** a small screw-top or snap-fit PP or HDPE capsule, roughly pill-bottle size, with a clear window over the LEDs. PP and PE are on the AHT20 datasheet's list of compatible neighbouring materials [S19]. The exact resin's **food-contact certification is unverified** and has to be confirmed with the supplier.
+- **Regulatory frame.** In the EU, Regulation (EC) No 1935/2004 sets the general principles of safety and inertness for all food-contact materials: they must not release constituents into food at levels harmful to human health, or change food composition, taste or odour unacceptably [S39]. Plastic parts are also subject to Regulation (EU) No 10/2011, which has a Union List of permitted substances [S39]. In other markets the equivalent national food-contact rule applies. **No part in this design has a verified food-contact declaration yet.**
+- **Capsule:** a small screw-top PP or HDPE capsule, roughly pill-bottle size, with a clear window over the LEDs. (A snap-fit lid is not enough for the child-resistant battery door in section 5.5.) PP and PE are on the AHT20 datasheet's list of compatible neighbouring materials [S19]. The exact resin's **food-contact certification is unverified** and has to be confirmed with a supplier declaration of compliance under the rules above.
+- **Other parts that touch grain or the grain's air** also need supplier declarations, not only the capsule: the **O-ring**, the **ePTFE vent**, and the **tether cord**. Food-contact compliance of those three is **unverified**.
+- **Conformal coating** is not a food-contact material. The coated PCB must stay fully enclosed inside the capsule, away from grain contact, with the sensor opening masked off.
 - **Inside the capsule:** no glues, tapes or solvent-based paints near the sensor [S19].
 - **Openings:** one sensor port sealed with the ePTFE vent [S31]. The battery door has an O-ring.
 - **Shape:** smooth and round, with nothing that can puncture a liner. A bright colour and a tether cord, so it is found when the grain is emptied and does not end up in a mill or a cooking pot.
@@ -235,7 +245,7 @@ Daily temperature swings can condense moisture at the top of a bag. Liquid water
 ### 5.2 Placement
 
 - **Hermetic bag:** inside the innermost liner, on top of the grain, just under where the liner is twisted and tied. The top layer is where moisture migrates and condenses, and where the user can reach the button by pressing through the film without opening the bag.
-- **Small silo:** hung near the top of the grain mass, under the lid.
+- **Small silo:** this is **out of scope** unless a separate explosive-dust assessment is done (section 5.5). The earlier idea of hanging a unit near the top of the grain mass, under the lid, is a placement sketch only. It is not a clearance for silo use.
 - **Never** let the device's cord or a cable pass through the liners. Every opening or puncture costs hermeticity [S11][S13].
 - **One monitor per bag** is the honest default. One monitor per stack of bags assumes they are all alike, which they are not.
 - **Visibility:** reading by pressing through the film relies on light passing through the bag. PICS liners are described as "thick and fairly opaque" [S12]. LED visibility through two liners plus the woven outer bag is **unverified**, which is why the buzzer is a primary channel.
@@ -279,6 +289,24 @@ Same as Build A, minus the CR2032 holder, plus the lines below. The SCD41's own 
 
 **STCC4 variant:** swapping the SCD41 for the STCC4 ($8.9489 @30 at JLCPCB) brings the electronics to **about $11.36**. It still needs an SHT4x companion (also not on lcsc.com), and how it performs inside a bag is **unverified**.
 
+### 5.5 Safety: fumigation, dust explosion and batteries
+
+**Phosphine fumigation.** Stored grain is often fumigated with aluminium-phosphide or magnesium-phosphide products that release phosphine gas. This monitor has copper traces, copper-alloy battery contacts and a sensor port behind a vent that is designed to pass gas, so it would be exposed if left in a fumigated bag or store. Registered labels warn that phosphine corrodes copper, brass, silver and gold, especially at high temperature and humidity, and that items such as batteries, temperature monitoring systems and other electronic equipment "should be protected or removed before fumigation" [S34]. The Canadian Grain Commission gives the same warning for electrical motors, wiring and electronic systems [S33]. Phosphine is also flammable and acutely toxic.
+
+- Never fumigate a bag or store that contains the monitor. Remove the monitor first.
+- After any accidental exposure, expect corrosion and sensor drift; do not trust later readings.
+- Hermetic bags are normally an alternative to fumigation, not something used with it. The device label should state **not for fumigated stores**.
+
+**Dust explosion; bags only.** Grain dust is highly combustible and can burn or explode if enough becomes airborne and finds an ignition source [S35]. In the EU, equipment for potentially explosive atmospheres falls under Directive 2014/34/EU (ATEX) [S36]. This device is intended for **sealed household hermetic bags**. It has **not been assessed or certified for silos, bulk stores, or other places where dust clouds form**, such as during filling or emptying. Any use there would need a zone classification and an ATEX/IECEx-type assessment, which is out of scope. A coin cell or AA pack short-circuited by a crushed board is a potential ignition source. This study is **bags only, not assessed for explosive dust**.
+
+**Battery safety, including Reese's Law.** Build A is a small, bright, screw-top capsule kept in a home food store, and the design already worries that it could end up in a cooking pot. It contains a CR2032 coin cell. Swallowing a coin cell is a recognised serious hazard for young children. In the United States, 16 CFR Part 1263 (Reese's Law) is intended "to eliminate or adequately reduce the risk of injury and death to children 6 years old and younger from ingesting these batteries" [S37]. Products must comply with UL 4200A: a replaceable coin-cell compartment must need a tool, or two independent and simultaneous hand movements, to open. A screw cover needs a minimum torque of 0.5 N·m and 90° of rotation, or two full threads. Warnings are required on the product and packaging [S37][S38].
+
+- The battery door must be child-resistant to that standard, not merely a snap-fit lid.
+- Warnings should appear in picture form on the capsule and on the packaging, and no loose cells should be supplied with the device.
+- Build B uses alkaline AA cells, which can leak, especially when exhausted or stored hot; the holder and capsule should contain leakage and keep it off the board and out of the grain.
+- Lithium coin cells should not be stored or used above the cell maker's temperature limits [S29].
+- The e-waste take-back scheme in section 7 also reduces the ingestion risk, by recovering spent cells instead of leaving them in homes or fields.
+
 ---
 
 ## 6. Loss and hermetic-storage evidence, with honest limits
@@ -286,8 +314,8 @@ Same as Build A, minus the CR2032 holder, plus the lines below. The SCD41's own 
 | Claim | Figure | Source | Limit |
 |---|---|---|---|
 | Kenya maize post-harvest loss, 2022 | 16.7% total; household storage about 2.54% | APHLIS [S1] | Model estimate. Storage is a small share, so drying and harvest matter more. |
-| Sub-Saharan Africa grain losses | about US$4 bn/yr; 10–20% physical loss | FAO / World Bank / NRI "Missing Food", via UN News [S2] | I read the news summary; the full PDF timed out (**unverified** detail). |
-| Global food loss, harvest to retail | about 14% | FAO SOFA 2019 [S3] | Regional breakdown not read (PDF timed out): **unverified**. |
+| Sub-Saharan Africa grain losses | could potentially reach nearly US$4 bn/yr (extrapolated from about US$1.6 bn in Eastern and Southern Africa); 10–20% physical loss | FAO / World Bank / NRI "Missing Food" [S2] | The US$4 bn figure is an extrapolation assuming similar losses in Central and West Africa, not a directly measured SSA total. |
+| Global food loss, harvest to retail | about 14% by value, post-harvest up to but excluding retail | FAO SOFA 2019 [S3] | The 14% is an economic-value measure (about 13.8% in the underlying index). Regional breakdown not re-read in this revision: **unverified**. |
 | India cereal losses, 2022 | paddy 4.16% on farm + 0.61% at market | NABCONS via PIB [S4] | National average; much lower than older estimates. |
 | Rice post-harvest losses | 15–20% | IRRI Rice Today [S5] | Popular article, broad range. |
 | Hermetic vs conventional bags | 42× insects, 11× damage, 23× weight loss, 3.6× better seed viability | Ngoma et al. 2024 meta-analysis [S6] | Read via the PubMed abstract only. |
@@ -319,7 +347,7 @@ Same as Build A, minus the CR2032 holder, plus the lines below. The SCD41's own 
    - **Cheaper tools come first:** a $4 hygrometer used in a sealed jar before storage [S16] and the reusable DryCard [S17] (DryCard price **unverified**) answer "is it dry enough to seal?" for less money.
    - **Where the monitor fits:** watching *during* storage, without opening the bag. One reasonable model is co-op-owned units lent out each season.
 4. **Repairability.**
-   - One through-hole-friendly board and a standard coin cell or AA cells.
+   - A hand-solderable surface-mount board (the MCU is SOP-8, the AHT20 is a 3×3 mm DFN, and the LEDs, buzzer and holders are SMD), with a socketed or replaceable sensor module, and a standard coin cell or AA cells.
    - A screw-top capsule; no glued-shut housing.
    - Published schematic and light codes.
    - A local repairer should be able to replace the battery, sensor or buzzer.
@@ -347,7 +375,7 @@ Same as Build A, minus the CR2032 holder, plus the lines below. The SCD41's own 
 4. How long ERH takes to settle at the top of a 50–100 kg bag.
 5. LED visibility through two PICS liners and the woven outer bag.
 6. Store temperatures in target regions, and their effect on cell life and on the thresholds.
-7. Food-contact certification of the capsule resin.
+7. Food-contact declarations for the capsule resin, O-ring, ePTFE vent and tether cord, and confirmation that the coated PCB stays fully enclosed.
 8. Cheaper insect-activity proxies (acoustic, O₂-indicator dot): parts, cost and evidence.
 9. Bartosik and Cardoso's silo-bag CO₂ thresholds (primary paper not opened).
 10. Whether co-op lending or household purchase is the realistic distribution model.
@@ -368,10 +396,12 @@ Same as Build A, minus the CR2032 holder, plus the lines below. The SCD41's own 
 - PLOS licence line.
 - Puya and WCH SDK licences.
 - Per-crop isotherms and thresholds.
-- Capsule food-contact resin.
+- Capsule, O-ring, vent and cord food-contact declarations.
+- Manufacturer or distributor "Active" lifecycle status for every LCSC-only line.
+- AHT20-F lifecycle and price.
 - Store temperatures.
 - FAO SOFA regional figures.
-- "Missing Food" full-report details.
+- Some other "Missing Food" report detail beyond the US$1.6 bn figure and the extrapolated "nearly US$4 billion" SSA total, which were read in the report itself [S2].
 - ERH settling time in a full bag.
 - Temperature hot-spot detectability at the sensor.
 
@@ -379,17 +409,17 @@ Same as Build A, minus the CR2032 holder, plus the lines below. The SCD41's own 
 
 ## Sources
 
-All were read on 2026-11-18 (UTC+7). Distributor pages carry live data that will change.
+All were read on 2026-11-18 (UTC+7), except where a later opening in this revision is noted. Distributor pages carry live data that will change.
 
 - [S1] APHLIS, Kenya maize post-harvest loss estimates, 2022.
-- [S2] UN News, report on "Missing Food: The Case of Postharvest Grain Losses in Sub-Saharan Africa" (FAO / World Bank / NRI).
-- [S3] FAO, *The State of Food and Agriculture 2019*, newsroom release.
+- [S2] World Bank / FAO / Natural Resources Institute, *Missing Food: The Case of Postharvest Grain Losses in Sub-Saharan Africa*, April 2011, Report No. 60371-AFR. Eastern and Southern Africa losses valued at US$1.6 billion a year; extrapolating similar rates, SSA losses "could potentially reach nearly US$4 billion a year." https://openknowledge.fao.org/server/api/core/bitstreams/82f7149a-8ced-462e-b5e4-5b3385f8c19c/content ; UN News summary (31 May 2011): https://news.un.org/en/story/2011/05/376752
+- [S3] FAO, *The State of Food and Agriculture 2019*. The 14% / 13.8% by-value figure is from this report (post-harvest up to but excluding retail). https://www.fao.org/4/ca6030en/ca6030en.pdf
 - [S4] Press Information Bureau (India), NABCONS post-harvest loss study, 2022.
 - [S5] IRRI, *Rice Today*, article on post-harvest losses.
-- [S6] Ngoma et al. 2024, meta-analysis of hermetic storage (PubMed abstract).
-- [S7] Baributsa et al., hermetic bags with infested maize in Benin, Europe PMC PMC7469259.
-- [S8] Waongo et al. 2019, sorghum hermetic storage in Burkina Faso, PMC6737907.
-- [S9] Mubayiwa et al., *Scientific Reports*, hermetic containers in Zimbabwe, PMC7881032.
+- [S6] Ngoma et al. 2024, meta-analysis of hermetic storage. PubMed abstract: https://pubmed.ncbi.nlm.nih.gov/37607216/
+- [S7] Baributsa et al., hermetic bags with infested maize in Benin. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7469259/
+- [S8] Waongo et al. 2019, sorghum hermetic storage in Burkina Faso. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6737907/
+- [S9] Mubayiwa et al., *Scientific Reports*, hermetic containers in Zimbabwe. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7881032/
 - [S10] Mlambo et al. 2017, hermetic bag field performance (University of Greenwich repository).
 - [S11] Williams et al. 2017, *PLOS One*, oxygen and grain temperature in PICS bags.
 - [S12] Purdue Extension E-265, PICS bags.
@@ -399,12 +429,12 @@ All were read on 2026-11-18 (UTC+7). Distributor pages carry live data that will
 - [S16] Tubbs et al. 2017, *AIMS Agriculture and Food*, hygrometer method and maize ERH table.
 - [S17] UC Davis, DryCard.
 - [S18] Farm Radio Malawi, PICS bag price.
-- [S19] Aosong AHT20 datasheet.
+- [S19] Aosong AHT20 datasheet, Version V1.0, May 2021. https://www.aosong.com/userfiles/files/media/Data%20Sheet%20AHT20.pdf (Typical ±2% RH at 3.3 V and 25 °C; excludes hysteresis and non-linearity; maximum error in Figure 2.)
 - [S20] Aosong AHT30 datasheet.
-- [S21] Sensirion SCD4x datasheet.
+- [S21] Sensirion SCD4x datasheet, Version 1.7, April 2025. https://sensirion.com/media/documents/48C4B7FB/67FE0194/CD_DS_SCD4x_Datasheet_D1.pdf (Removes the recommendation to discard the first single-shot reading after a power cycle; RH accuracy ±6% / ±9%; ASC not available in power-cycled single-shot mode.)
 - [S22] SOS electronic, Sensirion STCC4 product page and datasheet data.
-- [S23] DigiKey, STCC4-D-R3 listing.
-- [S24] DigiKey, SCD41-D-R2 listing.
+- [S23] DigiKey, STCC4-D-R3 listing (Part Status "Active", as recorded 18 November 2026; not re-opened in this revision).
+- [S24] DigiKey, SCD41-D-R2 listing (Part Status "Active", as recorded 18 November 2026; not re-opened in this revision).
 - [S25] JLCPCB public parts search (selectSmtComponentList), C3659294 / C49191471.
 - [S26] Saiya SY-CO2-28BMI datasheet.
 - [S27] Infineon XENSIV PAS CO2 product brief.
@@ -413,4 +443,12 @@ All were read on 2026-11-18 (UTC+7). Distributor pages carry live data that will
 - [S30] Energizer E91 AA datasheet.
 - [S31] Gore protective vents product information.
 - [S32] Sensirion `embedded-i2c-scd4x` repository licence (BSD-3-Clause).
-- LCSC product-detail data for every `C…` code quoted in sections 3 and 5 (`wmsc.lcsc.com/ftps/wm/product/detail`), read 2026-11-18.
+- [S33] Canadian Grain Commission, "Insecticides to control grain insect pests" (phosphine corrosion of copper, brass, silver and gold; remove or protect electronic systems). https://www.canada.ca/en/grain-commission/services/grain-quality/manage-stored-grain/insecticides-grain-insect-pests.html
+- [S34] Degesch Phostoxin Pellets label, US EPA registration no. 72959-5 (label dated 9 July 2018): phosphine corrodes copper, brass and precious metals; batteries, temperature monitoring systems and other electronic equipment "should be protected or removed before fumigation". https://www3.epa.gov/pesticides/chem_search/ppls/072959-00005-20180709.pdf
+- [S35] US OSHA, Grain Handling overview: "Grain dust is highly combustible and can burn or explode if enough becomes airborne or accumulates on a surface and finds an ignition source." https://www.osha.gov/grain-handling
+- [S36] European Commission, equipment for potentially explosive atmospheres (ATEX), Directive 2014/34/EU. https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/equipment-potentially-explosive-atmospheres-atex_en
+- [S37] 16 CFR Part 1263, Safety Standard for Button Cell or Coin Batteries and Consumer Products Containing Such Batteries (Reese's Law). https://www.ecfr.gov/current/title-16/chapter-II/subchapter-B/part-1263
+- [S38] US CPSC, Button Cell and Coin Battery Business Guidance (UL 4200A compartment and warning requirements). https://www.cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Button-Cell-and-Coin-Battery
+- [S39] European Commission, food-contact materials legislation: Regulation (EC) No 1935/2004 and Regulation (EU) No 10/2011. https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials/legislation_en
+- [S40] Aosong (ASAIR) AHT20 product page, opened in this revision; the part remains listed, with no discontinued or NRND marking found on that page. https://www.aosong.com/en/Products/info.aspx?itemid=2284
+- LCSC product-detail data for every `C…` code quoted in sections 3 and 5 (`wmsc.lcsc.com/ftps/wm/product/detail`), read 2026-11-18. Public LCSC product pages confirm that C84256, C2296 and C2297 are 0805 LEDs (NCD0805R1, KT-0805Y, KT-0805G), not 0603: https://www.lcsc.com/product-detail/C84256.html ; https://www.lcsc.com/product-detail/C2296.html

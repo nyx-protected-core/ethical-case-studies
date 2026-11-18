@@ -2,6 +2,8 @@
 
 *Ethics case-study source brief. Anonymous author. The brief covers policy and prevention only and contains no individual case narratives. Every factual claim is attributed to a numbered source. Items that could not be verified are marked UNVERIFIED. All URLs and DOIs were checked live in November 2026 (all DOIs resolve with 302). Live-blocks (403) are noted, with an open copy given where one exists.*
 
+*Revisions (18 November 2026).* Revised after an independent review. The changes correct facts, fill gaps and tighten wording. The review is not named here.
+
 **Evidence labels:**
 - RCT = randomised controlled trial
 - QE = quasi-experimental (difference-in-differences, regression discontinuity, matched comparison)
@@ -28,9 +30,9 @@
    - Open copy: https://reliefweb.int/attachments/22271135-d5ba-4a75-bd9c-dc996eacf4d6/Is%20an%20End%20to%20Child%20Marriage%20within%20Reach_%20-%20UNICEF%20DATA.pdf
 
    *Note:*
-   - About 640 million girls and women alive today were married in childhood, or about 12 million girls a year.
+   - About 640 million girls and women alive today were married in childhood, or about 12 million girls a year (2023 estimate).
    - The share of women aged 20–24 married as children fell from 21% to 19% between the two most recent estimate rounds, about five years apart.
-   - Regional shares of child brides: South Asia 45%, sub-Saharan Africa 20%, East Asia and Pacific 15%, Latin America and Caribbean 9%. India alone accounts for about one-third.
+   - Regional shares of girls and women married in childhood: South Asia 45%, sub-Saharan Africa 20%, East Asia and Pacific 15%, Latin America and Caribbean 9%. India alone accounts for about one-third.
    - Progress would need to be about 20 times faster to meet the 2030 target; at the current rate elimination takes about 300 years.
    - Sub-Saharan Africa is more than 200 years from elimination. Middle East and North Africa, and Eastern Europe and Central Asia, have stagnated.
    - Data come from nationally representative household surveys (MICS, DHS) in more than 100 countries.
@@ -59,7 +61,7 @@
 
 4. **Batyra E, Pesando LM, 2023 (published 2024).** "Increases in child marriage among the poorest in Mali: 'Reverse policies' or data quality issues?" *Population Studies* 78:93–111. DOI 10.1080/00324728.2023.2181383.
 
-   *Note:* Mali lowered its general minimum marriage age from 18 to 16 in 2011. Since then, measured prevalence rose among women with no education and in low-development communities. The authors explicitly weigh survey data-collection processes as a partial explanation. This illustrates measurement uncertainty in DHS/MICS-based trends.
+   *Note:* The authors describe Mali as having lowered its general minimum marriage age from 18 to 16 in 2011. That is their framing, not a complete statement of the statute. A Family Code text setting 18 was adopted by the National Assembly in August 2009, but the President did not enact it and sent it back [24]. The 2011 Family Code set the minimum age at 16 for girls and 18 for boys, with exceptions allowing marriage from 15 in certain cases [24]. Since 2011, measured prevalence rose among women with no education and in low-development communities. The authors explicitly weigh survey data-collection processes as a partial explanation. This illustrates measurement uncertainty in DHS/MICS-based trends. A search summary that the previous 1962 code set 15 for girls was not confirmed on a primary page and is **UNVERIFIED**.
 
    [OBS; peer-reviewed]
 
@@ -188,6 +190,8 @@
     - Nearly two-thirds (14.2 million) were in Asia and the Pacific; prevalence was highest in the Arab States (4.8 per 1,000).
     - More than two-thirds were female.
     - Two in five were children when married; of these, 41% were married before age 16.
+    - "Forced marriages occur in every region of the world and cut across ethnic, cultural, and religious lines. The many drivers of forced marriage are closely linked to longstanding patriarchal attitudes and practices and are highly context specific."
+    - "In fact, only 35 countries follow the recommendation of the joint Committees of CEDAW and the Committee on the Rights of the Child (CRC) to establish 18 years as the minimum age of marriage." In many countries, 16- and 17-year-olds may marry following a judicial ruling or with parental consent.
 
     These are survey-based modelled estimates. They cover forced marriage broadly, not trafficking.
 
@@ -211,7 +215,7 @@
     - **(a)** Qiu G, Zhang SX, Liu W, 2019. "Trafficking of Myanmar women for forced marriage in China." *Crime, Law and Social Change* 72:35–52. DOI 10.1007/s10611-019-09826-9. [OBS; peer-reviewed]
     - **(b)** Robinson WC, Branchini C, et al. (Johns Hopkins Bloomberg School of Public Health with the Kachin Women's Association Thailand), 2018. *Estimating Trafficking of Myanmar Women for Forced Marriage and Childbearing in China* (Dec 2018). https://kachinwomen.org/wp-content/uploads/2025/03/ETFM_Full-Report_Optimize.pdf ; summary https://giwps.georgetown.edu/resource/estimating-trafficking-of-myanmar-women-for-forced-marriage-and-childbearing-in-china/ [REP; mixed-methods survey]
 
-    *Note on (a):* 73 Chinese court cases involving 184 Myanmar women (2003–2016). Most traffickers were Chinese nationals, with low organisational structure, and most recruitment used fake job offers. The authors note that not all cross-border marriages involve force or fraud.
+    *Note on (a):* 73 Chinese court cases involving 184 Myanmar women (2003–2016). Most traffickers were Chinese nationals, with low organisational structure, and most recruitment used fake job offers. This describes a court-case sample, not a national pattern. The authors note that not all cross-border marriages involve force or fraud.
 
     *Note on (b):* Mid-range estimates:
     - About 4,997 female returnees to Kachin and northern Shan states (2013–17) had been in forced marriages, of whom about 3,889 were trafficked into them.
@@ -226,13 +230,28 @@
 
 ---
 
+23. **UNICEF, 2026.** International Day of the Girl 2026 page, "End child marriage and invest in girls' rights". https://www.unicef.org/gender-equality/international-day-girl
+
+   *Note:* "According to UNICEF's 2026 estimates, an estimated one in five girls are married before age 18 across the world, representing approximately 650 million women and girls alive today who were married in childhood." The page also says more than 12 million girls a year are still married before adulthood, with the highest prevalence in sub-Saharan Africa (31%). The 640 million figure in [1] is the 2023 estimate.
+
+   [REP]
+
+24. **International Federation for Human Rights (FIDH), 9 December 2011.** "Mali's new Family Law: women's rights denied, discrimination upheld." https://www.fidh.org/en/region/Africa/mali/Mali-s-new-Family-Law-women-s
+
+   *Note:* A Family Code text was adopted by the National Assembly in August 2009, but President Amadou Toumani Touré "decided not to enact the law and to send in back to Parliament for a second reading." The 2011 Code, adopted on 2 December 2011, sets "the legal age for marriage [at] 18 years for males and 16 for females. In certain cases, marriage can be authorised from 15 years."
+
+   [REP]
+
+---
+
 ## KEY FINDINGS
 
 1. **Scale and trend.**
-   - Scale: about 640 million living women and girls were married as children, and about 12 million girls marry each year [1].
+   - Scale: UNICEF's 2026 estimates put the number of women and girls alive today who were married in childhood at about 650 million, or about one in five girls married before 18 [23]. The earlier 2023 estimate was about 640 million, with about 12 million girls marrying each year [1].
    - Trend: prevalence is falling (21% to 19% of women aged 20–24), mainly because of South Asia and India [1, 2]. Progress is about 20 times too slow for the 2030 target [1].
    - Stalls: sub-Saharan Africa is more than 200 years from elimination. Middle East and North Africa, and Eastern Europe and Central Asia, have stagnated [1].
    - Inequality: prevalence among the poorest girls rose or stagnated in most regions [2]. Parts of the Sahel reach about 90% [2].
+   - Forced marriage "occur[s] in every region of the world and cut[s] across ethnic, cultural, and religious lines" [18]. Regional and corridor figures in this brief are about measured prevalence or about particular case samples, not about any one culture or nationality.
 
 2. **Measurement.**
    - All headline figures rest on retrospective, self-reported age at first union from DHS/MICS, using women aged 20–24 [1, 3]. That indicator lags current practice by several years.
@@ -256,7 +275,8 @@
      - Many countries show no bunching at the legal age [13].
      - Six-country regression-discontinuity results are null or fragile [15].
      - Ethiopia's reform delayed the youngest marriages but not where norms were strongest [14].
-   - Lowering the legal age (Mali 2011) coincided with rises among the poorest [4].
+   - Mali's 2011 Family Code set the minimum age at 16 for girls and 18 for boys, with exceptions from 15, after a 2009 text setting 18 was not enacted [24]. Batyra and Pesando describe this as lowering the general minimum from 18 to 16. The change coincided with rises among the poorest [4].
+   - Only 35 countries, in the ILO report's account, set 18 as the minimum age with no exceptions; in many others, 16- and 17-year-olds may marry with a court ruling or parental consent [18]. The problem is not confined to the countries named in this brief.
 
 6. **Economic shocks move marriage timing through marriage payments.**
    - Drought *raises* child-marriage hazard where bride price is paid (sub-Saharan Africa, +3%) and *lowers* it where dowry is paid (India, −4%) [16].
@@ -268,6 +288,20 @@
    - UNODC stresses that forced or child marriage is trafficking only when act, means and exploitative purpose all coexist [20].
    - Documented cross-border bride trafficking from Myanmar into China is real but estimated in the thousands, and wider extrapolations are speculative [21].
    - India's cross-region marriages tied to skewed sex ratios include trafficking, but research warns against labelling them all as such [22].
+
+---
+
+## SURVIVOR-CENTRED PRINCIPLES
+
+Prevention is not enough. Girls and women already married, or trying to leave a forced marriage, need support in their own right. This section is about policy, not individual stories.
+
+- The person's safety, consent and choices come first.
+- No action should expose her to retaliation from a spouse, family or community.
+- Support services should come before, or at least alongside, prosecution: safe exit routes, shelter, legal aid, health care, and a way to keep or return to school.
+- Girls already married should not be penalised, for example by being excluded from school or treated as offenders.
+- Responses should not criminalise the girl herself, or forcibly separate her in a way that leaves her without shelter or support.
+
+These principles apply as much to anti-trafficking work as to child-marriage prevention. Section 7 of the solutions list should not be read as a prosecution-first approach.
 
 ---
 
@@ -321,14 +355,19 @@
 6. **Raising and harmonising the minimum marriage age to 18 with no exceptions.**
    - *Evidence: weak alone; moderate with enforcement and favourable norms.*
    - Associational benefits [12]. Null or fragile causal effects in many settings [13, 15]. Partial effects in Ethiopia [14].
-   - Repealing protections may harm the poorest [4].
+   - Repealing protections, or lowering a stated general age, may harm the poorest. Mali's 2011 Family Code set 16 for girls and 18 for boys, with exceptions from 15, after a 2009 text setting 18 was not enacted [4, 24].
+   - Only 35 countries, in the ILO report's account, already follow the 18-with-no-exceptions recommendation [18].
    - Pair laws with enforcement, birth and marriage registration, and monitoring of age-at-marriage distributions [13, 15].
 
 7. **Anti-trafficking responses to forced and bride marriage (victim identification, cross-border police cooperation, prosecution of brokers).**
    - *Evidence: descriptive only.* Case and court analyses [19, 21a] and expert interviews [20]; no evaluations found.
    - Applying trafficking law should follow the three-element test [20], so that ordinary or ambiguous marriage migration is not criminalised [22].
 
-8. **Awareness campaigns on their own.**
+8. **Services for those already married: safe exit, shelter, legal aid, health care, and schooling and support for married girls.**
+   - *Evidence: thin in these sources.* No evaluation of these services was found among the studies reviewed here. They are included because the duty of care to girls already married does not depend on a trial result, and because prevention-only lists leave them out.
+   - Responses should follow the survivor-centred principles above: safety and consent first, no retaliation, and no penalising or criminalising the girl herself.
+
+9. **Awareness campaigns on their own.**
    - *Evidence: weak.* No stand-alone awareness intervention among these sources shows a rigorous effect. Awareness appears only inside multicomponent packages, which perform poorly [10].
 
 ---
