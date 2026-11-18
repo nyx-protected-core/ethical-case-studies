@@ -2,6 +2,8 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Global tax cooperation and illicit financial flows, including trafficking money](cases/2026-11-18-tax-cooperation-illicit-flows/README.md)
+- [2026-11-18 — Antimicrobial resistance: too little access, too much use, and a market that does not pay for the cure](cases/2026-11-18-antimicrobial-resistance/README.md)
 - [2026-11-18 — Village water check: a cheap offline turbidity and lead/arsenic strip reader that cannot say 'safe'](cases/2026-11-18-offline-water-quality-tester/README.md)
 - [2026-11-18 — Rebuilding economies after war: what makes peace last](cases/2026-11-18-postwar-economic-reconstruction/README.md)
 - [2026-11-18 — An offline soil-moisture and rain sensor for smallholder farmers, for under $5](cases/2026-11-18-offline-soil-moisture-sensor/README.md)
