@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Remittances and migrant financial inclusion: transfer costs, corridors, mobile money, recruitment debt and de-risking](cases/2026-11-18-remittances-migrant-financial-inclusion/README.md)
 - [2026-11-18 — One budget line, two hungers: home-grown school meals as a way to move money into food security for children and smallholder farmers](cases/2026-11-18-school-meals-food-security/README.md)
 - [2026-11-18 — Affordable access to essential medicines: TRIPS flexibilities, compulsory licences, the Patent Pool, local manufacturing and the Pandemic Agreement](cases/2026-11-18-essential-medicines-access/README.md)
 - [2026-11-18 — Child and forced marriage: scale, what works, law, economic shocks and links to trafficking](cases/2026-11-18-child-and-forced-marriage/README.md)
