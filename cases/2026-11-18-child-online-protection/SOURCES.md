@@ -18,8 +18,8 @@ All sources were checked on 18 November 2026.
 | Category | Count |
 | --- | --- |
 | DOI-registered sources, VERIFIED | 2 |
-| Official, intergovernmental, NGO and academic web sources, VERIFIED | 39 |
-| Cited in CASE-STUDY.md, total | 41 |
+| Official, intergovernmental, NGO and academic web sources, VERIFIED | 42 |
+| Cited in the case study, total | 44 |
 | Checked but not cited, unreachable or dropped | 10 |
 
 ## A. Scale and prevalence
@@ -349,7 +349,45 @@ All sources were checked on 18 November 2026.
 - **Status:** VERIFIED
 - **Used for:** 1,894 reports in 2025; hashes shared with internet companies to help prevent upload or redistribution.
 
-## D. Checked but not cited, unreachable or dropped
+## D. Age assurance
+
+### S42. European Data Protection Board, Statement 1/2025 on Age Assurance (adopted 11 February 2025)
+
+- **Link:** https://www.edpb.europa.eu/system/files/documents/2025-04/edpb_statement_20250211ageassurance_v1-2_en.pdf
+- **Status:** VERIFIED (official PDF fetched)
+- **Used for:**
+  - age assurance as an umbrella term for age verification, age estimation and self-declaration;
+  - the statement that age assurance "poses specific risks to data protection with the potential to adversely impact" data-protection rights and other rights, including non-discrimination and free expression and information;
+  - the requirement that age assurance "should always be implemented in a risk-based and proportionate manner";
+  - the frequent need for a data-protection impact assessment;
+  - use of the least intrusive effective method, and of viable alternatives for people who cannot or do not wish to use a given method;
+  - the warning that age assurance should not provide additional means to identify, locate, profile or track people.
+
+### S43. Ofcom, Protection of Children Codes of Practice and highly effective age-assurance guidance
+
+- **Links:**
+  - https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/important-dates-for-online-safety-compliance (important dates; last updated 24 August 2026);
+  - https://www.ofcom.org.uk/online-safety/protecting-children/age-checks-to-protect-children-online (16 January 2025);
+  - https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/statement-protecting-children-from-harms-online (statement of 24 April 2025).
+- **Status:** VERIFIED (official HTML pages fetched). The Protection of Children Codes PDF itself returned HTTP 403 to some automated requests, as already noted in section E, and is not relied on for quotations.
+- **Used for:**
+  - the Protection of Children Codes of Practice coming into force on 25 July 2025, from which date services likely to be accessed by children must comply with the children's safety duties;
+  - Ofcom's definition of "highly effective age assurance" as technically accurate, robust, reliable and fair;
+  - self-declaration not being treated as highly effective;
+  - the expectation that services allowing pornography, or certain other content harmful to children, use such methods so that children are not normally able to encounter that content.
+
+### S44. Australian Social Media Minimum Age scheme and OAIC privacy guidance
+
+- **Links:**
+  - eSafety Commissioner, "Australia makes history with the social media minimum age" (10 December 2025), https://www.esafety.gov.au/newsroom/media-releases/australia-makes-history-with-the-social-media-minimum-age ;
+  - Office of the Australian Information Commissioner, "Privacy Commissioner puts social media platforms on notice with new guidance" (10 October 2025), https://www.oaic.gov.au/news/media-centre/privacy-commissioner-puts-social-media-platforms-on-notice-with-new-guidance.
+- **Status:** VERIFIED
+- **Used for:**
+  - the scheme taking effect on 10 December 2025, from which date eSafety began monitoring and enforcing it;
+  - the obligation on age-restricted platforms to take reasonable steps to prevent people under 16 from having accounts;
+  - OAIC guidance that methods must be necessary and proportionate, that personal and sensitive information should be minimised, and that personal information collected for the scheme must be destroyed once its purposes are met.
+
+## E. Checked but not cited, unreachable or dropped
 
 | Item | Result | Action |
 | --- | --- | --- |
@@ -363,3 +401,9 @@ All sources were checked on 18 November 2026.
 | Supreme Court of the Philippines e-Library copies of RA 11930 and RA 9775 | HTTP 403 | Not cited; Senate records used |
 | Later versions of the scientists' open letter (2024, 2025) | Non-institutional domain | Not fetched, by rule |
 | WeProtect Global Threat Assessment 2023 | Superseded by 2025 | Not cited |
+
+---
+
+### Revisions (18 November 2026)
+
+This sources file was revised on 18 November 2026 after an independent balance review. The revisions add the EDPB, Ofcom and Australian age-assurance sources cited in the case study, correct the counts table so that it refers to "the case study" rather than a different file name, and record the new verified totals.

@@ -27,7 +27,7 @@
 
 **What the evidence does and does not show.** Interest exceeding health spending is a comparison of two budget lines. It does not prove that each dollar of interest is a dollar taken from health. Fosu's distinction matters: the burden of debt, and the expectation of having to pay, distorts budgets more than the actual payments do. The headline counts [1][3] also mix low-income countries with large middle-income economies. The ethical point still holds. When a large share of revenue goes abroad to creditors, governments have less room to protect food, health and schooling, and the World Bank's own figure on unaffordable diets [2] shows who bears the cost.
 
-## 2. The G20 Common Framework: Zambia, Ghana and Ethiopia, and why Sri Lanka was different
+## 2. The G20 Common Framework: Chad, Zambia, Ghana and Ethiopia, and why Sri Lanka was different
 
 **What the Common Framework is.** The "Common Framework for Debt Treatments beyond the DSSI" was endorsed by the G20 and the Paris Club in 2020 [6]. Only countries that had been eligible for the G20 Debt Service Suspension Initiative (DSSI) can request a treatment. That means International Development Association (IDA) countries and UN-defined least developed countries that are current with the IMF and World Bank [6].
 
@@ -51,6 +51,8 @@ How a case works:
 | MoU signatures complete | 2 Apr 2024 | 28 Jan 2025 | 31 Dec 2025 |
 
 The G20 note itself gives the time from staff-level agreement to agreement on main terms: one year and six months for Zambia, one year and one month for Ghana, and seven months for Ethiopia [6]. Each case was faster than the one before, but every case was slow compared with the Debt Service Suspension Initiative's original pandemic-era goal of quick relief.
+
+**Chad, the first completed case.** Chad was the first country to reach an agreement under the Common Framework. On 13 November 2022 the IMF Managing Director welcomed "the first Common Framework accord", reached with an official creditor committee comprising China, France, India and Saudi Arabia, "as well as private creditors" [31]. The IMF said the treatment was consistent with Chad's IMF-supported programme, "reduces the risk of debt distress" and "provides protection against downside risks, including lower oil prices" [31]. Contemporaneous reporting identified the principal private creditor as Glencore and described the treatment as a reprofiling of debt service, including obligations falling in 2024, rather than a reduction of the debt stock [32]. World Bank President David Malpass, as quoted in that reporting, said: "The agreement reached by the creditors provides no immediate debt reduction. As a result, the debt service burden of Chad remains heavy and is crowding out priority expenditures on food, health, education and climate" [32]. The official IMF statement and the World Bank president's criticism should be read together: the first Common Framework case delivered a rescheduling with contingency protection, not a haircut. That outcome is part of the Framework's record on delay and on the depth of relief.
 
 **Zambia.**
 
@@ -85,8 +87,9 @@ The G20 note itself gives the time from staff-level agreement to agreement on ma
 - **Official creditors.** Japan describes the OCC it launched in April 2023 as "the first framework to coordinate between Paris Club countries and non-Paris Club countries on debt restructuring for middle-income countries". The OCC was co-chaired by India, Japan and France [12]. China was not a member: China, Saudi Arabia and Iran attended preparatory meetings only [12], and Sri Lanka settled separately with China Eximbank and China Development Bank [11]. The OCC agreed main parameters on 23 November 2023 and finalised the MoU on 26 June 2024 [12].
 - **Bondholders.** In December 2024, holders of 97.86% of US$12.5 billion of international bonds agreed to modify or exchange them [12]. The government reports a baseline "NPV effort" of 40% at an 11% discount rate [12]. ODI, using exit yields, estimates the bondholder haircut at "less than 10%, even in the base case" [11]. The gap shows how much "relief" depends on the discount rate chosen.
 
-**Critiques: delay and comparability of treatment.**
+**Critiques: delay, shallow relief and comparability of treatment.**
 
+- **Shallow relief in the first case.** Chad's 2022 agreement, the Framework's first completed deal, provided no immediate reduction in the debt stock [31][32]. Official creditors and the IMF presented it as protection against downside risks, including lower oil prices [31]. That is a different outcome from later stock treatments such as Zambia's rescheduling to 2043 [7], and it bears on critiques that the Framework can be both slow and, in some cases, shallow.
 - **Delay.** Zambia's process kept the economy "at a standstill for over 3.5 years" [8]. By my count from the official dates, Ethiopia waited more than five years from its February 2021 request to a bondholder agreement in principle (June 2026) [6][10].
 - **A vague comparability test.** ODI calls comparability of treatment "a flimsy variable" and the outcomes "too little, too late and too complex" [11]. The CGD paper describes a "lack of clarity on both the definition and enforceability" of comparability, and an official creditor committee holding "effective veto power" over private deals [8]. It proposes a two-tier test, with separate yardsticks for official and private creditors, defined in advance [8].
 - **Sequencing.** Official creditors negotiate first and private creditors after. Proposals to run the two in parallel are gaining ground; ODI says Ethiopia "appears to be adopting" this approach by opening official and bondholder talks in parallel [11].
@@ -152,16 +155,17 @@ This note could not verify how far the end-2025 target was met.
 
 **Assessment.** These clauses add liquidity: they defer payments; they do not reduce the debt. Their value depends on wide adoption (14 of 45 eligible World Bank borrowers by late 2024 [19]), on triggers that match the hazards a country faces, and on not being offset by higher borrowing costs. No source opened for this note measured any pricing effect.
 
-## 5. The creditor landscape: a cooperative, not West-centric, picture
+## 5. The creditor landscape
 
 **China.**
 
 - **Size and hidden debt.** Horn, Reinhart and Trebesch (2021) [21] build a database of 4,900 loans and grants to 146 countries. They find that by 2017 China "had become the world's largest official creditor, surpassing the World Bank and the IMF". Its loans "typically resemble commercial rather than official lending", and "50% of China's official lending to developing countries is not reported" in standard debt statistics [21].
 - **Contract terms.** Gelpern et al. (2023) [22] study 100 contracts. They find confidentiality clauses, lender-controlled revenue accounts, "no Paris Club" clauses and cancellation clauses that "potentially allow the lenders to influence debtors' domestic and foreign policies" [22].
 - **Rescue lending.** AidData and co-authors report 128 rescue-lending operations in 22 countries worth US$240 billion by end-2021 [23]. Their average interest rate was 5%, against 2% for a typical IMF rescue loan [23]. Low-income countries typically receive extensions rather than new money [23].
-- **Cooperation in the Common Framework.** China co-chaired the official creditor committees for Zambia, Ghana and Ethiopia, and signed bilateral agreements implementing all three treatments [7]. The CGD paper argues several of China's interventions in Zambia were "substantively constructive" rather than obstructionist [8]. ODI notes China "is learning and evolving" but "remains unwilling to provide substantial haircuts" [11].
+- **Cooperation in the Common Framework.** China co-chaired the official creditor committees for Zambia, Ghana and Ethiopia, and signed bilateral agreements implementing all three treatments [7]. It was also a member of the official creditor committee for Chad, the first Common Framework agreement, alongside France, India and Saudi Arabia [31]. The CGD paper argues several of China's interventions in Zambia were "substantively constructive" rather than obstructionist [8]. ODI notes China "is learning and evolving" but "remains unwilling to provide substantial haircuts" [11]. In this record China appears as one official bilateral creditor among others in a shared restructuring system, not as an external party to it.
+- **The "debt-trap" claim and its critique.** A widespread public narrative holds that Chinese official lending is a deliberate strategy to trap borrowers and seize strategic assets. That claim should be separated from documented concerns about contract terms and data. The concerns that are documented in the sources already cited include confidentiality clauses, collateral and lender-controlled accounts, hidden debt, and the higher average cost of Chinese rescue loans relative to IMF programmes [21][22][23]. The further claim of a deliberate asset-seizure strategy is not established by those sources. Brautigam (2020), in a peer-reviewed article titled "A critical look at Chinese 'debt-trap diplomacy': the rise of a meme", examines that narrative critically [33]. The full text of the article was not re-opened in this revision, so no further claims about its case studies are made here. The article is used as a critical review of the intent claim, not as a finding that Chinese lending is costless or risk-free.
 
-**Gulf lenders.** Lons and Alhasan (2024) [24] estimate that Saudi Arabia, Kuwait, the UAE and Qatar disbursed about US$363 billion (constant 2020 dollars) in bailout aid to 22 countries between 1963 and 2022. The aid included direct budget support, central-bank deposits, oil and gas assistance or credit, debt write-offs, credit swaps and sovereign bond purchases [24]. Saudi Arabia sits on the IMF–World Bank Global Sovereign Debt Roundtable [24]. It is also on the official creditor committees for Zambia, Ghana and Ethiopia, and was among the first to sign a Zambia bilateral agreement (December 2024) [7]. The authors also document a newer "transactional approach", such as preferential access to privatised assets in Egypt [24].
+**Gulf lenders.** Lons and Alhasan (2024) [24] estimate that Saudi Arabia, Kuwait, the UAE and Qatar disbursed about US$363 billion (constant 2020 dollars) in bailout aid to 22 countries between 1963 and 2022. The aid included direct budget support, central-bank deposits, oil and gas assistance or credit, debt write-offs, credit swaps and sovereign bond purchases [24]. Saudi Arabia sits on the IMF–World Bank Global Sovereign Debt Roundtable [24]. It is also on the official creditor committees for Chad, Zambia, Ghana and Ethiopia, and was among the first to sign a Zambia bilateral agreement (December 2024) [7][31]. The authors also document a newer "transactional approach", such as preferential access to privatised assets in Egypt [24].
 
 **Multilaterals and the preferred-creditor debate.**
 
@@ -197,7 +201,7 @@ The lesson is that contract design matters, and that holdouts remain a risk for 
 
 **The HIPC and MDRI track record.** The two initiatives relieved 37 countries, 31 of them in Africa, of "more than $100 billion in debt" [29]. Cassimon et al. (2015) [30] find that debt relief, especially the enhanced HIPC initiative, "has had a positive impact on recipient country total domestic revenue and public investment". MDRI raised current primary spending and domestic revenue ratios [30].
 
-There is a sobering point: Zambia, Ghana and Ethiopia all received HIPC relief [29], and all three were back in restructuring within about two decades. The CGD paper traces how Zambia's post-2005 borrowing, much of it from Chinese state banks, rebuilt the debt that ended in default [8]. Relief alone, without changes in lending practices, transparency and revenue, does not prevent a repeat.
+There is a sobering point: Zambia, Ghana and Ethiopia all received HIPC relief [29], and all three were back in restructuring within about two decades. Zambia's own figures show that the rebuilt debt was not mainly the product of one official bilateral creditor. Of US$20.9 billion of external debt at end-2022, US$6.8 billion was owed to private creditors and US$6.3 billion to all official bilateral creditors together, with US$3.6 billion owed to multilaterals [7]. The immediate trigger of the crisis was a missed Eurobond coupon in November 2020 [8]. Chinese state banks were part of the post-2005 borrowing, as the CGD paper discusses [8], but they sat alongside commercial bondholders and other official lenders. Relief alone, without changes in lending practices by official and private creditors, transparency and revenue, does not prevent a repeat.
 
 ## 7. Proposals, limitations and open questions
 
@@ -265,6 +269,9 @@ Peer-reviewed sources are marked **[PR]**. Advocacy and interested-party sources
    - Ministry of Finance, Sri Lanka, "Sri Lanka's International Sovereign Bond Restructuring" (press release): https://treasury.gov.lk/api/file/b0f5c1c0-9cd6-484e-8d00-8f6c7b7b0ba9
    - Republic of Sri Lanka (16 December 2024), final results of consent solicitation and invitation to exchange: https://links.sgx.com/FileOpen/Sri%20Lanka%20-%20Announcement%20of%20Final%20Results_16.12.24.ashx?App=Announcement&FileID=828125
 
+31. International Monetary Fund (13 November 2022). Press Release No. 22/379, "IMF Managing Director Welcomes Debt Treatment Agreement Reached by Chad and its Creditors under the G20 Common Framework." https://www.imf.org/en/news/articles/2022/11/13/pr-22379-chad-imf-managing-director-welcomes-debt-treatment
+32. Bretton Woods Project (8 December 2022). "Chad gets debt rescheduling, not relief, and is left dependent on oil revenues." Advocacy and watchdog reporting, labelled as such. https://www.brettonwoodsproject.org/2022/12/chad-gets-debt-rescheduling-not-relief-and-is-left-dependent-on-oil-revenues/ . The article quotes World Bank President David Malpass on the absence of immediate debt reduction and identifies Glencore as a principal private creditor. A Reuters report of 11 November 2022, "Chad agrees debt plan with creditors, including Glencore", https://www.reuters.com/world/africa/chad-agrees-debt-plan-with-creditors-including-glencore-says-minister-2022-11-11/, covers the same announcement but returned 401 to an automated request in this revision and is not relied on for quotations.
+
 ### Debt swaps
 
 13. Debt-for-nature and debt-for-climate transaction documents:
@@ -295,6 +302,8 @@ Peer-reviewed sources are marked **[PR]**. Advocacy and interested-party sources
 23. AidData (27 March 2023). "Belt and Road bailout lending reaches record levels" (on Horn, Parks, Reinhart & Trebesch, *China as an International Lender of Last Resort*). https://www.aiddata.org/blog/belt-and-road-bailout-lending-reaches-record-levels
 24. Lons, C., & Alhasan, H. (28 February 2024). "Insights into Gulf Bailout Diplomacy: Unveiling 6 Key Features." FinDev Lab. Research blog. https://findevlab.org/insights-into-gulf-bailout-diplomacy-unveiling-6-key-features/
 
+33. **[PR]** Brautigam, D. (2020). A critical look at Chinese "debt-trap diplomacy": the rise of a meme. *Area Development and Policy*, 5(1), 1–14. https://doi.org/10.1080/23792949.2019.1689828 (published online 6 December 2019; print issue dated 2 January 2020). Volume, issue and pages confirmed in the Crossref record.
+
 ### Counterarguments and track record
 
 25. **[PR]** Cruces, J. J., & Trebesch, C. (2013). Sovereign Defaults: The Price of Haircuts. *American Economic Journal: Macroeconomics*, 5(3), 85–117. https://doi.org/10.1257/mac.5.3.85
@@ -303,3 +312,9 @@ Peer-reviewed sources are marked **[PR]**. Advocacy and interested-party sources
 28. **[PR]** Fang, C., Schumacher, J., & Trebesch, C. (2021). Restructuring Sovereign Bonds: Holdouts, Haircuts and the Effectiveness of CACs. *IMF Economic Review*, 69(1), 155–196. https://doi.org/10.1057/s41308-020-00127-z
 29. World Bank (9 May 2024). "Heavily Indebted Poor Countries (HIPC) Initiative." https://www.worldbank.org/en/brief/2024/05/09/hipc
 30. **[PR]** Cassimon, D., Van Campenhout, B., Ferry, M., & Raffinot, M. (2015). Africa: Out of debt, into fiscal space? Dynamic fiscal impact of the debt relief initiatives on African Heavily Indebted Poor Countries (HIPCs). *International Economics*, 144, 29–52. https://doi.org/10.1016/j.inteco.2015.04.007
+
+---
+
+### Revisions (18 November 2026)
+
+This study was revised on 18 November 2026 after an independent balance review. The revisions add Chad, the first completed Common Framework case, including the IMF's account of a deal that provided protection against downside risks but, in the World Bank president's contemporaneously reported words, "no immediate debt reduction"; add Brautigam's critique of the "debt-trap diplomacy" narrative, while keeping the documented concerns about contract terms, hidden debt and the cost of rescue loans; correct the framing of Zambia's post-HIPC borrowing so that private creditors (US$6.8 billion) and official bilateral creditors as a group (US$6.3 billion) are named together, rather than attributing the rebuilt debt mainly to Chinese lenders; and give section 5 a neutral heading.

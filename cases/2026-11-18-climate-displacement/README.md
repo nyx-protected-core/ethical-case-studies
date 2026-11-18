@@ -43,7 +43,7 @@ The size of the gap between scenarios is the main finding: emissions and develop
 
 ### 1.5 Food insecurity as a pathway
 
-Food insecurity is one of the most direct routes from climate stress to distress migration. The IPCC finds that "flood and drought-related acute food insecurity and malnutrition have increased in Africa (high confidence) and Central and South America (high confidence)" [3]. The Global Report on Food Crises 2026 found that in 2025, **266 million** people in 47 countries and territories faced high levels of acute food insecurity. Weather extremes were the primary driver in **16** of those countries and territories, which accounted for **87.5 million** people, around one-third of the total [26]. Conflict remained the leading driver. The same report counted **85.1 million** forcibly displaced people in food-crisis countries, 74 per cent of them internally displaced. Where data exist (only 17 countries), acute food insecurity was more severe among displaced people than among residents [26].
+Food insecurity is one of the most direct routes from climate stress to distress migration. The IPCC finds that "flood and drought-related acute food insecurity and malnutrition have increased in Africa (high confidence) and Central and South America (high confidence)" [3]. The Global Report on Food Crises 2026 found that in 2025, **266 million** people in 47 countries and territories faced high levels of acute food insecurity. Weather extremes were the primary driver in **16** of those countries and territories, which accounted for **87.5 million** people, around one-third of the total [26]. Conflict remained the leading driver. The same report counted **85.1 million** forcibly displaced people in food-crisis countries, from all causes (mainly conflict), 74 per cent of them internally displaced. Where data exist (only 17 countries), acute food insecurity was more severe among displaced people than among residents [26].
 
 ---
 
@@ -80,11 +80,11 @@ The sceptical literature also brings out a less visible risk: people who cannot 
 
 The 1951 Refugee Convention protects people with a well-founded fear of persecution on grounds of race, religion, nationality, membership of a particular social group or political opinion. Environmental harm does not fit these grounds easily. In the leading individual case, the New Zealand tribunal accepted that in many cases environmental degradation and natural disasters will not bring affected people within the Convention, but held that "no hard and fast rules or presumptions of non-applicability exist". The country's Supreme Court likewise did not rule out that such conditions could "create a pathway into the Refugee Convention or other protected person jurisdiction". The claim still failed on its facts [12]. The Nansen Initiative's Protection Agenda summarises the gap: "International law does not explicitly address whether and under which circumstances disaster displaced persons shall be admitted to another country, what rights they have during their stay, and under what conditions they may be returned" [14].
 
-Regional instruments are somewhat broader. In the 2011–2012 Horn of Africa drought, states in the region applied the 1969 African Union Refugee Convention's expanded definition to people fleeing Somalia, on the basis that the famine combined with conflict and the absence of capable authorities "seriously disturb[ed] public order" [14]. The pure climate case remains outside the refugee framework.
+Regional instruments are somewhat broader. In the 2011–2012 Horn of Africa drought, states in the region applied the expanded definition in the 1969 OAU Convention Governing the Specific Aspects of Refugee Problems in Africa (often called the 1969 African Union Refugee Convention) to people fleeing Somalia, on the basis that the famine combined with conflict and the absence of capable authorities "seriously disturb[ed] public order" [14]. The pure climate case remains outside the refugee framework.
 
-### 3.2 Human rights law: the 2020 Human Rights Committee views
+### 3.2 Human rights law: the 2019 Human Rights Committee views
 
-In views adopted under the Optional Protocol to the International Covenant on Civil and Political Rights, the UN Human Rights Committee examined a complaint that New Zealand had violated the right to life (article 6) by deporting a person to Kiribati (communication No. 2728/2016, UN Doc. CCPR/C/127/D/2728/2016, distributed 23 September 2020) [12]. The Committee found no violation. It reasoned that a projected time frame of 10 to 15 years before the islands became uninhabitable "could allow for intervening acts by Kiribati, with the assistance of the international community, to take affirmative measures to protect and, where necessary, relocate its population" [12].
+In views adopted on 24 October 2019 under the Optional Protocol to the International Covenant on Civil and Political Rights (UN Doc. CCPR/C/127/D/2728/2016, distributed 23 September 2020), the UN Human Rights Committee examined a complaint that New Zealand had violated the right to life (article 6) by deporting a person to Kiribati (communication No. 2728/2016) [12]. These are the views of a treaty body under article 5 (4) of the Optional Protocol, not a judgment of a court, and they are not binding in the way a judicial decision is binding. The Committee found no violation. It reasoned that a projected time frame of 10 to 15 years before the islands became uninhabitable "could allow for intervening acts by Kiribati, with the assistance of the international community, to take affirmative measures to protect and, where necessary, relocate its population" [12].
 
 The views are nonetheless significant for the principle they state:
 
@@ -230,7 +230,7 @@ The plausible mechanism is well described: lost livelihoods, debt, displacement,
 ## 10. Open questions
 
 1. How much does slow-onset drought contribute to labour migration in the Sahel and the Horn, as distinct from conflict, and can it be measured without double-counting?
-2. At what point, if any, will treaty bodies or courts find that conditions in a low-lying state have crossed the threshold set out in the 2020 views [12]?
+2. At what point, if any, will treaty bodies or courts find that conditions in a low-lying state have crossed the threshold set out in the views adopted on 24 October 2019 [12]?
 3. Will the Falepili model be replicated, and can mobility agreements be separated from security conditions?
 4. Can the Fund for responding to Loss and Damage reach community level directly, including for non-economic losses such as culture and land?
 5. What study designs could establish whether climate shocks *cause* trafficking, and over what time frame, given the "slow-burn" pattern [30] and the contradictory quantitative results [28][29]?
@@ -262,7 +262,7 @@ The plausible mechanism is well described: lost livelihoods, debt, displacement,
 
 [11] Hoffmann, R., Dimitrova, A., Muttarak, R., Crespo Cuaresma, J., & Peisker, J. (2020). A meta-analysis of country-level studies on environmental change and migration. *Nature Climate Change*, 10(10), 904–912. https://doi.org/10.1038/s41558-020-0898-6
 
-[12] UN Human Rights Committee (2020). Views adopted under article 5 (4) of the Optional Protocol concerning communication No. 2728/2016, *Teitiota v. New Zealand*. UN Doc. CCPR/C/127/D/2728/2016 (distributed 23 September 2020). <https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/Download.aspx?symbolno=CCPR%2FC%2F127%2FD%2F2728%2F2016&Lang=en>
+[12] UN Human Rights Committee (2019). Views adopted under article 5 (4) of the Optional Protocol concerning communication No. 2728/2016, *Teitiota v. New Zealand*. UN Doc. CCPR/C/127/D/2728/2016 (date of adoption of Views: 24 October 2019; distributed 23 September 2020). <https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/Download.aspx?symbolno=CCPR%2FC%2F127%2FD%2F2728%2F2016&Lang=en>
 
 [13] Australian Government, Department of Foreign Affairs and Trade (n.d., accessed November 2026). Australia-Tuvalu Falepili Union treaty. <https://www.dfat.gov.au/geo/tuvalu/australia-tuvalu-falepili-union-treaty>
 
@@ -299,3 +299,9 @@ The plausible mechanism is well described: lost livelihoods, debt, displacement,
 [29] Bowersox, Z. (2018). Natural disasters and human trafficking: Do disasters affect state anti-trafficking performance? *International Migration*, 56(1), 196–212. https://doi.org/10.1111/imig.12374
 
 [30] Weeks, C. (2025). The 'slow-burn effect' of human trafficking following disaster. *Disasters*, 49(3). https://doi.org/10.1111/disa.12685
+
+---
+
+### Revisions (18 November 2026)
+
+This study was revised on 18 November 2026 after an independent balance review. The revisions date the Human Rights Committee views in *Teitiota* to their adoption on 24 October 2019 (the document was distributed on 23 September 2020); state that those views are those of a treaty body under the Optional Protocol, not a court judgment; label the Global Report on Food Crises figure of 85.1 million forcibly displaced people as covering all causes, mainly conflict; and give the 1969 refugee instrument its formal title, the OAU Convention Governing the Specific Aspects of Refugee Problems in Africa.

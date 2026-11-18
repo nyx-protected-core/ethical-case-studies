@@ -25,8 +25,8 @@ OCSEA is measured mainly through reports to hotlines and clearinghouses. Those r
 
 Policy is split over how to detect abuse in private and end-to-end encrypted (E2EE) communications.
 
-- **For mandatory detection:** child-safety organisations stress that detection finds children and stops recirculation.
-- **Against it:** data-protection authorities and security researchers argue that scanning private communications, especially on the user's device, creates serious privacy and security risks and error rates [S20, S21, S22].
+- **For detection:** official report data show that provider reporting identifies children in imminent danger, and that hash-matching of confirmed images is used to help stop recirculation [S1, S4, S41]. This case study does not treat those findings as a settled argument for mandatory detection orders. A published position by a named child-safety organisation specifically on mandatory detection under the proposed EU regulation was not opened for this study.
+- **Against mandatory scanning of private communications:** data-protection authorities and security researchers argue that scanning private communications, especially on the user's device, creates serious privacy and security risks and error rates [S20, S21, S22].
 - **EU status (18 November 2026):** the proposed Child Sexual Abuse Regulation is still in trilogue. A replacement interim derogation, Regulation (EU) 2026/1881, applies until 3 April 2028 and excludes E2EE communications [S14–S19].
 
 The case study proposes a layered approach:
@@ -173,9 +173,32 @@ Both sides accept that:
 
 The remaining disagreement is about whether private and encrypted communications can be scanned safely, and who carries the cost of errors.
 
+
 ---
 
-## 4. Payment-flow detection by financial intelligence units
+## 4. Age assurance: a child-protection tool and its trade-offs
+
+Age assurance — an umbrella term covering age verification, age estimation and self-declaration [S42] — is now a central instrument in child-protection policy. It is treated here only at the level of law, guidance and trade-offs. This section does not describe how any method works, how it might be evaded, or how a service should implement it.
+
+**What recent rules require.**
+
+- **European Data Protection Board, Statement 1/2025 (adopted 11 February 2025).** The EDPB recognises age assurance as one way to improve children's well-being online, but states that it "poses specific risks to data protection with the potential to adversely impact" not only data-protection rights but also "the right to non-discrimination … and the right to free expression and information" [S42]. Age assurance "should always be implemented in a risk-based and proportionate manner". In many cases it poses a high risk to rights and freedoms and therefore requires a data-protection impact assessment before processing [S42]. The least intrusive effective method should be used, and "viable alternatives to prove their age should be provided to users who cannot or do not wish to use a specific method" [S42]. Age assurance should not give providers additional means to identify, locate, profile or track people [S42].
+- **Ofcom, Protection of Children Codes of Practice (in force 25 July 2025).** From that date, services likely to be accessed by children in the United Kingdom must comply with the children's safety duties in the Codes, or take other effective measures [S43]. Ofcom's guidance on "highly effective age assurance", which those duties rely on, requires any method used to be technically accurate, robust, reliable and fair [S43]. Self-declaration of age is not treated as highly effective [S43]. Services that allow pornography, or certain other content harmful to children, are expected to use such methods so that children are not normally able to encounter that content [S43].
+- **Australia, Social Media Minimum Age scheme (in effect 10 December 2025).** From that date, age-restricted social media platforms must take reasonable steps to prevent people under 16 from creating or keeping an account [S44]. The Office of the Australian Information Commissioner, which co-regulates the privacy provisions with the eSafety Commissioner, requires methods to be necessary and proportionate, personal and sensitive information to be minimised, and personal information collected for the scheme to be destroyed once its purposes are met [S44].
+
+**Trade-offs that should be weighed with the child-protection aim.**
+
+- **Privacy and data security.** Age checks can involve identity documents, biometric images or other personal data. The EDPB warns against using the process to identify, locate, profile or track users, and against repurposing the data [S42]. The OAIC likewise requires purpose limitation and destruction of data collected for the Australian scheme [S44]. A data breach or later reuse of that information would fall on users, including children and adults who are only proving they are old enough.
+- **Exclusion of people without documents.** Methods that depend on official identity documents, payment cards or mobile-account data can shut out people who lack those credentials. The EDPB's call for viable alternatives is a response to that risk [S42]. An excluded adult may lose access to lawful services; an excluded adolescent may lose access to information, support or community.
+- **Accuracy and bias of age estimation.** Estimation methods can misclassify people, and error rates may differ by age, sex or appearance. Ofcom's "fair" and "technically accurate" criteria are intended to constrain that risk [S43], but a residual error rate remains, with costs both for children who are treated as adults and for adults who are treated as children.
+- **Children's access to information.** General comment No. 25 already cited in this study states that safety tools "should not be used to restrict children's access to information" and that restrictions must be lawful, necessary and proportionate [S27]. Age-gating an entire service, rather than a specific high-risk feature, can conflict with that guidance even when the child-protection aim is genuine.
+- **Displacement to less regulated services.** When a widely used service introduces strict age checks, some users — including some children — may move to services with weaker safeguards. The risk can be stated in those general terms; this study does not discuss how such a move is made.
+
+None of these trade-offs is an argument for abandoning age assurance where it is necessary and proportionate. They are an argument for treating it as a rights-sensitive measure, with data minimisation, alternatives, accuracy standards, independent oversight and a narrow purpose, rather than as a costless default.
+
+---
+
+## 5. Payment-flow detection by financial intelligence units
 
 At a high level, financial institutions and financial intelligence units (FIUs) contribute in three ways:
 
@@ -198,7 +221,7 @@ This case study deliberately does not reproduce any specific indicator.
 
 ---
 
-## 5. Survivor-centred support
+## 6. Survivor-centred support
 
 - **Trauma-informed approach.** A trauma-informed system:
   - realises the widespread impact of trauma;
@@ -225,7 +248,7 @@ This case study deliberately does not reproduce any specific indicator.
 
 ---
 
-## 6. Safe-by-design platform features
+## 7. Safe-by-design platform features
 
 | Feature | Basis | Design notes |
 | --- | --- | --- |
@@ -239,7 +262,7 @@ This case study deliberately does not reproduce any specific indicator.
 
 ---
 
-## 7. Ethical risks, trade-offs and mitigations
+## 8. Ethical risks, trade-offs and mitigations
 
 | Risk | Who bears it | Mitigation |
 | --- | --- | --- |
@@ -251,12 +274,19 @@ This case study deliberately does not reproduce any specific indicator.
 | Financial de-risking and profiling | Poor, migrant and remittance-dependent families | Risk-based, combined indicators [S28, S31]; no single-factor exclusion; review for bias |
 | Revictimisation through repeated interviews or exposure of images | Survivors | Barnahus model, limits on interviews, hash-based takedown, closed hearings [S33–S35] |
 | Blocking children's legitimate access to information | Children | Proportionality tests; transparency to children in age-appropriate language [S27] |
+| Age-assurance harms: privacy and security risks, exclusion of people without documents, misclassification, and movement to less regulated services | Adults and children who are checked, and children who lose access to information or safer services | Risk-based, proportionate methods; data minimisation and deletion; alternatives to a single credential; accuracy and fairness standards; narrow purpose limitation [S27, S42, S43, S44] |
 
 ---
 
-## 8. Limits of this study
+## 9. Limits of this study
 
 - It relies on official, intergovernmental, NGO and academic sources, and many figures are report counts that depend on detection effort.
 - Prevalence studies cover specific countries and years.
 - The EU legislation is still being negotiated, and its status may change after 18 November 2026.
-- Some official pages could not be fetched, including the Council press releases, EUR-Lex and the Ofcom codes PDF. Their content was taken from other official copies or left out (see SOURCES.md).
+- Some official pages could not be fetched, including the Council press releases, EUR-Lex and the Ofcom codes PDF. Their content was taken from other official copies or left out (see SOURCES.md). The age-assurance rules in section 4 were taken from official HTML pages and the EDPB statement PDF, not from the blocked Ofcom codes PDF.
+
+---
+
+### Revisions (18 November 2026)
+
+This study was revised on 18 November 2026 after an independent balance review. The revisions add a policy-level section on age assurance, covering the EDPB's 11 February 2025 statement, Ofcom's Protection of Children Codes (in force 25 July 2025) and Australia's Social Media Minimum Age scheme (in effect 10 December 2025), and set out the privacy, exclusion, accuracy, access-to-information and displacement trade-offs. They also reword the uncited claim about "mandatory detection" so that it refers to detection supported by official report data, and note that a named organisation's published position on mandatory detection orders was not opened.
