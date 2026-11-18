@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-18 — Rebuilding economies after war: what makes peace last](cases/2026-11-18-postwar-economic-reconstruction/README.md)
 - [2026-11-18 — An offline soil-moisture and rain sensor for smallholder farmers, for under $5](cases/2026-11-18-offline-soil-moisture-sensor/README.md)
 - [2026-11-18 — Israel and its neighbours: the case for cooperation, and the role of proxy warfare](cases/2026-11-18-israel-neighbours-cooperation-proxy-warfare/README.md)
 - [2026-11-18 — Pause, check, share: slowing misinformation without silencing the speaker](cases/2026-11-18-pause-check-share-misinformation/README.md)
