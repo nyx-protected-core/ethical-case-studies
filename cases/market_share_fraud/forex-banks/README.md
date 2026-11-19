@@ -59,21 +59,21 @@ In October 2018 a New York federal jury acquitted three former London-based trad
 2. **Information sharing.** Traders at competing banks pooled information on their net customer orders at the fix and their positions [2; 3; 6]. Knowing the combined order flow, they could coordinate who traded and when, including "standing down", to move the fix in a direction that benefited them [1; 6].
 3. **Withholding supply or demand.** The DOJ record describes agreements not to buy or sell at certain times to protect co-conspirators' positions, a classic cartel restriction of competition [1].
 4. **Customer-facing deception.** Separate from collusion, UBS added undisclosed markups and misrepresented them to customers [1]; the FCA found attempts to trigger client stop-loss orders [3].
-5. **Weak controls.** Regulators found inadequate policies on chatroom use and on trading around fixes [2; 3]. A crime-script study of the benchmark cases found that organisational systems acted both as guardians and as facilitators of misconduct [20].
+5. **Weak controls.** Regulators found inadequate policies on chatroom use and on trading around fixes [2; 3]. A crime-script study of the benchmark cases found that organisational systems acted both as guardians and as facilitators of misconduct [19].
 
 ## Harms (quantified only where sourced)
 
-- **Prices around the fix behaved abnormally.** Peer-reviewed analysis of 21 currencies over a decade found "extraordinary volatility and negative serial correlation" in prices around the WM/Reuters fix, contrary to a model of competitive trading [14]. A model of dealer conduct at a fix shows that front-running, information sharing and collusion generate high pre-fix volatility and partial reversals, and tests on FX data support it [15].
+- **Prices around the fix behaved abnormally.** Peer-reviewed analysis of 21 currencies over a decade found "extraordinary volatility and negative serial correlation" in prices around the WM/Reuters fix, contrary to a model of competitive trading [14].
 - **Customers paid hidden costs.** The admitted markup scheme at UBS [1] and the stop-loss conduct found by the FCA [3] harmed identifiable customers, but no adjudicated aggregate loss figure was located.
 
 *Strength: Moderate that the conduct distorted prices near the fix; Very limited for any total loss figure.*
 
 ## Fair counterarguments
 
-1. **Is there a price footprint at all?** One working paper found "little evidence of volatile movement (or spikes)" around the London fix and noted that liquidity at the fix is unusually deep, so any single trade has less impact [19, WP]. Peer-reviewed work finds the opposite pattern in a longer, broader sample [14]. The two may differ because of data, window and currency coverage.
+1. **Is there a price footprint at all?** One working paper found "little evidence of volatile movement (or spikes)" around the London fix and noted that liquidity at the fix is unusually deep, so any single trade has less impact [18, WP]. Peer-reviewed work finds the opposite pattern in a longer, broader sample [14]. The two may differ because of data, window and currency coverage.
 2. **Innocent explanations for fix patterns.** Price movements around a fix can have explanations other than collusion, such as dealers trading ahead of large customer orders they must fill, and studies differ on whether there is a price footprint at all (Fair counterarguments, item 1). A price pattern alone does not prove collusion; the chatroom evidence and admissions do [1; 2; 6].
-3. **Did the reforms fix it?** After the 2015 change to a five-minute window, the volume spike in the fixing window disappeared, but price anomalies remained, and banks now incur higher execution costs to avoid even the appearance of collusion [18, WP]. A pre-registered peer-reviewed study assesses whether the revised methodology is representative and robust [17].
-4. **Criminal law and individuals.** The 2018 acquittal [12, SECONDARY] shows that juries can distinguish between chatroom information sharing and proven agreement to fix prices. Some argue that competition law alone cannot prevent recurrence and that ex ante market-structure regulation is needed [16].
+3. **Did the reforms fix it?** After the 2015 change to a five-minute window, the volume spike in the fixing window disappeared, but price anomalies remained, and banks now incur higher execution costs to avoid even the appearance of collusion [17, WP]. A pre-registered peer-reviewed study assesses whether the revised methodology is representative and robust [16].
+4. **Criminal law and individuals.** The 2018 acquittal [12, SECONDARY] shows that juries can distinguish between chatroom information sharing and proven agreement to fix prices. Some argue that competition law alone cannot prevent recurrence and that ex ante market-structure regulation is needed [15].
 5. **Headline totals ⚑.** "Nearly $9 billion" [1] combines amounts from several US and foreign agencies; Commission fines include settlement and leniency reductions and an immune firm pays nothing [6; 7]. The penalty ranking therefore does not rank wrongdoing.
 6. **Recidivism.** The same institutions appear in LIBOR and FX resolutions, and Barclays and UBS breached LIBOR agreements through FX conduct [1]. JPMorgan's later 2020 spoofing resolution lists the 2015 FX plea as prior criminal history [13].
 
@@ -94,12 +94,12 @@ The last column rates evidence that each measure works: **strong** means consist
 
 | Measure | Source | Evidence of effect | Evidence rating |
 |---|---|---|---|
-| Widen the WM/Reuters fixing window from one to five minutes | FSB, *Foreign Exchange Benchmarks: Final Report*, 2014 [8] | Volume spike in the window disappeared after the 2015 change; some price anomalies persist [18, WP]; representativeness of the revised method under study [17] | moderate (observed change in trading after the 2015 window change) |
+| Widen the WM/Reuters fixing window from one to five minutes | FSB, *Foreign Exchange Benchmarks: Final Report*, 2014 [8] | Volume spike in the window disappeared after the 2015 change; some price anomalies persist [17, WP]; representativeness of the revised method under study [16] | moderate (observed change in trading after the 2015 window change) |
 | Industry conduct code | FX Global Code (Global Foreign Exchange Committee; complete Code first published May 2017, last updated December 2024) [9] | Sets principles on information sharing, execution and disclosure. No peer-reviewed causal estimate of its effect was located | UNTESTED |
 | Criminal liability for manipulating the fix | UK benchmark offence extended in 2015 to further benchmarks, including the WM/Reuters London closing spot rate [10]; Fair and Effective Markets Review [11] | Closes a legal gap. Effect on conduct not measured | UNTESTED |
 | Parent-level guilty pleas with probation | DOJ 2015 [1] | First parent-level pleas in the series; later JPMorgan spoofing conduct overlapped in time with the FX period, so the plea's deterrent effect is hard to judge [13] | UNTESTED (deterrent effect not measured; later misconduct overlapped) |
-| Leniency for the first reporter | EC decisions [6; 7]; peer-reviewed review of EU "leniency inflation" [21] | UBS's immunity opened the EU cases [7]. Granting reductions to many or all members may weaken the race to confess [21] | moderate (observational; immunity opened the EU cases) |
-| Ex ante separation of market-making from proprietary trading, and better data | Peer-reviewed legal analysis of the Commission's forex decisions [16] | Proposal; not yet tested | UNTESTED |
+| Leniency for the first reporter | EC decisions [6; 7]; peer-reviewed review of EU "leniency inflation" [20] | UBS's immunity opened the EU cases [7]. Granting reductions to many or all members may weaken the race to confess [20] | moderate (observational; immunity opened the EU cases) |
+| Ex ante separation of market-making from proprietary trading, and better data | Peer-reviewed legal analysis of the Commission's forex decisions [15] | Proposal; not yet tested | UNTESTED |
 | Surveillance of chatrooms and controls on fix-order information | CFTC and FCA orders and FCA remediation programme [2; 3] | Required by orders; not evaluated in peer-reviewed work | UNTESTED |
 
 ## What this does not replace
@@ -113,10 +113,9 @@ This case does not replace the plea agreements, final notices and Commission dec
 1. **No adjudicated aggregate customer-loss figure** was found. US and UK civil litigation and settlements were not reviewed.
 2. **Appeals.** The appeal status of the Commission's 2019 and 2021 decisions (including any challenge by the Credit Suisse/UBS group to the ordinary-procedure fine) was not checked.
 3. **Plea agreements** were read through the DOJ release, not in full.
-4. **[18] and [19] are NBER working papers**, not peer-reviewed journal articles, and are labelled [WP].
+4. **[17] and [18] are NBER working papers**, not peer-reviewed journal articles, and are labelled [WP].
 5. **[12] is a news report** (secondary), used only for the timeline of the 2018 acquittal; the trial docket was not opened. Treat details beyond the verdict as **UNVERIFIED**.
-6. **[15] full text not read**; the summary relies on the published abstract (**UNVERIFIED** beyond the abstract).
-7. **FEMR [11]** is cited from the Bank of England summary page; the 21 recommendations were not read one by one.
+6. **FEMR [11]** is cited from the Bank of England summary page; the 21 recommendations were not read one by one.
 
 ## Sources
 
@@ -136,15 +135,15 @@ Tags: [DOJ] US Department of Justice; [CFTC] Commodity Futures Trading Commissio
 - **[12]** [SECONDARY — news] Reuters (26 October 2018). *London forex traders found not guilty in U.S. rigging case.* Secondary source, timeline only. Could not be opened; headline and URL UNVERIFIED. https://www.reuters.com/article/us-forex-trial/london-forex-traders-found-not-guilty-in-u-s-rigging-case-idUSKCN1N02HH/
 - **[13]** [DOJ] US Department of Justice (29 September 2020). *JPMorgan Chase & Co. Agrees To Pay $920 Million in Connection with Schemes to Defraud Precious Metals and U.S. Treasuries Markets.* https://www.justice.gov/archives/opa/pr/jpmorgan-chase-co-agrees-pay-920-million-connection-schemes-defraud-precious-metals-and-us
 - **[14]** [PR] Evans, M. D. D. (2018). Forex trading and the WMR Fix. *Journal of Banking & Finance*, 87, 233–247. https://doi.org/10.1016/j.jbankfin.2017.09.017
-- **[15]** [PR] Osler, C. and Turnbull, A. (2026). Dealer misconduct and price dynamics at the fix. *Journal of Banking & Finance*, 185, 107641. https://doi.org/10.1016/j.jbankfin.2026.107641
-- **[16]** [PR] Stirling, G. (2023). The fallout from the forex cartels: what legacy for foreign exchange regulation? *Law and Financial Markets Review*, 17(3), 194–212. https://doi.org/10.1080/17521440.2024.2372476
-- **[17]** [PR] Benenchia, M., Galati, L. and Lepone, A. (2024). To fix or not to fix: the representativeness of the WM/R methodology that underpins the FX benchmark rates. A pre-registered report. *Pacific-Basin Finance Journal*, 84, 102311. https://doi.org/10.1016/j.pacfin.2024.102311
-- **[18]** [WP] Ito, T. and Yamada, M. (2017). Did the reform fix the London fix problem? NBER Working Paper 23327. https://doi.org/10.3386/w23327
-- **[19]** [WP] Ito, T. and Yamada, M. (2015). Was the forex fixing fixed? NBER Working Paper 21518. https://doi.org/10.3386/w21518
-- **[20]** [PR] Jordanoska, A. and Lord, N. (2020). Scripting the mechanics of the benchmark manipulation corporate scandals: the 'guardian' paradox. *European Journal of Criminology*, 17(1), 9–30. https://doi.org/10.1177/1477370819850124
-- **[21]** [PR] Marvão, C. and Spagnolo, G. (2023). Leniency inflation, cartel damages, and criminalization. *Review of Industrial Organization*, 63(2), 155–186. https://doi.org/10.1007/s11151-023-09920-2
+- **[15]** [PR] Stirling, G. (2023). The fallout from the forex cartels: what legacy for foreign exchange regulation? *Law and Financial Markets Review*, 17(3), 194–212. https://doi.org/10.1080/17521440.2024.2372476
+- **[16]** [PR] Benenchia, M., Galati, L. and Lepone, A. (2024). To fix or not to fix: the representativeness of the WM/R methodology that underpins the FX benchmark rates. A pre-registered report. *Pacific-Basin Finance Journal*, 84, 102311. https://doi.org/10.1016/j.pacfin.2024.102311
+- **[17]** [WP] Ito, T. and Yamada, M. (2017). Did the reform fix the London fix problem? NBER Working Paper 23327. https://doi.org/10.3386/w23327
+- **[18]** [WP] Ito, T. and Yamada, M. (2015). Was the forex fixing fixed? NBER Working Paper 21518. https://doi.org/10.3386/w21518
+- **[19]** [PR] Jordanoska, A. and Lord, N. (2020). Scripting the mechanics of the benchmark manipulation corporate scandals: the 'guardian' paradox. *European Journal of Criminology*, 17(1), 9–30. https://doi.org/10.1177/1477370819850124
+- **[20]** [PR] Marvão, C. and Spagnolo, G. (2023). Leniency inflation, cartel damages, and criminalization. *Review of Industrial Organization*, 63(2), 155–186. https://doi.org/10.1007/s11151-023-09920-2
 
 ## Changelog
 
 - 19 November 2026: first published version. Marked the 2015 Justice Department release and the acquittal report as UNVERIFIED and added the trial docket number; removed a study that did not meet the source rules; renamed the solution ratings to strong, moderate, weak or UNTESTED and re-rated each row.
 - 19 November 2026: recorded the 4% partial-liability reduction for Credit Suisse; relabelled the parent-level pleas row UNTESTED.
+- 19 November 2026: removed a 2026 journal article (former source 15) after an author-affiliation check; later sources renumbered.
