@@ -10,3 +10,5 @@ These studies are written to be read by anyone. They do not name private individ
 
 - [Case studies](cases/INDEX.md) — the full list, grouped by category.
 - [Religion](religion/README.md) — free, licence-noted links to scriptures of 24 religions.
+- [IBM Scandals](IBM-Scandals/README.md): IBM intellectual-property theft and scandals worldwide across its history, on one page.
+- [Non-Consent Human Trials](Non-Consent-Human-Trials/README.md): human trials run without consent worldwide, fully sourced.
