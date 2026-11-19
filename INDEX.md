@@ -2,6 +2,7 @@
 
 One line per case, newest first.
 
+- [2026-11-19 — Case studies A to G: child trafficking, early-years content and readiness, recidivism, trafficking money, global cooperation, and risk settings and tools](cases/2026-11-19-child-trafficking-case-studies-a-g/README.md)
 - [2026-11-18 — State influence operations and the pro-Palestinian movement: what Iran, Russia and China did, and what the record shows](cases/2026-11-18-state-influence-ops-palestine-discourse/README.md)
 - [2026-11-18 — Academic senates for Ontario's public colleges](cases/2026-11-18-ontario-college-academic-senates/README.md)
 - [2026-11-18 — Full-time faculty in Ontario's public colleges](cases/2026-11-18-ontario-college-full-time-faculty/README.md)
