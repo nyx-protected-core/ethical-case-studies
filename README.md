@@ -9,3 +9,4 @@ These studies are written to be read by anyone. They do not name private individ
 ## Contents
 
 - [Case studies](cases/INDEX.md) — the full list, newest first.
+- [Religion](religion/README.md) — free, licence-noted links to scriptures of 24 religions.

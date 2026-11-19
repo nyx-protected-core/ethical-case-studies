@@ -1,0 +1,30 @@
+# Torah and Tanakh
+
+Links only. No scripture text is copied here. The Torah is the five books (Genesis, Exodus, Leviticus, Numbers, Deuteronomy). The Tanakh is the wider Hebrew Bible. Each link names its source, publisher, and licence or terms as the site states them.
+
+## Original language (Hebrew)
+
+- [Unicode/XML Leningrad Codex (UXLC) at tanach.us](https://tanach.us/Tanach.html): a digital transcription of the Leningrad Codex, the oldest complete Hebrew Bible manuscript. Publisher: Tanach.us Inc. Licence: the site states: "All biblical Hebrew text, in any format, may be viewed or copied without restriction" ([licence](https://tanach.us/License.html)). The publisher states that this edition is not the Westminster Leningrad Codex and should not be labelled as such. The text archive is also at [Tanach.txt.zip](https://tanach.us/TextFiles/Tanach.txt.zip).
+- [Westminster Leningrad Codex 4.14, Torah only, PDF](https://commons.wikimedia.org/wiki/File:WLC4.14-Torah.pdf): the five books in a public-domain digital edition. Publisher, as stated on Wikimedia Commons: J. Alan Groves Center for Advanced Biblical Research. Licence: released into the public domain by the J. Alan Groves Center for Advanced Biblical Research, as stated on the file page ([file page](https://commons.wikimedia.org/wiki/File:WLC4.14-Torah.pdf); [Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/)). Direct file: [WLC4.14-Torah.pdf](https://upload.wikimedia.org/wikipedia/commons/9/98/WLC4.14-Torah.pdf).
+- [Hebrew Wikisource, Torah](https://he.wikisource.org/wiki/%D7%AA%D7%95%D7%A8%D7%94): the Torah in Hebrew on Wikisource. Publisher: Wikisource. Licence: Wikisource hosts public-domain works and states that contributions to the site are under Creative Commons Attribution-ShareAlike ([copyright policy](https://en.wikisource.org/wiki/Wikisource:Copyright_policy); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+- [Sefaria, Genesis 1](https://www.sefaria.org/Genesis.1): free online reading of the Torah and Tanakh in Hebrew, with other books linked from the site. Publisher: Sefaria. The Hebrew text of the Leningrad/Westminster tradition is recorded there as public domain or as the associated open Hebrew edition; each version's licence is shown on Sefaria. Site terms: [Sefaria Terms of Use](https://www.sefaria.org/terms).
+- [Mechon Mamre, Hebrew Bible](https://www.mechon-mamre.org/p/pt/pt0.htm): free online Hebrew Bible (and a parallel English page). Publisher: Mechon Mamre. Licence: copyrighted; the publisher states that the material may be used only for private study and teaching, and expressly invites links to its text files ([copying and fair use](https://mechon-mamre.org/copy.htm)).
+
+## English
+
+- [The Holy Scriptures, Jewish Publication Society, 1917, on Sefaria (Genesis 1)](https://www.sefaria.org/Genesis.1?ven=The_Holy_Scriptures:_A_New_Translation_(JPS_1917)): the 1917 Jewish Publication Society English Tanakh. Publisher of the edition: The Jewish Publication Society. Host: Sefaria. Licence: Sefaria records the licence of this edition as Public Domain; [Sefaria Terms of Use](https://www.sefaria.org/terms).
+- [The Holy Scriptures, Jewish Publication Society, 1917, on Wikisource](https://en.wikisource.org/wiki/Bible_(Jewish_Publication_Society_1917)): the same public-domain 1917 English Tanakh, including the five books of the Torah. Publisher of the edition: The Jewish Publication Society. Host: Wikisource. Licence: Wikisource hosts public-domain works and states that contributions to the site are under Creative Commons Attribution-ShareAlike ([copyright policy](https://en.wikisource.org/wiki/Wikisource:Copyright_policy); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). Wikisource records this work as in the public domain in the United States because it was published before 1931.
+- [Jewish Publication Society, 1917, on eBible.org](https://ebible.org/details.php?id=engjps): the same 1917 English edition, marked public domain on the edition page. Publisher of the edition: The Jewish Publication Society. Host: eBible.org. Licence: eBible.org marks this edition as public domain on the edition page listed with the link; see also [eBible.org intellectual property policy](https://ebible.org/legal.php).
+- [Mechon Mamre, English facing the Hebrew](https://www.mechon-mamre.org/p/pt/pt0.htm): English based on the 1917 Jewish Publication Society translation, as the publisher describes it, presented on Mechon Mamre's own pages. Publisher: Mechon Mamre. Licence: copyrighted; the publisher states that the material may be used only for private study and teaching, and expressly invites links to its text files ([copying and fair use](https://mechon-mamre.org/copy.htm)).
+
+## Other languages
+
+Confirmed public-domain Jewish translations, and public-domain complete Bibles that include the five books, are listed below. Other language versions exist on Sefaria with mixed licences (some still under copyright or marked "unknown"); only editions whose licence is clearly public domain or an open licence are listed here.
+
+### French (Français)
+
+- [Bible du Rabbinat, 1899, on French Wikisource](https://fr.wikisource.org/wiki/Bible_du_Rabbinat_1899): a complete French Jewish Bible. Host: Wikisource. Licence: Wikisource hosts public-domain works and states that contributions to the site are under Creative Commons Attribution-ShareAlike ([copyright policy](https://en.wikisource.org/wiki/Wikisource:Copyright_policy); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+
+### Languages of public-domain Bible editions that include the Torah
+
+The public-domain Bible editions listed in the [Christianity](../../christianity/README.md) folder (for example the Louis Segond 1910 in French, the Reina Valera 1909 in Spanish, and the Chinese Union Version) include the five books. Those links, publishers, and public-domain statements are given there and on each eBible.org edition page, together with [eBible.org intellectual property policy](https://ebible.org/legal.php).
