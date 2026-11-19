@@ -2,6 +2,8 @@
 
 Date: 2026-11-19
 
+38 case studies, listed alphabetically.
+
 *The category name is the repository's. It does not label every case as fraud: patent and copyright cases are described as infringement, and "theft" is used only where a court, regulator or plea found theft or misappropriation.*
 
 *Category overview. Research and writing only; not legal advice. Sources were checked on 19 November 2026.*
@@ -14,7 +16,7 @@ Cases where a company was found, by a court, a jury, a regulator or its own plea
 
 **How figures are treated.** Damages are compared with market effect only where a court or official record gives a figure. Government and prosecution figures are flagged for reporting incentives. No case in this category estimates a market share that no record measured.
 
-**Not used here.** This category is global. It uses no Canadian data, institutions or studies.
+**Not used here.** This category is global. It uses no Canadian data, institutions or studies. Canadian law and policy appear only in the law sections of the IP-theft-in-engineering review (section 4.2 and the comparison table in section 5.1); no Canadian data, studies or institutions are used there either.
 
 ## Index of cases
 
@@ -42,6 +44,7 @@ Cases where a company was found, by a court, a jury, a regulator or its own plea
 | [Hitachi Automotive Systems, Mitsubishi Electric, Mitsuba, Jtekt, NSK and others](auto-parts-cartel/README.md) | Auto parts: US guilty pleas, more than $740 million ⚑ in total | 2013-09-26 | https://www.justice.gov/sites/default/files/atr/legacy/2014/03/20/300969.pdf |
 | [Huawei Device USA](huawei/README.md) | Civil judgment for T-Mobile ($4.8 million) after a jury found trade-secret misappropriation (not wilful and malicious) and contract breach | 2017-05-22 | https://storage.courtlistener.com/recap/gov.uscourts.wawd.203647.489.0.pdf |
 | [Hytera Communications](hytera/README.md) | Civil judgment for Motorola under trade-secret and copyright law (affirmed in large part 2024); guilty plea to conspiracy to steal trade secrets (2025) | 2024-07-02; 2025 | https://www.govinfo.gov/content/pkg/USCOURTS-ca7-22-02370/pdf/USCOURTS-ca7-22-02370-0.pdf |
+| [IP theft in engineering, 1996–2026 (cross-case review)](ip-theft-in-engineering/README.md) | Review of 47 convictions, guilty pleas, final civil judgments and regulator or tribunal sanctions for trade-secret theft and copyright infringement in engineering, from US and non-US records; compares national and international law and rates a proposed market ban of up to 25 years as UNTESTED | 1996–2026 | https://www.law.cornell.edu/uscode/text/18/1832 |
 | [JPMorgan Chase & Co.](jpmorgan-spoofing/README.md) | Spoofing: deferred prosecution agreement with admitted facts (expired; dismissed with prejudice 29 March 2024) | 2020-09-29 | https://www.justice.gov/criminal-vns/case/jpmorgan-chase-co-deferred-prosecution-agreement |
 | [JPMorgan Chase & Co., JPMorgan Chase Bank, J.P. Morgan Securities](jpmorgan-spoofing/README.md) | Spoofing: CFTC order, $920.2 million ⚑ (consent; neither admitted nor denied except as admitted to the Justice Department) | 2020-09-29 | https://www.cftc.gov/media/4826/enfjpmorganchaseorder092920/download |
 | [JPMorgan Chase; Citigroup](enron/README.md) | SEC settlements over helping present loan proceeds as operating cash flow: $135 million and $120 million ⚑, of which $101 million of the second related to Enron (settlements; neither admitted nor denied) | 2003-07-28 | https://www.sec.gov/newsroom/press-releases/2003-87-sec-settles-enforcement-proceedings-against-jp-morgan-chase-citigroup |
@@ -136,3 +139,4 @@ Several cases concern physical products (radios, memory chips, wind turbines, fi
 - 19 November 2026: added twelve cases of bribery to win contracts (Airbus, Alstom, Ericsson, Glencore, Goldman Sachs, Odebrecht and Braskem, Petrobras, Rolls-Royce, Siemens, Telia, Teva, VimpelCom); added Ericsson, Alstom and Siemens as repeat findings.
 - 19 November 2026: added twelve cartel and accounting-fraud cases (auto parts, Enron, EU trucks, forex banks, JPMorgan spoofing, LCD panels, LIBOR banks, Theranos, Toshiba, Volkswagen, Wirecard, WorldCom), their findings, three alleged or unconfirmed matters and repeat findings.
 - 19 November 2026: marked the Apple/Epic contempt as pending Supreme Court review and the Masimo affirmance as subject to a certiorari petition; corrected the Rimini contempt to four issues and $530,000 after the 2023 appeal; described the Rimini settlement as conditional.
+- 19 November 2026: added a cross-case review of IP theft in engineering, 1996–2026, from US and non-US court records.

@@ -76,6 +76,7 @@ Cases are grouped by category. Within each category, newest first.
 - [2026-11-19 — Alstom (2014): U.S. guilty plea, subsidiary pleas and DPAs, and a later UK conviction, for bribes to win power, grid and transport contracts](market_share_fraud/alstom/README.md)
 - [2026-11-19 — Apple as the infringer: an import ban over Masimo's patents, a paid VirnetX judgment, and contempt in the Epic case](market_share_fraud/apple/README.md)
 - [2026-11-19 — The Auto-Parts Cartels: Yazaki, Denso, Bridgestone and Others — Bid-Rigging Across the Car Supply Chain](market_share_fraud/auto-parts-cartel/README.md)
+- [2026-11-19 — Copyright infringement and technology theft in engineering, 1996–2026: who was caught, what the law allows, and whether a long market ban would work](market_share_fraud/ip-theft-in-engineering/README.md)
 - [2026-11-19 — Enron: Off-Balance-Sheet Partnerships, Criminal Convictions, the Auditor's Collapse and the Sarbanes-Oxley Response](market_share_fraud/enron/README.md)
 - [2026-11-19 — Ericsson (Telefonaktiebolaget LM Ericsson): a 2019 DPA, then a 2023 guilty plea after breach](market_share_fraud/ericsson/README.md)
 - [2026-11-19 — The European Trucks Cartel (2016–2017 Decisions): List-Price Collusion, Emissions Costs, and What the Damages Courts Found](market_share_fraud/eu-trucks-cartel/README.md)
