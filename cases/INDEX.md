@@ -72,19 +72,31 @@ Cases are grouped by category. Within each category, newest first.
 
 ## Market share Fraud
 
+- [2026-11-19 — Airbus SE (2020): coordinated French, UK and US bribery resolutions](market_share_fraud/airbus/README.md)
+- [2026-11-19 — Alstom (2014): U.S. guilty plea, subsidiary pleas and DPAs, and a later UK conviction, for bribes to win power, grid and transport contracts](market_share_fraud/alstom/README.md)
 - [2026-11-19 — Apple as the infringer: an import ban over Masimo's patents, a paid VirnetX judgment, and contempt in the Epic case](market_share_fraud/apple/README.md)
+- [2026-11-19 — Ericsson (Telefonaktiebolaget LM Ericsson): a 2019 DPA, then a 2023 guilty plea after breach](market_share_fraud/ericsson/README.md)
+- [2026-11-19 — Glencore (2022): coordinated US, UK and Brazilian bribery resolutions, and the 2024 Swiss order](market_share_fraud/glencore/README.md)
+- [2026-11-19 — Goldman Sachs / 1MDB (2020): U.S. deferred prosecution agreement, Malaysian subsidiary guilty plea and multi-regulator sanctions for bribes to win bond-underwriting business](market_share_fraud/goldman-sachs-1mdb/README.md)
 - [2026-11-19 — Huawei and T-Mobile's phone-testing robot: a civil finding of misappropriation, and the larger charges that remain allegations](market_share_fraud/huawei/README.md)
 - [2026-11-19 — Hytera and Motorola's digital radio code: a civil judgment and a criminal plea for the same theft](market_share_fraud/hytera/README.md)
 - [2026-11-19 — Kolon Industries and DuPont's Kevlar secrets: a vacated civil verdict, then a guilty plea and $360 million](market_share_fraud/kolon-industries/README.md)
 - [2026-11-19 — McLaren and Ferrari's technical data: a sport's regulator excludes a team and fines it US$100 million](market_share_fraud/mclaren/README.md)
+- [2026-11-19 — Odebrecht S.A. and Braskem S.A. (2016): coordinated US, Brazilian and Swiss resolutions](market_share_fraud/odebrecht-braskem/README.md)
+- [2026-11-19 — Petrobras (2018): U.S. non-prosecution agreement and SEC order over a contractor bribery and bid-rigging scheme](market_share_fraud/petrobras/README.md)
 - [2026-11-19 — Rimini Street and Oracle's enterprise software: copyright infringement found and affirmed, then contempt of the injunction](market_share_fraud/rimini-street/README.md)
+- [2026-11-19 — Rolls-Royce (2017): UK, U.S. and Brazilian resolutions of bribery to win aero-engine, energy and defence business](market_share_fraud/rolls-royce/README.md)
 - [2026-11-19 — Samsung Electronics and Apple's smartphone patents: two jury findings, seven years, and a settlement after the sales](market_share_fraud/samsung-electronics/README.md)
+- [2026-11-19 — Siemens AG (2008): coordinated US and German bribery resolutions](market_share_fraud/siemens/README.md)
 - [2026-11-19 — Sinovel and AMSC's wind-turbine software: a criminal conviction, a court-found loss over $550 million, and a $1.5 million fine](market_share_fraud/sinovel/README.md)
 - [2026-11-19 — SK Innovation and LG's electric-vehicle battery secrets: a default finding after evidence destruction, a ten-year order, and a settlement](market_share_fraud/sk-innovation/README.md)
 - [2026-11-19 — Syntel and TriZetto's Facets software: misappropriation affirmed, a $285 million gain-based award thrown out](market_share_fraud/syntel/README.md)
 - [2026-11-19 — Tata Consultancy Services and Epic Systems' hospital-software files: a final judgment measured by the benefit taken](market_share_fraud/tata-consultancy-services/README.md)
+- [2026-11-19 — Telia (2017): coordinated U.S. and Netherlands resolution of bribes paid to enter the Uzbek telecom market, and a Swedish acquittal](market_share_fraud/telia/README.md)
+- [2026-11-19 — Teva (2016): U.S. deferred prosecution agreement, Russian subsidiary guilty plea and SEC judgment over bribes for drug tenders, registrations and prescriptions](market_share_fraud/teva/README.md)
 - [2026-11-19 — TianRui and Amsted's railway-wheel process: a ten-year exclusion for products made with misappropriated secrets](market_share_fraud/tianrui/README.md)
 - [2026-11-19 — United Microelectronics (UMC) and Micron's memory-chip secrets: a guilty plea, and an acquittal for the state-owned partner](market_share_fraud/united-microelectronics/README.md)
+- [2026-11-19 — VimpelCom / VEON (2016): coordinated U.S. and Netherlands resolution of bribes for Uzbek telecom licences and frequencies](market_share_fraud/vimpelcom-veon/README.md)
 
 ## Peace, security and weapons
 
