@@ -17,21 +17,21 @@ A third-party support company competed with a software maker for the business of
 | 8 January 2018 | **Found (appeal)** | The Ninth Circuit affirmed in part (including on copyright infringement), reversed in part (including on the state computer-access claims) and vacated in part | [1] |
 | 2018 | Ordered | A permanent injunction was entered in the first suit, defining how Rimini may support certain Oracle product lines; Rimini's own filing says it remains in effect | [2] |
 | 4 March 2019 | Decided | The Supreme Court held that $12.8 million in non-taxable litigation expenses could not be awarded as "full costs" under the Copyright Act | [3] |
-| 12 January 2022 | **Found (contempt)** | The district court held Rimini in contempt of the permanent injunction on five of ten issues (Issues 1, 2, 3, 4 and 8), discharged the other five, imposed $630,000 in statutory sanctions, awarded Oracle reasonable attorney's fees and costs, and ordered Rimini to quarantine the files concerned. The court found the conduct wilful on most of the five issues | [4] |
+| 12 January 2022; 24 August 2023; 25 October 2023 | **Found (contempt, as modified on appeal)** | The district court held Rimini in contempt of the permanent injunction on five of ten issues (Issues 1, 2, 3, 4 and 8), discharged the other five, imposed $630,000 in statutory sanctions, awarded Oracle reasonable attorney's fees and costs, and ordered Rimini to quarantine the files concerned. The court found the conduct wilful on most of those issues. On appeal the Ninth Circuit affirmed contempt on Issues 1–4, reversed it on Issue 8 and vacated the sanctions; on remand the district court reimposed **$530,000**. The final result is contempt on four issues and $530,000 in sanctions | [4][20][21] |
 | Second suit (filed October 2014) | Mostly vacated | After a 2022 bench trial the district court found further infringement and false advertising; on 16 December 2024 the Ninth Circuit vacated the core derivative-work and several infringement rulings, reversed most of the false-advertising ruling (keeping one statement about "holistic security"), and sent the case back | [5] |
-| 7 July 2025 | Settled | Rimini, its chief executive and Oracle signed a confidential settlement of the second suit. No party admits liability; Oracle returned about $37.8 million of the roughly $58.7 million in fees and costs Rimini had paid, and kept about $22.5 million (Rimini's own account) | [2] |
+| 7 July 2025 | Settled (conditional) | Rimini, its chief executive and Oracle signed a confidential settlement of the second suit. It is conditional: the case is stayed and will be dismissed with prejudice only after Rimini completes its PeopleSoft wind-down, by 31 July 2028 at the latest; meanwhile there is a litigation standstill and the injunctions stay in force. A permanent injunction in the second suit was issued on 24 April 2025. No party admits liability; Oracle returned about $37.8 million of the roughly $58.7 million in fees and costs Rimini had paid, and kept about $22.5 million (Rimini's own account) | [2] |
 
 ## Damages against market effect
 
 - **Copyright damages (first suit):** $35.6 million [3].
-- **Contempt sanctions:** $630,000 plus fees [4].
+- **Contempt sanctions:** $530,000 plus fees, after the original $630,000 was vacated on appeal and recalculated [4][20][21].
 - **Market effect.** No record opened measures Rimini's revenue or market gain attributable to the infringement. Rimini's 2025 filing says its PeopleSoft support line, which it chose in 2024 to wind down, brought in about $30 million a year [2]. That is a company statement about one product line, not a court finding about gain from infringement. This case makes no estimate.
 
 ## Analysis
 
 This dispute shows the **aftermarket** version of the market-share question. The prize was not a product market but the right to service the maker's customers. Aftermarkets are where lock-in is strongest, and where independent competition can help customers most. That makes the line between lawful competition and infringement especially important to draw precisely, and the courts did so repeatedly: some claims stood, others fell [1], and in the second suit the appeals court rejected a theory that would have treated programs that merely work with Oracle's software as infringing derivative works [5].
 
-The contempt order is the strongest point for this category. It is a second, separate adjudicated finding: after infringement was established, the company was found to have breached the court's own order on five issues, mostly wilfully [4]. That makes Rimini Street a **repeat finding** in this category's index. It also shows the weakness of after-the-fact remedies: $630,000 in sanctions is small next to the earlier damages, although the court called the sanction, with the anticipated fees, the minimum needed to secure compliance [4].
+The contempt order is the strongest point for this category. It is a second, separate adjudicated finding: after infringement was established, the company was found to have breached the court's own order on four issues (a fifth was reversed on appeal), mostly wilfully [4][20]. That makes Rimini Street a **repeat finding** in this category's index. It also shows the weakness of after-the-fact remedies: $530,000 in sanctions (after appeal) is small next to the earlier damages, although the court called the sanction, with the anticipated fees, the minimum needed to secure compliance [4].
 
 The deterrence point therefore stays modest. No record measures the business gained, so the comparison between penalty and gain cannot be made with sourced figures.
 
@@ -41,7 +41,7 @@ The deterrence point therefore stays modest. No record measures the business gai
 - **Learning is not taking.** The international standard protects undisclosed information only against acquisition "contrary to honest commercial practices" [7], which is narrower than all copying. Learning from public products and hiring experienced people are lawful and are how skills spread. This case concerns copyright infringement in how licensed copies of Oracle's software were copied and used to support customers, and later breaches of the injunction that followed; it involves no finding that trade secrets were taken.
 - **The costs of litigation.** Long cases consume money and management attention on both sides, and delay can hurt the winner as much as the loser. Remedies that depend on ever-longer litigation are a weak answer to a problem of speed.
 - **Competition in aftermarkets benefits customers.** Third-party support can lower prices and extend the life of software that customers have already paid for. The Ninth Circuit's 2024 ruling shows that some of what was challenged was lawful, and Rimini's own filing states that the Ninth Circuit held it offered third-party support in lawful competition with Oracle's maintenance services [5][2]. Remedies that end the competitor, rather than the infringing method, would harm those customers.
-- **Half the contempt issues failed.** The court discharged its order on five of the ten issues raised [4]. A finding of contempt on some issues is not a finding that every challenged practice was unlawful.
+- **Half the contempt issues failed.** The court discharged its order on five of the ten issues raised, and the Ninth Circuit reversed a sixth [4][20]. A finding of contempt on some issues is not a finding that every challenged practice was unlawful.
 
 ## Proposed solutions
 
@@ -64,7 +64,6 @@ The proposals below are this case's own reasoning, built on the cited evidence. 
 
 ## Unverified or uncertain items
 
-- Whether the 2022 contempt order was appealed, and with what result, was not checked.
 - The trial and verdict years of the first suit are not stated because the opened opinions were not checked for them.
 - Settlement amounts and the PeopleSoft revenue figure come from Rimini's own filing, a party's account [2].
 - The chief executive named in the records is a public company officer; he is not named here because his personal liability is not the subject of this case.
@@ -92,8 +91,11 @@ The proposals below are this case's own reasoning, built on the cited evidence. 
 17. Png, I. P. L. (2017). Law and Innovation: Evidence from State Trade Secrets Laws. *Review of Economics and Statistics*, 99(1), 167–179. https://doi.org/10.1162/REST_a_00532 — *Peer-reviewed.* Metadata matched in the Crossref registry on 19 November 2026; the cited finding was read in the abstract on the same date.
 18. Contigiani, A., Hsu, D. H. and Barankay, I. (2018). Trade secrets and innovation: Evidence from the "inevitable disclosure" doctrine. *Strategic Management Journal*, 39(11), 2921–2942. https://doi.org/10.1002/smj.2941 — *Peer-reviewed.* Metadata matched in the Crossref registry on 19 November 2026; the cited finding was read in the abstract on the same date.
 19. Williams, H. L. (2013). Intellectual Property Rights and Innovation: Evidence from the Human Genome. *Journal of Political Economy*, 121(1), 1–27. https://doi.org/10.1086/669706 — *Peer-reviewed.* Metadata matched in the Crossref registry on 19 November 2026; the cited finding was read in the abstract on the same date.
+20. *Oracle USA, Inc. v. Rimini Street, Inc.*, No. 22-15188, 81 F.4th 843 (9th Cir. 24 August 2023). https://cdn.ca9.uscourts.gov/datastore/opinions/2023/08/24/22-15188.pdf — *Court opinion.* Opened on 19 November 2026: contempt on Issues 1–4 affirmed, Issue 8 reversed, sanctions vacated and remanded.
+21. *Oracle USA, Inc. v. Rimini Street, Inc.*, No. 2:10-cv-00106, Order on remand (D. Nev. 25 October 2023), Doc. 1588. https://storage.courtlistener.com/recap/gov.uscourts.nvd.71326/gov.uscourts.nvd.71326.1588.0.pdf — *Court order.* Opened on 19 November 2026: sanctions of $530,000 with interest.
 
 ## Changelog
 
 - 19 November 2026: first version.
 - 19 November 2026: added the 2022 contempt order, the second suit and its 2025 settlement; corrected the Ninth Circuit date to 8 January 2018; added evidence ratings to the proposals.
+- 19 November 2026: the 2022 contempt order now reflects the 2023 appeal and remand (four issues, $530,000), and the 2025 settlement is described as conditional, with the April 2025 injunction added.
