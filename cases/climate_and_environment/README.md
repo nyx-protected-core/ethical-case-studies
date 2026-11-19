@@ -1,7 +1,8 @@
 # Climate and environment
 
-8 case studies, newest first.
+9 case studies, newest first.
 
+- [2026-11-19 — Coal and energy security: the big players compared](coal-and-energy-security-big-players/README.md)
 - [2026-11-19 — Coal and energy security in the United States](coal-and-energy-security-usa/README.md)
 - [2026-11-19 — Coal and energy security: Canada](coal-and-energy-security-canada/README.md)
 - [2026-11-19 — Coal and energy security in Europe (European Union and United Kingdom)](coal-and-energy-security-europe/README.md)

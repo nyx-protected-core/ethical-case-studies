@@ -95,6 +95,7 @@ Cases are grouped by category. Within each category, newest first.
 
 ## Climate and environment
 
+- [2026-11-19 — Coal and energy security: the big players compared](climate_and_environment/coal-and-energy-security-big-players/README.md)
 - [2026-11-19 — Coal and energy security in the United States](climate_and_environment/coal-and-energy-security-usa/README.md)
 - [2026-11-19 — Coal and energy security: Canada](climate_and_environment/coal-and-energy-security-canada/README.md)
 - [2026-11-19 — Coal and energy security in Europe (European Union and United Kingdom)](climate_and_environment/coal-and-energy-security-europe/README.md)
