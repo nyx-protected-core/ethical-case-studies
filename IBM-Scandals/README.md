@@ -1,46 +1,28 @@
-# IBM Scandals: IP Theft, Antitrust, Bribery and Contract Failures (1911 to now)
+# IBM Scandals: Wrongdoing by IBM (1911 to now)
 
-Date: 19 November 2026
+Date: 20 November 2026
 Author: anonymous
 
 ## Summary
 
-This case covers matters on public record involving IBM since 1911. The most detail is on the last 40 years. Each item has a type label:
+This case covers wrongdoing that IBM itself is found, alleged or reported to have taken part in, from the founding of its predecessor, the Computing-Tabulating-Recording Company (CTR), in 1911 to the present. Matters where IBM was the victim or the claimant are left out. Items run in rough chronological order within each section. Each item has a type label:
 
-- **FINDING**: a conviction, plea, judgment, binding award or inquiry finding.
-- **NO-ADMISSION**: a regulator order or consent judgment that IBM accepted without admitting or denying the facts.
-- **ALLEGATION**: a claim that was not proven, was dismissed or reversed, or was settled without admission. Its outcome is always given.
-- **REPORTED (SECONDARY)**: an outcome described in contemporary news where the court file was not opened. It is not a FINDING.
+- **FINDING**: a court judgment, plea, binding award, regulator finding or inquiry finding.
+- **SETTLED-NO-ADMISSION**: a regulator order, consent decree or settlement that IBM accepted without admitting the facts.
+- **ALLEGATION**: a claim that was not proven, was dismissed or reversed, or was closed without a finding. Its outcome is always given. An allegation is never treated as proven.
+- **REPORTED (SECONDARY)**: an outcome described in news where the underlying record was not opened. It is not a FINDING.
 
-Court, regulator and inquiry documents are cited as records. Analysis comes only from peer-reviewed work. News is used for timelines, and for announced terms that could not be checked against the underlying record, and is marked SECONDARY. Every figure issued by a government or a party carries a [GOV-flag] note on its reporting incentive.
+Court, regulator and inquiry documents are cited as records. Analysis comes only from peer-reviewed work. News is used only where a record could not be opened and is marked SECONDARY. Every figure issued by a government or a party carries a [GOV-flag] note on its reporting incentive.
 
-**Overall evidence strength.** Evidence is strong for the antitrust and court outcomes and for the SEC orders. It is moderate for the 1982–83 sting, because no court file could be opened and only contemporary news was available; that matter is therefore labelled REPORTED (SECONDARY), not FINDING. Evidence for the WWII history is contested scholarship, not an adjudicated finding.
+**Overall evidence strength.** Evidence is strong for the antitrust judgments, the SEC orders and the court rulings on public contracts. The record against IBM is mixed: some of the best-known accusations (the 1969 antitrust case, the apartheid litigation, the cash-balance pension case, the BMC award) ended in IBM's favour, and they are recorded here as allegations with their outcomes. The WWII history is contested scholarship, not an adjudicated finding.
 
-## 1. IP taken from IBM
+## 1. Early antitrust (1911–1956)
 
-**REPORTED (SECONDARY): the 1982 FBI sting (US and Japan).** An FBI undercover operation led to charges against Hitachi and Mitsubishi Electric for conspiring to transport stolen IBM computer secrets. Contemporary news reports that in February 1983 Hitachi pleaded guilty and was fined the statutory maximum of $10,000, that two Hitachi employees also pleaded guilty, and that Mitsubishi Electric pleaded no contest, which carries the same penalty as a guilty plea but no admission, and was also fined $10,000 [N1, N2 SECONDARY] [GOV-flag: the fines are reported as court-imposed statutory maxima; the court file was not opened]. Before the pleas, the defence argued entrapment and selective prosecution and said the FBI had acted as IBM's agent [N1]. Those arguments were never ruled on. This is not recorded as a FINDING, because the court file was not opened.
+**FINDING: the tabulating-card tie-in (US, 1936).** In *International Business Machines Corp. v. United States*, 298 U.S. 131 (decided 27 April 1936), the Supreme Court affirmed a district-court decree barring IBM from leasing its tabulating machines on condition that lessees use only IBM-made cards. The Court held that the condition broke section 3 of the Clayton Act. It noted that IBM and its only competitor, Remington Rand, had each agreed to restrict competition in selling cards to the other's lessees, and that IBM sold about 3 billion cards a year, 81 per cent of the total [R26] [GOV-flag: market figures from findings in a case the government brought; they come from the trial record, not an independent survey].
 
-**ALLEGATION, settled: the related civil suits.** IBM's civil claim against Hitachi settled in October 1983. News reports put the payment at about $300 million, but that figure is unconfirmed [N2 SECONDARY]. National Semiconductor, which was never criminally charged, settled for $3 million with no admission of wrongdoing [N2]. IBM had valued the trade secrets at up to $2.5 billion. That is a claimant's figure, and claimants have an incentive to set the value high.
+**SETTLED-NO-ADMISSION: the 1956 consent decree (US).** This consent decree settled US Sherman Act claims and restricted how IBM sold, leased and serviced its machines. IBM and the Justice Department jointly moved to end it in 1996 [R11]. The court ordered a phased termination, entered 30 April 1997 [R12], and the Second Circuit affirmed in 1998 [R13]. The last provisions expired on 2 July 2001. (The brief said "1996 to 2001"; the record dates are added here.)
 
-**IBM v Fujitsu: binding arbitral award, no public finding of copying (1987–88).** Contemporary news reported that arbitrators from the American Arbitration Association ordered a "secured facility." Under it, Fujitsu could have controlled access to IBM mainframe programming information until 1997 and would pay for past and future use [N3 SECONDARY]. In November 1988 the arbitrators set the remaining terms: an immediate $237 million, bringing total retroactive fees to $833 million (the total by Nov 1988), plus further annual fees [N3 SECONDARY]. IBM's copying claim was resolved through these fees, not through a liability ruling, so it is recorded here as an allegation.
-
-**FINDING: economic espionage (US and China, 2017–18).** Xu Jiaqiang, a former software developer, pleaded guilty to economic espionage and theft of a trade secret (proprietary clustered-file-system source code). He was sentenced to five years in prison in the Southern District of New York [R1, opened through a mirror because justice.gov blocked automated access] [GOV-flag: sentence taken from a Justice Department release]. The Justice Department release does not name the victim company. News identifies it as IBM [N4 SECONDARY].
-
-**FINDING: IBM UK v LzLabs (UK, 2025).** The High Court held that Winsopia, which held an IBM software licence, reverse-engineered IBM mainframe software in breach of that licence. LzLabs GmbH and Winsopia were held liable for unlawful-means conspiracy, and the defendants had deliberately concealed the link between the two companies. Claims against some other defendants failed [R2]. Whether an appeal was filed is not known (see Open questions).
-
-## 2. Claims against IBM
-
-**ALLEGATION, settled: SCO v IBM (US, 2003–2021).** SCO claimed that IBM's Linux work misused SCO's UNIX rights. The claim was undercut by a 2010 jury verdict, affirmed in 2011, which found that Novell, not SCO, owned the UNIX copyrights [R3]. SCO went into Chapter 7 bankruptcy (Delaware, case 07-11337). In 2017 the Tenth Circuit revived SCO's misappropriation claim, affirmed judgment for IBM on the tortious-interference claims, and refused to let SCO add a copyright claim [R4]. In 2021 the bankruptcy trustee settled all remaining claims for $14.25 million. The trustee's stated reason was that "ultimate success… is uncertain." The court approved the settlement on 14 October 2021 [R5]. No court ever found that IBM's Linux contributions infringed SCO's rights.
-
-**ALLEGATION, settled: GlobalFoundries (US, 2021–2025).** The brief described this as "GlobalFoundries v. IBM." In fact there were two suits. IBM sued GlobalFoundries in a New York state court in 2021 for breach of a chip-supply contract. In 2023 GlobalFoundries sued IBM in federal court, alleging that IBM had disclosed GlobalFoundries trade secrets to Intel and Rapidus. Both sides settled every claim in January 2025 on confidential terms [R6 (joint company statement); N5 SECONDARY]. No court made a merits finding.
-
-**ALLEGATION, reversed: BMC v IBM (US).** In 2022 a district court awarded BMC about $1.6 billion [GOV-flag: a court award later reversed], finding breach of contract and fraudulent inducement after IBM replaced BMC software at AT&T. On 30 April 2024 the Fifth Circuit reversed, holding that the contract allowed the switch "for other valid business reasons" [R7]. The Supreme Court denied review on 10 March 2025 [R8].
-
-**MIXED: UK pension changes (2010–2017).** The High Court found that IBM UK breached its pension-scheme duties ([2014] EWHC 980 (Ch)). The Court of Appeal allowed IBM's appeals and refused to order a fresh consultation. It still referred to "breaches of duty in respect of the consultation process" [R9]. IBM disclosed that it faced about 290 employment-tribunal claims alleging constructive dismissal and age discrimination [R10]. The outcomes of those claims were not verified.
-
-## 3. Antitrust
-
-**NO-ADMISSION: the 1956 consent decree (US).** This consent decree settled US Sherman Act claims and restricted how IBM sold, leased and serviced its machines. IBM and the Justice Department jointly moved to end it in 1996 [R11]. The court ordered a phased termination, entered 30 April 1997 [R12], and the Second Circuit affirmed in 1998 [R13]. The last provisions expired on 2 July 2001. (The brief said "1996 to 2001"; the record dates are added here.)
+## 2. Later antitrust (1969–2011)
 
 **ALLEGATION, dismissed: US v IBM (1969–1982).** The government filed a monopolisation complaint on 17 January 1969. On 8 January 1982, Assistant Attorney General William F. Baxter signed a stipulation stating that the case was "without merit and should be dismissed." The Second Circuit then issued mandamus requiring the dismissal to take effect [R14]. Baxter's own explanation was that the case offered "little prospect of victory or meaningful recovery." That reflects a judgment about whether the government could win and obtain relief. It is not a finding that IBM's conduct was lawful.
 
@@ -48,15 +30,44 @@ Court, regulator and inquiry documents are cited as records. Analysis comes only
 
 **NO-ADMISSION and ALLEGATION: EU mainframe probes (2010–2011).** In July 2010 the Commission opened two cases. The first concerned alleged tying of mainframe hardware to IBM's operating system, following complaints from T3 and TurboHercules. The second was an own-initiative probe into how IBM supplied spare parts to independent maintainers [R15]. On 14 December 2011 the Commission made IBM's commitments on spare parts and technical information legally binding "without concluding whether there is an infringement" [R16]. The tying case was closed in September 2011 after the complaints were withdrawn [N7 SECONDARY]. The Commission put 2009 mainframe spending at €8.5 billion worldwide [R15]. That is an agency estimate made to justify opening proceedings [GOV-flag].
 
-## 4. Foreign bribery (SEC, FCPA)
+**ALLEGATION, resolved by undertaking: EEC (1980–1984).** The Commission objected that IBM supplied System/370 interface information too late for competitors to use. In August 1984 the Commission suspended its proceedings after IBM undertook to disclose interface information to competitors. No infringement decision was ever issued [N6 SECONDARY]. The Commission's own 1984 release could not be opened and is not relied on here.
 
-**NO-ADMISSION: Argentina (2000).** IBM-Argentina won a $250 million contract with the state-owned Banco de la Nación. The SEC's order found that IBM-Argentina paid a subcontractor about $22 million, of which at least $4.5 million went to bank directors, and that former managers used fabricated documents to hide the subcontract. IBM consented, without admitting or denying, to a cease-and-desist order and a $300,000 penalty. The violation charged was books-and-records only [R17]. These figures come from the SEC's order. IBM consented without admitting or denying the facts, so the amounts were not tested in a contested hearing [GOV-flag].
+**SETTLED-NO-ADMISSION and ALLEGATION: EU mainframe probes (2010–2011).** In July 2010 the Commission opened two cases. The first concerned alleged tying of mainframe hardware to IBM's operating system, following complaints from T3 and TurboHercules. The second was an own-initiative probe into how IBM supplied spare parts to independent maintainers [R15]. On 14 December 2011 the Commission made IBM's commitments on spare parts and technical information legally binding "without concluding whether there is an infringement" [R16]. The tying case was closed in September 2011 after the complaints were withdrawn [N7 SECONDARY]. The Commission put 2009 mainframe spending at €8.5 billion worldwide [R15] [GOV-flag: an agency estimate made to justify opening proceedings].
 
-**NO-ADMISSION: South Korea and China (2011).** The SEC alleged cash bribes, gifts and travel for officials in South Korea (1998–2003) and improper trips and gifts for officials in China (2004–2009). IBM consented to a final judgment and paid **$10 million**: $5.3 million disgorgement, $2.7 million interest and a $2.0 million penalty. That confirms the figure in the brief [R18]. The SEC's figures are agency allegations [GOV-flag]. Settlements without admission let both the regulator and the company claim a result, and the facts are never tested.
+## 3. WWII: Dehomag and Hollerith machines (historical scholarship, not adjudicated)
+
+Edwin Black's *IBM and the Holocaust* (Crown, 2001) is a **trade book, not peer-reviewed**. It argues that IBM, through its German subsidiary Dehomag and its European office in Geneva, knowingly supplied punched-card technology used in Nazi persecution.
+
+The scholarly reception was critical. Allen's review in *Technology and Culture* is "negative" and calls Black a writer "with limited abilities as a historian." Allen nonetheless agrees that the role of American firms in the German war economy is a "significant issue" [P2]. Heide's peer-reviewed study of France shows how a punched-card population register built for military mobilisation also made it easier to locate people, including Jews [P3]. Dillard uses Black's account to discuss instrumental rationality in professional services [P4].
+
+**Legal outcomes:**
+
+- A US class action filed in February 2001 was withdrawn days after it was filed, to avoid delaying payments from Germany's foundation fund. Its main aim had been to open IBM's archives. The US government noted that IBM had donated more than 10,000 pages of historical material to New York University [R24] [GOV-flag: figure from a government statement issued while a related suit was being withdrawn].
+- The Roma organisation GIRCA (Gypsy International Recognition and Compensation Action) filed suit in Geneva on **31 January 2002**, not in 2001 and not in the US. The Swiss Federal Tribunal held on 14 August 2006 that the claim was time-barred [R25]. **No court has ruled on the merits.**
+
+## 4. Apartheid South Africa (ALLEGATION, dismissed)
+
+**ALLEGATION, dismissed: the apartheid litigation (US courts, Khulumani and Balintulo).** Victims of apartheid sued IBM and other companies in New York under the Alien Tort Statute. They alleged that IBM trained South African government employees to use IBM hardware and software to create identity documents, "the very means by which black South Africans were deprived of their South African nationality"; that IBM bid on contracts with unlawful purposes such as denationalisation; and that IBM designed technologies essential to racial separation [R27]. On 27 July 2015 the Second Circuit, in *Balintulo v. Ford Motor Co.*, affirmed the district court's order of 28 August 2014 refusing leave to amend. It accepted that the plaintiffs had plausibly alleged that IBM designed particular technologies in the United States that facilitated apartheid. It held, however, that the complaint did not plausibly allege that IBM *purposefully* aided and abetted the violations, that knowledge alone is not enough, and that "it is not a violation of the law of nations to bid on, and lose, a contract" [R27]. The claims against IBM therefore failed on jurisdiction. **No court ruled that IBM's conduct was lawful, and none found it liable.**
+
+## 5. Foreign bribery (SEC, FCPA)
+
+**SETTLED-NO-ADMISSION: Argentina (2000).** IBM-Argentina won a $250 million contract with the state-owned Banco de la Nación. The SEC's order found that IBM-Argentina paid a subcontractor about $22 million, of which at least $4.5 million went to bank directors, and that former managers used fabricated documents to hide the subcontract. IBM consented, without admitting or denying, to a cease-and-desist order and a $300,000 penalty. The violation charged was books-and-records only [R17]. These figures come from the SEC's order. IBM consented without admitting or denying the facts, so the amounts were not tested in a contested hearing [GOV-flag].
+
+**SETTLED-NO-ADMISSION: South Korea and China (2011).** The SEC alleged cash bribes, gifts and travel for officials in South Korea (1998–2003) and improper trips and gifts for officials in China (2004–2009). IBM consented to a final judgment and paid **$10 million**: $5.3 million disgorgement, $2.7 million interest and a $2.0 million penalty. That confirms the figure in the brief [R18]. The SEC's figures are agency allegations [GOV-flag]. Settlements without admission let both the regulator and the company claim a result, and the facts are never tested.
 
 **ALLEGATION, closed: Poland and others (2012–2017).** Poland's Central Anti-Corruption Bureau investigated a former IBM Poland employee over sales to the Polish government. The US Justice Department also examined transactions in Argentina, Bangladesh and Ukraine. In June 2017 both the Justice Department and the SEC closed their investigations without enforcement action [R10]. A Polish official involved in the wider affair was reportedly convicted on a guilty plea [N8 SECONDARY]. No Polish judgment against IBM itself was found. No record of a 2019 Poland or Philippines matter was found; see the Revisions note.
 
-## 5. Public IT contract failures
+## 6. Pensions and age discrimination
+
+**ALLEGATION, reversed: the cash-balance pension case (US, 2003–2006).** In *Cooper v. IBM Personal Pension Plan*, a class of workers claimed that IBM's cash-balance pension plan discriminated against older workers. The district court agreed in 2003 (274 F.Supp.2d 1010), and the parties then debated how much IBM owed as a remedy. On 7 August 2006 the Seventh Circuit reversed and directed judgment for IBM, holding that "all terms of IBM's plan are age-neutral" and that the difference came from younger workers earning interest credits for more years [R28]. The remedy had been "resolved to mutual satisfaction" contingent on the district court being right on the merits [R28]; the settlement amount was not checked against a court record and is not given here.
+
+**FINDING, mostly reversed on appeal: UK pension changes (2010–2017).** The High Court found that IBM UK breached its pension-scheme duties ([2014] EWHC 980 (Ch)). The Court of Appeal allowed IBM's appeals and refused to order a fresh consultation. It still referred to "breaches of duty in respect of the consultation process" [R9]. IBM disclosed that it faced about 290 employment-tribunal claims alleging constructive dismissal and age discrimination [R10]. The outcomes of those claims were not verified.
+
+**REPORTED (SECONDARY), agency determination: the EEOC (2020).** In a letter dated 31 August 2020, the EEOC found reasonable cause to believe that IBM discriminated against older workers between 2013 and 2018. It cited "top-down messaging" and found that more than 85% of those selected for layoff were older workers [N11 SECONDARY]. The letter itself could not be opened. A reasonable-cause determination is not an adjudication, and IBM disputes it. The 85% figure comes from the EEOC's own analysis, prepared by the agency in charge of the case [GOV-flag].
+
+**FINDING for IBM on procedure (2023).** In *In re IBM Arbitration Agreement Litigation* (2d Cir. 2023), the court held that the "piggybacking" rule does not save late arbitration claims. That ruling ended many individual claims without any decision on whether discrimination occurred [R23].
+
+## 7. Public IT contracts
 
 **FINDING: Queensland Health payroll (Australia).** The payroll system went live on 14 March 2010 "after ten aborted attempts," and the 2013 Commission of Inquiry called it "a catastrophic failure." The inquiry found that "IBM should not have been appointed." It also blamed the State's procurement process, saying that "rationality and sense gave way to haste and muddle." It ranked the project "in the front rank of failures in public administration in this country" [R19].
 
@@ -68,87 +79,71 @@ The inquiry put the cost at about $1.2 billion over eight years, including a KPM
 
 **ALLEGATION, settled: the 2016 Australian eCensus.** A Senate committee heard that IBM had "incorrectly configured at least one of the two routers" during denial-of-service attacks, and that the contract had been awarded through a limited tender [R22]. IBM paid a confidential settlement, reported by the Prime Minister at about A$30 million [N10 SECONDARY]. That figure came from a politician with an interest in showing the cost was recovered [GOV-flag].
 
-**Outsourcing in India and elsewhere: dropped.** No adjudicated Indian labour or contract record involving IBM was found, so nothing based only on news is included.
+**REPORTED (SECONDARY): MD Anderson and Watson (US, 2012–2017).** A University of Texas System audit of MD Anderson Cancer Center's "Oncology Expert Advisor" project, built on IBM Watson technology, found that procurement and contract management "were not handled in accordance with established policies and procedures." News reports that the project cost $62.1 million, that two noncompetitive contracts worth about $41.7 million were not formally justified, that invoices were paid in full whether or not services were delivered, and that the project was shut down in September 2016 [N12 SECONDARY] [GOV-flag: figures from a public university system's own audit, as relayed by news; the audit report itself could not be opened]. The audit's criticisms are of MD Anderson's own procurement. It did not find wrongdoing by IBM and expressly did not assess the system's scientific or functional merit. IBM said the project was a success. It is included because it is the best-known public failure of IBM's Watson Health line.
 
-## 6. Age discrimination (US)
+## 8. Commercial claims against IBM
 
-**NO-ADMISSION, agency determination: the EEOC (2020).** In a letter dated 31 August 2020, the EEOC found reasonable cause to believe that IBM discriminated against older workers between 2013 and 2018. It cited "top-down messaging" and found that more than 85% of those selected for layoff were older workers [N11 SECONDARY]. The letter itself could not be opened. A reasonable-cause determination is not an adjudication, and IBM disputes it. The 85% figure comes from the EEOC's own analysis, prepared by the agency in charge of the case [GOV-flag].
+**ALLEGATION, settled: SCO v IBM (US, 2003–2021).** SCO claimed that IBM's Linux work misused SCO's UNIX rights. The claim was undercut by a 2010 jury verdict, affirmed in 2011, which found that Novell, not SCO, owned the UNIX copyrights [R3]. SCO went into Chapter 7 bankruptcy (Delaware, case 07-11337). In 2017 the Tenth Circuit revived SCO's misappropriation claim, affirmed judgment for IBM on the tortious-interference claims, and refused to let SCO add a copyright claim [R4]. In 2021 the bankruptcy trustee settled all remaining claims for $14.25 million. The trustee's stated reason was that "ultimate success… is uncertain." The court approved the settlement on 14 October 2021 [R5]. No court ever found that IBM's Linux contributions infringed SCO's rights.
 
-**FINDING for IBM on procedure (2023).** In *In re IBM Arbitration Agreement Litigation* (2d Cir. 2023), the court held that the "piggybacking" rule does not save late arbitration claims. That ruling ended many individual claims without any decision on whether discrimination occurred [R23].
+**ALLEGATION, settled: GlobalFoundries (US, 2023–2025).** In 2023 GlobalFoundries sued IBM in federal court, alleging that IBM had disclosed GlobalFoundries trade secrets to Intel and Rapidus. (IBM had separately sued GlobalFoundries in 2021 for breach of a chip-supply contract.) Both sides settled every claim in January 2025 on confidential terms [R6 (joint company statement); N5 SECONDARY]. No court made a merits finding.
 
-## 7. WWII: Dehomag and Hollerith machines (historical scholarship, not adjudicated)
-
-Edwin Black's *IBM and the Holocaust* (Crown, 2001) is a **trade book, not peer-reviewed**. It argues that IBM, through its German subsidiary Dehomag and its European office in Geneva, knowingly supplied punched-card technology used in Nazi persecution.
-
-The scholarly reception was critical. Allen's review in *Technology and Culture* is "negative" and calls Black a writer "with limited abilities as a historian." Allen nonetheless agrees that the role of American firms in the German war economy is a "significant issue" [P2]. Heide's peer-reviewed study of France shows how a punched-card population register built for military mobilisation also made it easier to locate people, including Jews [P3]. Dillard uses Black's account to discuss instrumental rationality in professional services [P4].
-
-**Legal outcomes:**
-
-- A US class action filed in February 2001 was withdrawn days after it was filed, to avoid delaying payments from Germany's foundation fund. Its main aim had been to open IBM's archives. The US government noted that IBM had donated more than 10,000 pages of historical material to New York University [R24] [GOV-flag: figure from a government statement issued while a related suit was being withdrawn].
-- The Roma organisation GIRCA (Gypsy International Recognition and Compensation Action) filed suit in Geneva on **31 January 2002**, not in 2001 and not in the US. The Swiss Federal Tribunal held on 14 August 2006 that the claim was time-barred [R25]. **No court has ruled on the merits.**
-
-## 8. Canada
-
-No Canadian judgment against IBM for IP theft, bribery or contract failure was found. The Phoenix federal pay system is not assessed here, because doing so would need Canadian government data (see Open questions).
+**ALLEGATION, reversed: BMC v IBM (US).** In 2022 a district court awarded BMC about $1.6 billion [GOV-flag: a court award later reversed], finding breach of contract and fraudulent inducement after IBM replaced BMC software at AT&T. On 30 April 2024 the Fifth Circuit reversed, holding that the contract allowed the switch "for other valid business reasons" [R7]. The Supreme Court denied review on 10 March 2025 [R8].
 
 ## Where people disagree
 
-- **The 1982 sting:** whether the FBI's sting was legitimate enforcement or, as the defence argued, entrapment carried out for IBM's benefit. The guilty pleas ended that dispute without a ruling [N1].
-- **Fujitsu:** whether arbitrating with an ongoing supervised regime is better than a copyright trial. One law-review note argues that it is [P1].
+- **1936 tie-in:** whether requiring IBM cards protected the machines' good will or, as the Court held, mainly eliminated competition [R26].
 - **US v IBM:** whether "without merit" was a judgment on IBM's conduct or a judgment that the case could not win after 13 years [R14].
-- **Queensland:** the inquiry criticised both IBM's appointment and the State's procurement, and the court enforced a release the State had signed [R19, R20].
 - **Dehomag:** Black's thesis against the scholarly reviewers [P2]. No court has weighed this evidence.
+- **Apartheid:** whether supplying technology with knowledge of its use should count as complicity. The Second Circuit required purpose, not knowledge [R27].
+- **Cash-balance pensions:** whether a formula that is age-neutral on paper can still disadvantage older workers in effect [R28].
+- **Queensland:** the inquiry criticised both IBM's appointment and the State's procurement, and the court enforced a release the State had signed [R19, R20].
 
 ## Summary table
 
 | Year | Country | Matter | Type | Outcome | Record |
 |---|---|---|---|---|---|
-| 1956–2001 | US | Consent decree | NO-ADMISSION | Terminated in phases, 1997–2001 | R11–R13 |
+| 1936 | US | Tabulating-card tie-in | FINDING | Clayton Act s.3 violation affirmed [GOV-flag] | R26 |
+| 1956–2001 | US | Consent decree | SETTLED-NO-ADMISSION | Terminated in phases, 1997–2001 | R11–R13 |
 | 1969–82 | US | US v IBM | ALLEGATION | Dismissed "without merit" | R14 |
 | 1980–84 | EEC | System/370 interfaces | ALLEGATION | Undertaking; proceedings suspended | N6 |
-| 1983 | US/Japan | Hitachi sting | REPORTED (SECONDARY) | Guilty plea; $10,000 fine [GOV-flag] | N1 |
-| 1983–84 | US/Japan | Mitsubishi Electric | REPORTED (SECONDARY) | No-contest plea; $10,000 fine [GOV-flag] | N2 |
-| 1983–84 | US | Hitachi and National Semiconductor civil suits | ALLEGATION | Settled; $3M paid by National Semiconductor, no admission | N2 |
-| 1987–88 | US/Japan | Fujitsu arbitration | ALLEGATION (binding award) | $833M retroactive fees (total by Nov 1988) plus a supervised-access regime | N3 SECONDARY |
-| 2000 | Argentina | SEC FCPA | NO-ADMISSION | $300,000 penalty [GOV-flag] | R17 |
+| 1933–45 / 2001–06 | Germany/Switzerland/US | Dehomag | ALLEGATION (scholarship) | US suit withdrawn; Swiss claim time-barred | R24, R25 |
+| 2003–06 | US | Cooper cash-balance pension | ALLEGATION | District ruling reversed for IBM | R28 |
+| 2000 | Argentina | SEC FCPA (Banco de la Nación) | SETTLED-NO-ADMISSION | $300,000 penalty [GOV-flag] | R17 |
+| to 2015 | US/South Africa | Apartheid ATS claims | ALLEGATION | Dismissed; affirmed 2015 | R27 |
 | 2003–21 | US | SCO v IBM | ALLEGATION | $14.25M settlement; no infringement finding | R3–R5 |
 | 2010–16 | Australia | Queensland Health payroll | FINDING | Inquiry findings; State's claim barred by release | R19, R20 |
-| 2011 | Korea/China | SEC FCPA | NO-ADMISSION | $10M [GOV-flag] | R18 |
-| 2011 | EU | Mainframe maintenance | NO-ADMISSION | Binding commitments | R16 |
+| 2011 | Korea/China | SEC FCPA | SETTLED-NO-ADMISSION | $10M [GOV-flag] | R18 |
+| 2011 | EU | Mainframe maintenance | SETTLED-NO-ADMISSION | Binding commitments | R16 |
 | 2011 | EU | Mainframe tying | ALLEGATION | Closed after complaints withdrawn | R15, N7 |
 | 2012–17 | Poland and others | DOJ/SEC probes | ALLEGATION | Closed, no action | R10 |
-| 2014–17 | UK | Pension changes | MIXED | Main breach finding reversed on appeal | R9 |
-| 2016 | Australia | eCensus | ALLEGATION | Confidential settlement | R22, N10 |
+| 2012–17 | US | MD Anderson / Watson | REPORTED (SECONDARY) | Audit faulted MD Anderson procurement; project shut [GOV-flag] | N12 |
+| 2014–17 | UK | Pension changes | FINDING, mostly reversed | Main breach finding reversed on appeal | R9 |
+| 2016 | Australia | eCensus | ALLEGATION | Confidential settlement [GOV-flag] | R22, N10 |
 | 2016–19 | US | Indiana welfare contract | FINDING | $78.2M net to the State [GOV-flag] | R21 |
-| 2018 | US/China | Xu espionage | FINDING | Guilty plea; 5 years [GOV-flag] | R1 |
-| 2020–23 | US | EEOC age discrimination | NO-ADMISSION (agency determination) | Not adjudicated; arbitration ruling for IBM | N11, R23 |
-| 2021–25 | US | GlobalFoundries | ALLEGATION | Confidential settlement | R6 |
+| 2020–23 | US | EEOC age discrimination | REPORTED (SECONDARY) | Not adjudicated; arbitration ruling for IBM | N11, R23 |
+| 2023–25 | US | GlobalFoundries trade-secret claim | ALLEGATION | Confidential settlement | R6, N5 |
 | 2022–25 | US | BMC v IBM | ALLEGATION | $1.6B award reversed [GOV-flag] | R7, R8 |
-| 2025 | UK | LzLabs | FINDING | Liability found against LzLabs and Winsopia | R2 |
-| 1933–45 / 2001–06 | Germany/Switzerland/US | Dehomag | ALLEGATION (scholarship) | US suit withdrawn; Swiss claim time-barred | R24, R25 |
 
 ## Values and proposals (normative)
 
 1. **Build public contract-management capacity, and verify reference sites independently before awarding large IT contracts.** Evidence: *moderate*. Brown & Potoski's analysis of US municipal and county data links contract-management capacity to how governments contract [P5]. The Queensland inquiry found that the required proof from reference sites was "not forthcoming" [R19].
-2. **Publish public-sector IT contracts and settlement amounts.** Evidence: *very limited*. Barton gives a normative case study, not a test of a transparency rule, arguing that commercial-in-confidence outsourcing undermines accountability [P6]. The GlobalFoundries and eCensus settlements were confidential. Whether publishing contracts and settlement amounts would improve accountability is UNTESTED.
-3. **Have broad releases in supplemental public contracts reviewed independently before signing.** Evidence: *very limited* (one judgment on a release the State had already signed [R20]). Whether independent review before signing would have changed that outcome is UNTESTED.
+2. **Publish public-sector IT contracts and settlement amounts.** Evidence: *very limited*. Barton gives a normative case study, not a test of a transparency rule, arguing that commercial-in-confidence outsourcing undermines accountability [P6]. The GlobalFoundries and eCensus settlements were confidential. Whether publishing them would improve accountability is UNTESTED.
+3. **Have broad releases in supplemental public contracts reviewed independently before signing.** Evidence: *very limited* (one judgment on a release the State had already signed [R20]). UNTESTED.
 4. **Require full statements of facts in no-admission bribery settlements.** Evidence: *moderate* that bribery pays [P7]. Lord criticises non-trial resolutions on qualitative grounds [P8]. Whether full statements would change outcomes is UNTESTED.
 5. **Strengthen remedies for age discrimination and publish data on how layoff pools are selected.** Evidence: *moderate*. A field experiment found less hiring discrimination against older workers where state law allows larger damages [P9]. A separate study found little protective effect during the Great Recession [P10]. Publishing layoff data is UNTESTED.
 6. **Publish employment-arbitration outcomes and keep collective options open.** Evidence: *moderate*. Employees won 21.4% of cases in AAA employment arbitration, which is lower than reported win rates at trial [P11]. The effect of this reform is UNTESTED.
-7. **Keep corporate wartime archives open.** Evidence: *very limited*. This builds on a US government statement about archive access [R24] and has not been tested as a reform. UNTESTED.
+7. **Keep corporate wartime and human-rights-era archives open.** Evidence: *very limited*. This builds on a US government statement about archive access [R24]. UNTESTED.
 
 ## Open questions
 
-1. Phoenix pay system: assessing it would need Canadian government data, which this case excludes under its rules. Should it be covered?
-2. Was the LzLabs judgment appealed?
-3. What was the outcome of the Polish proceedings against the former IBM Poland employee?
-4. What was the outcome of the roughly 290 UK employment-tribunal claims?
+1. What did IBM pay to resolve the Cooper pension case, and on what terms? The court record was not opened.
+2. What was the outcome of the Polish proceedings against the former IBM Poland employee?
+3. What was the outcome of the roughly 290 UK employment-tribunal claims?
+4. Can the University of Texas System's own audit of the MD Anderson project be opened, to replace the news report?
 
 ## Sources
 
 **Court, regulator and inquiry records**
-- R1 US Attorney SDNY, Xu sentencing release, 18 Jan 2018 (mirror; justice.gov blocked automated access): https://www.derechos.org/peace/china/doc/jiaqiang1.html
-- R2 *IBM UK Ltd v LzLabs GmbH* [2025] EWHC 532 (TCC): https://caselaw.nationalarchives.gov.uk/ewhc/tcc/2025/532
 - R3 *SCO Group v Novell* (10th Cir. 30 Aug 2011): https://www.ca10.uscourts.gov/sites/ca10/files/opinions/01018702687.pdf
 - R4 *SCO Group v IBM*, 879 F.3d 1062 (10th Cir. amended 2 Jan 2018): https://www.ca10.uscourts.gov/sites/ca10/files/opinions/01019923379.pdf
 - R5 Trustee's Rule 9019 motion, *In re TSG Group* (Bankr. D. Del. 07-11337): https://regmedia.co.uk/2021/08/30/tsg_sco_ibm_motion_of_settlement.pdf ; approval order (14 Oct 2021): https://www.scribd.com/document/521927059/Order-Approving-the-Settlement-and-Release-Agreement-by-and-between-the-Trustee-and-IBM
@@ -172,11 +167,13 @@ No Canadian judgment against IBM for IP theft, bribery or contract failure was f
 - R23 *In re IBM Arbitration Agreement Litig.*, No. 22-1728 (2d Cir. 2023): https://www.govinfo.gov/content/pkg/USCOURTS-ca2-22-01728/pdf/USCOURTS-ca2-22-01728-0.pdf
 - R24 US State Department statement, 29 Mar 2001: https://2001-2009.state.gov/r/pa/prs/ps/2001/1783.htm
 - R25 Swiss Federal Tribunal 4C.113/2006 (BGE 132 III 661), 14 Aug 2006: https://www.fallrecht.ch/bger/2006/060814_4C-113-2006.html
+- R26 *International Business Machines Corp. v. United States*, 298 U.S. 131 (1936): https://www.law.cornell.edu/supremecourt/text/298/131
+- R27 *Balintulo v. Ford Motor Co.*, 796 F.3d 160 (2d Cir. 27 Jul 2015): https://www.govinfo.gov/content/pkg/USCOURTS-ca2-14-04132/pdf/USCOURTS-ca2-14-04132-0.pdf
+- R28 *Cooper v. IBM Personal Pension Plan*, 457 F.3d 636 (7th Cir. 2006): https://www.lexfed.com/cases/2999552/cooper-kathi-v-ibm-personal-pension
 
-**Laws** (cited through the records above): Sherman Act s.2; Securities Exchange Act ss.13(b)(2)(A)–(B) (FCPA); Article 102 TFEU and Regulation 1/2003 art. 9; Swiss Code of Obligations art. 60; Age Discrimination in Employment Act.
+**Laws** (cited through the records above): Clayton Act s.3; Sherman Act s.2; Securities Exchange Act ss.13(b)(2)(A)–(B) (FCPA); Alien Tort Statute, 28 U.S.C. 1350; ERISA s.204(b)(1)(H); Article 102 TFEU and Regulation 1/2003 art. 9; Swiss Code of Obligations art. 60; Age Discrimination in Employment Act.
 
-**Peer-reviewed and law review** (all DOIs return 302 at doi.org; abstracts read)
-- P1 Stork, A. (1988). The use of arbitration in copyright disputes: IBM v. Fujitsu. *High Technology Law Journal* 3(2), 241–266 (student law-review note, not peer-reviewed): https://btlj.org/data/articles2015/vol3/3_2/3-berkeley-tech-l-j-0241-0266.pdf
+**Peer-reviewed** (all DOIs return 302 at doi.org; abstracts read)
 - P2 Allen, M. T. (2002). *Technology and Culture* 43(1), 150–154. https://doi.org/10.1353/tech.2002.0003
 - P3 Heide, L. (2004). *Technology and Culture* 45(1), 80–101. https://doi.org/10.1353/tech.2004.0020
 - P4 Dillard, J. (2003). *Journal of Information Systems* 17(2), 1–16. https://doi.org/10.2308/jis.2003.17.2.1
@@ -190,11 +187,7 @@ No Canadian judgment against IBM for IP theft, bribery or contract failure was f
 
 **Trade book (not peer-reviewed):** Black, E. (2001). *IBM and the Holocaust*. New York: Crown.
 
-**SECONDARY news (timeline only)**
-- N1 UPI, 9 Feb 1983: https://www.upi.com/Archives/1983/02/09/Hitachi-pleads-guilty-apologizes-in-industrial-espionage/4801413614800
-- N2 UPI, 10 Jan 1984: https://www.upi.com/Archives/1984/01/10/IBM-National-Semiconductor-settle-out-of-court/9331442558800/
-- N3 Los Angeles Times, 30 Nov 1988: https://www.latimes.com/archives/la-xpm-1988-11-30-fi-534-story.html
-- N4 Reuters, Jan 2018 (blocked automated fetch with 401; headline naming IBM seen through search results): https://www.reuters.com/article/technology/ex-ibm-employee-from-china-gets-five-years-prison-for-stealing-code-idUSKBN1F82P9/
+**SECONDARY news**
 - N5 The Register, 3 Jan 2025: https://www.theregister.com/on-prem/2025/01/03/ibm-and-globalfoundries-settle-multibillion-dollar-lawsuits/1171714
 - N6 UPI, 2 Aug 1984: https://www.upi.com/Archives/1984/08/02/The-European-Common-Market-today-suspended-its-4-year-old-antitrust/4573460267200/
 - N7 InformationWeek, Sep 2011: https://www.informationweek.com/it-infrastructure/eu-drops-antitrust-probe-against-ibm
@@ -202,26 +195,38 @@ No Canadian judgment against IBM for IP theft, bribery or contract failure was f
 - N9 Nine News, 7 Apr 2016: https://www.nine.com.au/australia-news/qld/qld-government-won-t-appeal-ibm-ruling-20160407-p5u824.html
 - N10 Sydney Morning Herald, 25 Nov 2016: https://www.smh.com.au/politics/federal/tech-giant-ibm-pays-about-30m-compensation-to-taxpayers-over-botched-census-20161125-gsxc34.html
 - N11 ProPublica, Sep 2020: https://www.propublica.org/article/the-u-s-equal-employment-opportunity-commission-confirms-a-pattern-of-age-discrimination-at-ibm
+- N12 DotMed, 20 Feb 2017: https://www.dotmed.com/news/story/35647
 
-## Revisions note (19 November 2026)
+## Revisions note (20 November 2026)
 
-**Corrected**
-- The $833 million Fujitsu figure was the total of retroactive fees as of November 1988, not the amount of the 1987 decision.
-- The 1982–83 sting is labelled REPORTED (SECONDARY), not FINDING, because no court file was opened.
-- Government figures now carry a [GOV-flag] reporting-incentive note, including the 2000 SEC amounts and the "10,000 pages" count.
-- "Indemnity costs" was dropped from the 2016 Queensland dismissal; the opened news item supports an order to pay costs and no appeal, not the costs scale.
-- The Fujitsu "secured facility" terms and the $237 million / $833 million figures (the total by Nov 1988) are cited to contemporary news [N3 SECONDARY], not to the student note. The 15 September 1987 date and "26 months" were dropped because they had been cited only to that note.
-- Solutions 2, 3 and 7 are rated on the Strong / Moderate / Limited / Very limited scale and marked UNTESTED.
-- GIRCA filed its suit in Geneva in 2002. The 2001 suit that was withdrawn was a separate US class action.
-- "GlobalFoundries v. IBM" was two suits: IBM sued first, in 2021, and GlobalFoundries filed the trade-secret claim in 2023.
-- The 1956 decree was terminated by a court order entered in 1997, with final expiry in 2001.
-- The 2011 FCPA figure of $10 million is confirmed.
+**Refocused.** The case now covers only wrongdoing IBM itself is found, alleged or reported to have taken part in, from 1911 to now. Matters where IBM was the victim or the claimant were removed. Source IDs that remain keep their earlier numbers; removed IDs are retired, not reused.
 
-**Dropped**
-- The Philippines matter: only a complaint was found, with no adjudicated outcome.
-- A 2019 Poland matter: no record exists. The real Polish matter ran from 2012 to 2017 and is included.
-- Outsourcing disputes in India: news only.
-- Sources that could not be opened: the Commission's 1984 release, the EEOC letter (its content is cited through ProPublica as SECONDARY), and several journal reviews.
+**Removed (IBM as victim or claimant)**
+- The 1982–83 FBI sting against Hitachi and Mitsubishi Electric, and the related Hitachi and National Semiconductor civil suits (sources N1, N2).
+- IBM v Fujitsu arbitration (N3, P1).
+- The Xu economic-espionage conviction, where IBM's code was stolen (R1, N4).
+- IBM UK v LzLabs, where IBM was the claimant (R2).
+- IBM's own 2021 contract suit against GlobalFoundries is now mentioned only as context for GlobalFoundries' claim against IBM.
+- The Canada section and the Phoenix pay question. The section held no laws or court records, and assessing Phoenix would need Canadian government data, which this global case excludes.
 
 **Added**
-- LzLabs (2025), BMC v IBM, the UK pension case, Indiana and the 2016 eCensus.
+- The 1936 Supreme Court tie-in judgment (FINDING).
+- The apartheid litigation and the 2015 Second Circuit dismissal (ALLEGATION, dismissed).
+- *Cooper v. IBM Personal Pension Plan* (ALLEGATION, reversed).
+- MD Anderson and Watson (REPORTED (SECONDARY)).
+
+**Relabelled**
+- NO-ADMISSION is now SETTLED-NO-ADMISSION.
+- The EEOC determination is REPORTED (SECONDARY), because the letter itself could not be opened.
+- The UK pension case is FINDING, mostly reversed on appeal.
+
+**Checked and not included**
+- UK Post Office Horizon scandal: the Horizon system came from another supplier, and no record implicating IBM was found.
+- A 2019 SEC FCPA case for Poland or the Philippines: none was found. The Philippines matter had only a complaint, with no outcome. The real Polish matter (2012–2017) is included.
+- Outsourcing disputes in India: news only.
+
+**Earlier corrections that still apply (19 November 2026)**
+- The 1956 decree was terminated by a court order entered in 1997, with final expiry in 2001.
+- The 2011 FCPA figure of $10 million is confirmed against the SEC release.
+- GIRCA filed its suit in Geneva in 2002. The 2001 suit that was withdrawn was a separate US class action.
+- "Indemnity costs" was dropped from the 2016 Queensland dismissal; the opened news item supports an order to pay costs and no appeal, not the costs scale.
