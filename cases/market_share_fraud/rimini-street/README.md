@@ -1,0 +1,99 @@
+# Rimini Street and Oracle's enterprise software: copyright infringement found and affirmed, then contempt of the injunction
+
+Date: 2026-11-19
+
+*An ethics research case study. Research and writing only; this is not legal advice. Sources were checked on 19 November 2026. Three kinds of statement are kept apart. **Found**: what a court, jury, regulator or plea record decided or admitted. **Alleged**: what a prosecutor charged or a party claimed; an indictment or complaint is not a finding. **Reported**: facts known only from news coverage, labelled SECONDARY. Figures are quoted as the source gives them. Government figures (prosecution estimates, agency loss figures) are flagged, because agencies and prosecutors have reasons to present large numbers when announcing results. Individuals are not named except where a public office or a court record makes the name part of the public finding; private individuals are not named.*
+
+## The ethical question
+
+A third-party support company competed with a software maker for the business of maintaining that maker's products, at lower prices. A jury found that the way it did so infringed the maker's copyrights, and a court later found that it had broken the injunction that followed. Is this a cheaper competitor breaking open a locked aftermarket, or a competitor building its business on another's property? On the records opened, the courts found both lawful competition and unlawful methods, and drew the line between them more than once.
+
+## Findings at a glance
+
+| Step | Status | What the record says | Source |
+| --- | --- | --- | --- |
+| First suit (filed January 2010) | **Found** | The trial court granted partial summary judgment for Oracle on part of its copyright-infringement claim, and a jury found for Oracle on others; the jury also found against Rimini and its chief executive on claims under state computer-access laws | [1][2] |
+| Damages | **Found** | $35.6 million for copyright infringement and $14.4 million for state-law violations; the court added $28.5 million in attorney's fees and other costs | [3] |
+| 8 January 2018 | **Found (appeal)** | The Ninth Circuit affirmed in part (including on copyright infringement), reversed in part (including on the state computer-access claims) and vacated in part | [1] |
+| 2018 | Ordered | A permanent injunction was entered in the first suit, defining how Rimini may support certain Oracle product lines; Rimini's own filing says it remains in effect | [2] |
+| 4 March 2019 | Decided | The Supreme Court held that $12.8 million in non-taxable litigation expenses could not be awarded as "full costs" under the Copyright Act | [3] |
+| 12 January 2022 | **Found (contempt)** | The district court held Rimini in contempt of the permanent injunction on five of ten issues (Issues 1, 2, 3, 4 and 8), discharged the other five, imposed $630,000 in statutory sanctions, awarded Oracle reasonable attorney's fees and costs, and ordered Rimini to quarantine the files concerned. The court found the conduct wilful on most of the five issues | [4] |
+| Second suit (filed October 2014) | Mostly vacated | After a 2022 bench trial the district court found further infringement and false advertising; on 16 December 2024 the Ninth Circuit vacated the core derivative-work and several infringement rulings, reversed most of the false-advertising ruling (keeping one statement about "holistic security"), and sent the case back | [5] |
+| 7 July 2025 | Settled | Rimini, its chief executive and Oracle signed a confidential settlement of the second suit. No party admits liability; Oracle returned about $37.8 million of the roughly $58.7 million in fees and costs Rimini had paid, and kept about $22.5 million (Rimini's own account) | [2] |
+
+## Damages against market effect
+
+- **Copyright damages (first suit):** $35.6 million [3].
+- **Contempt sanctions:** $630,000 plus fees [4].
+- **Market effect.** No record opened measures Rimini's revenue or market gain attributable to the infringement. Rimini's 2025 filing says its PeopleSoft support line, which it chose in 2024 to wind down, brought in about $30 million a year [2]. That is a company statement about one product line, not a court finding about gain from infringement. This case makes no estimate.
+
+## Analysis
+
+This dispute shows the **aftermarket** version of the market-share question. The prize was not a product market but the right to service the maker's customers. Aftermarkets are where lock-in is strongest, and where independent competition can help customers most. That makes the line between lawful competition and infringement especially important to draw precisely, and the courts did so repeatedly: some claims stood, others fell [1], and in the second suit the appeals court rejected a theory that would have treated programs that merely work with Oracle's software as infringing derivative works [5].
+
+The contempt order is the strongest point for this category. It is a second, separate adjudicated finding: after infringement was established, the company was found to have breached the court's own order on five issues, mostly wilfully [4]. That makes Rimini Street a **repeat finding** in this category's index. It also shows the weakness of after-the-fact remedies: $630,000 in sanctions is small next to the earlier damages, although the court called the sanction, with the anticipated fees, the minimum needed to secure compliance [4].
+
+The deterrence point therefore stays modest. No record measures the business gained, so the comparison between penalty and gain cannot be made with sourced figures.
+
+## Fair counterarguments
+
+- **Legitimate protection versus litigation as a weapon.** Suing a rival over intellectual property is often legitimate protection of research. But litigation can also be used to raise a competitor's costs; research on suits by patent holders that do not make products found that targeted firms substantially reduce their innovative activity after settling or losing [6]. A finding in court shows that a line was crossed; it does not show that every claim the winning side made was right.
+- **Learning is not taking.** The international standard protects undisclosed information only against acquisition "contrary to honest commercial practices" [7], which is narrower than all copying. Learning from public products and hiring experienced people are lawful and are how skills spread. This case concerns copyright infringement in how licensed copies of Oracle's software were copied and used to support customers, and later breaches of the injunction that followed; it involves no finding that trade secrets were taken.
+- **The costs of litigation.** Long cases consume money and management attention on both sides, and delay can hurt the winner as much as the loser. Remedies that depend on ever-longer litigation are a weak answer to a problem of speed.
+- **Competition in aftermarkets benefits customers.** Third-party support can lower prices and extend the life of software that customers have already paid for. The Ninth Circuit's 2024 ruling shows that some of what was challenged was lawful, and Rimini's own filing states that the Ninth Circuit held it offered third-party support in lawful competition with Oracle's maintenance services [5][2]. Remedies that end the competitor, rather than the infringing method, would harm those customers.
+- **Half the contempt issues failed.** The court discharged its order on five of the ten issues raised [4]. A finding of contempt on some issues is not a finding that every challenged practice was unlawful.
+
+## Proposed solutions
+
+The proposals below are this case's own reasoning, built on the cited evidence. Each carries an evidence rating for how well research supports the measure itself: **strong**, **moderate**, **weak** or **UNTESTED** (no study cited here tests whether the measure works).
+
+1. **Make the expected penalty larger than the gain, mainly by raising the chance of being caught.** In the standard economic model, a firm deterred only by money compares the gain with the probability of a sanction times its size [8][9]. Reviews of the evidence find that certainty of apprehension deters more consistently than severity [10], and that single punitive sanctions against companies do not deter consistently while combinations of measures (regulation, inspection, sanctions together) do [11]. Detection funding, forensic review of departing-employee transfers in litigation, and protected reporting channels therefore matter more than headline fines. *Evidence rating: moderate. The reviews cited are broad; none tests trade-secret or infringement enforcement specifically.*
+2. **Measure the remedy by the gain, not only the victim's provable loss.** US civil law already allows recovery of unjust enrichment and up to double exemplary damages for wilful and malicious trade-secret theft [12], and criminal fines for organisations can reach three times the value of the stolen secret, including avoided research and design costs [13]. Courts and prosecutors should use the gain-based measures the law already allows, and report the gain they found, so that the public can compare penalty with benefit. *Evidence rating: weak. Supported by enforcement theory [8][9]; UNTESTED as a measured change in behaviour.*
+3. **Take away the product advantage, not the whole firm.** Where products are made with misappropriated technology, a product-specific exclusion, verified by an independent technical expert and lasting at least as long as the head start gained, removes the market benefit while sparing customers and workers who did nothing wrong. A ten-year US exclusion order for products made with misappropriated trade secrets is an existing precedent [14][15]. *Evidence rating: UNTESTED. A legal precedent exists; no study cited here measures its deterrent effect.*
+4. **Protect the people who report it.** US law gives immunity to a person who discloses a trade secret in confidence to officials or to a lawyer in order to report a suspected violation [16]. Similar protection, and a clear duty to report in engineering codes, should be standard. *Evidence rating: UNTESTED. The legal protection exists; no study cited here measures its effect on detection.*
+5. **Do not over-correct into employer-friendly secrecy.** Stronger trade-secret law was associated with more R&D in some industries [17], but stronger employer-friendly secrecy rules were associated with less innovation by individual inventors [18], and intellectual-property rights that are too broad can reduce follow-on research [19]. Remedies should target taking and using confidential material, not ordinary job mobility or learning. *Evidence rating: moderate. Three peer-reviewed empirical studies, with mixed directions by industry and by inventor.*
+6. **Clear rules for third-party support.** Licences and law should state plainly what an independent support provider may do with a customer's licensed copy, so that competition happens on lawful terms and disputes do not take fifteen years. *Evidence rating: UNTESTED. This is a design proposal; no study cited here tests it.*
+7. **Compliance monitoring tied to injunctions in software cases.** Where an injunction governs how software copies may be handled, an independent technical monitor, reporting to the court, could find breaches earlier than a contempt motion years later. *Evidence rating: UNTESTED. No study cited here tests court-appointed monitors in copyright cases.*
+
+## What this does not replace
+
+- **Legal advice or a legal opinion.** Nothing here says how any pending or future dispute should be decided. Anyone involved in a trade-secret, patent, copyright or related matter needs a qualified lawyer in the relevant country.
+- **The court record itself.** Summaries here are shortened. Where a figure or finding matters, read the cited judgment, plea or notice.
+- **A company's current conduct or compliance standing.** A finding describes past conduct at a past date. It is not evidence about the company's present practices, products or staff, and must not be used to judge individual employees.
+- **Due diligence or a sanctions screen.** This case is not a supplier-risk score, a trade-control list or an investment recommendation.
+
+## Unverified or uncertain items
+
+- Whether the 2022 contempt order was appealed, and with what result, was not checked.
+- The trial and verdict years of the first suit are not stated because the opened opinions were not checked for them.
+- Settlement amounts and the PeopleSoft revenue figure come from Rimini's own filing, a party's account [2].
+- The chief executive named in the records is a public company officer; he is not named here because his personal liability is not the subject of this case.
+
+## Sources
+
+*Type and check status for each source. "Peer-reviewed" sources carry the analysis; court, plea, regulator and legislative records are cited as records; news is SECONDARY and used only for timeline.*
+
+1. *Oracle USA, Inc. v. Rimini Street, Inc.*, 879 F.3d 948 (9th Cir. filed 8 January 2018). https://cdn.ca9.uscourts.gov/datastore/opinions/2018/01/08/16-16832.pdf — *Court opinion.* Opened on 19 November 2026; cited passage found.
+2. Rimini Street, Inc., Form 8-K, 9 July 2025 (settlement agreement with Oracle). https://www.sec.gov/Archives/edgar/data/1635282/000163528225000183/rmni-20250709.htm — *Regulatory filing (SEC; a party's own account).* Opened on 19 November 2026; cited passage found.
+3. *Rimini Street, Inc. v. Oracle USA, Inc.*, No. 17-1625, 586 U.S. ___ (4 March 2019). https://www.supremecourt.gov/opinions/18pdf/17-1625_lkhn.pdf — *Court opinion.* Opened on 19 November 2026; cited passage found.
+4. *Oracle USA, Inc. v. Rimini Street, Inc.*, No. 2:10-cv-00106-LRH-VCF, Order: findings of fact, conclusions of law and judgment on the order to show cause regarding contempt (D. Nev. 12 January 2022), Doc. 1548. https://storage.courtlistener.com/recap/gov.uscourts.nvd.71326/gov.uscourts.nvd.71326.1548.0.pdf — *Court record.* Opened on 19 November 2026; cited passage found.
+5. *Oracle International Corp. v. Rimini Street, Inc.*, No. 23-16038 (9th Cir. 16 December 2024). https://cdn.ca9.uscourts.gov/datastore/opinions/2024/12/16/23-16038.pdf — *Court opinion.* Opened on 19 November 2026; cited passage found.
+6. Cohen, L., Gurun, U. G. and Kominers, S. D. (2019). Patent Trolls: Evidence from Targeted Firms. *Management Science*, 65(12), 5461–5486. https://doi.org/10.1287/mnsc.2018.3147 — *Peer-reviewed.* Metadata matched in the Crossref registry on 19 November 2026; the cited finding was read in the abstract on the same date.
+7. World Trade Organization, TRIPS Agreement, Part II, Section 7, Article 39 (protection of undisclosed information). https://www.wto.org/english/docs_e/legal_e/27-trips_04d_e.htm — *Treaty text.* Opened on 19 November 2026; cited passage found.
+8. Becker, G. S. (1968). Crime and Punishment: An Economic Approach. *Journal of Political Economy*, 76(2), 169–217. https://doi.org/10.1086/259394 (open copy: https://www.nber.org/system/files/chapters/c3625/c3625.pdf) — *Peer-reviewed.* Metadata matched in the Crossref registry and the open NBER chapter copy opened on 19 November 2026; passage on the probability of conviction found.
+9. Polinsky, A. M. and Shavell, S. (2000). The Economic Theory of Public Enforcement of Law. *Journal of Economic Literature*, 38(1), 45–76. https://doi.org/10.1257/jel.38.1.45 — *Peer-reviewed.* Metadata matched in the Crossref registry on 19 November 2026; the cited finding was read in the abstract on the same date.
+10. Nagin, D. S. (2013). Deterrence in the Twenty-First Century. *Crime and Justice*, 42(1), 199–263. https://doi.org/10.1086/670398 — *Peer-reviewed.* Metadata matched in the Crossref registry on 19 November 2026; the cited finding was read in the abstract on the same date.
+11. Schell-Busey, N., Simpson, S. S., Rorie, M. and Alper, M. (2016). What Works? A Systematic Review of Corporate Crime Deterrence. *Criminology & Public Policy*, 15(2), 387–416. https://doi.org/10.1111/1745-9133.12195 — *Peer-reviewed (systematic review).* Metadata matched in the Crossref registry on 19 November 2026; the cited finding was read in the abstract on the same date.
+12. 18 U.S.C. § 1836, Civil proceedings (damages for actual loss and unjust enrichment; exemplary damages up to two times for wilful and malicious misappropriation). https://www.law.cornell.edu/uscode/text/18/1836 — *Statute.* Opened on 19 November 2026; cited passage found.
+13. 18 U.S.C. § 1832, Theft of trade secrets (organisation fine: greater of $5 million or three times the value of the stolen secret, including avoided research and design costs). https://www.law.cornell.edu/uscode/text/18/1832 — *Statute.* Opened on 19 November 2026; cited passage found.
+14. US International Trade Commission, Inv. No. 337-TA-655, *Certain Cast Steel Railway Wheels*, notice of final determination and limited exclusion order, 75 Fed. Reg. 8114 (23 February 2010). https://www.govinfo.gov/content/pkg/FR-2010-02-23/html/2010-3421.htm — *Federal Register notice.* Opened on 19 November 2026; cited passage found.
+15. *TianRui Group Co. v. International Trade Commission*, 661 F.3d 1322 (Fed. Cir. 11 October 2011). https://www.cafc.uscourts.gov/opinions-orders/10-1395.pdf — *Court opinion.* Opened on 19 November 2026; cited passage found.
+16. 18 U.S.C. § 1833, Exceptions to prohibitions (immunity for confidential disclosure to officials or a lawyer to report a suspected violation). https://www.law.cornell.edu/uscode/text/18/1833 — *Statute.* Opened on 19 November 2026; cited passage found.
+17. Png, I. P. L. (2017). Law and Innovation: Evidence from State Trade Secrets Laws. *Review of Economics and Statistics*, 99(1), 167–179. https://doi.org/10.1162/REST_a_00532 — *Peer-reviewed.* Metadata matched in the Crossref registry on 19 November 2026; the cited finding was read in the abstract on the same date.
+18. Contigiani, A., Hsu, D. H. and Barankay, I. (2018). Trade secrets and innovation: Evidence from the "inevitable disclosure" doctrine. *Strategic Management Journal*, 39(11), 2921–2942. https://doi.org/10.1002/smj.2941 — *Peer-reviewed.* Metadata matched in the Crossref registry on 19 November 2026; the cited finding was read in the abstract on the same date.
+19. Williams, H. L. (2013). Intellectual Property Rights and Innovation: Evidence from the Human Genome. *Journal of Political Economy*, 121(1), 1–27. https://doi.org/10.1086/669706 — *Peer-reviewed.* Metadata matched in the Crossref registry on 19 November 2026; the cited finding was read in the abstract on the same date.
+
+## Changelog
+
+- 19 November 2026: first version.
+- 19 November 2026: added the 2022 contempt order, the second suit and its 2025 settlement; corrected the Ninth Circuit date to 8 January 2018; added evidence ratings to the proposals.

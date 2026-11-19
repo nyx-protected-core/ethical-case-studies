@@ -70,6 +70,22 @@ Cases are grouped by category. Within each category, newest first.
 - [2026-11-18 — Cooperative trade deals: when trade builds peace and cuts poverty, and a compact to get there](economics_finance_and_governance/cooperative-trade-deals/README.md)
 - [2026-11-18 — Trade deals that bring more people into good work](economics_finance_and_governance/trade-and-work-participation/README.md)
 
+## Market share Fraud
+
+- [2026-11-19 — Apple as the infringer: an import ban over Masimo's patents, a paid VirnetX judgment, and contempt in the Epic case](market_share_fraud/apple/README.md)
+- [2026-11-19 — Huawei and T-Mobile's phone-testing robot: a civil finding of misappropriation, and the larger charges that remain allegations](market_share_fraud/huawei/README.md)
+- [2026-11-19 — Hytera and Motorola's digital radio code: a civil judgment and a criminal plea for the same theft](market_share_fraud/hytera/README.md)
+- [2026-11-19 — Kolon Industries and DuPont's Kevlar secrets: a vacated civil verdict, then a guilty plea and $360 million](market_share_fraud/kolon-industries/README.md)
+- [2026-11-19 — McLaren and Ferrari's technical data: a sport's regulator excludes a team and fines it US$100 million](market_share_fraud/mclaren/README.md)
+- [2026-11-19 — Rimini Street and Oracle's enterprise software: copyright infringement found and affirmed, then contempt of the injunction](market_share_fraud/rimini-street/README.md)
+- [2026-11-19 — Samsung Electronics and Apple's smartphone patents: two jury findings, seven years, and a settlement after the sales](market_share_fraud/samsung-electronics/README.md)
+- [2026-11-19 — Sinovel and AMSC's wind-turbine software: a criminal conviction, a court-found loss over $550 million, and a $1.5 million fine](market_share_fraud/sinovel/README.md)
+- [2026-11-19 — SK Innovation and LG's electric-vehicle battery secrets: a default finding after evidence destruction, a ten-year order, and a settlement](market_share_fraud/sk-innovation/README.md)
+- [2026-11-19 — Syntel and TriZetto's Facets software: misappropriation affirmed, a $285 million gain-based award thrown out](market_share_fraud/syntel/README.md)
+- [2026-11-19 — Tata Consultancy Services and Epic Systems' hospital-software files: a final judgment measured by the benefit taken](market_share_fraud/tata-consultancy-services/README.md)
+- [2026-11-19 — TianRui and Amsted's railway-wheel process: a ten-year exclusion for products made with misappropriated secrets](market_share_fraud/tianrui/README.md)
+- [2026-11-19 — United Microelectronics (UMC) and Micron's memory-chip secrets: a guilty plea, and an acquittal for the state-owned partner](market_share_fraud/united-microelectronics/README.md)
+
 ## Peace, security and weapons
 
 - [2026-11-19 — Could a new age of working together exist?](peace_security_and_weapons/new-age-of-working-together/README.md)
