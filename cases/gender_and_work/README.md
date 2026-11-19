@@ -1,7 +1,8 @@
 # Gender and work
 
-6 case studies, newest first.
+7 case studies, newest first.
 
+- [2026-11-19 — Women in male-majority fields: a full review and global recommendations](women-in-male-majority-fields/README.md)
 - [2026-11-18 — Men and boys as partners: ending violence against women and building workplace equality](men-as-partners-violence-prevention/README.md)
 - [2026-11-18 — Opening fields both ways: equal participation through merit, not head-counting](gender-gaps-both-directions/README.md)
 - [2026-11-18 — Making evaluation track merit: blind auditions, anonymised CVs, structured interviews and performance reviews](fair-evaluation-bias/README.md)

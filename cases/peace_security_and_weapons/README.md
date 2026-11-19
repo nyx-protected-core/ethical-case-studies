@@ -1,7 +1,8 @@
 # Peace, security and weapons
 
-7 case studies, newest first.
+8 case studies, newest first.
 
+- [2026-11-19 — Could a new age of working together exist?](new-age-of-working-together/README.md)
 - [2026-11-18 — Rebuilding economies after war: what makes peace last](postwar-economic-reconstruction/README.md)
 - [2026-11-18 — Israel and its neighbours: the case for cooperation, and the role of proxy warfare](israel-neighbours-cooperation-proxy-warfare/README.md)
 - [2026-11-18 — What a more cooperative world without war could look like](cooperative-world-without-war/README.md)

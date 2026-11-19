@@ -30,6 +30,7 @@ Cases are grouped by category. Within each category, newest first.
 
 ## Gender and work
 
+- [2026-11-19 — Women in male-majority fields: a full review and global recommendations](gender_and_work/women-in-male-majority-fields/README.md)
 - [2026-11-18 — Men and boys as partners: ending violence against women and building workplace equality](gender_and_work/men-as-partners-violence-prevention/README.md)
 - [2026-11-18 — Opening fields both ways: equal participation through merit, not head-counting](gender_and_work/gender-gaps-both-directions/README.md)
 - [2026-11-18 — Making evaluation track merit: blind auditions, anonymised CVs, structured interviews and performance reviews](gender_and_work/fair-evaluation-bias/README.md)
@@ -59,6 +60,7 @@ Cases are grouped by category. Within each category, newest first.
 
 ## Economics, finance and governance
 
+- [2026-11-19 — UN sustainable development funding: who gets it, and how small firms can too](economics_finance_and_governance/un-sustainable-development-funding-sme-access/README.md)
 - [2026-11-19 — SNC-Lavalin: a fraud plea over Libya, a World Bank debarment, illegal political donations, and the 2019 pressure on Canada's Attorney General](economics_finance_and_governance/snc-lavalin/README.md)
 - [2026-11-18 — Corruption and accountability worldwide: who pays, what the numbers really say, and what has worked](economics_finance_and_governance/corruption-and-accountability/README.md)
 - [2026-11-18 — Living wages in global supply chains: benchmarks, purchasing practices and binding approaches that worked](economics_finance_and_governance/living-wages-supply-chains/README.md)
@@ -70,6 +72,7 @@ Cases are grouped by category. Within each category, newest first.
 
 ## Peace, security and weapons
 
+- [2026-11-19 — Could a new age of working together exist?](peace_security_and_weapons/new-age-of-working-together/README.md)
 - [2026-11-18 — Rebuilding economies after war: what makes peace last](peace_security_and_weapons/postwar-economic-reconstruction/README.md)
 - [2026-11-18 — Israel and its neighbours: the case for cooperation, and the role of proxy warfare](peace_security_and_weapons/israel-neighbours-cooperation-proxy-warfare/README.md)
 - [2026-11-18 — What a more cooperative world without war could look like](peace_security_and_weapons/cooperative-world-without-war/README.md)
