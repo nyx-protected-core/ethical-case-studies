@@ -301,7 +301,7 @@ In 1997 Jakarta's water utility, PAM Jaya, signed 25-year concessions with two p
 - Not checked: the West Zone re-tendering in Manila and later contract revisions; independent JJM functionality data; the remunicipalisation count's primary source.
 - SDG targets 6.3 to 6.a are out of scope, except for the brief mention of source protection. Target 6.b is taken up only in recommendation 9.
 
-## Revisions (18 November 2026, round 7/8 audit)
+## Revisions (18 November 2026)
 
 - Stated the study's scope in SDG 6 terms: it covers targets 6.1 and 6.2, touches 6.6, and does not assess 6.3, 6.4, 6.5 or 6.a.
 - Linked target 6.b, participation of local communities, to recommendation 9 on enforceability and accountability.

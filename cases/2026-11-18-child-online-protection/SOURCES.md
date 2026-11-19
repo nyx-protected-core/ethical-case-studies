@@ -240,7 +240,7 @@ All sources were checked on 18 November 2026.
 ### S26. Ofcom, "Ofcom's approach to implementing the Online Safety Act" (roadmap, last updated 28 July 2026)
 
 - **Link:** https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/roadmap-to-regulation
-- **Status:** VERIFIED. Fetched via WebFetch.
+- **Status:** VERIFIED. Fetched.
 - **Used for:**
   - final Technology Notice guidance in May 2026;
   - the accreditation sequence;
@@ -262,14 +262,14 @@ All sources were checked on 18 November 2026.
 ### S28. AUSTRAC, "Combating the sexual exploitation of children for financial gain" (financial crime guide page, last updated 30 March 2026)
 
 - **Link:** https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/combating-sexual-exploitation-children-financial-gain
-- **Status:** VERIFIED. Fetched via WebFetch.
+- **Status:** VERIFIED. Fetched.
 - **Used for:** the guide's purpose; "No single financial indicator will reveal…"; partnership.
 - **Note:** the 2019 indicator PDF was not used, by design.
 
 ### S29. FATF, *Detecting, Disrupting and Investigating Online Child Sexual Exploitation*
 
 - **Link:** https://www.fatf-gafi.org/en/publications/Fatfgeneral/Online-child-sexual-exploitation.html
-- **Status:** VERIFIED. Fetched via WebFetch.
+- **Status:** VERIFIED. Fetched.
 - **Used for:** the two typologies covered (live-streamed abuse for financial gain; financial sexual extortion); the role of financial intelligence.
 
 ### S30. Asia/Pacific Group on Money Laundering, "FATF Report on Online Child Sexual Exploitation" (13 March 2025)
@@ -328,7 +328,7 @@ All sources were checked on 18 November 2026.
 ### S38. eSafety Commissioner (Australia), "Safety by Design" (last updated 5 November 2026)
 
 - **Link:** https://www.esafety.gov.au/industry/safety-by-design
-- **Status:** VERIFIED. Fetched via WebFetch.
+- **Status:** VERIFIED. Fetched.
 - **Used for:** the three principles; "The burden of safety should never fall solely upon the user"; reporting mechanisms "at the point they occur".
 
 ### S39. UK Information Commissioner's Office, Age Appropriate Design Code, code standards

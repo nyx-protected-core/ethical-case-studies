@@ -212,7 +212,7 @@ This brief treats H as a hypothesis to be tested, not a conclusion. It sets out 
 
 ## Sources
 
-All DOIs were checked on 18 November 2026: `https://doi.org/<doi>` returned **302** for every DOI listed. Other URLs returned **200** unless marked. **403**, **202** or **429** means a live-block to automated access; the text was then read via WebFetch, a search-index excerpt, or an open copy, as noted.
+All DOIs were checked on 18 November 2026: `https://doi.org/<doi>` returned **302** for every DOI listed. Other URLs returned **200** unless marked. **403**, **202** or **429** means a live-block to automated access; the text was then read from a search-index excerpt or an open copy, as noted.
 
 1. Mudde C. "The Populist Zeitgeist." *Government and Opposition* 39(4):541–563 (2004). https://doi.org/10.1111/j.1477-7053.2004.00135.x. Open copy (200): https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2CD34F8B25C4FFF4F322316833DB94B7/S0017257X00002372a.pdf/div-class-title-the-populist-zeitgeist-div.pdf. **[PR]** Full text read.
 2. Müller J-W. *What Is Populism?* University of Pennsylvania Press, 2016. https://doi.org/10.9783/9780812293784 (DOI 302; publisher pages returned **202/403**). Publisher description and book excerpt read via a search index. **[BOOK]**
@@ -222,7 +222,7 @@ All DOIs were checked on 18 November 2026: `https://doi.org/<doi>` returned **30
 6. Ruth-Lovell SP, Grahn S. "Threat or corrective to democracy? The relationship between populism and different models of democracy." *European Journal of Political Research* 62(3):677–698 (2023). https://doi.org/10.1111/1475-6765.12564. **[PR]** Abstract read.
 7. Juon A, Bochsler D. "Hurricane or fresh breeze? Disentangling the populist effect on the quality of democracy." *European Political Science Review* 12(3):391–408 (2020). https://doi.org/10.1017/S1755773920000259. Repository record: https://www.zora.uzh.ch/handle/20.500.14742/186164. **[PR]** Abstract read.
 8. Funke M, Schularick M, Trebesch C. "Populist Leaders and the Economy." *American Economic Review* 113(12):3249–3288 (2023). https://doi.org/10.1257/aer.20202045. Copy of published article (200): https://iacmr.org/wp-content/uploads/sites/26/2024/05/6.populist-leaders-and-economies_aer23.pdf. **[PR]** Introduction and data section read. (The HAL open copy served an HTML challenge page.)
-9. Kyle J, Mounk Y. *The Populist Harm to Democracy: An Empirical Assessment.* Tony Blair Institute for Global Change, 26 December 2018. https://institute.global/insights/geopolitics-and-security/populist-harm-democracy-empirical-assessment (curl returned **429**; full text read via WebFetch). **[TT]** Not peer-reviewed; the institute has a stated political orientation.
+9. Kyle J, Mounk Y. *The Populist Harm to Democracy: An Empirical Assessment.* Tony Blair Institute for Global Change, 26 December 2018. https://institute.global/insights/geopolitics-and-security/populist-harm-democracy-empirical-assessment (an automated request returned **429**; the full text was then opened and read). **[TT]** Not peer-reviewed; the institute has a stated political orientation.
 10. Nord M, Altman D, Fernandes T, Good God A, Lindberg SI. *Democracy Report 2026: Unraveling The Democratic Era?* V-Dem Institute, University of Gothenburg, 2026. https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf. **[RI]** Expert-coded; full PDF read.
 11. Gorokhovskaia Y, Grothe C, Slipowitz A. *Freedom in the World 2026: The Growing Shadow of Autocracy.* Freedom House, 2026. https://freedomhouse.org/report/freedom-world/2026/growing-shadow-autocracy. **[NGO]** Advocacy-oriented; expert-scored.
 12. Levitsky S, Ziblatt D. *How Democracies Die.* Crown, 2018. https://www.penguinrandomhouse.com/books/562246/how-democracies-die-by-steven-levitsky-and-daniel-ziblatt/ (publisher page with excerpt read). **[BOOK]**
@@ -239,7 +239,7 @@ All DOIs were checked on 18 November 2026: `https://doi.org/<doi>` returned **30
 23. Budd B. "The People's Champ: Doug Ford and Neoliberal Right-Wing Populism in the 2018 Ontario Provincial Election." *Politics and Governance* 8(1):171–181 (2020). https://doi.org/10.17645/pag.v8i1.2468. **[PR]** Open access; abstract read.
 24. (a) Voelkel JG, Stagnaro MN, Chu JY, Pink SL, Mernyk JS, Redekopp C, et al. "Megastudy testing 25 treatments to reduce antidemocratic attitudes and partisan animosity." *Science* 386(6719) (2024). https://doi.org/10.1126/science.adh4764. Preprint copy (200), durability section read: https://osf.io/y79u5/download. **[PR]** (preprint wording may differ from the published version). (b) Roozenbeek J, van der Linden S, Goldberg B, Rathje S, Lewandowsky S. "Psychological inoculation improves resilience against misinformation on social media." *Science Advances* 8(34) (2022). https://doi.org/10.1126/sciadv.abo6254. **[PR]**
 25. (a) van Spanje J, de Vreese C. "The good, the bad and the voter: The impact of hate speech prosecution of a politician on electoral support for his party." *Party Politics* 21(1):115–130 (2015; online 2013). https://doi.org/10.1177/1354068812472553. Open copy (200): https://pure.uva.nl/ws/files/2672708/168936_503142.pdf. (b) Krause W, Cohen D, Abou-Chadi T. "Does accommodation work? Mainstream party strategies and the success of radical right parties." *Political Science Research and Methods* 11(1):172–179 (2023). https://doi.org/10.1017/psrm.2022.8. **[PR]**
-26. OECD. *Innovative Citizen Participation and New Democratic Institutions: Catching the Deliberative Wave.* OECD Publishing, 10 June 2020. https://doi.org/10.1787/339306da-en (DOI 302; landing page returned **403** to curl; abstract and executive summary read via WebFetch). **[INT]**
+26. OECD. *Innovative Citizen Participation and New Democratic Institutions: Catching the Deliberative Wave.* OECD Publishing, 10 June 2020. https://doi.org/10.1787/339306da-en (DOI 302; landing page returned **403** to an automated request; the abstract and executive summary were then opened and read). **[INT]**
 
 ### UNVERIFIED and live-blocked items
 
@@ -250,9 +250,9 @@ All DOIs were checked on 18 November 2026: `https://doi.org/<doi>` returned **30
 - **Live-blocked:**
   - [2] (publisher **202/403**);
   - [5] repository copy (**202**);
-  - [9] (**429**; read via WebFetch);
+  - [9] (**429**; the text was then opened and read);
   - [17] SSRN copy (**403**);
   - [18b] journal page (**403**; EBRD copy timed out);
-  - [26] landing page (**403**; read via WebFetch);
+  - [26] landing page (**403**; the text was then opened and read);
   - the Funke et al. HAL copy (served HTML; an alternative copy was used).
 - **Brief-format note:** 26 numbered entries (35 works, counting sub-items), all live-checked.

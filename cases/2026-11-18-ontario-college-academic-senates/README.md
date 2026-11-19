@@ -179,7 +179,7 @@ Ontario's colleges would probably benefit from a **legislated academic council w
 - **Court of Appeal decision (2026 ONCA 74).** We relied on a third-party summary site for its result, not the judgment [S15].
 - **Brown (2001) published version.** We read the 1999 working paper, not the full published article. Findings are attributed to the working paper [S30][S31].
 - **McCormick and Meiners (1988).** We did not read this paper. Its finding is reported only as Brown's working paper summarizes it [S30].
-- **Kaplan award text (December 2017).** The award PDF on the union's site returned an access error to our download tool. Its academic freedom wording was checked in the 2024–2027 collective agreement, and its effect in a union bulletin [S11][S12].
+- **Kaplan award text (December 2017).** The award PDF on the union's site returned an access error when it was fetched. Its academic freedom wording was checked in the 2024–2027 collective agreement, and its effect in a union bulletin [S11][S12].
 - **Task Force interim report date.** Sources give slightly different dates (May 2018 in the court record; a union letter refers to late April 2018) [S10][S14].
 - **Sheridan dissolution timing.** The union statement of 9 April 2021 reports the board's decision to cancel the Senate [S9]. We did not open a board minute confirming the exact effective date.
 - **Levin's exception.** The abstract says one jurisdiction supports shared governance in law but does not name it in the text we read. We did not open the full paper, so the identification with BC is unconfirmed [S26].

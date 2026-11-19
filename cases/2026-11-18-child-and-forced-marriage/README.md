@@ -107,7 +107,7 @@
    - Conditional asset transfers delayed marriage among older girls in Ethiopia and Tanzania; in Burkina Faso, site incomparability prevented assessment.
    - Ethiopia arms were compared with *baseline*, not a control group, because the control site was not comparable. On that basis, girls aged 15–17 had RR 0.57 (chickens) and RR 0.38 (combined model).
    - Cost per girl per year ranged from US$9–20 (dialogue) to US$29–117 (asset or combined).
-   - *Access:* figures were read from repository text through a search tool because the repository returns 403 to curl; the DOIs resolve.
+   - *Access:* figures were read from repository text through a search index because the repository returns 403 to automated requests; the DOIs resolve.
 
    [mixed RCT/QE; REP]
 
@@ -373,7 +373,7 @@ These principles apply as much to anti-trafficking work as to child-marriage pre
 ---
 
 *Access notes:*
-- **Live-blocked (403 to curl), with open copies or abstracts:**
+- **Live-blocked (403 to automated requests), with open copies or abstracts:**
   - UNICEF data portal pages [1, 3]: open copies or press releases cited (200).
   - Population Council Knowledge Commons [9]: DOIs resolve; figures read through a search tool.
 - **Paywalled publisher pages:** Elsevier, OUP, Springer and SAGE publisher pages were not relied on beyond abstracts. Abstracts came from Crossref, OpenAlex, Semantic Scholar, PubMed, RePEc and Europe PMC, plus the open working-paper copy of [6].

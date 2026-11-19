@@ -273,7 +273,7 @@ The 2026 CSDDD amendments move EU law towards the remediation end of this spectr
 44. Modern Slavery Act 2015, section 54. <https://www.legislation.gov.uk/ukpga/2015/30/section/54>
 45. Australian Attorney-General's Department. "Modern Slavery Act" (accessed 18 November 2026). Confirms the Act entered into force on 1 January 2019, the A$100 million threshold, the tabling of the McMillan review on 25 May 2023 (30 recommendations), and the government response of 2 December 2024 agreeing in full, in part or in principle to 25 of the 30 recommendations and noting five. Official page: <https://www.ag.gov.au/crime/modern-slavery/modern-slavery-act> (the shorter URL <https://www.ag.gov.au/crime/modern-slavery> returned 403 to automated access; the Act page was read through a second fetch). Government response: <https://www.ag.gov.au/crime/publications/australian-government-response-review-report-modern-slavery-act-2018-cth>
 
-## Revisions (18 November 2026, round 7/8 audit)
+## Revisions (18 November 2026)
 
 - Added Canada’s Fighting Against Forced Labour and Child Labour in Supply Chains Act (S-211), section 54 of the UK Modern Slavery Act, and Australia’s Modern Slavery Act and its 2023–24 review, and noted that all three are reporting-only laws with weak or no penalties.
 - Corrected the CSDDD delay from three years to two years, measured from the original 2024 transposition and application dates to those in Directive 2026/470.

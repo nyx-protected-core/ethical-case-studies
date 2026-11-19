@@ -10,7 +10,7 @@
 
 1. **FEWS NET (Famine Early Warning Systems Network), 2025.** "FEWS NET Relaunches Website, Resumes Global Food Security Analysis" (press release, 24 June 2025), plus the interim *Global Food Security Update* of 23 June 2025. https://fews.net/fews-net-relaunches-website-resumes-global-food-security-analysis ; PDF https://fews.net/sites/default/files/2025-06/FEWS_NET_Global_Food_Security_Update_06232025.pdf. Supporting record of the outage: Internet Archive capture index for fews.net, https://web.archive.org/cdx/search/cdx?url=fews.net/&from=20250129&to=20250630 (last normal capture: https://web.archive.org/web/20250129102356/https://fews.net/), and Emanuel G, NPR, 11 Aug 2025, "U.S. famine warning system comes back, but questions loom", https://www.npr.org/2025/08/11/nx-s1-5475193/u-s-famine-warning-system-comes-back-but-questions-loom [JRN]. *Note:* The release describes a "brief pause in services during a review of U.S. foreign assistance programs" and gives the founding year as 1985. It calls FEWS NET "currently the only global program that provides 8-month projections." NPR reports the system went offline in January 2025 after stop-work orders, for the first time in its 40-year history. The archive index shows normal home-page captures until 29 Jan 2025, then 302/403 responses, then roughly 1 KB placeholder pages from late May. Full pages return from 24 Jun 2025. [REP + archive record + JRN]
 
-2. **U.S. Department of State, 2026.** *Global Food Security Transition Report* (Report to Congress under Sec. 7019(e), FY2026 appropriations act). https://www.state.gov/wp-content/uploads/2026/06/Tab_1_-_Report_Text_Global_Food_Security_Transition_Report-1-Accessible-HRC1396472.pdf ; archived copy https://web.archive.org/web/20260611131235/https://www.state.gov/wp-content/uploads/2026/06/Tab_1_-_Report_Text_Global_Food_Security_Transition_Report-1-Accessible-HRC1396472.pdf. *Note:* This is the official US account of the suspension. FEWS NET operations were "suspended for approximately 6 months" during the 2025 Foreign Assistance Review. Operations were then partially restored in calendar year 2025 to cover a subset of 22 countries, where, the June 2026 report states, "between 125 and 135 million people were projected to need food assistance throughout the year". Coverage was "fully restored in 2026" (51 countries). Food-assistance oversight moved from USAID to State on 1 July 2025. *Access:* the direct link returns 403 to automated requests; the text was read through a fetch service. [REP]
+2. **U.S. Department of State, 2026.** *Global Food Security Transition Report* (Report to Congress under Sec. 7019(e), FY2026 appropriations act). https://www.state.gov/wp-content/uploads/2026/06/Tab_1_-_Report_Text_Global_Food_Security_Transition_Report-1-Accessible-HRC1396472.pdf ; archived copy https://web.archive.org/web/20260611131235/https://www.state.gov/wp-content/uploads/2026/06/Tab_1_-_Report_Text_Global_Food_Security_Transition_Report-1-Accessible-HRC1396472.pdf. *Note:* This is the official US account of the suspension. FEWS NET operations were "suspended for approximately 6 months" during the 2025 Foreign Assistance Review. Operations were then partially restored in calendar year 2025 to cover a subset of 22 countries, where, the June 2026 report states, "between 125 and 135 million people were projected to need food assistance throughout the year". Coverage was "fully restored in 2026" (51 countries). Food-assistance oversight moved from USAID to State on 1 July 2025. *Access:* the direct link returns 403 to automated requests; the text was opened and read. [REP]
 
 3. **IPC (Integrated Food Security Phase Classification) Global Partners.** "Famine facts" / IPC Famine Fact Sheet (updated 2025–26). https://www.ipcinfo.org/famine-facts/ ; archived https://web.archive.org/web/20250822043305/https://www.ipcinfo.org/famine-facts/. *Note:* Famine (IPC Phase 5) is an area classification that requires three conditions:
    - at least 20% of households face an extreme lack of food;
@@ -31,7 +31,7 @@
    - Sudan, September 2025, Famine "with reasonable evidence" in El Fasher (North Darfur) and Kadugli (South Kordofan), "likely to persist through January 2026", in a civil war that began in April 2023;
    - Gaza Strip, August 2025, Famine in Gaza Governorate, "driven by relentless conflict", later updated (see [23]).
 
-   The fact sheet's first recommended actions when Famine is detected are "Cessation of Conflicts" and "Humanitarian Access", then a multi-sectoral response. *Access:* the live site returns 403 to some automated requests but was read through a fetch service in this revision; the archived copy is also cited. [REP]
+   The fact sheet's first recommended actions when Famine is detected are "Cessation of Conflicts" and "Humanitarian Access", then a multi-sectoral response. *Access:* the live site returns 403 to some automated requests but was opened and read; the archived copy is also cited. [REP]
 
 4. **World Food Programme (WFP), 2026.** "WFP Releases HungerMap Live; a Modernized Intelligence Platform that Turns Data on Global Hunger into Early Action" (news release, 16 April 2026). https://www.wfp.org/news/wfp-releases-hungermap-live-modernized-intelligence-platform-turns-data-global-hunger-early ; platform https://hungermap.wfp.org/. *Note:* WFP describes HungerMap LIVE as combining food-security data and analysis with predictive modelling for "more than 50 countries". It adds AI-assisted forecasting of food needs for the 16 "Hunger Hotspot" countries. The tool is WFP's own and has no independent accuracy evaluation among these sources. [REP]
 
@@ -40,7 +40,7 @@
    - **Design:** QE. Administrative rollout constraints form the comparison group; it is not an RCT.
    - **Results:** recipients were 36% less likely to go a day without eating during the flood. Three months later they had higher food consumption and wellbeing, lower asset loss and less costly borrowing.
    - **Timing:** each extra day of earliness had only a small, marginally significant extra effect.
-   - *Access:* the publisher page returns 403 to curl; the DOI resolves (302). [QE; peer-reviewed + WP]
+   - *Access:* the publisher page returns 403 to automated requests; the DOI resolves (302). [QE; peer-reviewed + WP]
 
 6. **Gros C, Bailey M, Schwager S, Hassan A, Zingg R, Uddin M, 2019.** "Household-level effects of providing forecast-based cash in anticipation of extreme weather events: Quasi-experimental evidence from humanitarian interventions in the 2017 floods in Bangladesh." *International Journal of Disaster Risk Reduction* 41:101275. DOI 10.1016/j.ijdrr.2019.101275. *Note:*
    - **Intervention:** the Red Cross Red Crescent gave BDT 5,000 (about US$60) to 1,039 households before the 2017 Brahmaputra flood peak.
@@ -88,7 +88,7 @@
     - **Tier 2:** ad hoc agreements for unanticipated emergencies, paid in cash, by long-term loan or as a grant.
     - **Tier 3:** donated stockpiles for severe emergencies, with a possible automatic-trigger fast track.
 
-    The commonly cited earmarked total of 787,000 tonnes (87,000 t from ASEAN members and 700,000 t from China, Japan and Korea) comes from a search summary of the Stockpiles page. That page blocked automated retrieval with a bot check, so the tonnage is **UNVERIFIED**. No independent evaluation of APTERR's effect on prices or food security was found. [REP]
+    The commonly cited earmarked total of 787,000 tonnes (87,000 t from ASEAN members and 700,000 t from China, Japan and Korea) comes from a search summary of the Stockpiles page. That page blocked automated retrieval, so the tonnage is **UNVERIFIED**. No independent evaluation of APTERR's effect on prices or food security was found. [REP]
 
 13. **Drèze J, Khera R, 2015.** "Understanding Leakages in the Public Distribution System." *Economic & Political Weekly* 50(7):39–42 (14 Feb 2015). https://www.epw.in/journal/2015/7/insight/understanding-leakages-public-distribution-system.html ; open copy https://web.iitd.ac.in/~suban/COP290/stuff/pds/Understanding_Leakages_in_the_Public_Distribution_System.pdf. *Note:* Leakage is grain released from the Food Corporation of India (FCI) that does not reach households. All-India PDS leakage estimates:
 
@@ -99,7 +99,7 @@
 
     Large state-level declines occurred where PDS reforms were made (Chhattisgarh, Odisha, Bihar). The authors dispute the 47% figure in the government's High Level Committee report. [OBS; peer-reviewed magazine section "Insight"]
 
-14. **Muralidharan K, Niehaus P, Sukhtankar S, 2025.** "Identity Verification Standards in Welfare Programs: Experimental Evidence from India." *Review of Economics and Statistics* 107(2):372–392. DOI 10.1162/rest_a_01296. *Note:* The study uses large-scale randomised and natural experiments on biometric ID requirements in Jharkhand's PDS. Corruption fell, but 1.5–2 million legitimate beneficiaries lost access at some point. The authors attribute the harms mainly to how the transition was managed. *Access:* the publisher page returns 403 to curl; the DOI resolves (302). [RCT + natural experiment; peer-reviewed]
+14. **Muralidharan K, Niehaus P, Sukhtankar S, 2025.** "Identity Verification Standards in Welfare Programs: Experimental Evidence from India." *Review of Economics and Statistics* 107(2):372–392. DOI 10.1162/rest_a_01296. *Note:* The study uses large-scale randomised and natural experiments on biometric ID requirements in Jharkhand's PDS. Corruption fell, but 1.5–2 million legitimate beneficiaries lost access at some point. The authors attribute the harms mainly to how the transition was managed. *Access:* the publisher page returns 403 to automated requests; the DOI resolves (302). [RCT + natural experiment; peer-reviewed]
 
 15. **World Trade Organization, n.d. (fact sheet, maintained since 2013).** "The Bali decision on stockholding for food security in developing countries." https://www.wto.org/english/tratop_e/agric_e/factsheet_agng_e.htm. Plus Ravi Kanth D, "India invokes MC9 decision for food security public stockholding," TWN Info Service / SUNS #9095, 6–7 April 2020, https://www.twn.my/title2/wto.info/2020/ti200406.htm [JRN, trade-specialist press]. *Note:*
     - At Bali in 2013, WTO ministers adopted an interim "peace clause". It shields developing-country public-stockholding programmes from legal challenge even if they breach domestic-support limits, until a permanent solution is found. That solution was originally due by 2017 and has not been agreed.
@@ -287,12 +287,12 @@ The list below ranks *technical* interventions by the strength of causal evidenc
 - **Removed or suspended content:**
   - fews.net was unavailable from late January to late June 2025 (Internet Archive capture record; [1]). The suspension is documented officially in [2].
   - The IFPRI tracker page [19] is live but marked as an unmaintained legacy tool.
-- **Blocked automated checks (403 to curl):** pages that were read another way or have open copies.
-  - State Department report [2]: read through a fetch service; archived copy cited.
-  - ipcinfo.org [3]: read through a fetch service; archived copy cited.
+- **Blocked automated checks (403 to automated requests):** pages that were read another way or have open copies.
+  - State Department report [2]: opened and read; archived copy cited.
+  - ipcinfo.org [3]: opened and read; archived copy cited.
   - OUP/WBER publisher page [5]: open WP copy cited.
   - MIT Press/REStat publisher page [14]: DOI resolves.
-  - APTERR site [12]: bot check; Programmes page read through a fetch service.
+  - APTERR site [12]: automated access was blocked; the Programmes page was opened and read.
 - **Not used:** a WFP Niger evidence document (docs.wfp.org) returned 403 and could not be verified.
 
 ---

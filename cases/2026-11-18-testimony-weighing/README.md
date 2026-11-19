@@ -1,7 +1,7 @@
 # How a trafficked worker's testimony is weighed
 
 An ethical case study. Research only: nothing here is operational guidance, legal advice, or a proposal to build a tool.
-Date of research: 18 November 2026 (ICT, UTC+7).
+Date of research: 18 November 2026.
 
 Citations in square brackets, for example [S1], point to entries in SOURCES.md.
 Every claim below is tied to a source opened this round. **UNVERIFIED** marks a point that could not be confirmed from a primary or official text this round, or a wording I could not re-quote from a page I opened.
@@ -192,7 +192,7 @@ Several implications follow, for research, for criminal justice practice, and fo
 - It does not claim that a worker-held wage log has been widely tested in trafficking trials, or that it is self-authenticating.
 - It is research only. No tool, device, protocol or training programme is proposed for deployment here.
 
-## Revisions (18 November 2026, round 7/8 audit)
+## Revisions (18 November 2026)
 
 - Corrected the description of Oram et al. (2012): all 19 studies concerned women and girls, mostly trafficked for sexual exploitation.
 - Noted that the Herlihy, Scragg and Turner (2002) discrepancy study is of refugees, not trafficked workers, and that the peer-reviewed experimental evidence on inconsistency remains narrow.

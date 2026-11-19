@@ -24,9 +24,9 @@
 
 ### A. Blind auditions
 
-1. Goldin C, Rouse C. "Orchestrating Impartiality: The Impact of 'Blind' Auditions on Female Musicians." *American Economic Review* 90(4): 715–741, 2000. https://doi.org/10.1257/aer.90.4.715. **[PR]** Audition and roster data from major US orchestras; individual fixed-effects estimates of the effect of a screen. (The DOI resolves; the publisher PDF returned 403 to curl, so the text was read through a search-index copy of the publisher PDF.)
+1. Goldin C, Rouse C. "Orchestrating Impartiality: The Impact of 'Blind' Auditions on Female Musicians." *American Economic Review* 90(4): 715–741, 2000. https://doi.org/10.1257/aer.90.4.715. **[PR]** Audition and roster data from major US orchestras; individual fixed-effects estimates of the effect of a screen. (The DOI resolves; the publisher PDF returned 403 to an automated request, so the text was read through a search-index copy of the publisher PDF.)
 2. Pallesen J. "Blind auditions and gender discrimination." Personal research blog, updated version published 5 December 2019 (first post February 2019). https://www.jsmp.dk/posts/2019-05-12-blindauditions/blindauditions.html. **[COM]** Re-reads the paper's tables and argues that they contain no statistically significant evidence for the headline claim.
-3. Gelman A. "Did blind orchestra auditions really benefit women?" *Statistical Modeling, Causal Inference, and Social Science* (blog), 11 May 2019. https://statmodeling.stat.columbia.edu/2019/05/11/did-blind-orchestra-auditions-really-benefit-women/ (archived copy: https://web.archive.org/web/20250324024216/https://statmodeling.stat.columbia.edu/2019/05/11/did-blind-orchestra-auditions-really-benefit-women/). **[COM]** A statistician's assessment of the critique in [2]. The live page returned 403 to curl; the text was read from the archived copy (200).
+3. Gelman A. "Did blind orchestra auditions really benefit women?" *Statistical Modeling, Causal Inference, and Social Science* (blog), 11 May 2019. https://statmodeling.stat.columbia.edu/2019/05/11/did-blind-orchestra-auditions-really-benefit-women/ (archived copy: https://web.archive.org/web/20250324024216/https://statmodeling.stat.columbia.edu/2019/05/11/did-blind-orchestra-auditions-really-benefit-women/). **[COM]** A statistician's assessment of the critique in [2]. The live page returned 403 to an automated request; the text was read from the archived copy (200).
 
 ### B. Anonymised or blind CVs
 
@@ -214,7 +214,7 @@
 ### UNVERIFIED and live-blocked items
 
 - **Live-blocked:**
-  - the Gelman blog post [3] (the live page returned 403 to curl). Its quoted text was read from the archived Wayback copy listed with the source, which returned 200.
+  - the Gelman blog post [3] (the live page returned 403 to an automated request). Its quoted text was read from the archived Wayback copy listed with the source, which returned 200.
   - the AEA publisher PDF of [1] (403; the DOI resolves). Quoted passages were read through a search-index copy of that PDF.
   - the IZA discussion-paper PDF of [4] (403). Effect sizes were taken from the J-PAL summary.
   - the APO copy of [7] (403). The PM&C project page and the archived report page were read instead.

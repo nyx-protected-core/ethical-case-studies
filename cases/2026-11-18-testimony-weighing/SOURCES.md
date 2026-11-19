@@ -1,13 +1,13 @@
 # Sources: How a trafficked worker's testimony is weighed
 
-*All checks made 18 November 2026 (ICT, UTC+7).*
+*All checks made 18 November 2026.*
 
 ## Method
 
 - **Official reports and practitioner manuals:** each URL was fetched and the cited passage was found in the fetched text. PDFs were converted to text and searched. Where an automated download returned an HTML block page, the same official URL was read through a second fetch method, and the cited passage was found in that text.
 - **Journal articles:** each DOI was recorded from the publisher page or from the PDF itself. Findings were taken from full text opened this round, as noted in the check column.
 - **Dropped or marked:** anything that could not be confirmed this way is either left out of the case study or marked **UNVERIFIED** there, and listed in the last table below.
-- **Counts:** 18 sources cited; 16 opened in the first issue and 2 added in the round 7/8 audit revision (S17 abstract; S18 official PDF) and the cited passages found. One literature gap (no multi-jurisdiction case-law review of worker-held wage logs) is marked unverified in the case study and has no supporting source.
+- **Counts:** 18 sources cited; 16 opened in the first issue and 2 added in a later revision on 18 November 2026 (S17 abstract; S18 official PDF) and the cited passages found. One literature gap (no multi-jurisdiction case-law review of worker-held wage logs) is marked unverified in the case study and has no supporting source.
 
 ## Cited sources
 
@@ -43,12 +43,12 @@
 | Farrell A, Owens C, McDevitt J. New laws but few cases: understanding the challenges to the investigation and prosecution of human trafficking cases. *Crime, Law and Social Change*. 2014;61:139–168 | doi:10.1007/s10611-013-9442-1 | Publisher full text was not opened. Claims about the 12-county study are taken from the NIJ executive summary (S7) and from the 2016 *Anti-Trafficking Review* article (S9) |
 | WHO publications catalogue page for the 2003 interview recommendations | https://www.who.int/publications/i/item/9241591014 | Returned HTTP 404 this round. The official IRIS record and English PDF (S1) were used instead. Some later citations use ISBN 92 4 159101 4; the official PDF opened here carries ISBN 92 4 154625 5 |
 | A dedicated, multi-jurisdiction case-law review of worker-held paper or electronic wage and hours logs in trafficking trials | — | Not found among the sources opened this round. Marked as an **UNVERIFIED** literature gap in section 5.3 of the case study. The argument there is by analogy from S2 and S15 |
-| Brewin CR, Field AP, Unsworth C, and others. "Is the public understanding of memory prone to widespread 'myths'?" *Journal of Experimental Psychology: General*, 2019, doi:10.1037/xge0000610 | UCL accepted manuscript: https://discovery.ucl.ac.uk/id/eprint/10073157/3/Brewin%20Memory%20myths%20article%20final%20accepted%20version.pdf | Opened in the round 7/8 revision. The paper tests public "memory myths" (video-camera metaphor, confidence and accuracy, repression). It is not a review of trauma-memory coherence or of central-detail retention, so it is not cited in the case study. The broader PTSD-memory review used instead is S17 (Brewin 2011). |
+| Brewin CR, Field AP, Unsworth C, and others. "Is the public understanding of memory prone to widespread 'myths'?" *Journal of Experimental Psychology: General*, 2019, doi:10.1037/xge0000610 | UCL accepted manuscript: https://discovery.ucl.ac.uk/id/eprint/10073157/3/Brewin%20Memory%20myths%20article%20final%20accepted%20version.pdf | Opened in a later revision on 18 November 2026. The paper tests public "memory myths" (video-camera metaphor, confidence and accuracy, repression). It is not a review of trauma-memory coherence or of central-detail retention, so it is not cited in the case study. The broader PTSD-memory review used instead is S17 (Brewin 2011). |
 | OSCE/ODIHR, *Survivor and Trauma-Informed Model Standard Operating Procedures* (2026) | A PDF of this document appeared in search results | Not downloaded or used as a cited source. Trauma-informed claims rest on the 2023 OSCE/ODIHR guidance (S3) |
 | UNODC, *Global Report on Trafficking in Persons 2024*, Chapter 1 | https://www.unodc.org/documents/data-and-analysis/glotip/2024/GLOTIP2024_Chapter_1.pdf Landing: https://www.unodc.org/unodc/en/data-and-analysis/glotip.html | PDF and landing page were opened, but no figure from this report is cited in the case study |
 | Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children (Palermo Protocol), Article 3 | Official OHCHR page fetch timed out | The three-element definition is cited from UNODC’s statement of it in S2, which was opened, not from a separately opened treaty text |
 
-## Revisions (18 November 2026, round 7/8 audit)
+## Revisions (18 November 2026)
 
 - Added S17 (Brewin 2011, abstract) and S18 (Istanbul Protocol 2022, official PDF).
 - Recorded that Brewin et al. 2019 was opened but not cited, because it does not review trauma-memory coherence.

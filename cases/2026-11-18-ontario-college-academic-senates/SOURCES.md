@@ -43,7 +43,7 @@ Status date: 18 November 2026.
 - Check: PDF fetched and read. Used: strike start 16 October 2017 and its length; the union's main issues; the Council's position on senates and academic freedom language; back-to-work law in force 19 November 2017; award issued 20 December 2017; Task Force, interim report and revocation of orders in council in July 2018; s. 2(d) claim dismissed; about 3,000 programs.
 
 **[S11]** OPSEU/SEFPO. "College faculty: update from your bargaining team, issue 3." https://opseu.org/college-faculty-update-from-your-bargaining-team-issue-3/ ; award PDF (Kaplan, December 2017): https://opseu.org/wp-content/uploads/2017/12/opseuandcollegeemployercouncil-award-finaldec2017.pdf
-- Check: bulletin seen; award PDF returned HTTP 403 to our download tool, so award wording was checked in [S12] instead. Used: the award added academic freedom language and the Letter of Understanding.
+- Check: bulletin seen; award PDF returned HTTP 403 when fetched, so award wording was checked in [S12] instead. Used: the award added academic freedom language and the Letter of Understanding.
 
 **[S12]** College Employer Council and OPSEU/SEFPO. *Academic Employees Collective Agreement*, 1 October 2024 to 30 September 2027 (signed). https://cdn-ca.aglty.io/cec-website/website/assets/2024_Academic_Collective_Agreement__(EN)_Signed.pdf
 - Check: PDF fetched and searched. Used: art. 13.02–13.05 academic freedom (quoted); Letter of Understanding topic "Academic governance structures and intellectual property issues"; Professor class definition including "selecting or approving textbooks and learning materials"; absence of any faculty academic council provision (text search for "academic council", "college council", "senate").
