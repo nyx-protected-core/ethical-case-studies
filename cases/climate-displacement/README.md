@@ -1,5 +1,7 @@
 # Climate, Displacement and Exploitation: A Case Study in Evidence, Law and Responsibility
 
+Date: 2026-11-18
+
 ## Purpose and scope
 
 This case study looks at how climate change shapes human displacement and migration, and how that displacement connects to food insecurity and to the risk of trafficking and exploitation. It covers the slow-onset drivers (drought in the Sahel and the Horn of Africa, sea-level rise in Bangladesh and the Pacific). It weighs the claim that climate is a direct cause of migration against the view that it is a "threat multiplier". It sets out the legal gaps, the experience of planned relocation, and the state of loss-and-damage finance. It ends with policy lessons, ethical risks, counterarguments and open questions.

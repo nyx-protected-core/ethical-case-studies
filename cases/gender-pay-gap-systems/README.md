@@ -1,5 +1,7 @@
 # The Gender Pay Gap from the Systems Side: Pay Transparency, Pay-Setting Design and Auditing Pay Algorithms
 
+Date: 2026-11-18
+
 *Research case study. Research only: nothing here was built or run. The pseudocode is there to explain the method and is not a tested tool.*
 
 ---

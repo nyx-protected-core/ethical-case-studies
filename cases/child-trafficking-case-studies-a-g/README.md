@@ -1,5 +1,7 @@
 # Case studies A to G: child trafficking, early-years content and readiness, recidivism, trafficking money, global cooperation, and risk settings and tools
 
+Date: 2026-11-19
+
 Two case studies, one argued position paper and four research parts on one page. Parts A to G each keep their own sections, flags and numbered reference lists, so citations match within each part.
 
 ## Part A: How children in Canada and the US end up trafficked

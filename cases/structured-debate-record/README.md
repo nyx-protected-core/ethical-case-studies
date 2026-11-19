@@ -6,11 +6,11 @@ This is a record of a structured debate among several independent contributors, 
 
 The debate tested three motions. Related evidence reviews, published separately, are linked where they bear on the same questions:
 
-- [Two-party structure and reasoning](../2026-11-18-two-party-structure-and-reasoning/README.md)
-- [Populism and Western democracy](../2026-11-18-populism-and-western-democracy/README.md)
-- [Gender quotas versus merit](../2026-11-18-gender-quotas-vs-merit/README.md)
-- [Fair evaluation and bias](../2026-11-18-fair-evaluation-bias/README.md)
-- [Opening fields both ways](../2026-11-18-gender-gaps-both-directions/README.md)
+- [Two-party structure and reasoning](../two-party-structure-and-reasoning/README.md)
+- [Populism and Western democracy](../populism-and-western-democracy/README.md)
+- [Gender quotas versus merit](../gender-quotas-vs-merit/README.md)
+- [Fair evaluation and bias](../fair-evaluation-bias/README.md)
+- [Opening fields both ways](../gender-gaps-both-directions/README.md)
 
 Status date: 18 November 2026. Every empirical claim is tied to a numbered source at the end. Links were checked on the status date. A DOI that returned HTTP 302 from `doi.org` is treated as resolved even when the publisher page later blocked automated access. Open copies are given where a publisher or institute page did not return a clean live response. **UNVERIFIED** marks a claim that could not be confirmed against a text read for this record.
 

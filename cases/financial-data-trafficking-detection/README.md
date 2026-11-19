@@ -1,5 +1,7 @@
 # Following the Money Fairly: Financial Data, Human Trafficking Detection, and the Ethics of Watching Payments
 
+Date: 2026-11-18
+
 *Research case study. Research only: nothing here was built or run. The pseudocode describes governance and audit steps. It is not a detection tool and contains no transaction-scoring logic.*
 
 ---

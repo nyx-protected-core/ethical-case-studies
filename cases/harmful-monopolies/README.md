@@ -1,5 +1,7 @@
 # Harmful Monopolies and Market Concentration Around the World
 
+Date: 2026-11-18
+
 *An ethics research case study. Research only: no software was built or run. Every figure below was checked against the source cited next to it.*
 
 ---

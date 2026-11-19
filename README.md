@@ -6,4 +6,6 @@ Sources are cited by public link. If a link has moved, treat the related claim a
 
 These studies are written to be read by anyone. They do not name private individuals, and they do not publish personal data.
 
-See [INDEX.md](INDEX.md) for the full list, newest first.
+## Contents
+
+- [Case studies](cases/INDEX.md) — the full list, newest first.

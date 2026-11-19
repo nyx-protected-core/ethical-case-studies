@@ -1,5 +1,7 @@
 # Algorithms Against Trafficking Recruitment: An Ethical Case Study
 
+Date: 2026-11-18
+
 *Research-only case study. Nothing here has been built or run. The pseudocode is included only to make the method concrete.*
 
 ## 1. Introduction
