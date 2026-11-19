@@ -31,7 +31,7 @@ Teva's profits from the conduct were put at **about $221 million ⚑** [R1]. An 
 | Profits | About **$221,232,303 ⚑** across Russia, Ukraine and Mexico | [R1, Statement of Facts ¶20] |
 | SEC | Civil complaint (S.D. Fla.) and consent settlement: disgorgement **$214,596,170** plus prejudgment interest **$21,505,654** = **$236,101,824 ⚑**, credited by the DOJ | [R1]; SEC release 2016-277 [R3]; SEC complaint [R7] |
 | Monitor | Independent compliance monitor for **three years**, because many compliance improvements were "more recent" and "not been tested" | [R1]; [R3] |
-| Closure | The monitorship and the SEC consent-judgment term expired in **Feb 2020**. The DOJ moved to dismiss on **4 Mar 2020**, and the information was **dismissed on 21 Jul 2020** (dismissal date from Teva's SEC filing) | Motion [R4]; Teva SEC filing [R5] |
+| Closure | The DPA expired on or about **31 Jan 2020**, after the monitor certified the compliance programme (on or about 27 Nov 2019) [R4]. The DOJ moved to dismiss on **4 Mar 2020**, and the information was **dismissed on 21 Jul 2020** (dismissal date from Teva's SEC filing) | Motion [R4]; Teva SEC filing [R5] |
 
 **Countries and contracts named in the record.**
 - **Russia:** Copaxone supplied under the Ministry of Health's central purchasing programme for rare and costly illnesses, bought at "usually bi-annual auctions" from about 2008. The record says payments to a "Russian Official", who could influence those purchases, were made "through the high profit margins" of a repackager and distributor that the official owned and controlled [R1, ¶¶16, 21].
@@ -48,7 +48,8 @@ Primary-record dates are unmarked. News items are labelled **SECONDARY**.
 - **2006–2012:** Russia scheme [R1].
 - **January–March 2012:** Mexico margin agreement and cash payments [R1].
 - **22 Dec 2016:** DPA, subsidiary plea and SEC settlement [R1]–[R3].
-- **Nov 2019–Feb 2020:** Monitor certification and expiry of the monitorship (from Teva's own filing) [R5].
+- **27 Nov 2019:** Monitor certifies the compliance programme (on or about) [R4].
+- **31 Jan 2020:** DPA expires (on or about) [R4].
 - **4 Mar 2020:** DOJ motion to dismiss [R4].
 - **21 Jul 2020:** Information dismissed [R5].
 
