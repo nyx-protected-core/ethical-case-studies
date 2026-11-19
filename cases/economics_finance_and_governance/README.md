@@ -1,7 +1,8 @@
 # Economics, finance and governance
 
-7 case studies, newest first.
+8 case studies, newest first.
 
+- [2026-11-19 — SNC-Lavalin: a fraud plea over Libya, a World Bank debarment, illegal political donations, and the 2019 pressure on Canada's Attorney General](snc-lavalin/README.md)
 - [2026-11-18 — Corruption and accountability worldwide: who pays, what the numbers really say, and what has worked](corruption-and-accountability/README.md)
 - [2026-11-18 — Living wages in global supply chains: benchmarks, purchasing practices and binding approaches that worked](living-wages-supply-chains/README.md)
 - [2026-11-18 — Debt relief and sovereign debt restructuring: when debt service crowds out food, health and schools](debt-relief/README.md)
