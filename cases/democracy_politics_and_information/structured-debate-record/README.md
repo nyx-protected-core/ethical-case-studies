@@ -8,9 +8,9 @@ The debate tested three motions. Related evidence reviews, published separately,
 
 - [Two-party structure and reasoning](../two-party-structure-and-reasoning/README.md)
 - [Populism and Western democracy](../populism-and-western-democracy/README.md)
-- [Gender quotas versus merit](../gender-quotas-vs-merit/README.md)
-- [Fair evaluation and bias](../fair-evaluation-bias/README.md)
-- [Opening fields both ways](../gender-gaps-both-directions/README.md)
+- [Gender quotas versus merit](../../gender_and_work/gender-quotas-vs-merit/README.md)
+- [Fair evaluation and bias](../../gender_and_work/fair-evaluation-bias/README.md)
+- [Opening fields both ways](../../gender_and_work/gender-gaps-both-directions/README.md)
 
 Status date: 18 November 2026. Every empirical claim is tied to a numbered source at the end. Links were checked on the status date. A DOI that returned HTTP 302 from `doi.org` is treated as resolved even when the publisher page later blocked automated access. Open copies are given where a publisher or institute page did not return a clean live response. **UNVERIFIED** marks a claim that could not be confirmed against a text read for this record.
 

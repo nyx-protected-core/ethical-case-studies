@@ -42,5 +42,5 @@ Every case study must pass every item below before it is added to `INDEX.md`. A 
 
 ## 6. Before adding to the index
 
-- [ ] The `INDEX.md` line matches the case's own title and framing.
+- [ ] The case lives at `cases/<category>/<slug>/`, is listed in that category's `README.md`, and has a line under that category in `INDEX.md`. The index and category lines match the case's own title and framing.
 - [ ] The files' checksums are recorded with the publish request.
