@@ -1,4 +1,4 @@
-# SNC-Lavalin: a fraud plea over Libya, a World Bank debarment, illegal political donations, and the 2019 pressure on Canada's Attorney General
+# SNC-Lavalin: a fraud plea over Libya, a World Bank debarment, illegal political donations, the 2018 pressure on Canada's Attorney General, and her January 2019 removal
 
 Date: 2026-11-19
 
@@ -50,7 +50,7 @@ The other charges against the parent company and subsidiaries were dropped as pa
 
 **Why certainty matters more than size.** Deterrence research finds that the likelihood of being caught matters more than the size of the penalty [15][16]. A large fine years later, after a plea that drops the bribery count, sends a weaker signal than its size suggests.
 
-**Why the 2019 affair matters for the same question.** Parliament wrote into the remediation regime that, for foreign-bribery charges, the prosecutor "must not consider the national economic interest, the potential effect on relations with a state other than Canada or the identity of the organization" [17], a rule the Commissioner said was modelled on Article 5 of the OECD Anti-Bribery Convention [2]. The Commissioner found that the Prime Minister and his staff sought to influence the Attorney General's decision and that this improperly sought to further SNC-Lavalin's interests [2]. That is a finding against the Prime Minister under an ethics statute, not a criminal finding, and not a finding against SNC-Lavalin.
+**Why the 2018–19 affair matters for the same question.** Parliament wrote into the remediation regime that, for foreign-bribery charges, the prosecutor "must not consider the national economic interest, the potential effect on relations with a state other than Canada or the identity of the organization" [17], a rule the Commissioner said was modelled on Article 5 of the OECD Anti-Bribery Convention [2]. The Commissioner found that the Prime Minister and his staff sought to influence the Attorney General's decision and that this improperly sought to further SNC-Lavalin's interests [2]. That is a finding against the Prime Minister under an ethics statute, not a criminal finding, and not a finding against SNC-Lavalin.
 
 **The regime's stated purpose cuts both ways.** Its objectives include holding organisations accountable through "effective, proportionate and dissuasive penalties" and reducing harm to "employees, customers, pensioners and others" who did not take part [4]. Both goals are legitimate. The ethical problem in 2018 was not the existence of the regime but pressure on the official meant to apply it independently.
 
