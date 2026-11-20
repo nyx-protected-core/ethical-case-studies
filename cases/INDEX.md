@@ -115,7 +115,6 @@ Cases are grouped by category. Within each category, newest first.
 
 - [2026-11-19 — Could a new age of working together exist?](peace_security_and_weapons/new-age-of-working-together/README.md)
 - [2026-11-18 — Rebuilding economies after war: what makes peace last](peace_security_and_weapons/postwar-economic-reconstruction/README.md)
-- [2026-11-18 — Israel and its neighbours: the case for cooperation, and the role of proxy warfare](peace_security_and_weapons/israel-neighbours-cooperation-proxy-warfare/README.md)
 - [2026-11-18 — What a more cooperative world without war could look like](peace_security_and_weapons/cooperative-world-without-war/README.md)
 - [2026-11-18 — Universal nuclear disarmament: why every country's programme should be dismantled, and how](peace_security_and_weapons/universal-nuclear-disarmament/README.md)
 - [2026-11-18 — One world: pathways to cooperation between Iran, Russia, China, Saudi Arabia and every other nation](peace_security_and_weapons/global-cooperation-iran-russia-china-saudi-arabia/README.md)
@@ -124,7 +123,6 @@ Cases are grouped by category. Within each category, newest first.
 
 ## Democracy, politics and information
 
-- [2026-11-18 — State influence operations and the pro-Palestinian movement: what Iran, Russia and China did, and what the record shows](democracy_politics_and_information/state-influence-ops-palestine-discourse/README.md)
 - [2026-11-18 — A structured debate record: two-party politics, populism and equal participation](democracy_politics_and_information/structured-debate-record/README.md)
 - [2026-11-18 — Two big parties, one narrow debate: party structure, polarisation and reasoning in Canada and the United States](democracy_politics_and_information/two-party-structure-and-reasoning/README.md)
 - [2026-11-18 — Is populism eroding Western democracy? What the evidence supports and what works](democracy_politics_and_information/populism-and-western-democracy/README.md)
