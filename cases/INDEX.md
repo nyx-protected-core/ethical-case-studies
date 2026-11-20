@@ -19,6 +19,7 @@ Cases are grouped by category. Within each category, newest first.
 
 ## Children and education
 
+- [2026-11-20 — Youth Unemployment and Crime](children_and_education/youth-unemployment-and-crime/README.md)
 - [2026-11-19 — Who is watching? Oversight failures for children in foster care and legal orphans in the United States: a case study](children_and_education/foster-care-oversight-usa/README.md)
 - [2026-11-19 — Oversight of children in care in Canada: deaths, disappearances, Indigenous over-representation, unlicensed placements, aging out, trafficking and data gaps](children_and_education/foster-care-oversight-canada/README.md)
 - [2026-11-19 — Oversight of children in public care and in institutions across Europe (EU and non-EU): a case study](children_and_education/foster-care-oversight-europe/README.md)
@@ -48,6 +49,7 @@ Cases are grouped by category. Within each category, newest first.
 
 ## Food, water and health
 
+- [2026-11-19 — Non-Consent Human Trials](food_water_and_health/non-consent-human-trials/README.md)
 - [2026-11-18 — Safe drinking water and sanitation for everyone](food_water_and_health/water-and-sanitation/README.md)
 - [2026-11-18 — Where the next dollar works against hunger: comparing financing routes for food insecurity (companion to the financing food security case)](food_water_and_health/food-financing-routes-cost-effectiveness/README.md)
 - [2026-11-18 — One budget line, two hungers: home-grown school meals as a way to move money into food security for children and smallholder farmers](food_water_and_health/school-meals-food-security/README.md)
@@ -60,6 +62,8 @@ Cases are grouped by category. Within each category, newest first.
 
 ## Economics, finance and governance
 
+- [2026-11-19 — IBM Scandals: Wrongdoing by IBM (1911 to now)](economics_finance_and_governance/ibm-scandals/README.md)
+- [2026-11-19 — Falsified Reports, Research, Data and Technology Findings](economics_finance_and_governance/falsified-reports-and-data/README.md)
 - [2026-11-19 — UN sustainable development funding: who gets it, and how small firms can too](economics_finance_and_governance/un-sustainable-development-funding-sme-access/README.md)
 - [2026-11-19 — SNC-Lavalin: a fraud plea over Libya, a World Bank debarment, illegal political donations, the 2018 pressure on Canada's Attorney General, and her January 2019 removal](economics_finance_and_governance/snc-lavalin/README.md)
 - [2026-11-18 — Corruption and accountability worldwide: who pays, what the numbers really say, and what has worked](economics_finance_and_governance/corruption-and-accountability/README.md)
@@ -131,6 +135,7 @@ Cases are grouped by category. Within each category, newest first.
 
 ## Technology, surveillance and tools
 
+- [2026-11-20 — AI Only for Defense: Mass Job Loss and Civil Unrest](technology_surveillance_and_tools/ai-defense-only-and-mass-job-loss/README.md)
 - [2026-11-18 — Digital surveillance and privacy: spyware, AI monitoring, shutdowns and a rights floor for every country](technology_surveillance_and_tools/digital-surveillance-and-privacy/README.md)
 - [2026-11-18 — Algorithmic hiring and worker surveillance: bias audits, algorithmic management of gig work and the Platform Work Directive](technology_surveillance_and_tools/algorithmic-hiring-worker-surveillance/README.md)
 - [2026-11-18 — Digital public infrastructure for social protection: reach, exclusion and a privacy-first design](technology_surveillance_and_tools/dpi-social-protection/README.md)

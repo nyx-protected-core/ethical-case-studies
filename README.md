@@ -10,8 +10,3 @@ These studies are written to be read by anyone. They do not name private individ
 
 - [Case studies](cases/INDEX.md) — the full list, grouped by category.
 - [Religion](religion/README.md) — free, licence-noted links to scriptures of 24 religions.
-- [IBM Scandals: Wrongdoing by IBM (1911 to now)](IBM-Scandals/README.md): antitrust, bribery, human-rights, pension, age-discrimination and public-contract matters in which IBM itself was found, alleged or reported to have done wrong, on one page.
-- [Falsified Reports, Research, Data and Technology Findings](Falsified-Reports-and-Data/README.md): documented cases worldwide of fabricated or falsified research, trial data, test results, audits, official statistics, forensic evidence and product claims, each labelled by what was proven.
-- [AI Only for Defense: Mass Job Loss and Civil Unrest](AI-Defense-Only-and-Mass-Job-Loss/README.md): an argued case that AI should be kept out of the consumer market and confined to defense, setting out the evidence on worldwide job loss and its link to unrest in Western democracies, with the strongest counterarguments.
-- [Youth Unemployment and Crime](Youth-Unemployment-and-Crime/README.md): an argued case that rising youth unemployment can increase crime when legal work is scarce, using peer-reviewed studies and official data from Canada, the United States, France and Britain.
-- [Non-Consent Human Trials](Non-Consent-Human-Trials/README.md): human trials run without consent worldwide, fully sourced.
